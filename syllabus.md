@@ -69,7 +69,7 @@ What earns the score: an analytical claim that is true to the music; measure-lev
 | C (C+, C, C–) | 2.75–3.04 | 68.75–76.24% | 1.7–2.3 |
 | F | below 2.75 | below 68.75% | 0.0 |
 
-Minimum grade for graduate credit: confirm your program's requirement (many CSU graduate programs require a B– or better).
+Minimum grade for graduate credit: per the CSUEB Graduate Student Handbook, a course counts toward the degree only with a grade of C or better. A grade of C– or below must be repeated, and graduate students must keep a 3.0 GPA. Some programs set a higher minimum, so check the M.S. Music requirements.
 
 ## research and writing
 
@@ -300,4 +300,4 @@ The university loads the following statements into every course shell each term.
 
 **campus resources.** MyCompass is the one-stop hub for advising, tutoring, financial aid, the library, and more. Graduate students should contact their major department directly for advising. Additional support includes the Student Center for Academic Achievement (tutoring), the Office of Financial Aid, Student Health and Counseling, University Libraries, Student Wellbeing Services (food insecurity, housing, and crisis support), the Diversity and Inclusion Student Center, Student Equity and Success Programs, and Student Life and Leadership.
 
-*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1); the description and learning outcomes are the catalog text, and grades use the department's 0 to 4 scale. Still to finalize: Fall 2026 office hours, and the program's minimum passing grade for graduate credit.*
+*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1); the description and learning outcomes are the catalog text, and grades use the department's 0 to 4 scale. Still to finalize: Fall 2026 office hours.*
