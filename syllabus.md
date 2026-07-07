@@ -52,9 +52,9 @@ grading scale: A to F on the standard CSUEB letter scale. (Set your point-to-let
 
 ## research and writing
 
-The seminar treats scholarly writing and research method as core work: shaping a research question, evaluating sources critically, using the field's bibliographic tools (RILM, JSTOR, Grove), building an annotated bibliography, structuring an argument, and citing correctly in Chicago (notes-bibliography). Detailed guidance and the Chicago reference live in `research/`.
+Research and writing are core work here, scaled to the five analytical papers. Each is a short, close reading of the music (see `research/analytical-papers.md`), so the research task is focused: locate the authoritative score or edition, find and evaluate a small set of scholarly sources that bear on the analysis, and cite everything correctly in Chicago, notes-bibliography, the norm for music scholarship. The seminar's bibliography module builds this from the ground up, what a source is, what makes it trustworthy, how to find it (RILM, JSTOR, Grove), and how to cite it.
 
-The five analytical papers are 601's graded work, and they build the analytical foundation. The context-rich research paper, developed iteratively (proposal, annotated bibliography, draft, revision, final), is the culmination of 602, which this sequence builds toward. The apparatus and Chicago guide in `research/` serve both courses.
+The fuller research arc, a research question developed across the term into a context-rich paper with an annotated bibliography, drafts, and revision, is the culmination of 602, which this sequence builds toward. The research apparatus and Chicago guide in `research/` serve both courses.
 
 ## communicating with me
 
