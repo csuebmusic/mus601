@@ -2,7 +2,7 @@
 
 Tuesdays, 7:00–9:00 pm. Fall 2026. Policies, outcomes, and assessment live in `syllabus.md`.
 
-Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units. Detailed weekly material (prompts, discussion, worked analyses) lands in `units/` as it is built.
+Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units.
 
 **week 1. August 18. introduction: graduate theory and analysis review.** A level-set on the analytical vocabulary the seminar assumes: figured bass and thoroughbass, Roman-numeral and functional harmony, cadence and phrase rhythm, species counterpoint and voice leading, and form vocabulary, oriented toward the modal-and-tonal thinking Unit 1 opens with. A first pass at the seminar's research and writing apparatus (research questions, RILM/JSTOR/Grove, Chicago) and the comparative method the catalog names.
 

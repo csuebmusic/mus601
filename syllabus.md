@@ -1,7 +1,7 @@
 # MUS 601: Analysis of Musical Styles
 *Birth and death of tonality*
 
-A graduate research-and-analysis seminar (2 units, graded A–F), fall term. 601 traces the formation and transformation of tonality from Renaissance modal practice through early Romantic chromaticism; 602 picks up chronologically where 601 ends.
+A graduate research-and-analysis seminar (2 units, graded A–F), fall term. 601 traces the formation and transformation of tonality from Renaissance modal practice through early Romantic chromaticism.
 
 | | |
 |---|---|
@@ -46,7 +46,7 @@ Upon successful completion of this course students will be able to:
 |---|---|
 | five analytical papers (20% each) | 100% |
 
-The grade is the five analytical papers, 20% each: due in weeks 6, 9, 12, and 14, and during finals week. Attendance and seminar participation are expected but not separately weighted. Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography. Assignment guidelines are in `research/analytical-papers.md`.
+The grade is the five analytical papers, 20% each: due in weeks 6, 9, 12, and 14, and during finals week. Attendance and seminar participation are expected but not separately weighted. Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography.
 
 Each paper is scored on a 0 to 4 scale:
 
@@ -73,13 +73,43 @@ Minimum grade for graduate credit: confirm your program's requirement (many CSU 
 
 ## research and writing
 
-Research and writing are core work here, scaled to the five analytical papers. Each is a short, close reading of the music (see `research/analytical-papers.md`), so the research task is focused: locate the authoritative score or edition, find and evaluate a small set of scholarly sources that bear on the analysis, and cite everything correctly in Chicago, notes-bibliography, the norm for music scholarship. The seminar's bibliography module builds this from the ground up, what a source is, what makes it trustworthy, how to find it (RILM, JSTOR, Grove), and how to cite it.
+Research and writing are core work here, scaled to the five analytical papers. Each is a short, close reading of the music, so the research task is focused: locate the authoritative score or edition, find and evaluate a small set of scholarly sources that bear on the analysis, and cite everything correctly in Chicago, notes-bibliography, the norm for music scholarship. The seminar's bibliography module builds this from the ground up, what a source is, what makes it trustworthy, how to find it (RILM, JSTOR, Grove), and how to cite it.
 
-The fuller research arc, a research question developed across the term into a context-rich paper with an annotated bibliography, drafts, and revision, is the culmination of 602, which this sequence builds toward. The research apparatus and Chicago guide in `research/` serve both courses.
+## the analytical papers
+
+Five short analytical papers run across the term. They are the training ground for the one thing a music scholar cannot fake: getting to the heart of a piece and saying something true about how it works.
+
+Each is an analytical paper about the music itself. A short frame to place the works is fine, a paragraph at most. Everything after that is analysis, grounded in the score and in what you hear. Setting the wider context aside here is deliberate: these papers isolate the analytical core, the foundation a fuller research paper is built on. Papers 1 through 3 are comparative, two or three works held against each other so each one's design shows up in relief; papers 4 and 5 take a single work. The goal is the same in every case: find what organizes the music, and show it.
+
+### the method
+
+Bring the analytical apparatus of the seminar to the score and follow the evidence.
+
+- Read harmony as a system. Place each passage in the hexachord framework, track the system and its modulations, and name the pitch that forces each change and where it lands.
+- Read form as a tonal process. Segment it (ritornello function, sonata action) and treat the structural events (the medial caesura, the EEC and ESC, a refrain, a mode switch) as things that happen for a reason rather than labels to affix.
+- Follow the specific pitches and measures that carry the argument. A dyad conflict, a missing pitch: cite it by measure and show what it does.
+- For the comparative papers, let the comparison do the work. Set the two designs side by side so the difference between them becomes the point.
+
+### what a strong paper does
+
+It commits to a claim about how the music works and earns it with measure-level evidence. It knows which one or two things matter most in the movement and spends its space there. It reaches an essential difference (for the comparative papers) or an organizing idea (for the single-work papers) and states it plainly by the end.
+
+### what to leave out
+
+- Labels with no consequence: naming a chord and moving on.
+- Narration that walks through the piece measure by measure without an argument.
+- Claims the score does not support.
+
+### format
+
+- Six to eight pages, including musical examples, footnotes, and bibliography.
+- Musical examples and analytical graphs are required. Number them and refer to them by measure.
+- Citation: Chicago, notes-bibliography.
+- Cite every measure you discuss. An analytical claim without a measure number is an assertion, not evidence.
 
 ## communicating with me
 
-Email is the best way to reach me (ines.thiebaut@csueastbay.edu), and I respond within 24 hours. I also keep an open-door policy: if I am in the building, you are welcome to come by. Course announcements and materials go through Canvas, so check it regularly, and questions are welcome in seminar. I return feedback and grades on your papers through Canvas, within a week of the due date.
+Email is the best way to reach me (ines.thiebaut@csueastbay.edu), and I respond within 24 hours. I also keep an open-door policy: if I am in the building, you are welcome to come by. Course announcements and materials go through Canvas, so check it regularly, and questions are welcome in seminar.
 
 ## use of AI
 
@@ -103,7 +133,7 @@ Chicago keeps AI out of the bibliography unless a publicly accessible link to th
 
 ## schedule
 
-Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units. Detailed weekly material (prompts, discussion, worked analyses) lands in `units/` as it is built.
+Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units.
 
 **week 1. August 18. introduction: graduate theory and analysis review.** A level-set on the analytical vocabulary the seminar assumes: figured bass and thoroughbass, Roman-numeral and functional harmony, cadence and phrase rhythm, species counterpoint and voice leading, and form vocabulary, oriented toward the modal-and-tonal thinking Unit 1 opens with. A first pass at the seminar's research and writing apparatus (research questions, RILM/JSTOR/Grove, Chicago) and the comparative method the catalog names.
 
@@ -231,6 +261,8 @@ directed questions:
 - Follow the Neapolitan through the movement, as chord and as melodic upper neighbor. Where does it modulate, and where does it bring the music home?
 - How does the recapitulation reorder the exposition, and what is held back for the coda?
 - What harmonic idea unifies the movement, and where is it first stated in compressed form?
+
+---
 
 ## policies
 

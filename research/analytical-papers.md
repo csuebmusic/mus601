@@ -16,7 +16,7 @@ Bring the analytical apparatus of the seminar to the score and follow the eviden
 
 - Read harmony as a system. Place each passage in the hexachord framework, track the system and its modulations, and name the pitch that forces each change and where it lands.
 - Read form as a tonal process. Segment it (ritornello function, sonata action) and treat the structural events (the medial caesura, the EEC and ESC, a refrain, a mode switch) as things that happen for a reason rather than labels to affix.
-- Follow the specific pitches and measures that carry the argument. A dyad conflict, a missing pitch, a linear ascent: cite it by measure and show what it does.
+- Follow the specific pitches and measures that carry the argument. A dyad conflict, a missing pitch: cite it by measure and show what it does.
 - For the comparative papers, let the comparison do the work. Set the two designs side by side so the difference between them becomes the point.
 
 ## what a strong paper does
