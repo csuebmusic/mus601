@@ -8,10 +8,15 @@ A graduate research-and-analysis seminar (2 units, graded A–F), fall term. 601
 | instructor | Inés Thiebaut |
 | email | ines.thiebaut@csueastbay.edu |
 | office | MB 2012 |
-| office hours | to confirm each term |
-| meetings | Tuesdays, 7:00–9:00 pm (15 weekly meetings, Aug 18 to Dec 1) |
-| format | on-ground or online-synchronous |
-| grading | A–F |
+| office phone | (to add) |
+| office hours | Fall 2026: to be determined |
+| course | MUS 601, section (to add), Analysis of Musical Styles |
+| units | 2 |
+| modality | on-the-ground, or web online synchronous (set per section) |
+| meetings | Tuesdays, 7:00–9:00 pm, (classroom or Zoom, to add), August 18 to December 1 (15 weekly meetings) |
+| final exam | finals week, December 7–12; Paper 5 due, no seated final (confirm the registrar's final slot) |
+| prerequisites | (per catalog, to confirm) |
+| grading | A to F |
 
 ## important dates (fall 2026)
 
@@ -29,6 +34,8 @@ The seminar follows a single through-line: modal and hexachordal practice moving
 The real subject is becoming a scholar of this repertoire. Alongside analysis, the seminar develops the practices of the field: forming research questions, evaluating sources critically, using bibliographic tools, building an annotated bibliography, and writing scholarly analytical prose with correct citation. Analysis here connects to interpretation and to historical and cultural context rather than stopping at labels.
 
 ## learning outcomes (draft, for your review)
+
+*Per CSUEB policy, the course title, description, and learning outcomes must match the University Catalog. The description above and the outcomes below are placeholders; replace them with the catalog text.*
 
 By the end of the seminar, a student should be able to:
 
@@ -48,7 +55,9 @@ By the end of the seminar, a student should be able to:
 
 Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography. Assignment guidelines are in `research/analytical-papers.md`.
 
-grading scale: A to F. (Set your point-to-letter cutoffs, and note any minimum grade required for graduate standing in the program.)
+grading scale: A to F on the standard CSUEB letter scale. (Set your point-to-letter cutoffs and any minimum grade required for graduate standing.)
+
+types and timing of graded work: five analytical papers, due in weeks 6, 9, 12, and 14 and during finals week, plus ongoing participation. Grades are determined by the weights above.
 
 Weighting is carried over from the prior offering and adjusted from six papers to five (Unit 5 having moved to 602). Two things to confirm: the split above, and whether these five discrete papers stay as-is or fold into an iterative research-paper sequence (see research and writing). The finals-week paper is the natural anchor if you go iterative.
 
@@ -58,11 +67,15 @@ The seminar treats scholarly writing and research method as core work: shaping a
 
 Open design question, not yet resolved: the papers below are comparative essays tied to specific works, carried over from the prior offering. The seminar's research emphasis points toward a single research paper developed across the term (proposal, annotated bibliography, draft, revision, final). We can keep the five discrete papers, replace some of them with the iterative sequence, or run both. That decision shapes `research/` and the weighting above.
 
+## communicating with me
+
+Email is the best way to reach me (ines.thiebaut@csueastbay.edu), and I reply within one to two business days (to confirm). Course announcements and materials go through the campus LMS, so check it regularly. Bring questions to office hours or raise them in seminar. I return written feedback on papers within about two weeks of the due date (to confirm) and post grades on the LMS.
+
 ## use of AI
 
 Generative AI (ChatGPT, Claude, Copilot, Gemini, and similar tools) is permitted in this seminar for two narrow purposes: checking grammar and mechanics in writing you have already drafted, and checking your citations and bibliography against Chicago style. Everything else is off limits. The tools may not generate analysis, ideas, arguments, or prose, and they do not stand in for learning to read the score, hear the music, and write about it in your own voice. The analytical thinking and the writing are yours.
 
-Every use of AI, including the two permitted ones, must be disclosed. Undisclosed use, or use beyond grammar and citation-format checking, is a violation of the Academic Honesty policy.
+Every use of AI, including the two permitted ones, must be disclosed. Undisclosed use, or use beyond grammar and citation-format checking, will be treated as a violation of the CSUEB Academic Dishonesty Policy and may be subject to disciplinary action. This is the seminar's Generative AI use policy under CSUEB policy 25-26 CIC 1; see also the campus Online Campus AI information page (link, to add).
 
 A caution specific to our work: these tools misformat Chicago citations and invent sources that do not exist. You are responsible for every citation in your paper. Verify each one against the source itself and against Chicago, notes-bibliography. Treat AI output as a prompt to recheck your work, not as an authority.
 
@@ -213,24 +226,36 @@ directed questions:
 
 **attendance and participation.** Attendance and promptness at every meeting are expected. If an emergency arises, contact me by email as soon as possible. You remain responsible for material and assignments covered in your absence: ask a classmate or come to office hours.
 
-**academic honesty.** By enrolling in this class you agree to uphold the standards of academic integrity described in CSUEB's Academic Honesty policy (link to the current policy, to confirm from the campus doc). All work you submit must be entirely your own. Study partners and discussion of assignments are welcome; the analysis and writing you submit must be yours. See also use of AI, above.
+**late and make-up work.** Late papers are accepted for half credit (50%), without written feedback. For feedback, submit on time or bring the paper to office hours. Make-up arrangements for a documented emergency are handled case by case. There is no extra credit.
 
-**late work.** Late papers are accepted for half credit (50%), without written feedback. For feedback, submit on time or bring the paper to office hours.
+**required materials.** Core references are *The Cambridge History of Western Music Theory* (Christensen, ed.) and Burnett and Nitzberg, *Composition, Chromaticism and the Developmental Process*, with the per-unit readings listed in the schedule. Scores and recordings are distributed through the course site or placed on library reserve. Bring a score to every meeting. (Confirm required vs. recommended, and how students obtain each.)
 
-**required materials.** Core references are *The Cambridge History of Western Music Theory* (Christensen, ed.) and Burnett and Nitzberg, *Composition, Chromaticism and the Developmental Process*, with the per-unit readings listed in the schedule. Scores and recordings are distributed through the course site or placed on library reserve. (Confirm required vs. recommended, and how students obtain each.)
+**technical requirements.** The course runs on the campus LMS, and online-synchronous meetings use Zoom. You need reliable internet and a way to view and mark scores. Minimum technical requirements and campus technical support are in the University Resources loaded into the course shell.
 
-**course site.** Materials, handouts, and submissions run through the course site (LMS or shared drive, set per term). Log in with your CSUEB Horizon account.
+**academic integrity and AI.** See the academic integrity statement under university resources below, and the use of AI section above for what is permitted in this seminar and how to disclose it.
 
-**emergency information.** CSU East Bay is committed to being a safe and caring community, and your response in an emergency can help save lives. Guidance for emergencies (earthquake, outage, fire, extreme heat, severe storm, hazardous materials) is maintained on the campus emergency management page (link, to confirm from the campus doc). Please review it and be familiar with these procedures.
+**changes to the syllabus.** Unanticipated circumstances, including the discovery that particular material needs more time, may require changes to this syllabus. I will discuss any change with you before making it and communicate it through the LMS.
 
-**changes to the syllabus.** Unanticipated circumstances, including the need to spend more time on particular material, may require changes to this syllabus. I will discuss any change with you before making it.
+**student services.** To access student services offered at Cal State East Bay, click on the MyCompass icon to get you to your one-stop online student support hub for information on academic advising, tutoring, financial aid, the library, the health center, technology support, career counseling, campus life, equity programs, and more.
 
-**accessibility.** If you have a documented disability and want to discuss academic accommodations, or would need assistance in an emergency evacuation, contact me as early as possible and connect with Accessibility Services.
+**grade appeals and academic grievances.** If you wish to appeal your course grade at the end of the semester or have other academic concerns related to a course, please visit the Grade Appeals and Academic Grievances (GAAG) section of the catalog, which explains the process: https://catalog.csueastbay.edu/content.php?catoid=39&navoid=36981&hl=%22appealing+an+inappropriate+grade%22&returnto=search#inappropriate-grade
 
-**Title IX and DHR.** CSU policy prohibits discrimination, harassment, and retaliation, including sex discrimination, sexual harassment, and sexual violence. Faculty are non-confidential resources and are required to report incidents. For confidential support, contact the Confidential Advocate at 510-885-3700 or the Student Health and Counseling Center. For 24-hour crisis services, call the BAWAR hotline at 510-845-7273.
+**course resources.** The University Library's music research section supports your research and writing. A free music theory tutor is available: ask me.
 
-**student conduct.** The University maintains a safe and healthy learning environment, and each member of the campus community is asked to choose behaviors that contribute to it (Student Conduct policy, link to confirm from the campus doc).
+## university resources and information
 
-**resources.** The University Library's music research section and the Learning Commons support research, writing, and technology needs. A free music theory tutor is available: ask me.
+The university loads the following statements into every course shell each term. They are reproduced here for reference and may be updated by the campus.
 
-*Policies are carried from the prior offering and adjusted to the CSUEB required-components list. The 2025-26 syllabus policy update governs; verify the statements and links above (and any newer required items) against that document.*
+**academic integrity.** As a member of the academic community, you are expected to act with integrity and avoid plagiarism and other forms of cheating. By enrolling in this class, you agree to uphold the standards of academic integrity described at https://www.csueastbay.edu/aps/academic-policies/academic-dishonesty.html
+
+**accommodations for students with disabilities.** For disability and other learning-related needs and accommodations, including if you would need assistance in the event of an emergency evacuation, please communicate with your instructor as soon as possible. Students with disabilities are also encouraged to contact the Accessibility Services office at https://www.csueastbay.edu/accessibility to meet with a counselor who can advise you on your options, including your rights under Section 504 of the Rehabilitation Act and the Americans with Disabilities Act.
+
+**emergency statement.** California State University, East Bay is committed to being a safe and caring community. Your appropriate response in the event of an emergency can help save lives. Information on what to do in an emergency situation (earthquake, electrical outage, fire, extreme heat, severe storm, hazardous materials, terrorist attack) may be found at https://www.csueastbay.edu/riskmanagement/index.html. Please be familiar with these procedures. Information on this page is updated as required. Please review the information on a regular basis.
+
+**protection against discrimination, harassment and retaliation.** Title IX and CSU policy prohibit discrimination, harassment and retaliation, including Sex Discrimination, Sexual Harassment or Sexual Violence. CSUEB encourages anyone experiencing such behavior to report their concerns immediately. CSUEB has both confidential and non-confidential resources and reporting options available to you. Non-confidential resources include faculty and staff, who are required to report all incidents and thus cannot promise confidentiality. Faculty and staff must provide the campus Title IX coordinator and/or the DHR Administrator with relevant details such as the names of those involved in an incident. For confidential services, contact the Confidential Advocate at 510-885-3700 or go to the Student Health and Counseling Center. For 24-hour crisis services call the BAWAR hotline at 510-800-4247. For more information about policies and resources or reporting options, please visit https://www.csueastbay.edu/riskmanagement/complaint.html and http://www.csueastbay.edu/titleix
+
+**student conduct.** The University is committed to maintaining a safe and healthy living and learning environment for students, faculty, and staff. Each member of the campus community should choose behaviors that contribute toward this end. More information about community expectations for student conduct can be found at http://www.csueastbay.edu/studentconduct/student-conduct.html.
+
+**campus resources.** MyCompass is the one-stop hub for advising, tutoring, financial aid, the library, and more. Graduate students should contact their major department directly for advising. Additional support includes the Student Center for Academic Achievement (tutoring), the Office of Financial Aid, Student Health and Counseling, University Libraries, Student Wellbeing Services (food insecurity, housing, and crisis support), the Diversity and Inclusion Student Center, Student Equity and Success Programs, and Student Life and Leadership.
+
+*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1). Course title, description, and learning outcomes must match the University Catalog; the drafts above are placeholders pending the catalog text. Items marked to add or confirm (office phone, section, classroom, prerequisites, grading cutoffs, feedback timing, the Online Campus AI link, and a land acknowledgement if you want one) are the instructor's to finalize.*
