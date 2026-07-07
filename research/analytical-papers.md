@@ -6,6 +6,8 @@ Five short analytical papers run across the term. They are the training ground f
 
 An analytical paper about the music itself. You are writing the part of a research paper that usually goes missing, the close reading of the notes. A short frame to place the works is fine, a paragraph at most. Everything after that is analysis, grounded in the score and in what you hear.
 
+Setting the wider context aside here is deliberate. These papers isolate the analytical core, the foundation a full research paper is built on, and building it is what these five train. The historical, biographical, and interpretive dimension is the work of the culminating research paper, the final project of 602, that this sequence builds toward.
+
 Papers 1 through 3 are comparative: two or three works held against each other so each one's design shows up in relief. Papers 4 and 5 take a single work. The goal is the same in every case: find what organizes the music, and show it.
 
 ## the method
@@ -23,7 +25,6 @@ It commits to a claim about how the music works and earns it with measure-level 
 
 ## what to leave out
 
-- Historical and biographical context beyond the brief frame.
 - Labels with no consequence: naming a chord and moving on.
 - Narration that walks through the piece measure by measure without an argument.
 - Claims the score does not support.
