@@ -35,11 +35,3 @@ Tie the tasks to the papers. A short source exercise attached to a paper works b
 The 602 module carries the full research arc, because the paper does. It runs alongside the iterative paper sequence: research question, then a graded annotated bibliography, then draft, revision, and final, plus the conference-style presentation. The annotated bibliography is a real milestone, not a warm-up. Students build and annotate a substantial set of scholarly sources (on the order of eight to twelve, your call) and use it to place their own work in the scholarly conversation.
 
 Two things go deeper here than in 601. First, critical evaluation: post-tonal theory is itself evolving and contested, so students have to weigh competing analytical frameworks and take a position rather than collect sources that agree. Second, synthesis: the paper connects analysis to historical and cultural context and enters an existing conversation, which means reading sources against each other rather than one at a time.
-
-## sequencing
-
-Read as a year: 601 lays the foundation in the fall, and 602 builds the research paper on it in the spring. Students take them in that order, so 602 assumes 601 and escalates rather than repeating. Design the two as one arc: 601 gets the mechanics right at small scale, and 602 puts them to work on a full research paper.
-
-## fixed and open
-
-Fixed: Chicago, notes-bibliography, throughout, and the tie to the papers as above. Open and yours: the module structure, the tasks and their sequencing in Canvas, the tutorials and worked examples, and how much is graded. For reference, the 601 paper guidelines are in the course repo at `research/analytical-papers.md`, and I can share the syllabus and the paper prompts so you can see exactly what the bibliography has to support.
