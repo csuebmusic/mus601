@@ -56,6 +56,26 @@ The seminar treats scholarly writing and research method as core work: shaping a
 
 Open design question, not yet resolved: the papers below are comparative essays tied to specific works, carried over from the prior offering. The seminar's research emphasis points toward a single research paper developed across the term (proposal, annotated bibliography, draft, revision, final). We can keep the five discrete papers, replace some of them with the iterative sequence, or run both. That decision shapes `research/` and the weighting above.
 
+## use of AI
+
+Generative AI (ChatGPT, Claude, Copilot, Gemini, and similar tools) is permitted in this seminar for two narrow purposes: checking grammar and mechanics in writing you have already drafted, and checking your citations and bibliography against Chicago style. Everything else is off limits. The tools may not generate analysis, ideas, arguments, or prose, and they do not stand in for learning to read the score, hear the music, and write about it in your own voice. The analytical thinking and the writing are yours.
+
+Every use of AI, including the two permitted ones, must be disclosed. Undisclosed use, or use beyond grammar and citation-format checking, is a violation of the Academic Honesty policy.
+
+A caution specific to our work: these tools misformat Chicago citations and invent sources that do not exist. You are responsible for every citation in your paper. Verify each one against the source itself and against Chicago, notes-bibliography. Treat AI output as a prompt to recheck your work, not as an authority.
+
+### disclosing AI use
+
+The permitted uses are functional, editing and format-checking rather than a source of content, so disclose them with a short acknowledgment rather than a formal source citation. Place it as an unnumbered note at the foot of the last page, before the bibliography. Name the tool and its developer, the date, and what you used it for:
+
+> AI acknowledgment: I used ChatGPT (OpenAI) on October 14, 2026, to check grammar and mechanics and to verify Chicago citation formatting. All analysis, argument, and prose are my own.
+
+For the record, Chicago's citation form for AI-generated text (which our papers do not use, but which you should recognize) treats the tool as author and its developer as publisher, in a note rather than the bibliography:
+
+> 1. ChatGPT, response to "your exact prompt," OpenAI, October 14, 2026.
+
+Chicago keeps AI out of the bibliography unless a publicly accessible link to the exact output exists. The share links these tools generate require a login and do not qualify (*Chicago Manual of Style*, 18th ed., 14.112).
+
 ## schedule
 
 Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units. Two topics are expanded to two weeks each: the early Baroque turn toward tonality (Monteverdi and Schütz) and mature Classical sonata procedure (Haydn and Mozart). Paper 5 is submitted in finals week rather than presented in class. Detailed weekly material (prompts, discussion, worked analyses) lands in `units/` as it is built.
