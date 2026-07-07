@@ -31,6 +31,13 @@ selected bibliography:
 - Claudio Monteverdi: "Perché te'n fuggi, o Fillide?" (*Madrigals* Book 8, Venice, 1624)
 - Heinrich Schütz: "Fili mi, Absalon" (from *Symphoniae Sacrae*, vol. I, 1629)
 
+directed questions:
+
+- Place each piece in its sub-system (naturalis, mollis, durus) and track any modulation between sub-systems: what pitch forces each change, and where does it land?
+- Where is the harmony hardest to fix to a single sub-system, and what does that ambiguity do for the setting?
+- How does each composer's texture and melodic motion answer to its text? Where does the text shape the form rather than decorate it?
+- Compared on their sub-system behavior, what is the essential harmonic difference among the three?
+
 ### unit 2: the late Baroque concerto and ritornello form (weeks 7–9)
 
 selected bibliography:
@@ -46,6 +53,13 @@ selected bibliography:
 
 - Antonio Vivaldi: Concerto in A major for viola d'amore, strings, and B.C., RV 396
 - J.S. Bach: Concerto in A major for harpsichord and strings, BWV 1055
+
+directed questions:
+
+- Segment each ritornello theme by function (Vordersatz, Fortspinnung, Epilog). Where does each ritornello return, in what key, and in what form?
+- Which pitches carry the A-major system changes, and where does each composer leave and re-enter the home system?
+- What organizes each movement: the tutti/solo alternation, or the presence and absence of ritornello material? Test both against the solos.
+- What is the essential difference in how the two composers use the ritornello?
 
 ### unit 3: Classicism, sonata procedure, and Beethoven (weeks 10–14)
 
@@ -68,6 +82,13 @@ selected bibliography:
 - W.A. Mozart: Symphony no. 41, "Jupiter" (1788)
 - J. Haydn: Symphony no. 90 (1787)
 
+directed questions:
+
+- Locate the medial caesura and the EEC in each exposition. What does each composer do to the arrival of the second key?
+- Track the hexachord system and the pitch-class ascent across each exposition. Where do system changes and cycle completions fall against the formal seams?
+- How does each handle recurring closing material as a refrain, and thematic economy (monothematic or dualistic)?
+- Both are in C major. Where in each exposition is the second key's arrival most in question, and how do the two solutions differ?
+
 **week 13. November 10.** Lecture on Beethoven and the extension of Classical Procedure:
 
 - String Quintet in C, Op. 29 (1801)
@@ -75,6 +96,13 @@ selected bibliography:
 - Piano Trio Op. 97, "Archduke" (1810–11)
 
 **week 14. November 17. paper 4.** Beethoven, Violin Sonata in A, "Kreutzer," Op. 47 (1802–03), first movement.
+
+directed questions:
+
+- Take the major/minor mode switch as the organizing gesture. Which dyad conflicts carry it, and where is each first heard?
+- Follow the system battle (3# against 0, and the flat side) and the pitch-class ascent. Where do the dyad conflicts also act as system modulations?
+- Why a minor v in the second harmonic area? What would a stable major V or bIII cost the movement?
+- Name the single idea the movement serves, and show how the coda settles the conflicts it opened.
 
 *November 24: fall recess, no class.*
 
@@ -95,3 +123,10 @@ selected bibliography:
 - String Quintet Op. 163 (1828)
 
 **finals week. December 7–12. paper 5 due.** Schubert, String Quartet no. 14, "Death and the Maiden," first movement.
+
+directed questions:
+
+- Map the three-key exposition. What are the three key areas, and what triad do they spell together?
+- Follow the Neapolitan through the movement, as chord and as melodic upper neighbor. Where does it modulate, and where does it bring the music home?
+- How does the recapitulation reorder the exposition, and what is held back for the coda?
+- What harmonic idea unifies the movement, and where is it first stated in compressed form?
