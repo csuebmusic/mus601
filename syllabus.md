@@ -60,18 +60,16 @@ Each paper is scored on a 0 to 4 scale:
 
 What earns the score: an analytical claim that is true to the music; measure-level evidence for every claim; for comparative papers, a comparison that reaches an essential difference; the required musical examples and graphs; correct Chicago, notes-bibliography citation; and clear, organized scholarly prose.
 
-**course grade.** Each paper's 0 to 4 score is its grade-point value: a 4 is A-level, a 3 is B-level, a 2 is C-level. The five papers carry equal weight, so the course grade is the average of the five scores, which is your grade-point average for the course, converted to a letter:
+**course grade.** Each paper's 0 to 4 score is its grade-point value. The five papers carry equal weight, so the course grade is the average of the five scores, converted to a letter:
 
-| grade | course average (0–4) |
-|---|---|
-| A (A, A–) | 3.50–4.00 |
-| B (B+, B, B–) | 2.50–3.49 |
-| C (C+, C) | 1.85–2.49 |
-| **passing cutoff for graduate credit** | |
-| C– | 1.50–1.84 |
-| F | below 1.50 |
-
-Straight 3s average to a 3.0, which is a B.
+| grade | course average (0–4) | GPA points |
+|---|---|---|
+| A (A, A–) | 3.50–4.00 | 3.7–4.0 |
+| B (B+, B, B–) | 2.50–3.49 | 2.7–3.3 |
+| C (C+, C) | 1.85–2.49 | 2.0–2.3 |
+| **passing cutoff for graduate credit** | | |
+| C– | 1.50–1.84 | 1.7 |
+| F | below 1.50 | 0.0 |
 
 Per the [CSUEB Graduate Student Handbook](https://www.csueastbay.edu/aps/files/docs/grad-studies/grad-student-handbook.pdf), only a grade of C or better counts toward the degree, and a C– or below must be repeated.
 
