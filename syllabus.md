@@ -64,9 +64,9 @@ What earns the score: an analytical claim that is true to the music; measure-lev
 
 | grade | percentage | course average (0–4) |
 |---|---|---|
-| A | 90–100% | 3.60–4.00 |
-| B | 80–89% | 3.20–3.59 |
-| C | 70–79% | 2.80–3.19 |
+| A (A, A–) | 90–100% | 3.60–4.00 |
+| B (B+, B, B–) | 80–89% | 3.20–3.59 |
+| C (C+, C) | 70–79% | 2.80–3.19 |
 | C– | 60–69% | 2.40–2.79 |
 | F | below 60% | below 2.40 |
 
