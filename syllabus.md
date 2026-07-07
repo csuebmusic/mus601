@@ -62,13 +62,13 @@ What earns the score: an analytical claim that is true to the music; measure-lev
 
 **course grade.** Each paper's 0 to 4 score is its grade-point value. The five papers carry equal weight, so the course grade is the average of the five scores on the standard grade-point scale:
 
-| grade | course average (0–4) | GPA points |
+| grade | course average / GPA | percentage |
 |---|---|---|
-| A (A–, A) | 3.7–4.0 | 3.7–4.0 |
-| B (B–, B, B+) | 2.7–3.3 | 2.7–3.3 |
-| C (C–, C, C+) | 1.7–2.3 | 1.7–2.3 |
-| D (D, D+) | 1.0–1.3 | 1.0–1.3 |
-| F | below 1.0 | 0.0 |
+| A (A–, A) | 3.7–4.0 | 90–100% |
+| B (B–, B, B+) | 2.7–3.3 | 80–89% |
+| C (C–, C, C+) | 1.7–2.3 | 70–79% |
+| D (D, D+) | 1.0–1.3 | 60–69% |
+| F | below 1.0 | below 60% |
 
 Per the [CSUEB Graduate Student Handbook](https://www.csueastbay.edu/aps/files/docs/grad-studies/grad-student-handbook.pdf), only a grade of C or better counts toward the degree, and a C– or below must be repeated.
 
