@@ -1,6 +1,6 @@
 # analytical papers
 
-Five short analytical papers run across the term. They are the training ground for the one thing a music scholar cannot fake: getting to the heart of a piece and saying something true about how it works.
+Five short analytical papers run across the term. Each asks you to get to the heart of a piece and say something true about how it works.
 
 ## what these papers are
 
@@ -21,7 +21,9 @@ Bring the analytical apparatus of the seminar to the score and follow the eviden
 
 ## what a strong paper does
 
-It commits to a claim about how the music works and earns it with measure-level evidence. It knows which one or two things matter most in the movement and spends its space there. It reaches an essential difference (for the comparative papers) or an organizing idea (for the single-work papers) and states it plainly by the end.
+- Commits to a claim about how the music works and earns it with measure-level evidence.
+- Knows which one or two things matter most in the movement and spends its space there.
+- Reaches an essential difference (for the comparative papers) or an organizing idea (for the single-work papers) and states it plainly by the end.
 
 ## what to leave out
 
@@ -32,9 +34,10 @@ It commits to a claim about how the music works and earns it with measure-level 
 ## format
 
 - Length: 6 to 8 pages, including musical examples, footnotes, and bibliography.
+- Double-spaced, 12-point serif font (Times New Roman or similar), one-inch margins.
 - Musical examples and analytical graphs are required. Number them and refer to them by measure.
-- Citation: Chicago, notes-bibliography.
 - Cite every measure you discuss. An analytical claim without a measure number is an assertion, not evidence.
+- Citation follows the notes-bibliography form of Chicago style: numbered footnotes for each source, plus a bibliography at the end. It is the humanities system, not Chicago's author-date form. See the [Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html).
 
 ## how they are assessed
 
