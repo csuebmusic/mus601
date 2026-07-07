@@ -67,10 +67,13 @@ What earns the score: an analytical claim that is true to the music; measure-lev
 | A (A, A–) | 90–100% | 3.60–4.00 |
 | B (B+, B, B–) | 80–89% | 3.20–3.59 |
 | C (C+, C) | 70–79% | 2.80–3.19 |
+| **passing cutoff for graduate credit** | | |
 | C– | 60–69% | 2.40–2.79 |
 | F | below 60% | below 2.40 |
 
-Per the CSUEB Graduate Student Handbook, only a grade of C or better counts toward the degree; a C– or below must be repeated, and graduate students must keep a 3.0 GPA.
+Per the CSUEB Graduate Student Handbook, only a grade of C or better counts toward the degree; a C– or below must be repeated.
+
+Graduate students must keep a 3.0 GPA.
 
 ## research and writing
 
