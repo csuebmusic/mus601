@@ -52,24 +52,26 @@ Each paper is scored on a 0 to 4 scale:
 
 | score | level | description |
 |---|---|---|
-| 4 | outstanding | Rare. Genuinely strong analytical writing: a clear, non-obvious claim about how the music works, earned with precise measure-level evidence, and, in a comparative paper, a comparison that reaches an essential difference. Correct Chicago citation. Reads like scholarship. |
-| 3 | very good | A sound analytical argument, well supported and clearly written, with only minor gaps in evidence, mechanics, or citation. |
-| 2 | below average | The analysis is present but underdeveloped: claims not fully earned, evidence thin or imprecise, or the argument gives way to description. Not yet at a graduate passing level. |
-| 1 | unacceptable | Little analytical argument, minimal engagement with the score, or serious problems in evidence and citation. |
-| 0 | not submitted | No submission, or work that does not engage with the assignment. |
+| 4 | outstanding (A) | Rare. Genuinely strong analytical writing: a clear, non-obvious claim about how the music works, earned with precise measure-level evidence, and, in a comparative paper, a comparison that reaches an essential difference. Correct Chicago citation. Reads like scholarship. |
+| 3 | very good (B) | A sound analytical argument, well supported and clearly written, with only minor gaps in evidence, mechanics, or citation. |
+| 2 | below average (C) | The analysis is present but underdeveloped: claims not fully earned, evidence thin or imprecise, or the argument gives way to description. |
+| 1 | unacceptable (F) | Little analytical argument, minimal engagement with the score, or serious problems in evidence and citation. |
+| 0 | not submitted (F) | No submission, or work that does not engage with the assignment. |
 
 What earns the score: an analytical claim that is true to the music; measure-level evidence for every claim; for comparative papers, a comparison that reaches an essential difference; the required musical examples and graphs; correct Chicago, notes-bibliography citation; and clear, organized scholarly prose.
 
-**course grade.** All five papers use the 0 to 4 scale and carry equal weight, so the course grade is the average of the five scores, converted to a letter:
+**course grade.** Each paper's 0 to 4 score is its grade-point value: a 4 is A-level, a 3 is B-level, a 2 is C-level. The five papers carry equal weight, so the course grade is the average of the five scores, which is your grade-point average for the course, converted to a letter:
 
-| grade | course average (0–4) | percentage | GPA points |
-|---|---|---|---|
-| A (A, A–) | 3.60–4.00 | 90–100% | 3.7–4.0 |
-| B (B+, B, B–) | 3.20–3.59 | 80–89% | 2.7–3.3 |
-| C (C+, C) | 2.80–3.19 | 70–79% | 2.0–2.3 |
-| **passing cutoff for graduate credit** | | | |
-| C– | 2.40–2.79 | 60–69% | 1.7 |
-| F | below 2.40 | below 60% | 0.0 |
+| grade | course average (0–4) |
+|---|---|
+| A (A, A–) | 3.50–4.00 |
+| B (B+, B, B–) | 2.50–3.49 |
+| C (C+, C) | 1.85–2.49 |
+| **passing cutoff for graduate credit** | |
+| C– | 1.50–1.84 |
+| F | below 1.50 |
+
+Straight 3s average to a 3.0, which is a B.
 
 Per the [CSUEB Graduate Student Handbook](https://www.csueastbay.edu/aps/files/docs/grad-studies/grad-student-handbook.pdf), only a grade of C or better counts toward the degree, and a C– or below must be repeated.
 
