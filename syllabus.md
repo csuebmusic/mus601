@@ -163,7 +163,7 @@ selected bibliography:
 directed questions:
 
 - Locate the medial caesura and the EEC in each exposition. What does each composer do to the arrival of the second key?
-- Track the hexachord system and the pitch-class ascent across each exposition. Where do system changes and cycle completions fall against the formal seams?
+- Track the hexachord system across each exposition. Where do system changes fall against the formal seams?
 - How does each handle recurring closing material as a refrain, and thematic economy (monothematic or dualistic)?
 - Both are in C major. Where in each exposition is the second key's arrival most in question, and how do the two solutions differ?
 
@@ -178,7 +178,7 @@ directed questions:
 directed questions:
 
 - Take the major/minor mode switch as the organizing gesture. Which dyad conflicts carry it, and where is each first heard?
-- Follow the system battle (3# against 0, and the flat side) and the pitch-class ascent. Where do the dyad conflicts also act as system modulations?
+- Follow the system battle (3# against 0, and the flat side). Where do the dyad conflicts also act as system modulations?
 - Why a minor v in the second harmonic area? What would a stable major V or bIII cost the movement?
 - Name the single idea the movement serves, and show how the coda settles the conflicts it opened.
 
