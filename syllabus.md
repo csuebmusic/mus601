@@ -249,7 +249,7 @@ directed questions:
 
 **required materials.** Core references are *The Cambridge History of Western Music Theory* (Christensen, ed.) and Burnett and Nitzberg, *Composition, Chromaticism and the Developmental Process*, with the per-unit readings listed in the schedule. Scores and recordings are distributed through the course site or placed on library reserve. Bring a score to every meeting. (Confirm required vs. recommended, and how students obtain each.)
 
-**technical requirements.** The course runs on the campus LMS, and online-synchronous meetings use Zoom. You need reliable internet and a way to view and mark scores. Minimum technical requirements and campus technical support are in the University Resources loaded into the course shell.
+**technical requirements.** The course runs on the campus LMS (Canvas). You need reliable internet and a way to view and mark scores. Minimum technical requirements and campus technical support are in the University Resources loaded into the course shell.
 
 **academic integrity and AI.** See the academic integrity statement under university resources below, and the use of AI section above for what is permitted in this seminar and how to disclose it.
 

@@ -18,4 +18,4 @@ Interactive tools are self-contained HTML and open in the browser through GitHub
 
 ## practical
 
-Two units, on-ground or online-synchronous, graded A to F. The syllabus carries the current term's dates, meeting time, and logistics.
+Two units, in-person (on-the-ground), graded A to F. The syllabus carries the current term's dates, meeting time, and logistics.
