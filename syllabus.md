@@ -62,14 +62,15 @@ What earns the score: an analytical claim that is true to the music; measure-lev
 
 **course grade.** All five papers use the 0 to 4 scale and carry equal weight, so the course grade is the average of the five scores, converted to a letter:
 
-| grade | score | percentage | GPA points |
-|---|---|---|---|
-| A (A, A–) | 3.35–4.00 | 83.75–100% | 3.7–4.0 |
-| B (B+, B, B–) | 3.05–3.34 | 76.25–83.74% | 2.7–3.3 |
-| C (C+, C, C–) | 2.75–3.04 | 68.75–76.24% | 1.7–2.3 |
-| F | below 2.75 | below 68.75% | 0.0 |
+| grade | percentage | course average (0–4) |
+|---|---|---|
+| A | 90–100% | 3.60–4.00 |
+| B | 80–89% | 3.20–3.59 |
+| C | 70–79% | 2.80–3.19 |
+| C– | 60–69% | 2.40–2.79 |
+| F | below 60% | below 2.40 |
 
-Minimum grade for graduate credit: per the CSUEB Graduate Student Handbook, a course counts toward the degree only with a grade of C or better. A grade of C– or below must be repeated, and graduate students must keep a 3.0 GPA. Some programs set a higher minimum, so check the M.S. Music requirements.
+Per the CSUEB Graduate Student Handbook, only a grade of C or better counts toward the degree; a C– or below must be repeated, and graduate students must keep a 3.0 GPA.
 
 ## research and writing
 
