@@ -46,7 +46,7 @@ By the end of the seminar, a student should be able to:
 | participation and seminar engagement | 25% |
 | five analytical papers (15% each) | 75% |
 
-Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography.
+Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography. Assignment guidelines are in `research/analytical-papers.md`.
 
 grading scale: A to F. (Set your point-to-letter cutoffs, and note any minimum grade required for graduate standing in the program.)
 
