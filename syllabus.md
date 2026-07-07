@@ -80,9 +80,9 @@ Chicago keeps AI out of the bibliography unless a publicly accessible link to th
 
 ## schedule
 
-Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units. Two topics are expanded to two weeks each: the early Baroque turn toward tonality (Monteverdi and Schütz) and mature Classical sonata procedure (Haydn and Mozart). Paper 5 is submitted in finals week rather than presented in class. Detailed weekly material (prompts, discussion, worked analyses) lands in `units/` as it is built.
+Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units. Detailed weekly material (prompts, discussion, worked analyses) lands in `units/` as it is built.
 
-**week 1. August 18. introduction: graduate theory and analysis review.** A level-set on the analytical vocabulary the seminar assumes: figured bass and thoroughbass, Roman-numeral and functional harmony, cadence and phrase rhythm, species counterpoint and voice leading, and form vocabulary, oriented toward the modal-and-tonal thinking Unit 1 opens with. A first pass at the seminar's research and writing apparatus (research questions, RILM/JSTOR/Grove, Chicago) and the comparative method the catalog names. (Draft; adjust the balance of review vs. orientation to taste.)
+**week 1. August 18. introduction: graduate theory and analysis review.** A level-set on the analytical vocabulary the seminar assumes: figured bass and thoroughbass, Roman-numeral and functional harmony, cadence and phrase rhythm, species counterpoint and voice leading, and form vocabulary, oriented toward the modal-and-tonal thinking Unit 1 opens with. A first pass at the seminar's research and writing apparatus (research questions, RILM/JSTOR/Grove, Chicago) and the comparative method the catalog names.
 
 ### unit 1: modal practice and the emergence of tonality (weeks 2–6)
 
@@ -99,13 +99,9 @@ selected bibliography:
   - Schubert, Peter. "Counterpoint Pedagogy in the Renaissance." 503–533.
 - Powers, Harold S. "Tonal Types and Modal Categories in Renaissance Polyphony." *Journal of the American Musicological Society* 34, no. 3 (1981): 428–470.
 
-**week 2. August 25.** Renaissance modal and hexachordal theory and chromaticism: the works of Josquin des Prez, Pierre de la Rue, Cipriano de Rore, and Orlando di Lasso.
+**weeks 2 & 3. August 25 and September 1.** Lectures on Renaissance Modal/Hexachordal Theory and Chromaticism: The Works of Josquin Desprez, Pierre de la Rue, Cipriano de Rore, and Orlando di Lasso.
 
-**week 3. September 1.** Continuation: chromaticism against the modal frame, and the tension between tonal type and modal category (Powers).
-
-**week 4. September 8.** Early Baroque, part 1. Monteverdi and the *seconda prattica*: text-governed dissonance and the loosening of modal constraint in the late madrigal.
-
-**week 5. September 15.** Early Baroque, part 2. The migration north and the concertato style: Schütz, basso continuo as harmonic scaffold, and cadential organization pointing toward key-centered tonality.
+**weeks 4 & 5. September 8 and September 15.** Lectures on Early Baroque Style: From Modality to Key-Centered Tonality (Claudio Monteverdi and Heinrich Schütz).
 
 **week 6. September 22. paper 1.** Comparison analysis:
 
@@ -122,9 +118,7 @@ selected bibliography:
   - Hyer, Brian. "Tonality." 726–752.
 - Dreyfus, Laurence. "J.S. Bach's Concerto Ritornellos and the Question of Invention." *The Musical Quarterly* 71, no. 3 (1985): 327–358.
 
-**week 7. September 29.** The instrumental concerto of the late Baroque: ritornello form, and the harmonic organization of a key across a movement.
-
-**week 8. October 6.** Continuation: ritornello and episode, tonal plan, and the question of invention (Dreyfus).
+**weeks 7 & 8. September 29 and October 6.** Lectures on the Instrumental Concerto of the Late Baroque.
 
 **week 9. October 13. paper 2.** Compare the first movements of the two concertos below. How do both composers use ritornello form in these movements? In particular, how do they harmonically organize the tonality of A major into the re-ordered fifths of its hexachord?
 
@@ -142,16 +136,17 @@ selected bibliography:
 - Hepokoski, James. "Beyond the Sonata Principle." *Journal of the American Musicological Society* 55 (2002): 91–154.
 - Schmid, Ernst Fritz. "Mozart and Haydn." *The Musical Quarterly* 42, no. 2 (April 1956): 145–161.
 
-**week 10. October 20.** Mature Classicism and sonata procedure, part 1. Sonata procedure as tonal drama: exposition, tonal pairing, and the two-reprise design in Haydn (Symphony no. 84, 1786) and Mozart ("Linz" Symphony no. 36, K.425, 1783).
+**weeks 10 & 11. October 20 and October 27.** Lectures on Mature Classicism and Sonata Procedure in the work of Haydn and Mozart:
 
-**week 11. October 27.** Mature Classicism and sonata procedure, part 2. Development and recapitulation as process: thematic economy against thematic contrast (Haydn and Mozart), and an introduction to the Sonata Theory vocabulary (Hepokoski and Darcy) that this unit's bibliography sets up.
+- J. Haydn: Symphony no. 84 (1786)
+- W.A. Mozart: Symphony no. 36, "Linz," K.425 (1783)
 
 **week 12. November 3. paper 3.** Comparison analysis, first movements only:
 
 - W.A. Mozart: Symphony no. 41, "Jupiter" (1788)
 - J. Haydn: Symphony no. 90 (1787)
 
-**week 13. November 10.** Beethoven and the extension of Classical procedure:
+**week 13. November 10.** Lecture on Beethoven and the extension of Classical Procedure:
 
 - String Quintet in C, Op. 29 (1801)
 - Piano Sonata no. 21, Op. 53, "Waldstein" (1804)
@@ -172,7 +167,7 @@ selected bibliography:
 - Webster, James. "Schubert's Sonata Form and Brahms's First Maturity (I)." *19th-Century Music* 2, no. 1 (1978): 18–35.
 - Webster, James. "Schubert's Sonata Form and Brahms's First Maturity (II)." *19th-Century Music* 3, no. 1 (1979): 52–71.
 
-**week 15. December 1.** Schubert and early Romanticism:
+**week 15. December 1.** Lecture on Schubert and Early Romanticism:
 
 - Piano Trio Op. 100 (1827)
 - String Quintet Op. 163 (1828)
