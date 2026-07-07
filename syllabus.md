@@ -48,7 +48,28 @@ Upon successful completion of this course students will be able to:
 
 The grade is the five analytical papers, 20% each: due in weeks 6, 9, 12, and 14, and during finals week. Attendance and seminar participation are expected but not separately weighted. Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography. Assignment guidelines are in `research/analytical-papers.md`.
 
-grading scale: A to F on the standard CSUEB letter scale. (Set your point-to-letter cutoffs and any minimum grade required for graduate standing.)
+Each paper is scored on a 0 to 4 scale:
+
+| score | level | description |
+|---|---|---|
+| 4 | outstanding | Rare. Genuinely strong analytical writing: a clear, non-obvious claim about how the music works, earned with precise measure-level evidence, and, in a comparative paper, a comparison that reaches an essential difference. Correct Chicago citation. Reads like scholarship. |
+| 3 | very good | A sound analytical argument, well supported and clearly written, with only minor gaps in evidence, mechanics, or citation. |
+| 2 | below average | The analysis is present but underdeveloped: claims not fully earned, evidence thin or imprecise, or the argument gives way to description. Not yet at a graduate passing level. |
+| 1 | unacceptable | Little analytical argument, minimal engagement with the score, or serious problems in evidence and citation. |
+| 0 | not submitted | No submission, or work that does not engage with the assignment. |
+
+What earns the score: an analytical claim that is true to the music; measure-level evidence for every claim; for comparative papers, a comparison that reaches an essential difference; the required musical examples and graphs; correct Chicago, notes-bibliography citation; and clear, organized scholarly prose.
+
+**course grade.** All five papers use the 0 to 4 scale and carry equal weight, so the course grade is the average of the five scores, converted to a letter:
+
+| grade | score | percentage | GPA points |
+|---|---|---|---|
+| A (A, A–) | 3.35–4.00 | 83.75–100% | 3.7–4.0 |
+| B (B+, B, B–) | 3.05–3.34 | 76.25–83.74% | 2.7–3.3 |
+| C (C+, C, C–) | 2.75–3.04 | 68.75–76.24% | 1.7–2.3 |
+| F | below 2.75 | below 68.75% | 0.0 |
+
+Minimum grade for graduate credit: confirm your program's requirement (many CSU graduate programs require a B– or better).
 
 ## research and writing
 
@@ -58,7 +79,7 @@ The fuller research arc, a research question developed across the term into a co
 
 ## communicating with me
 
-Email is the best way to reach me (ines.thiebaut@csueastbay.edu), and I reply within one to two business days (to confirm). Course announcements and materials go through the campus LMS, so check it regularly. Bring questions to office hours or raise them in seminar. I return written feedback on papers within about two weeks of the due date (to confirm) and post grades on the LMS.
+Email is the best way to reach me (ines.thiebaut@csueastbay.edu), and I respond within 24 hours. I also keep an open-door policy: if I am in the building, you are welcome to come by. Course announcements and materials go through Canvas, so check it regularly, and questions are welcome in seminar. I return feedback and grades on your papers through Canvas, within a week of the due date.
 
 ## use of AI
 
@@ -247,4 +268,4 @@ The university loads the following statements into every course shell each term.
 
 **campus resources.** MyCompass is the one-stop hub for advising, tutoring, financial aid, the library, and more. Graduate students should contact their major department directly for advising. Additional support includes the Student Center for Academic Achievement (tutoring), the Office of Financial Aid, Student Health and Counseling, University Libraries, Student Wellbeing Services (food insecurity, housing, and crisis support), the Diversity and Inclusion Student Center, Student Equity and Success Programs, and Student Life and Leadership.
 
-*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1); the description and learning outcomes are the catalog text. Still to finalize: office hours, the grading-scale cutoffs, and the response and feedback times in "communicating with me."*
+*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1); the description and learning outcomes are the catalog text, and grades use the department's 0 to 4 scale. Still to finalize: Fall 2026 office hours, and the program's minimum passing grade for graduate credit.*

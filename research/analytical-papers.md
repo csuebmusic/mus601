@@ -38,4 +38,4 @@ It commits to a claim about how the music works and earns it with measure-level 
 
 ## how they are assessed
 
-Against the seminar's learning outcomes (see `../syllabus.md`); the paper rubric is in development. Feedback names the strength or the problem and ties it to those outcomes. The center of the assessment is analytical: whether the claim is true to the music and supported by the evidence you cite.
+Each paper is scored on the 0 to 4 rubric in `../syllabus.md`, against the seminar's learning outcomes. Feedback names the strength or the problem and ties it to the rubric and outcomes. The center of the assessment is analytical: whether the claim is true to the music and supported by the evidence you cite.
