@@ -8,14 +8,14 @@ A graduate research-and-analysis seminar (2 units, graded A–F), fall term. 601
 | instructor | Inés Thiebaut |
 | email | ines.thiebaut@csueastbay.edu |
 | office | MB 2012 |
-| office phone | (to add) |
+| office phone | (510) 885-3126 |
 | office hours | Fall 2026: to be determined |
-| course | MUS 601, section (to add), Analysis of Musical Styles |
+| course | MUS 601, Analysis of Musical Styles (one section) |
 | units | 2 |
-| modality | on-the-ground, or web online synchronous (set per section) |
-| meetings | Tuesdays, 7:00–9:00 pm, (classroom or Zoom, to add), August 18 to December 1 (15 weekly meetings) |
-| final exam | finals week, December 7–12; Paper 5 due, no seated final (confirm the registrar's final slot) |
-| prerequisites | (per catalog, to confirm) |
+| modality | in-person (on-the-ground) |
+| meetings | Tuesdays, 7:00–9:00 pm, Music Resource Center, MB 1560; August 18 to December 1 (15 weekly meetings) |
+| final exam | finals week, December 7–12: Paper 5 due (no seated final) |
+| prerequisites | none |
 | grading | A to F |
 
 ## important dates (fall 2026)
@@ -40,26 +40,21 @@ Upon successful completion of this course students will be able to:
 3. showcase a deep understanding of theoretical concepts learned throughout the course. This includes the ability to identify and analyze tonal structures, forms, and stylistic elements in musical compositions from the Renaissance to the Romantic era.
 4. develop critical thinking skills in interpreting and evaluating musical works. They will demonstrate the ability to connect historical and theoretical knowledge to their analyses, offering insightful perspectives on the birth and death of tonality within the broader context of music history.
 
-## assessment (draft weighting)
+## assessment
 
 | component | weight |
 |---|---|
-| participation and seminar engagement | 25% |
-| five analytical papers (15% each) | 75% |
+| five analytical papers (20% each) | 100% |
 
-Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography. Assignment guidelines are in `research/analytical-papers.md`.
+The grade is the five analytical papers, 20% each: due in weeks 6, 9, 12, and 14, and during finals week. Attendance and seminar participation are expected but not separately weighted. Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography. Assignment guidelines are in `research/analytical-papers.md`.
 
 grading scale: A to F on the standard CSUEB letter scale. (Set your point-to-letter cutoffs and any minimum grade required for graduate standing.)
-
-types and timing of graded work: five analytical papers, due in weeks 6, 9, 12, and 14 and during finals week, plus ongoing participation. Grades are determined by the weights above.
-
-Weighting is carried over from the prior offering and adjusted from six papers to five (Unit 5 having moved to 602). Two things to confirm: the split above, and whether these five discrete papers stay as-is or fold into an iterative research-paper sequence (see research and writing). The finals-week paper is the natural anchor if you go iterative.
 
 ## research and writing
 
 The seminar treats scholarly writing and research method as core work: shaping a research question, evaluating sources critically, using the field's bibliographic tools (RILM, JSTOR, Grove), building an annotated bibliography, structuring an argument, and citing correctly in Chicago (notes-bibliography). Detailed guidance and the Chicago reference live in `research/`.
 
-Open design question, not yet resolved: the papers below are comparative essays tied to specific works, carried over from the prior offering. The seminar's research emphasis points toward a single research paper developed across the term (proposal, annotated bibliography, draft, revision, final). We can keep the five discrete papers, replace some of them with the iterative sequence, or run both. That decision shapes `research/` and the weighting above.
+The five analytical papers are 601's graded work, and they build the analytical foundation. The context-rich research paper, developed iteratively (proposal, annotated bibliography, draft, revision, final), is the culmination of 602, which this sequence builds toward. The apparatus and Chicago guide in `research/` serve both courses.
 
 ## communicating with me
 
@@ -69,7 +64,7 @@ Email is the best way to reach me (ines.thiebaut@csueastbay.edu), and I reply wi
 
 Generative AI (ChatGPT, Claude, Copilot, Gemini, and similar tools) is permitted in this seminar for two narrow purposes: checking grammar and mechanics in writing you have already drafted, and checking your citations and bibliography against Chicago style. Everything else is off limits. The tools may not generate analysis, ideas, arguments, or prose, and they do not stand in for learning to read the score, hear the music, and write about it in your own voice. The analytical thinking and the writing are yours.
 
-Every use of AI, including the two permitted ones, must be disclosed. Undisclosed use, or use beyond grammar and citation-format checking, will be treated as a violation of the CSUEB Academic Dishonesty Policy and may be subject to disciplinary action. This is the seminar's Generative AI use policy under CSUEB policy 25-26 CIC 1; see also the campus Online Campus AI information page (link, to add).
+Every use of AI, including the two permitted ones, must be disclosed. Undisclosed use, or use beyond grammar and citation-format checking, will be treated as a violation of the CSUEB Academic Dishonesty Policy and may be subject to disciplinary action. This is the seminar's Generative AI use policy under CSUEB policy 25-26 CIC 1. For CSU guidance on the ethical and responsible use of AI, see https://genai.calstate.edu/communities/students/ethical-and-responsible-use-ai.
 
 A caution specific to our work: these tools misformat Chicago citations and invent sources that do not exist. You are responsible for every citation in your paper. Verify each one against the source itself and against Chicago, notes-bibliography. Treat AI output as a prompt to recheck your work, not as an authority.
 
@@ -252,4 +247,4 @@ The university loads the following statements into every course shell each term.
 
 **campus resources.** MyCompass is the one-stop hub for advising, tutoring, financial aid, the library, and more. Graduate students should contact their major department directly for advising. Additional support includes the Student Center for Academic Achievement (tutoring), the Office of Financial Aid, Student Health and Counseling, University Libraries, Student Wellbeing Services (food insecurity, housing, and crisis support), the Diversity and Inclusion Student Center, Student Equity and Success Programs, and Student Life and Leadership.
 
-*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1); the description and learning outcomes are the catalog text. Items still to add or confirm (office phone, section, classroom, prerequisites, grading cutoffs, feedback timing, the Online Campus AI link, and a land acknowledgement if you want one) are the instructor's to finalize.*
+*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1); the description and learning outcomes are the catalog text. Still to finalize: office hours, the grading-scale cutoffs, and the response and feedback times in "communicating with me."*
