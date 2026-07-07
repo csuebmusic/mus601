@@ -1,7 +1,7 @@
 # MUS 601: Analysis of Musical Styles
 *Birth and death of tonality*
 
-A graduate research-and-analysis seminar (2 units, graded A–F), offered in the fall. 601 traces the formation and transformation of tonality from Renaissance modal practice through early Romantic chromaticism; 602 picks up chronologically where 601 ends.
+A graduate research-and-analysis seminar (2 units, graded A–F), fall term. 601 traces the formation and transformation of tonality from Renaissance modal practice through early Romantic chromaticism; 602 picks up chronologically where 601 ends.
 
 | | |
 |---|---|
@@ -9,9 +9,18 @@ A graduate research-and-analysis seminar (2 units, graded A–F), offered in the
 | email | ines.thiebaut@csueastbay.edu |
 | office | MB 2012 |
 | office hours | to confirm each term |
-| meetings | Tuesdays, 7:00–9:00 pm (15 weekly meetings) |
+| meetings | Tuesdays, 7:00–9:00 pm (15 weekly meetings, Aug 18 to Dec 1) |
 | format | on-ground or online-synchronous |
 | grading | A–F |
+
+## important dates (fall 2026)
+
+- first day of classes: Tuesday, August 18
+- Labor Day: Monday, September 7 (campus holiday, no effect on our Tuesday meeting)
+- Veterans Day: Wednesday, November 11 (campus holiday, no effect on our Tuesday meeting)
+- fall recess: November 23–27 (no class Tuesday, November 24)
+- last day of classes: Saturday, December 5
+- final examinations: December 7–12 (Paper 5 due; exact date and time set by the instructor)
 
 ## description
 
@@ -37,9 +46,9 @@ By the end of the seminar, a student should be able to:
 | participation and seminar engagement | 25% |
 | five analytical papers (15% each) | 75% |
 
-Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Citation follows Chicago, notes-bibliography.
+Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography.
 
-Weighting is carried over from the prior offering and adjusted from six papers to five (Unit 5 having moved to 602). Two things to confirm: the split above, and whether these five discrete papers stay as-is or fold into an iterative research-paper sequence (see research and writing).
+Weighting is carried over from the prior offering and adjusted from six papers to five (Unit 5 having moved to 602). Two things to confirm: the split above, and whether these five discrete papers stay as-is or fold into an iterative research-paper sequence (see research and writing). The finals-week paper is the natural anchor if you go iterative.
 
 ## research and writing
 
@@ -49,9 +58,11 @@ Open design question, not yet resolved: the papers below are comparative essays 
 
 ## schedule
 
-Fifteen weekly meetings, four units. Two topics from the prior offering are expanded to two weeks each: the early Baroque turn toward tonality (weeks 3–4) and mature Classical sonata procedure (weeks 9–10). Detailed weekly material (prompts, discussion, worked analyses) lands in `units/` as it is built.
+Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units. Two topics are expanded to two weeks each: the early Baroque turn toward tonality (Monteverdi and Schütz) and mature Classical sonata procedure (Haydn and Mozart). Paper 5 is submitted in finals week rather than presented in class. Detailed weekly material (prompts, discussion, worked analyses) lands in `units/` as it is built.
 
-### unit 1: modal practice and the emergence of tonality
+**week 1. August 18. introduction: graduate theory and analysis review.** A level-set on the analytical vocabulary the seminar assumes: figured bass and thoroughbass, Roman-numeral and functional harmony, cadence and phrase rhythm, species counterpoint and voice leading, and form vocabulary, oriented toward the modal-and-tonal thinking Unit 1 opens with. A first pass at the seminar's research and writing apparatus (research questions, RILM/JSTOR/Grove, Chicago) and the comparative method the catalog names. (Draft; adjust the balance of review vs. orientation to taste.)
+
+### unit 1: modal practice and the emergence of tonality (weeks 2–6)
 
 Renaissance modal and hexachordal theory through the early Baroque migration toward key-centered tonality.
 
@@ -66,21 +77,21 @@ selected bibliography:
   - Schubert, Peter. "Counterpoint Pedagogy in the Renaissance." 503–533.
 - Powers, Harold S. "Tonal Types and Modal Categories in Renaissance Polyphony." *Journal of the American Musicological Society* 34, no. 3 (1981): 428–470.
 
-**week 1.** Renaissance modal and hexachordal theory and chromaticism: the works of Josquin des Prez, Pierre de la Rue, Cipriano de Rore, and Orlando di Lasso.
+**week 2. August 25.** Renaissance modal and hexachordal theory and chromaticism: the works of Josquin des Prez, Pierre de la Rue, Cipriano de Rore, and Orlando di Lasso.
 
-**week 2.** Continuation: chromaticism against modal frame, and the tension between tonal type and modal category (Powers).
+**week 3. September 1.** Continuation: chromaticism against the modal frame, and the tension between tonal type and modal category (Powers).
 
-**week 3.** Early Baroque, part 1. Monteverdi and the *seconda prattica*: text-governed dissonance and the loosening of modal constraint in the late madrigal.
+**week 4. September 8.** Early Baroque, part 1. Monteverdi and the *seconda prattica*: text-governed dissonance and the loosening of modal constraint in the late madrigal.
 
-**week 4.** Early Baroque, part 2. The migration north and the concertato style: Schütz, basso continuo as harmonic scaffold, and cadential organization pointing toward key-centered tonality.
+**week 5. September 15.** Early Baroque, part 2. The migration north and the concertato style: Schütz, basso continuo as harmonic scaffold, and cadential organization pointing toward key-centered tonality.
 
-**week 5. paper 1.** Comparison analysis:
+**week 6. September 22. paper 1.** Comparison analysis:
 
 - Orlando di Lasso: *Lagrime di San Pietro*, motets nos. I and V (Munich, 1595)
 - Claudio Monteverdi: "Perché te'n fuggi, o Fillide?" (*Madrigals* Book 8, Venice, 1624)
 - Heinrich Schütz: "Fili mi, Absalon" (from *Symphoniae Sacrae*, vol. I, 1629)
 
-### unit 2: the late Baroque concerto and ritornello form
+### unit 2: the late Baroque concerto and ritornello form (weeks 7–9)
 
 selected bibliography:
 
@@ -89,14 +100,16 @@ selected bibliography:
   - Hyer, Brian. "Tonality." 726–752.
 - Dreyfus, Laurence. "J.S. Bach's Concerto Ritornellos and the Question of Invention." *The Musical Quarterly* 71, no. 3 (1985): 327–358.
 
-**weeks 6–7.** The instrumental concerto of the late Baroque: ritornello form, and the harmonic organization of a key across a movement.
+**week 7. September 29.** The instrumental concerto of the late Baroque: ritornello form, and the harmonic organization of a key across a movement.
 
-**week 8. paper 2.** Compare the first movements of the two concertos below. How do both composers use ritornello form in these movements? In particular, how do they harmonically organize the tonality of A major into the re-ordered fifths of its hexachord?
+**week 8. October 6.** Continuation: ritornello and episode, tonal plan, and the question of invention (Dreyfus).
+
+**week 9. October 13. paper 2.** Compare the first movements of the two concertos below. How do both composers use ritornello form in these movements? In particular, how do they harmonically organize the tonality of A major into the re-ordered fifths of its hexachord?
 
 - Antonio Vivaldi: Concerto in A major for viola d'amore, strings, and B.C., RV 396
 - J.S. Bach: Concerto in A major for harpsichord and strings, BWV 1055
 
-### unit 3: Classicism, sonata procedure, and Beethoven
+### unit 3: Classicism, sonata procedure, and Beethoven (weeks 10–14)
 
 selected bibliography:
 
@@ -107,24 +120,26 @@ selected bibliography:
 - Hepokoski, James. "Beyond the Sonata Principle." *Journal of the American Musicological Society* 55 (2002): 91–154.
 - Schmid, Ernst Fritz. "Mozart and Haydn." *The Musical Quarterly* 42, no. 2 (April 1956): 145–161.
 
-**week 9.** Mature Classicism and sonata procedure, part 1. Sonata procedure as tonal drama: exposition, tonal pairing, and the two-reprise design in Haydn (Symphony no. 84, 1786) and Mozart ("Linz" Symphony no. 36, K.425, 1783).
+**week 10. October 20.** Mature Classicism and sonata procedure, part 1. Sonata procedure as tonal drama: exposition, tonal pairing, and the two-reprise design in Haydn (Symphony no. 84, 1786) and Mozart ("Linz" Symphony no. 36, K.425, 1783).
 
-**week 10.** Mature Classicism and sonata procedure, part 2. Development and recapitulation as process: thematic economy against thematic contrast (Haydn and Mozart), and an introduction to the Sonata Theory vocabulary (Hepokoski and Darcy) that this unit's bibliography sets up.
+**week 11. October 27.** Mature Classicism and sonata procedure, part 2. Development and recapitulation as process: thematic economy against thematic contrast (Haydn and Mozart), and an introduction to the Sonata Theory vocabulary (Hepokoski and Darcy) that this unit's bibliography sets up.
 
-**week 11. paper 3.** Comparison analysis, first movements only:
+**week 12. November 3. paper 3.** Comparison analysis, first movements only:
 
 - W.A. Mozart: Symphony no. 41, "Jupiter" (1788)
 - J. Haydn: Symphony no. 90 (1787)
 
-**week 12.** Beethoven and the extension of Classical procedure:
+**week 13. November 10.** Beethoven and the extension of Classical procedure:
 
 - String Quintet in C, Op. 29 (1801)
 - Piano Sonata no. 21, Op. 53, "Waldstein" (1804)
 - Piano Trio Op. 97, "Archduke" (1810–11)
 
-**week 13. paper 4.** Beethoven, Violin Sonata in A, "Kreutzer," Op. 47 (1802–03), first movement.
+**week 14. November 17. paper 4.** Beethoven, Violin Sonata in A, "Kreutzer," Op. 47 (1802–03), first movement.
 
-### unit 4: Schubert and early Romantic chromaticism
+*November 24: fall recess, no class.*
+
+### unit 4: Schubert and early Romantic chromaticism (week 15 and finals)
 
 selected bibliography:
 
@@ -135,12 +150,12 @@ selected bibliography:
 - Webster, James. "Schubert's Sonata Form and Brahms's First Maturity (I)." *19th-Century Music* 2, no. 1 (1978): 18–35.
 - Webster, James. "Schubert's Sonata Form and Brahms's First Maturity (II)." *19th-Century Music* 3, no. 1 (1979): 52–71.
 
-**week 14.** Schubert and early Romanticism:
+**week 15. December 1.** Schubert and early Romanticism:
 
 - Piano Trio Op. 100 (1827)
 - String Quintet Op. 163 (1828)
 
-**week 15. paper 5.** Schubert, String Quartet no. 14, "Death and the Maiden," first movement.
+**finals week. December 7–12. paper 5 due.** Schubert, String Quartet no. 14, "Death and the Maiden," first movement.
 
 ## policies
 
