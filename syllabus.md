@@ -110,7 +110,7 @@ Chicago keeps AI out of the bibliography unless a publicly accessible link to th
 
 ## schedule
 
-Fifteen weekly meetings (Aug 18 to Dec 1), a new intro week, and four units.
+Fifteen meetings across sixteen Tuesdays (Aug 18 to Dec 1), with no class on the Nov 24 recess. An introductory week and four units.
 
 **week 1. August 18. introduction: graduate theory and analysis review.** A level-set on the analytical vocabulary the seminar assumes: figured bass and thoroughbass, Roman-numeral and functional harmony, cadence and phrase rhythm, species counterpoint and voice leading, and form vocabulary, oriented toward the modal-and-tonal thinking Unit 1 opens with. A first pass at the seminar's research and writing apparatus (research questions, RILM/JSTOR/Grove, Chicago) and the comparative method the catalog names.
 
