@@ -48,6 +48,8 @@ By the end of the seminar, a student should be able to:
 
 Papers run roughly 6–8 pages including musical examples, footnotes, and bibliography, and are often comparative. Paper 5 is due during finals week and functions as the culminating submission. Citation follows Chicago, notes-bibliography.
 
+grading scale: A to F. (Set your point-to-letter cutoffs, and note any minimum grade required for graduate standing in the program.)
+
 Weighting is carried over from the prior offering and adjusted from six papers to five (Unit 5 having moved to 602). Two things to confirm: the split above, and whether these five discrete papers stay as-is or fold into an iterative research-paper sequence (see research and writing). The finals-week paper is the natural anchor if you go iterative.
 
 ## research and writing
@@ -181,16 +183,24 @@ selected bibliography:
 
 **attendance and participation.** Attendance and promptness at every meeting are expected. If an emergency arises, contact me by email as soon as possible. You remain responsible for material and assignments covered in your absence: ask a classmate or come to office hours.
 
-**academic honesty.** All work submitted must be entirely your own and must conform to CSUEB's Academic Honesty policy. Study partners and discussion of assignments are welcome; the analysis and writing you submit must be yours.
+**academic honesty.** By enrolling in this class you agree to uphold the standards of academic integrity described in CSUEB's Academic Honesty policy (link to the current policy, to confirm from the campus doc). All work you submit must be entirely your own. Study partners and discussion of assignments are welcome; the analysis and writing you submit must be yours. See also use of AI, above.
 
 **late work.** Late papers are accepted for half credit (50%), without written feedback. For feedback, submit on time or bring the paper to office hours.
 
-**course materials.** Materials, handouts, and submissions run through the course site (LMS or shared drive, set per term). Log in with your CSUEB Horizon account.
+**required materials.** Core references are *The Cambridge History of Western Music Theory* (Christensen, ed.) and Burnett and Nitzberg, *Composition, Chromaticism and the Developmental Process*, with the per-unit readings listed in the schedule. Scores and recordings are distributed through the course site or placed on library reserve. (Confirm required vs. recommended, and how students obtain each.)
+
+**course site.** Materials, handouts, and submissions run through the course site (LMS or shared drive, set per term). Log in with your CSUEB Horizon account.
+
+**emergency information.** CSU East Bay is committed to being a safe and caring community, and your response in an emergency can help save lives. Guidance for emergencies (earthquake, outage, fire, extreme heat, severe storm, hazardous materials) is maintained on the campus emergency management page (link, to confirm from the campus doc). Please review it and be familiar with these procedures.
+
+**changes to the syllabus.** Unanticipated circumstances, including the need to spend more time on particular material, may require changes to this syllabus. I will discuss any change with you before making it.
 
 **accessibility.** If you have a documented disability and want to discuss academic accommodations, or would need assistance in an emergency evacuation, contact me as early as possible and connect with Accessibility Services.
 
 **Title IX and DHR.** CSU policy prohibits discrimination, harassment, and retaliation, including sex discrimination, sexual harassment, and sexual violence. Faculty are non-confidential resources and are required to report incidents. For confidential support, contact the Confidential Advocate at 510-885-3700 or the Student Health and Counseling Center. For 24-hour crisis services, call the BAWAR hotline at 510-845-7273.
 
+**student conduct.** The University maintains a safe and healthy learning environment, and each member of the campus community is asked to choose behaviors that contribute to it (Student Conduct policy, link to confirm from the campus doc).
+
 **resources.** The University Library's music research section and the Learning Commons support research, writing, and technology needs. A free music theory tutor is available: ask me.
 
-*Policies are carried from the Fall 2020 offering and should be checked against current campus policy each term.*
+*Policies are carried from the prior offering and adjusted to the CSUEB required-components list. The 2025-26 syllabus policy update governs; verify the statements and links above (and any newer required items) against that document.*
