@@ -15,7 +15,7 @@ Each body of material has one canonical home. Edit it there; everything else poi
 ## settled decisions
 
 - Modality: in person (on-the-ground) only. No online-synchronous option and no Zoom, in any file.
-- Grade rounding: round the course average to the nearest grade point, ties broken upward. Full statement and examples in `meta/assessment-scheme.md`; kept out of the syllabus.
+- Grade rounding: round the course average to the nearest grade point, ties broken upward. Stated for students in the syllabus in plain terms; the exact rule and examples are in `meta/assessment-scheme.md`.
 - Duplication: the schedule and the paper guidance each live in one file. Do not reintroduce a second full copy of either.
 
 ## still to author

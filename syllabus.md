@@ -70,6 +70,8 @@ What earns the score: an analytical claim that is true to the music; measure-lev
 | D (D, D+) | 1.0–1.3 | 60–69% |
 | F | below 1.0 | below 60% |
 
+An average that falls between two grades is rounded to the nearest one, and an exact midpoint is rounded up in your favor.
+
 Per the [CSUEB Graduate Student Handbook](https://www.csueastbay.edu/aps/files/docs/grad-studies/grad-student-handbook.pdf), only a grade of C or better counts toward the degree, and a C– or below must be repeated.
 
 To stay in good standing, graduate students must maintain a cumulative 3.0 GPA in all units attempted after admission to the program. A GPA below 3.0 leads to academic probation.
