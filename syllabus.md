@@ -62,14 +62,14 @@ What earns the score: an analytical claim that is true to the music; measure-lev
 
 **course grade.** All five papers use the 0 to 4 scale and carry equal weight, so the course grade is the average of the five scores, converted to a letter:
 
-| grade | percentage | course average (0–4) |
-|---|---|---|
-| A (A, A–) | 90–100% | 3.60–4.00 |
-| B (B+, B, B–) | 80–89% | 3.20–3.59 |
-| C (C+, C) | 70–79% | 2.80–3.19 |
-| **passing cutoff for graduate credit** | | |
-| C– | 60–69% | 2.40–2.79 |
-| F | below 60% | below 2.40 |
+| grade | course average (0–4) | percentage | GPA points |
+|---|---|---|---|
+| A (A, A–) | 3.60–4.00 | 90–100% | 3.7–4.0 |
+| B (B+, B, B–) | 3.20–3.59 | 80–89% | 2.7–3.3 |
+| C (C+, C) | 2.80–3.19 | 70–79% | 2.0–2.3 |
+| **passing cutoff for graduate credit** | | | |
+| C– | 2.40–2.79 | 60–69% | 1.7 |
+| F | below 2.40 | below 60% | 0.0 |
 
 Per the CSUEB Graduate Student Handbook, only a grade of C or better counts toward the degree; a C– or below must be repeated.
 
