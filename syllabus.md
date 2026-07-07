@@ -29,22 +29,16 @@ A graduate research-and-analysis seminar (2 units, graded A–F), fall term. 601
 
 ## description
 
-The seminar follows a single through-line: modal and hexachordal practice moving toward functional harmony, the consolidation of common-practice tonality, and the chromatic expansion that begins to unsettle it by the early nineteenth century. The repertoire runs from Josquin and Lasso to Schubert.
+Examine the evolution of tonality from the Renaissance to Romantic eras. Develop research proficiency and analytical skills through comparative analysis of selected works. Explore the rich history of music styles and their impact.
 
-The real subject is becoming a scholar of this repertoire. Alongside analysis, the seminar develops the practices of the field: forming research questions, evaluating sources critically, using bibliographic tools, building an annotated bibliography, and writing scholarly analytical prose with correct citation. Analysis here connects to interpretation and to historical and cultural context rather than stopping at labels.
+## learning outcomes
 
-## learning outcomes (draft, for your review)
+Upon successful completion of this course students will be able to:
 
-*Per CSUEB policy, the course title, description, and learning outcomes must match the University Catalog. The description above and the outcomes below are placeholders; replace them with the catalog text.*
-
-By the end of the seminar, a student should be able to:
-
-1. Analyze music from the Renaissance through early Romanticism with the tools appropriate to each repertoire: modal and hexachordal theory, figured bass and thoroughbass, Roman-numeral and functional harmony, counterpoint, form, modulation and chromatic harmony, and reductive (Schenkerian) approaches where they earn their place.
-2. Trace the historical process the course tracks, from modal practice toward functional harmony to the consolidation and early chromatic expansion of common-practice tonality.
-3. Construct comparative analyses across works, composers, and periods, connecting analytical observation to interpretation and to historical and cultural context.
-4. Formulate a viable research question and evaluate scholarly sources critically.
-5. Use the bibliographic tools of the field (RILM, JSTOR, Grove) and build an annotated bibliography.
-6. Write scholarly analytical prose with correct Chicago (notes-bibliography) citation, developed and revised across drafts.
+1. demonstrate proficiency in musicological research methodologies, including the ability to critically evaluate scholarly sources, formulate research questions, and utilize appropriate bibliographic tools.
+2. develop effective communication skills through written analysis. They will be able to articulate complex musical concepts, tonal structures, and historical contexts coherently and concisely in a scholarly format adhering to proper citation styles.
+3. showcase a deep understanding of theoretical concepts learned throughout the course. This includes the ability to identify and analyze tonal structures, forms, and stylistic elements in musical compositions from the Renaissance to the Romantic era.
+4. develop critical thinking skills in interpreting and evaluating musical works. They will demonstrate the ability to connect historical and theoretical knowledge to their analyses, offering insightful perspectives on the birth and death of tonality within the broader context of music history.
 
 ## assessment (draft weighting)
 
@@ -258,4 +252,4 @@ The university loads the following statements into every course shell each term.
 
 **campus resources.** MyCompass is the one-stop hub for advising, tutoring, financial aid, the library, and more. Graduate students should contact their major department directly for advising. Additional support includes the Student Center for Academic Achievement (tutoring), the Office of Financial Aid, Student Health and Counseling, University Libraries, Student Wellbeing Services (food insecurity, housing, and crisis support), the Diversity and Inclusion Student Center, Student Equity and Success Programs, and Student Life and Leadership.
 
-*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1). Course title, description, and learning outcomes must match the University Catalog; the drafts above are placeholders pending the catalog text. Items marked to add or confirm (office phone, section, classroom, prerequisites, grading cutoffs, feedback timing, the Online Campus AI link, and a land acknowledgement if you want one) are the instructor's to finalize.*
+*This syllabus follows the CSUEB Policy on Course Syllabus Information (25-26 CIC 1); the description and learning outcomes are the catalog text. Items still to add or confirm (office phone, section, classroom, prerequisites, grading cutoffs, feedback timing, the Online Campus AI link, and a land acknowledgement if you want one) are the instructor's to finalize.*
