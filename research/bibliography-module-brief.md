@@ -1,6 +1,6 @@
-# research and bibliography modules: brief
+# research and bibliography modules: brief for Peter
 
-A brief for the colleague building the Canvas bibliography modules. It states what I expect the research and bibliography work to accomplish in each seminar. The module design and the tasks are yours; the outcomes below are what I am after.
+Peter, this is what I expect the research and bibliography work to accomplish in each seminar, for the two Canvas modules you are building. The module design and the tasks are yours; the outcomes below are what I am after.
 
 ## the situation
 
@@ -8,11 +8,11 @@ We used to teach research and bibliography as its own course. We are folding it 
 
 ## where the students start
 
-Assume no prior research training. They cannot yet find scholarly sources, tell a strong one from a weak one, or cite anything correctly. Many have never opened RILM or a critical edition, and cannot tell a primary source from a secondary one. Both modules build from that floor. The 601 module builds it first. The 602 module cannot assume a student took 601, so it has to build the same floor again, faster.
+Assume no prior research training at the start of 601. They cannot yet find scholarly sources, tell a strong one from a weak one, or cite anything correctly. Many have never opened RILM or a critical edition, and cannot tell a primary source from a secondary one. 601 builds from that floor. Students take 601 in the fall and 602 in the spring, so 602 assumes the 601 foundation and builds on it rather than teaching it again.
 
-## the shared foundation
+## the foundation
 
-Both modules teach the same core research literacy from zero. A student who finishes either one should be able to:
+601 establishes the core research literacy from zero, and 602 assumes it. By the end of 601 a student should be able to:
 
 - Tell primary sources (scores and critical editions, composer writings and letters, contemporaneous documents, recordings) from secondary ones (scholarly books, journal articles, dissertations, reference entries), and scholarly sources from everything else.
 - Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition or a recording is authoritative. Which edition you cite is a scholarly decision.
@@ -38,7 +38,7 @@ Two things go deeper here than in 601. First, critical evaluation: post-tonal th
 
 ## sequencing
 
-Read as a year, 601 lays the foundation and 602 builds the research paper on it, so a student who takes both should feel escalation, not repetition. Because they are also independent courses, each module stands on its own: 602 reteaches the foundation quickly for students who did not take 601, then moves past it.
+Read as a year: 601 lays the foundation in the fall, and 602 builds the research paper on it in the spring. Students take them in that order, so 602 assumes 601 and escalates rather than repeating. Design the two as one arc: 601 gets the mechanics right at small scale, and 602 puts them to work on a full research paper.
 
 ## fixed and open
 
