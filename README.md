@@ -5,16 +5,22 @@ A graduate research-and-analysis seminar at California State University, East Ba
 
 601 runs in the fall. 602, Post-Tonality and Beyond, takes up the spring where 601 ends.
 
+Course site: https://csuebmusic.github.io/mus601/
+
 ## what's here
 
-- `syllabus.md`: the full syllabus, with schedule, outcomes, assessment, and policies.
-- `outline.md`: the schedule at a glance.
-- `research/`: the analytical-paper guidelines and the research and citation apparatus.
+Student-facing material is HTML on the shared stylesheet, served from GitHub Pages and linked from Canvas. Markdown is the instructor's.
+
+- `index.html`: the course site, and the link students get.
+- `syllabus.html`: schedule, readings, directed questions, outcomes, assessment, and policies.
+- `research/`: the analytical-paper guidelines, the source work handout, and the Chicago citation guide.
 - `units/`: week-by-week seminar material, added as the course builds.
 - `tools/`: interactive analytical tools that compute and render in the browser.
-- `assets/`: the repo's stylesheet, plus score excerpts, audio, and images.
+- `assets/`: the stylesheet and its fonts, plus score excerpts, audio, and images.
+- `outline.md`: the schedule at a glance.
+- `meta/`: conventions and course design.
 
-Interactive tools are self-contained HTML and open in the browser through GitHub Pages, with no build step.
+Pages and tools are self-contained and open in the browser with no build step and no external dependency.
 
 ## practical
 

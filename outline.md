@@ -1,6 +1,6 @@
 # MUS 601: outline
 
-Tuesdays, 7:00–9:00 pm, Fall 2026 (Aug 18 to Dec 1). Fifteen meetings across sixteen Tuesdays, with no class on the Nov 24 recess. Full readings, directed questions, outcomes, assessment, and policies live in `syllabus.md`.
+Tuesdays, 7:00–9:00 pm, Fall 2026 (Aug 18 to Dec 1). Fifteen meetings across sixteen Tuesdays, with no class on the Nov 24 recess. Full readings, directed questions, outcomes, assessment, and policies live in `syllabus.html`.
 
 **week 1. Aug 18. introduction.** Graduate theory and analysis review, and a first pass at the research and writing apparatus.
 
