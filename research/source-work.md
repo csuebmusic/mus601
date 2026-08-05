@@ -22,6 +22,8 @@ Alongside the editions, find two secondary sources that bear on your analysis, a
 
 **Paper 5, Schubert.** Nothing new is introduced. The edition, two secondary sources you locate and evaluate on your own, both fully annotated, with no template, no pre-identified reading, and no peer check behind you. Use whichever citation forms your sources actually require; recognizing which form applies is part of what is being asked. Apply all five tests of trustworthiness without being prompted. If you take the two Webster articles as your pair, notice that they can be read against each other rather than one at a time. That is the move 602 will ask for at length.
 
+Feedback on this paper's source work comes back keyed point by point to the seminar's research outcomes, so you go into 602 knowing where you stand on each of them.
+
 ## judging a source
 
 Five questions, applied to everything you cite.
