@@ -31,6 +31,7 @@ Markdown files state what is the case. They carry no history of superseded decis
 - Source grading: inside the paper's 0-to-4 score, not a sixth component. Annotations are submitted separately and fall outside the 6-to-8-page count. The assessment table stays at five papers, 20% each.
 - Tool sequencing: RILM to Paper 1, JSTOR and WorldCat to Paper 2, Grove and footnote-chasing to Paper 3, ProQuest Dissertations to Paper 4, nothing new at Paper 5. Each tool is introduced in that week's seminar meeting, folded into the lecture. No separate Canvas mini-lessons.
 - Paper 5 checkpoint: the source component is the readiness gate into 602, with feedback keyed point by point to the research outcomes.
+- Citation form: the syllabus bibliography follows the Chicago style the seminar teaches, since it is the most-read example students have. Abbreviated page ranges, no initial "The" in journal titles, spaced initials, place of publication. The Christensen chapters stay nested under the volume rather than repeating its data eight times; everything else is a full entry.
 - Grade scale: the eleven grade-point anchors, one row per grade, with no percentage column. The 0-to-4 score is grade points, so a percentage of points earned is a different and incompatible number. See `meta/assessment-scheme.md`.
 
 ## still to settle
