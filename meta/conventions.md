@@ -1,46 +1,43 @@
 # MUS 601: conventions
 
-Canonical conventions for this repo, per the project's source-of-truth rule: read this before drafting material that follows the repo's conventions, and defer to it. It grows as conventions solidify.
+Read this before drafting anything that follows the repo's conventions, and defer to it.
 
-## source of truth: who owns what
+## who owns what
 
-Each body of material has one canonical home. Edit it there; everything else points to it rather than carrying a second copy.
+Each body of material has one canonical home. Edit it there; everything else points to it.
 
-- `syllabus.html`: the full course record. The complete schedule (weeks, units, per-unit bibliographies, directed questions), learning outcomes, assessment, policies, and course facts (term dates, meeting time, modality). The source of truth for every course fact.
-- `outline.md`: a one-page glance, mine. Dates, unit titles, and paper due dates only, no bibliographies and no directed questions. Derived from the syllabus; keep it in step when the schedule changes.
-- `research/analytical-papers.html`: the canonical paper handout (what the papers are, the method, what a strong paper does, format, how they are assessed). The syllabus carries a short paragraph and points here.
-- `research/source-work.html`: the canonical source handout (the constant requirement, what each paper adds, the five tests of trustworthiness, the annotated entry). Repertoire, source tasks, citation types, and lenses live here and nowhere else.
-- `research/chicago-notes-bibliography.html`: the citation guide. Shared with 602: author here, copy there, and keep the two identical.
-- `meta/research-and-bibliography.md`: the design behind the research work, mine. Where students start, the exit list, the constant-volume design, tool sequencing, scaffolding level, and the 602 handoff.
-- `meta/visual-conventions.md`: the house style. Palette, type, layout, and the quality floor for every page and tool. Shared with 602.
-- `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the per-course grading decisions, including 601's rounding rule. Grading mechanics live here, not in the syllabus.
-- `meta/`: internal planning and conventions, mine and Claude only. The repo is public, so nothing that belongs only to us goes in a student-facing file.
+- `syllabus.html`: the full course record and the source of truth for every course fact. Schedule, per-unit bibliographies, directed questions, outcomes, assessment, policies, term dates, meeting time, modality.
+- `outline.md`: a one-page glance, mine. Dates, unit titles, paper due dates. Derived from the syllabus; keep it in step.
+- `research/analytical-papers.html`: the paper handout. What the papers are, the method, format, how they are assessed.
+- `research/source-work.html`: the source handout. Repertoire, source tasks, citation types, trustworthiness lenses, and the annotated entry live here alone.
+- `research/chicago-notes-bibliography.html`: the citation guide. Shared with 602: author here, copy there, keep identical.
+- `meta/research-and-bibliography.md`: the design behind the research work, mine.
+- `meta/visual-conventions.md`: the house style. Shared with 602.
+- `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the grading mechanics.
+- `meta/`: planning and conventions, mine and Claude only.
 
 ## format by audience
 
-Student-facing material is HTML on `assets/style.css`, served from GitHub Pages and linked from Canvas. Markdown is instructor-facing: the outline, the conventions, and the course design. Nothing exists in both formats, so a fact lives in one file and one format.
+Student-facing material is HTML on `assets/style.css`, served from GitHub Pages and linked from Canvas. Markdown is instructor-facing. A fact lives in one file and one format.
 
-Markdown files state what is the case. They carry no history of superseded decisions and no justification of settled ones.
+Markdown files state what is the case. Keep out decision history, rationale for settled questions, and anything that reads as a log.
 
-## settled decisions
+## the rules
 
-- Modality: in person (on-the-ground) only. No online-synchronous option and no Zoom, in any file.
-- Grade rounding: round the course average to the nearest grade point, ties broken upward. Stated for students in the syllabus with a worked example; the rule also lives in `meta/assessment-scheme.md`.
-- Duplication: the schedule and the paper guidance each live in one file. Do not reintroduce a second full copy of either.
-- Source volume: the authoritative edition of each work analyzed, plus two secondary sources, on every paper. The two secondary sources are the fixed quantity; the edition count follows the number of works (three, two, two, one, one). Do not let the number grow across the term.
-- Source grading: inside the paper's 0-to-4 score, not a sixth component. Annotations are submitted separately and fall outside the 6-to-8-page count. The assessment table stays at five papers, 20% each.
-- Tool sequencing: RILM to Paper 1, JSTOR and WorldCat to Paper 2, Grove and footnote-chasing to Paper 3, ProQuest Dissertations to Paper 4, nothing new at Paper 5. Each tool is introduced in that week's seminar meeting, folded into the lecture. No separate Canvas mini-lessons.
-- Paper 5 checkpoint: the source component is the readiness gate into 602, with feedback keyed point by point to the research outcomes.
-- Unit and week loads: Unit 4's single meeting before Paper 5 and week 13's Beethoven lecture alongside the ProQuest introduction are both deliberate. Paper 5 is unaided by design, and the apparatus it needs is built across the term rather than in the week before.
-- Citation form: the syllabus bibliography follows the Chicago style the seminar teaches, since it is the most-read example students have. Abbreviated page ranges, no initial "The" in journal titles, spaced initials, place of publication. The Christensen chapters stay nested under the volume rather than repeating its data eight times; everything else is a full entry.
-- Grade scale: the eleven grade-point anchors, one row per grade, with no percentage column. The 0-to-4 score is grade points, so a percentage of points earned is a different and incompatible number. See `meta/assessment-scheme.md`.
+- Modality is in person (on-the-ground), in every file.
+- The course grade uses the eleven grade-point anchors, one row per grade, with no percentage column. Each 0-to-4 score is grade points.
+- Round the course average to the nearest grade point, ties upward.
+- Every paper takes the authoritative edition of each work analyzed plus two secondary sources. Hold that constant across the term; the edition count follows the number of works (three, two, two, one, one).
+- Source work is scored inside the paper's 0 to 4. Annotations are submitted separately, outside the 6-to-8-page count. Assessment stays at five papers, 20% each.
+- Tools come in as RILM, then JSTOR and WorldCat, then Grove and footnote-chasing, then ProQuest, with nothing new at Paper 5. Each is introduced in that week's meeting, folded into the lecture.
+- Paper 5's source component is the readiness gate into 602, with feedback keyed to the research outcomes.
+- Unit 4's single meeting before Paper 5, and week 13's double duty, are as intended.
+- The syllabus bibliography follows the Chicago style the seminar teaches: abbreviated page ranges, no initial "The" in journal titles, spaced initials, place of publication, season where the issue gives one. Christensen chapters stay nested under the volume; everything else is a full entry.
 
-## still to settle
+## open
 
-- Fall 2026 office hours, and the required-versus-recommended materials confirmation in the syllabus policies.
-- The late-work reduction, stated in the syllabus as half credit (50%). On a 0-to-4 scale that reads as a percentage of points, so give the reduction in grade points instead.
-
-## still to author
-
+- Fall 2026 office hours.
+- The required-versus-recommended materials confirmation in the syllabus policies.
+- The late-work reduction, currently half credit (50%), to be restated in grade points.
 - `units/`: week-by-week seminar material, as pages.
 - `tools/`: the interactive analytical tools.
