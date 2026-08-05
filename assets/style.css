@@ -44,6 +44,7 @@
   --accent: #1d5c56;
   --accent-soft: #dcebe8;
   --rule: #dcdcd5;
+  --paper: #ffffff;
 
   /* domain families, for the analytical tools */
   --pitch-bg: #f0f0ec;
@@ -213,6 +214,16 @@ code,
   font-size: 0.9em;
 }
 
+.label {
+  margin: 2rem 0 0.6rem;
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
 /* citation examples */
 
 .cite {
@@ -235,7 +246,7 @@ code,
 
 .cite .label {
   display: block;
-  margin-bottom: 0.55rem;
+  margin: 0 0 0.55rem;
   padding: 0;
   text-indent: 0;
   font-family: var(--mono);
@@ -355,6 +366,7 @@ thead th {
 }
 
 .unit .label {
+  margin: 0;
   font-family: var(--mono);
   font-size: 0.76rem;
   font-weight: 500;
@@ -500,7 +512,7 @@ thead th {
 
 @media print {
   body {
-    background: #fff;
+    background: var(--paper);
     padding: 0;
   }
 
