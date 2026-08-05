@@ -1,36 +1,44 @@
 # assessment scheme: the 0-4 grade-point model
 
-A reusable grading scheme, recorded here so it can be applied consistently across other syllabi. It covers what the scheme is, why it replaced the previous one, the exact charts to reproduce, and the decisions to settle when applying it to a new course.
+A reusable grading scheme, applied consistently across syllabi. It covers what the scheme is, the chart to reproduce, and the decisions to settle when applying it to a new course.
 
 ## the core idea
 
-Each graded assignment is scored 0 to 4, and that score is its grade-point value: 4 is an A, 3 a B, 2 a C, 1 a D, 0 an F. The course grade is the average of the assignment scores (weighted if the assignments carry different weights), which is the course GPA, converted to a letter.
+Each graded assignment is scored 0 to 4, and that score is its grade-point value: 4 is an A, 3 a B, 2 a C, 1 a D, 0 an F. The course grade is the average of the assignment scores, weighted if the assignments carry different weights, which is the course GPA, converted to a letter.
 
-The 0 to 4 score is grade points, not a percentage. A student who does consistently good work (3s) averages 3.0, which is a B. Nothing is divided by four.
+The 0 to 4 score is grade points rather than a percentage. Never divide the average by four and never express the scale as a percentage: a 3 is a B, and 75% of the available points is the same 3. The two conversions are incompatible, so only the grade-point one appears on a syllabus.
 
-## why it replaced the old scheme
+## grade scale (use as is)
 
-The previous scheme converted the 0 to 4 average to a letter by treating it as a percentage: average divided by 4, times 100. That turned a 3 into 75%, which read as a C, so consistently good work came out a C. Treating the score as grade points fixes it: a 3 is a B. Do not reintroduce the divide-by-four percentage. That was the bug.
+| grade | course average / GPA |
+|---|---|
+| A | 4.0 |
+| A– | 3.7 |
+| B+ | 3.3 |
+| B | 3.0 |
+| B– | 2.7 |
+| C+ | 2.3 |
+| C | 2.0 |
+| C– | 1.7 |
+| D+ | 1.3 |
+| D | 1.0 |
+| F | below 1.0 |
 
-## grade conversion chart (use as is)
+The values are grade-point anchors rather than range endpoints, and they are the CSUEB standard. Source: the GPA computation policy, https://www.csueastbay.edu/aps/academic-services/academic-policies/gpa-computation.html
 
-| grade | course average / GPA | percentage |
-|---|---|---|
-| A (A–, A) | 3.7–4.0 | 90–100% |
-| B (B–, B, B+) | 2.7–3.3 | 80–89% |
-| C (C–, C, C+) | 1.7–2.3 | 70–79% |
-| D (D, D+) | 1.0–1.3 | 60–69% |
-| F | below 1.0 | below 60% |
+List all eleven anchors on the syllabus. Collapsing them into five bands (A, B, C, D, F) hides which of B–, B, and B+ a given average lands on, which is the question a student actually has.
 
-Notes on the chart:
+## rounding
 
-- The course average / GPA and the percentage are two representations of the same letter. The grade is set by the course average (the GPA). The percentage is the conventional equivalent of the letter, not the average divided by four.
-- The bottom of each band is the minus grade, and it lands on a round percentage: B– at 2.7 and 80%, C– at 1.7 and 70%, D at 1.0 and 60%. The grade-point scale and the percentage scale meet cleanly at the boundaries.
-- The grade-point values are the CSUEB standard: A 4.0, A– 3.7, B+ 3.3, B 3.0, B– 2.7, C+ 2.3, C 2.0, C– 1.7, D+ 1.3, D 1.0, F 0.0. Source: the GPA computation policy, https://www.csueastbay.edu/aps/academic-services/academic-policies/gpa-computation.html
+An average between two anchors rounds to the nearest one, with an exact midpoint rounding up in the student's favor: 3.4 to 3.3, 3.6 to 3.7, 3.5 to 3.7. This sentence is student-facing and belongs on the syllabus, together with a worked example that makes the scale concrete.
+
+## Canvas
+
+Canvas computes a running percentage of points earned, which under this scheme is not the grade. Tell students so directly, in one sentence: Canvas shows a percentage of points, and the letter follows the grade-point scale. Set the Canvas grading scheme to match the anchors above, or leave it off, so the posted letter and the syllabus agree.
 
 ## per-assignment rubric
 
-Score each assignment 0 to 4. The level names and descriptions are course-specific: rewrite the descriptions for the work each course assigns. Only the 0-to-4 grade-point structure is fixed. The MUS 601 version, as a model:
+Score each assignment 0 to 4. The level names and descriptions are course-specific: rewrite the descriptions for the work the course assigns. Only the 0-to-4 grade-point structure is fixed. The MUS 601 version, as a model:
 
 | score | level | description |
 |---|---|---|
@@ -42,14 +50,15 @@ Score each assignment 0 to 4. The level names and descriptions are course-specif
 
 No letter tags in the level column, and keep the five integer levels tied to 4/3/2/1/0 = A/B/C/D/F.
 
+The score-of-2 row carries the consequence a student needs to see, since a term at that level averages to a C. Which consequence depends on the standing rules below, so write it into the row for the course at hand.
+
 ## decisions to settle per course
 
-- Gaps. The bands leave 0.4-wide gaps (an average of 3.5 sits between B's 3.3 and A–'s 3.7). Pick one rule and use it on every syllabus: round the average to the nearest grade point, or widen the bands so they are contiguous. Either is fine; be consistent. 601's rule: round the course average to the nearest grade point, breaking a tie at the midpoint of a gap in the student's favor. So 3.4 → 3.3, 3.6 → 3.7, and 3.5 → 3.7. Stated for students in the syllabus in plain terms (average rounded to the nearest grade, exact midpoint rounded up); this file keeps the exact rule and examples.
-- Graduate versus undergraduate standing. The MUS 601 syllabus adds graduate rules from the Graduate Student Handbook: only C or better counts toward the degree, a C– or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing (below it triggers academic probation). Those are graduate rules. The lower-division courses are undergraduate, so do not copy that language. Use the undergraduate standing and minimum-grade rules instead.
-- Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. If a course weights assignments differently, use the weighted average of the 0 to 4 scores. The conversion chart does not change.
+- Graduate versus undergraduate standing. The MUS 601 syllabus uses the Graduate Student Handbook rules: only C or better counts toward the degree, a C– or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing, with anything below it triggering academic probation. Undergraduate courses use the undergraduate standing and minimum-grade rules instead, where a music major or minor needs a C– or better for the course to count toward the major or minor. Do not carry either set of rules across.
+- Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. Where a course weights assignments differently, use the weighted average of the 0 to 4 scores. The scale does not change.
+- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it lands on the same scale as everything else.
 
 ## style, to match across syllabi
 
-- List the plus and minus grades low to high inside the parentheses: A (A–, A), not A (A, A–).
 - The column header reads "course average / GPA".
-- Keep no "rounds to the nearest" sentence in the syllabus itself; the gap rule is a design decision, handled above, not student-facing text.
+- One row per grade, high to low.
