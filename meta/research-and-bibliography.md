@@ -1,14 +1,30 @@
-# MUS 601: research and bibliography scaffold
+# research and bibliography
 
-The research and bibliography arc across the five analytical papers, canonical for the per-paper source task, the tool sequencing, the trustworthiness lens, and the scaffolding level. Built by Peter against `bibliography-module-brief.md`.
+Canonical for the research and bibliography work in 601: where students start, what they can do by the end, and the per-paper arc that gets them there. `research/source-work.md` is the student-facing version of the paper-by-paper section, and `research/chicago-notes-bibliography.md` carries the citation forms. Keep both in step with this file.
 
-Every paper carries the same footprint: the authoritative edition of each work analyzed, plus two secondary sources, both annotated. Nothing scales up in quantity across the term.
+Research and bibliography used to be its own course. It runs now as one module inside 601 and a second inside 602, built by Peter in Canvas against the outcomes below.
 
-What scales is everything else: how much of the source-finding is done for students rather than by them, which research tool is newly in play, which Chicago citation type is being practiced, and which trustworthiness criterion is the explicit lens. By Paper 5 a student has independently exercised every item on the 601 exit list at least once, most of them several times, at a constant, evaluable scale. That is what lets 602 open directly onto the annotated-bibliography arc without re-teaching the floor.
+## where students start
 
-## skills across the five papers, at a glance
+Assume no prior research training at the start of 601. Students cannot yet find scholarly sources, tell a strong one from a weak one, or cite anything correctly. Many have never opened RILM or a critical edition, and cannot tell a primary source from a secondary one. 601 builds from that floor, and 602 assumes it rather than teaching it again.
 
-| learning outcome (601 exit list) | Paper 1 Lasso / Monteverdi / Schütz | Paper 2 Vivaldi / Bach | Paper 3 Mozart / Haydn | Paper 4 Beethoven | Paper 5 Schubert |
+## the 601 exit list
+
+By the end of 601 a student can:
+
+- Tell primary sources (scores and critical editions, composer writings and letters, contemporaneous documents, recordings) from secondary ones (scholarly books, journal articles, dissertations, reference entries), and scholarly sources from everything else.
+- Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition or a recording is authoritative. Which edition you cite is a scholarly decision.
+- Find sources with the tools of the field: RILM, JSTOR, Oxford Music Online and Grove, the library catalog and WorldCat, ProQuest Dissertations, and IMSLP and critical editions for scores. Move from a topic to search terms, and follow the footnotes of a good source to further sources.
+- Cite in Chicago, notes-bibliography: footnotes and bibliography entries for the source types the seminar uses, including scores and editions, book chapters, journal articles, dissertations, liner notes, and online reference works.
+- Write an annotated entry that summarizes the source, judges it, and says what it is good for.
+
+## the shape of the arc
+
+Every paper carries the same footprint: the authoritative edition of each work analyzed, plus two secondary sources, both annotated. Nothing scales up in quantity across the term. The volume stays small on purpose, since a student who gets an edition citation and two solid sources exactly right five times has a skill that a long unevaluated list does not build.
+
+What scales is everything else: how much of the source-finding is done for students rather than by them, which research tool is newly in play, which Chicago citation type is being practiced, and which trustworthiness criterion is the explicit lens. By Paper 5 a student has independently exercised every item on the exit list at least once, most of them several times, at a constant, evaluable scale.
+
+| exit-list skill | Paper 1 Lasso / Monteverdi / Schütz | Paper 2 Vivaldi / Bach | Paper 3 Mozart / Haydn | Paper 4 Beethoven | Paper 5 Schubert |
 | --- | --- | --- | --- | --- | --- |
 | Primary vs. secondary; scholarly vs. non-scholarly | Introduced | Reinforced | Reinforced | Reinforced | Independent |
 | Judging trustworthiness | Edition authority; publisher venue | + Peer review; currency | + Author standing | + Recording authority; dissertation vetting | Independent, full criteria |
@@ -102,8 +118,16 @@ Each tool is introduced in the seminar meeting of the week it comes due, folded 
 
 **Scaffolding level.** None.
 
-**Checkpoint.** Paper 5's source component is the readiness gate into 602. Feedback comes back keyed point by point to the 601 exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week.
+**Checkpoint.** Paper 5's source component is the readiness gate into 602. Feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week.
 
-## where this leaves them for 602
+## into 602
 
-Every item on the 601 exit list has been exercised independently at least once by Paper 5, most of them three or four times, always at the same one-edition-plus-two-source scale. The 602 annotated bibliography of eight to twelve sources is a scale jump rather than a skill jump. Students arrive knowing how to find, judge, cite, and annotate a source, and 602 asks them to do more of it, in conversation with itself, toward a paper rather than a close reading.
+The papers drive the difference between the two modules. In 601 the papers are short and analytical, close readings that hold historical and interpretive context to a brief frame, so the bibliography is lean and in service of the analysis. In 602 the work culminates in a full research paper developed and revised across the term, where the scholarly context is the point and the bibliography is the backbone.
+
+The 602 module runs alongside that paper sequence: research question, then a graded annotated bibliography, then draft, revision, and final, plus the conference-style presentation. The annotated bibliography is a real milestone rather than a warm-up. Students build and annotate a substantial set of scholarly sources, on the order of eight to twelve, and use it to place their own work in the scholarly conversation.
+
+Two things go deeper there than in 601. Critical evaluation, because post-tonal theory is itself evolving and contested, so students weigh competing analytical frameworks and take a position rather than collect sources that agree. And synthesis, because the paper connects analysis to historical and cultural context and enters an existing conversation, which means reading sources against each other rather than one at a time.
+
+Every item on the exit list has been exercised independently at least once by Paper 5, most of them three or four times, always at the same one-edition-plus-two-source scale. The 602 annotated bibliography is a scale jump rather than a skill jump.
+
+These 602 expectations move to the mus602 repo once it carries course documents.
