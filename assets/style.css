@@ -1,0 +1,520 @@
+/* MUS 601 / 602 house style. See meta/visual-conventions.md. */
+
+@font-face {
+  font-family: "Plex Sans";
+  src: url("fonts/IBMPlexSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plex Sans";
+  src: url("fonts/IBMPlexSans-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plex Sans";
+  src: url("fonts/IBMPlexSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plex Mono";
+  src: url("fonts/IBMPlexMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plex Mono";
+  src: url("fonts/IBMPlexMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #fafaf8;
+  --bg-alt: #f0f0ec;
+  --ink: #17181b;
+  --ink-soft: #5d6067;
+  --accent: #1d5c56;
+  --accent-soft: #dcebe8;
+  --rule: #dcdcd5;
+
+  /* domain families, for the analytical tools */
+  --pitch-bg: #f0f0ec;
+  --pitch-ink: #17181b;
+  --pitch-bg-sel: #1d5c56;
+  --pitch-ink-sel: #fafaf8;
+  --interval-bg: #e6ebef;
+  --interval-ink: #2b3a45;
+  --cell-bg: #fafaf8;
+  --cell-bg-sel: #dcebe8;
+  --cell-rule: #dcdcd5;
+
+  --sans: "Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --measure: 34rem;
+  --gutter: 7.5rem;
+  --step: 1.6rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 106.25%;
+}
+
+body {
+  margin: 0;
+  padding: 0 1.5rem 6rem;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 400;
+  line-height: 1.62;
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.page {
+  max-width: calc(var(--measure) + var(--gutter));
+  margin: 0 auto;
+  padding-left: var(--gutter);
+}
+
+/* masthead */
+
+.masthead {
+  margin: 4rem 0 3.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+.masthead .eyebrow {
+  margin: 0 0 0.7rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.masthead h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.18;
+  letter-spacing: -0.014em;
+}
+
+.masthead .standfirst {
+  margin: 0.55rem 0 0;
+  font-size: 1.06rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* headings */
+
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.008em;
+  text-transform: lowercase;
+}
+
+h2 {
+  margin: 3.4rem 0 0.9rem;
+  font-size: 1.24rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule);
+}
+
+h2:first-of-type {
+  margin-top: 2.6rem;
+}
+
+h3 {
+  margin: 2.2rem 0 0.6rem;
+  font-size: 1.02rem;
+}
+
+h2 + h3 {
+  margin-top: 1.2rem;
+}
+
+/* text */
+
+p {
+  margin: 0 0 var(--step);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-soft);
+  transition: border-color 0.12s ease;
+}
+
+a:hover {
+  border-bottom-color: var(--accent);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ul,
+ol {
+  margin: 0 0 var(--step);
+  padding-left: 1.15rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+li::marker {
+  color: var(--ink-soft);
+}
+
+blockquote {
+  margin: 0 0 var(--step);
+  padding: 1rem 1.2rem;
+  background: var(--bg-alt);
+  border-left: 2px solid var(--accent);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+code,
+.mono {
+  font-family: var(--mono);
+  font-size: 0.9em;
+}
+
+/* citation examples */
+
+.cite {
+  margin: 0 0 var(--step);
+  padding: 1.1rem 1.25rem;
+  background: var(--bg-alt);
+}
+
+.cite p {
+  margin: 0 0 0.85rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  text-indent: -1.15rem;
+  padding-left: 1.15rem;
+}
+
+.cite p:last-child {
+  margin-bottom: 0;
+}
+
+.cite .label {
+  display: block;
+  margin-bottom: 0.55rem;
+  padding: 0;
+  text-indent: 0;
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+/* tables */
+
+table {
+  width: 100%;
+  margin: 0 0 var(--step);
+  border-collapse: collapse;
+  font-size: 0.94rem;
+}
+
+th,
+td {
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rule);
+}
+
+thead th {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--ink);
+}
+
+.facts td:first-child,
+.grades td:first-child,
+.rubric td:first-child {
+  width: 8.5rem;
+  color: var(--ink-soft);
+}
+
+.grades td:last-child,
+.rubric td:first-child {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.grades td:first-child {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.rubric td:first-child {
+  width: 3rem;
+  font-weight: 500;
+}
+
+.rubric td:nth-child(2) {
+  width: 8rem;
+  color: var(--ink-soft);
+}
+
+/* schedule */
+
+.week {
+  position: relative;
+  margin: 0 0 2.1rem;
+}
+
+.week .marker {
+  position: absolute;
+  left: calc(var(--gutter) * -1);
+  top: 0.28rem;
+  width: calc(var(--gutter) - 1.6rem);
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.week h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.week p:last-child {
+  margin-bottom: 0;
+}
+
+.week.due .marker {
+  color: var(--accent);
+}
+
+.week.due h3 {
+  color: var(--accent);
+}
+
+.week.due::before {
+  content: "";
+  position: absolute;
+  left: -1.6rem;
+  top: 0.4rem;
+  bottom: 0.1rem;
+  width: 2px;
+  background: var(--accent);
+}
+
+.unit {
+  margin: 3.2rem 0 1.6rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule);
+}
+
+.unit .label {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.unit h2 {
+  margin: 0.35rem 0 0;
+  padding-top: 0;
+  border-top: 0;
+  font-size: 1.24rem;
+}
+
+.recess {
+  margin: 2.4rem 0;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.readings {
+  margin: 0 0 var(--step);
+  padding-left: 0;
+  list-style: none;
+  font-size: 0.95rem;
+}
+
+.readings li {
+  margin-bottom: 0.6rem;
+  text-indent: -1.15rem;
+  padding-left: 1.15rem;
+}
+
+.readings ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.15rem;
+  list-style: none;
+}
+
+.readings ul li {
+  color: var(--ink-soft);
+}
+
+/* small print */
+
+.note {
+  margin: 3.5rem 0 0;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.back {
+  margin: 4rem 0 0;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.back a {
+  border-bottom: 0;
+}
+
+.back a::before {
+  content: "\2190\00a0";
+}
+
+/* contents */
+
+.contents {
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 0.86rem;
+}
+
+.contents li {
+  margin-bottom: 0.4rem;
+}
+
+.contents a {
+  border-bottom: 0;
+}
+
+.contents a:hover {
+  border-bottom: 1px solid var(--accent);
+}
+
+/* narrow screens */
+
+@media (max-width: 46rem) {
+  :root {
+    --gutter: 0rem;
+  }
+
+  html {
+    font-size: 100%;
+  }
+
+  body {
+    padding: 0 1.15rem 4rem;
+  }
+
+  .masthead {
+    margin-top: 2.5rem;
+  }
+
+  .masthead h1 {
+    font-size: 1.6rem;
+  }
+
+  .week .marker {
+    position: static;
+    display: block;
+    width: auto;
+    margin-bottom: 0.2rem;
+  }
+
+  .week.due::before {
+    left: -1.15rem;
+  }
+
+  .facts td:first-child,
+  .grades td:first-child,
+  .rubric td:nth-child(2) {
+    width: auto;
+  }
+
+  table {
+    font-size: 0.88rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+    padding: 0;
+  }
+
+  .page {
+    padding-left: 0;
+    max-width: none;
+  }
+
+  .back {
+    display: none;
+  }
+
+  a {
+    border-bottom: 0;
+    color: var(--ink);
+  }
+}
