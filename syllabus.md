@@ -58,7 +58,7 @@ Each paper is scored on a 0 to 4 scale:
 | 1 | unacceptable | Little analytical argument, minimal engagement with the score, or serious problems in evidence and citation. |
 | 0 | not submitted | No submission, or work that does not engage with the assignment. |
 
-What earns the score: an analytical claim that is true to the music; measure-level evidence for every claim; for comparative papers, a comparison that reaches an essential difference; the required musical examples and graphs; correct Chicago, notes-bibliography citation; and clear, organized scholarly prose.
+What earns the score: an analytical claim that is true to the music; measure-level evidence for every claim; for comparative papers, a comparison that reaches an essential difference; the required musical examples and graphs; a defensible edition and two secondary sources that bear the weight put on them, annotated and cited in correct Chicago, notes-bibliography form; and clear, organized scholarly prose.
 
 **course grade.** Each paper's 0 to 4 score is its grade-point value. The five papers carry equal weight, so the course grade is the average of the five scores on the standard grade-point scale:
 
@@ -78,7 +78,11 @@ To stay in good standing, graduate students must maintain a cumulative 3.0 GPA i
 
 ## research and writing
 
-Research and writing are core work here, scaled to the five analytical papers. Each is a short, close reading of the music, so the research task is focused: locate the authoritative score or edition, find and evaluate a small set of scholarly sources that bear on the analysis, and cite everything correctly in Chicago, notes-bibliography, the norm for music scholarship. The seminar's bibliography module builds this from the ground up, what a source is, what makes it trustworthy, how to find it (RILM, JSTOR, Grove), and how to cite it.
+Research and writing are core work here, scaled to the five analytical papers. Each is a short, close reading of the music, so the research task is focused: locate the authoritative score or edition, find and evaluate a small set of scholarly sources that bear on the analysis, and cite everything correctly in Chicago, notes-bibliography, the norm for music scholarship.
+
+The requirement is the same size on every paper: the authoritative edition of each work you analyze, plus two secondary sources, each annotated. What grows is your independence. Paper 1 introduces RILM with guidance and allows one source to come from the assigned bibliography; Paper 2 adds JSTOR and WorldCat and asks you to find both sources yourself; Paper 3 adds Grove and the practice of following a good source's footnotes to a further source; Paper 4 adds ProQuest Dissertations and asks you to defend your choice of edition; Paper 5 asks for all of it unaided. The tests of trustworthiness accumulate the same way, from edition authority and publisher venue through peer review, currency, and author standing.
+
+The seminar's bibliography module builds this from the ground up. The full arc is in [`research/source-work.md`](research/source-work.md), and the citation forms are in [`research/chicago-notes-bibliography.md`](research/chicago-notes-bibliography.md).
 
 ## the analytical papers
 

@@ -31,6 +31,12 @@ Bring the analytical apparatus of the seminar to the score and follow the eviden
 - Narration that walks through the piece measure by measure without an argument.
 - Claims the score does not support.
 
+## sources
+
+Each paper carries the same source requirement: the authoritative edition of every work you analyze, plus two secondary sources, each annotated. Which edition you cite is a scholarly decision, and on Paper 4 you defend it in a short paragraph inside the paper. That paragraph is analysis of the text you are reading from, so it sits apart from the one-paragraph limit on framing. The annotations are submitted separately and fall outside the page count.
+
+The full arc, what each paper adds, how to judge a source, and how an annotation is built, is in [`source-work.md`](source-work.md). The citation forms are in [`chicago-notes-bibliography.md`](chicago-notes-bibliography.md).
+
 ## format
 
 - Length: 6 to 8 pages, including musical examples, footnotes, and bibliography.
@@ -41,4 +47,4 @@ Bring the analytical apparatus of the seminar to the score and follow the eviden
 
 ## how they are assessed
 
-Each paper is scored on the 0 to 4 rubric in `../syllabus.md`, against the seminar's learning outcomes. Feedback names the strength or the problem and ties it to the rubric and outcomes. The center of the assessment is analytical: whether the claim is true to the music and supported by the evidence you cite.
+Each paper is scored on the 0 to 4 rubric in `../syllabus.md`, against the seminar's learning outcomes. Feedback names the strength or the problem and ties it to the rubric and outcomes. The center of the assessment is analytical: whether the claim is true to the music and supported by the evidence you cite. The source work is part of that score rather than a separate grade, since an analysis resting on an edition that cannot be defended, or on sources that will not bear the weight put on them, is unfinished.
