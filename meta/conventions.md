@@ -18,17 +18,18 @@ Each body of material has one canonical home. Edit it there; everything else poi
 ## settled decisions
 
 - Modality: in person (on-the-ground) only. No online-synchronous option and no Zoom, in any file.
-- Grade rounding: round the course average to the nearest grade point, ties broken upward. Stated for students in the syllabus in plain terms; the exact rule and examples are in `meta/assessment-scheme.md`.
+- Grade rounding: round the course average to the nearest grade point, ties broken upward. Stated for students in the syllabus with a worked example; the rule also lives in `meta/assessment-scheme.md`.
 - Duplication: the schedule and the paper guidance each live in one file. Do not reintroduce a second full copy of either.
 - Source volume: the authoritative edition of each work analyzed, plus two secondary sources, on every paper. The two secondary sources are the fixed quantity; the edition count follows the number of works (three, two, two, one, one). Do not let the number grow across the term.
 - Source grading: inside the paper's 0-to-4 score, not a sixth component. Annotations are submitted separately and fall outside the 6-to-8-page count. The assessment table stays at five papers, 20% each.
-- Tool sequencing: RILM to Paper 1, JSTOR and WorldCat to Paper 2, Grove and footnote-chasing to Paper 3, ProQuest Dissertations to Paper 4, nothing new at Paper 5.
+- Tool sequencing: RILM to Paper 1, JSTOR and WorldCat to Paper 2, Grove and footnote-chasing to Paper 3, ProQuest Dissertations to Paper 4, nothing new at Paper 5. Each tool is introduced in that week's seminar meeting, folded into the lecture. No separate Canvas mini-lessons.
+- Paper 5 checkpoint: the source component is the readiness gate into 602, with feedback keyed point by point to the research outcomes.
+- Grade scale: the eleven grade-point anchors, one row per grade, with no percentage column. The 0-to-4 score is grade points, so a percentage of points earned is a different and incompatible number. See `meta/assessment-scheme.md`.
 
 ## still to settle
 
-- Paper 5's bibliography component as an explicit checkpoint into 602, with feedback keyed point by point to the 601 exit list. Student-facing text currently gives Paper 5 no special status; adding it changes the feedback structure only.
-- Whether Grove, footnote-chasing, and ProQuest need their own Canvas mini-lessons or fold into that week's lecture. Peter's call with the module.
 - Fall 2026 office hours, and the required-versus-recommended materials confirmation in the syllabus policies.
+- The late-work reduction, stated in the syllabus as half credit (50%). On a 0-to-4 scale that reads as a percentage of points, so give the reduction in grade points instead.
 
 ## still to author
 
