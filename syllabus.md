@@ -54,7 +54,7 @@ Each paper is scored on a 0 to 4 scale:
 |---|---|---|
 | 4 | outstanding | Rare. Genuinely strong analytical writing: a clear, non-obvious claim about how the music works, earned with precise measure-level evidence, and, in a comparative paper, a comparison that reaches an essential difference. Correct Chicago citation. Reads like scholarship. |
 | 3 | good | A sound analytical argument, well supported and clearly written, with only minor gaps in evidence, mechanics, or citation. |
-| 2 | below average | The analysis is present but underdeveloped: claims not fully earned, evidence thin or imprecise, or the argument gives way to description. |
+| 2 | below average | The analysis is present but underdeveloped: claims not fully earned, evidence thin or imprecise, or the argument gives way to description. A term at this level averages to a C, which counts toward the degree but falls below the 3.0 cumulative GPA required to stay in good standing. |
 | 1 | unacceptable | Little analytical argument, minimal engagement with the score, or serious problems in evidence and citation. |
 | 0 | not submitted | No submission, or work that does not engage with the assignment. |
 
@@ -62,15 +62,23 @@ What earns the score: an analytical claim that is true to the music; measure-lev
 
 **course grade.** Each paper's 0 to 4 score is its grade-point value. The five papers carry equal weight, so the course grade is the average of the five scores on the standard grade-point scale:
 
-| grade | course average / GPA | percentage |
-|---|---|---|
-| A (A–, A) | 3.7–4.0 | 90–100% |
-| B (B–, B, B+) | 2.7–3.3 | 80–89% |
-| C (C–, C, C+) | 1.7–2.3 | 70–79% |
-| D (D, D+) | 1.0–1.3 | 60–69% |
-| F | below 1.0 | below 60% |
+| grade | course average / GPA |
+|---|---|
+| A | 4.0 |
+| A– | 3.7 |
+| B+ | 3.3 |
+| B | 3.0 |
+| B– | 2.7 |
+| C+ | 2.3 |
+| C | 2.0 |
+| C– | 1.7 |
+| D+ | 1.3 |
+| D | 1.0 |
+| F | below 1.0 |
 
-An average that falls between two grades is rounded to the nearest one, and an exact midpoint is rounded up in your favor.
+An average that falls between two grades is rounded to the nearest one, and an exact midpoint is rounded up in your favor. A term of steady 3s averages 3.0 and posts as a B. Mostly 3s with a few 4s lands near 3.2, which rounds to 3.3 and posts as a B+.
+
+Canvas displays a running percentage of points earned, and your letter grade follows the scale above rather than that percentage.
 
 Per the [CSUEB Graduate Student Handbook](https://www.csueastbay.edu/aps/files/docs/grad-studies/grad-student-handbook.pdf), only a grade of C or better counts toward the degree, and a C– or below must be repeated.
 
