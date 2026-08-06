@@ -18,7 +18,8 @@ Addressed through named variables. No hardcoded hex in component CSS or in inlin
 | `--ink-soft` | `#5d6067` | labels, secondary text, list markers |
 | `--accent` | `#1d5c56` | links, selection, emphasis, paper-due markers |
 | `--accent-soft` | `#dcebe8` | selected fills, link underlines at rest |
-| `--rule` | `#dcdcd5` | hairlines between sections |
+| `--rule` | `#c6c6bc` | hairlines between sections |
+| `--paper` | `#ffffff` | page ground in the print stylesheet |
 
 Domain families for the tools, so a matrix or a pitch-class row is themed from the same place:
 
@@ -27,7 +28,7 @@ Domain families for the tools, so a matrix or a pitch-class row is themed from t
 | `--pitch-bg`, `--pitch-ink` | `#f0f0ec`, `#17181b` | pitch-class chip at rest |
 | `--pitch-bg-sel`, `--pitch-ink-sel` | `#1d5c56`, `#fafaf8` | pitch-class chip selected |
 | `--interval-bg`, `--interval-ink` | `#e6ebef`, `#2b3a45` | interval labels and vectors |
-| `--cell-bg`, `--cell-bg-sel`, `--cell-rule` | `#fafaf8`, `#dcebe8`, `#dcdcd5` | matrix cells |
+| `--cell-bg`, `--cell-bg-sel`, `--cell-rule` | `#fafaf8`, `#dcebe8`, `#c6c6bc` | matrix cells |
 
 ## type
 
@@ -35,7 +36,7 @@ IBM Plex Sans for prose, IBM Plex Mono for analytical data that carries meaning:
 
 Five faces, self-hosted in `assets/fonts/` as woff2 so pages render with no network call: Sans Regular, Sans Italic, Sans SemiBold, Mono Regular, Mono Medium. Reach them through `--sans` and `--mono` rather than by family name. Titles of works and journals set in Sans Italic, which is why that face ships.
 
-Body sets at 1.62 line height on a measure of about 34rem. Headings are lowercase and semibold, separated by a hairline rather than by size alone. Numbers in tables use `font-variant-numeric: tabular-nums`.
+Body sets at 1.68 line height on a measure of 48rem. Headings are lowercase and semibold, separated by a hairline rather than by size alone. Numbers in tables use `font-variant-numeric: tabular-nums`.
 
 ## pages
 
@@ -43,7 +44,7 @@ Student-facing material is HTML on the shared stylesheet. Markdown in this repo 
 
 Each page is self-contained and browser-only: no build step, no framework, no external runtime dependency, no CDN. SVG is written inline so the variables resolve. Scripts, where a tool needs them, are inline in the page.
 
-The layout is one column on a left-hand gutter, with the gutter carrying week markers on the schedule and collapsing to zero below 46rem. A page opens with a masthead (mono eyebrow, title, italic standfirst) and closes with a mono back link to the index.
+The layout is one column on a left-hand gutter, with the gutter carrying week markers on the schedule and collapsing to zero below 64rem. A page opens with a masthead (mono eyebrow, title, italic standfirst) and closes with a mono back link to the index.
 
 ## cache
 
