@@ -14,13 +14,11 @@ Student-facing material is HTML on the shared stylesheet, served from GitHub Pag
 - `index.html`: the course site, and the link students get.
 - `syllabus.html`: schedule, readings, directed questions, outcomes, assessment, and policies.
 - `research/`: the analytical-paper guidelines, the source work handout, and the Chicago citation guide.
-- `units/`: week-by-week seminar material, added as the course builds.
-- `tools/`: interactive analytical tools that compute and render in the browser.
-- `assets/`: the stylesheet and its fonts, plus score excerpts, audio, and images.
+- `assets/`: the stylesheet and its fonts.
 - `outline.md`: the schedule at a glance.
 - `meta/`: conventions and course design.
 
-Pages and tools are self-contained and open in the browser with no build step and no external dependency.
+Pages are self-contained and open in the browser with no build step and no external dependency.
 
 ## practical
 
