@@ -28,6 +28,7 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 - The course grade uses the eleven grade-point anchors, one row per grade, with no percentage column. Each 0-to-4 score is grade points.
 - Round the course average to the nearest grade point, ties upward.
 - Every paper takes the authoritative edition of each work analyzed plus two secondary sources. Hold that constant across the term; the edition count follows the number of works (three, two, two, one, one).
+- A late paper is scored on the 0 to 4 scale and then reduced by one grade point. State reductions in grade points rather than as a percentage.
 - Source work is scored inside the paper's 0 to 4. Annotations are submitted separately, outside the 6-to-8-page count. Assessment stays at five papers, 20% each.
 - Tools come in as RILM, then JSTOR and WorldCat, then Grove and footnote-chasing, then ProQuest, with nothing new at Paper 5. Each is introduced in that week's meeting, folded into the lecture.
 - Paper 5's source component is the readiness gate into 602, with feedback keyed to the research outcomes.
@@ -38,6 +39,5 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 
 - Fall 2026 office hours.
 - The required-versus-recommended materials confirmation in the syllabus policies.
-- The late-work reduction, currently half credit (50%), to be restated in grade points.
-- `units/`: week-by-week seminar material, as pages.
-- `tools/`: the interactive analytical tools.
+- Week-by-week seminar material, as pages, in a directory added when the first unit lands.
+- The interactive analytical tools, in a directory added when the first tool ships.
