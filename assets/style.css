@@ -43,7 +43,7 @@
   --ink-soft: #5d6067;
   --accent: #1d5c56;
   --accent-soft: #dcebe8;
-  --rule: #dcdcd5;
+  --rule: #c6c6bc;
   --paper: #ffffff;
 
   /* domain families, for the analytical tools */
@@ -55,13 +55,13 @@
   --interval-ink: #2b3a45;
   --cell-bg: #fafaf8;
   --cell-bg-sel: #dcebe8;
-  --cell-rule: #dcdcd5;
+  --cell-rule: #c6c6bc;
 
   --sans: "Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 
-  --measure: 34rem;
-  --gutter: 7.5rem;
+  --measure: 41rem;
+  --gutter: 6.5rem;
   --step: 1.6rem;
 }
 
@@ -72,12 +72,12 @@
 }
 
 html {
-  font-size: 106.25%;
+  font-size: 112.5%;
 }
 
 body {
   margin: 0;
-  padding: 0 1.5rem 6rem;
+  padding: 0 2rem 6rem;
   background: var(--bg);
   color: var(--ink);
   font-family: var(--sans);
@@ -323,11 +323,12 @@ thead th {
   position: absolute;
   left: calc(var(--gutter) * -1);
   top: 0.28rem;
-  width: calc(var(--gutter) - 1.6rem);
+  width: calc(var(--gutter) - 1rem);
   font-family: var(--mono);
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 500;
-  letter-spacing: 0.06em;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--ink-soft);
 }
@@ -460,17 +461,17 @@ thead th {
 
 /* narrow screens */
 
-@media (max-width: 46rem) {
+@media (max-width: 56rem) {
   :root {
     --gutter: 0rem;
   }
 
   html {
-    font-size: 100%;
+    font-size: 106.25%;
   }
 
   body {
-    padding: 0 1.15rem 4rem;
+    padding: 0 1.25rem 4rem;
   }
 
   .masthead {
