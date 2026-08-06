@@ -45,6 +45,10 @@ Each page is self-contained and browser-only: no build step, no framework, no ex
 
 The layout is one column on a left-hand gutter, with the gutter carrying week markers on the schedule and collapsing to zero below 46rem. A page opens with a masthead (mono eyebrow, title, italic standfirst) and closes with a mono back link to the index.
 
+## cache
+
+Pages link the stylesheet with a version query, `assets/style.css?v=N`. Bump N in every page whenever `style.css` changes, or browsers keep serving the old sheet and the change looks like it never landed.
+
 ## the quality floor
 
 Responsive to mobile, visible keyboard focus on every interactive element, `prefers-reduced-motion` respected, and a print stylesheet that drops navigation and page furniture. Contrast meets WCAG AA at every text size in the palette above.
