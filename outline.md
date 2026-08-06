@@ -27,4 +27,4 @@ Tuesdays, 7:00–9:00 pm, Fall 2026 (Aug 18 to Dec 1). Fifteen meetings across s
 ## unit 4: Schubert and early Romantic chromaticism (week 15 and finals)
 
 - week 15. Dec 1. Schubert and early Romanticism.
-- **finals week. Dec 7–12. paper 5 due.** Schubert, "Death and the Maiden" Quartet, first movement.
+- **finals week. Dec 12. paper 5 due.** Schubert, "Death and the Maiden" Quartet, first movement.

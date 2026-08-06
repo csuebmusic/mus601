@@ -29,6 +29,7 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 - Round the course average to the nearest grade point, ties upward.
 - Every paper takes the authoritative edition of each work analyzed plus two secondary sources. Hold that constant across the term; the edition count follows the number of works (three, two, two, one, one).
 - A late paper is reduced by 2% of the paper's value per day late (0.08 grade points), any part of a day counting as a day, floored at half the paper's value, a score of 2.0. This is the standard late policy and it is what Canvas's late-policy setting applies, so the syllabus states the percentage alongside its grade-point equivalent.
+- Papers 1 through 4 are handed in on paper at the start of the meeting they are due, annotations stapled behind. Paper 5 goes through Canvas, due Saturday, December 12, by the end of the day.
 - Source work is scored inside the paper's 0 to 4. Annotations are submitted separately, outside the 6-to-8-page count. Assessment stays at five papers, 20% each.
 - Tools come in as RILM, then JSTOR and WorldCat, then Grove and footnote-chasing, then ProQuest, with nothing new at Paper 5. Each is introduced in that week's meeting, folded into the lecture.
 - Paper 5's source component is the readiness gate into 602, with feedback keyed to the research outcomes.
