@@ -56,7 +56,7 @@ The score-of-2 row carries the consequence a student needs to see, since a term 
 
 - Graduate versus undergraduate standing. The MUS 601 syllabus uses the Graduate Student Handbook rules: only C or better counts toward the degree, a C– or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing, with anything below it triggering academic probation. Undergraduate courses use the undergraduate standing and minimum-grade rules instead, where a music major or minor needs a C– or better for the course to count toward the major or minor. Do not carry either set of rules across.
 - Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. Where a course weights assignments differently, use the weighted average of the 0 to 4 scores. The scale does not change.
-- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it lands on the same scale as everything else.
+- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it lands on the same scale as everything else. A per-day reduction with a floor converts cleanly and keeps submitting worth more than withholding: 601 takes 0.1 grade points per day, floored at half the score earned. The floor puts halves into play, so course averages can land on an exact midpoint and the rounding rule starts doing work.
 
 ## style, to match across syllabi
 
