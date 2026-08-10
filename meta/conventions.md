@@ -34,11 +34,11 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 - Tools come in as RILM, then JSTOR and WorldCat, then Grove and footnote-chasing, then ProQuest, with nothing new at Paper 5. Each is introduced in that week's meeting, folded into the lecture.
 - Paper 5's source component is the readiness gate into 602, with feedback keyed to the research outcomes.
 - Unit 4's single meeting before Paper 5, and week 13's double duty, are as intended.
+- In the Chicago guide, the note and the bibliography example inside one citation form use the same source, so the pair shows the difference in punctuation and name order.
 - The syllabus bibliography follows the Chicago style the seminar teaches: abbreviated page ranges, no initial "The" in journal titles, spaced initials, place of publication, season where the issue gives one. Christensen chapters stay nested under the volume; everything else is a full entry.
 
 ## open
 
-- Fall 2026 office hours.
 - The required-versus-recommended materials confirmation in the syllabus policies.
 - Week-by-week seminar material, as pages, in a directory added when the first unit lands.
 - The interactive analytical tools, in a directory added when the first tool ships.
