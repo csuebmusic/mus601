@@ -35,6 +35,7 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 - Paper 5's source component is the readiness gate into 602, with feedback keyed to the research outcomes.
 - Unit 4's single meeting before Paper 5, and week 13's double duty, are as intended.
 - In the Chicago guide, the note and the bibliography example inside one citation form use the same source, so the pair shows the difference in punctuation and name order.
+- Each unit's selected bibliography is followed by a scores list giving the edition of every work studied in that unit's meetings, in Chicago bibliography form, alphabetized by composer. The week entries name the works in short form; the scores list carries the edition.
 - The syllabus bibliography follows the Chicago style the seminar teaches: abbreviated page ranges, no initial "The" in journal titles, spaced initials, place of publication, season where the issue gives one. Christensen chapters stay nested under the volume; everything else is a full entry.
 
 ## open
