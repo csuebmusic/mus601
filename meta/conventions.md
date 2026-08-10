@@ -37,11 +37,11 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 - Unit 4's single meeting before Paper 5, and week 13's double duty, are as intended.
 - In the Chicago guide, the note and the bibliography example inside one citation form use the same source, so the pair shows the difference in punctuation and name order.
 - Student-facing pages state what is the case. Keep out sentences that justify a design decision, announce what the next sentence will do, or explain why an ordering or requirement is as it is. The schedule names works and dates; it does not argue for them.
+- Every reading and score is required and carries equal weight, and all of them are provided through Canvas or library reserve. Students purchase nothing.
 - The week entries name the works studied in each meeting. Editions are not listed on the syllabus; they live in `meta/editions.md`.
 - The syllabus bibliography follows the Chicago style the seminar teaches: abbreviated page ranges, no initial "The" in journal titles, spaced initials, place of publication, season where the issue gives one. Christensen chapters stay nested under the volume; everything else is a full entry.
 
 ## open
 
-- The required-versus-recommended materials confirmation in the syllabus policies.
 - Week-by-week seminar material, as pages, in a directory added when the first unit lands.
 - The interactive analytical tools, in a directory added when the first tool ships.
