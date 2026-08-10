@@ -12,6 +12,7 @@ Each body of material has one canonical home. Edit it there; everything else poi
 - `research/source-work.html`: the source handout. Repertoire, source tasks, citation types, trustworthiness lenses, and the annotated entry live here alone.
 - `research/chicago-notes-bibliography.html`: the citation guide. Shared with 602: author here, copy there, keep identical.
 - `meta/research-and-bibliography.md`: the design behind the research work, mine.
+- `meta/editions.md`: the edition behind each seminar score, mine.
 - `meta/visual-conventions.md`: the house style. Shared with 602.
 - `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the grading mechanics.
 - `meta/`: planning and conventions, mine and Claude only.
@@ -36,7 +37,7 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 - Unit 4's single meeting before Paper 5, and week 13's double duty, are as intended.
 - In the Chicago guide, the note and the bibliography example inside one citation form use the same source, so the pair shows the difference in punctuation and name order.
 - Student-facing pages state what is the case. Keep out sentences that justify a design decision, announce what the next sentence will do, or explain why an ordering or requirement is as it is. The schedule names works and dates; it does not argue for them.
-- Each unit's selected bibliography is followed by a scores list giving the edition of every work studied in that unit's meetings, in Chicago bibliography form, alphabetized by composer. The week entries name the works in short form; the scores list carries the edition.
+- The week entries name the works studied in each meeting. Editions are not listed on the syllabus; they live in `meta/editions.md`.
 - The syllabus bibliography follows the Chicago style the seminar teaches: abbreviated page ranges, no initial "The" in journal titles, spaced initials, place of publication, season where the issue gives one. Christensen chapters stay nested under the volume; everything else is a full entry.
 
 ## open
