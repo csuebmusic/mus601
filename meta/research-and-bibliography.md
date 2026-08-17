@@ -37,8 +37,8 @@ Each tool is introduced in the seminar meeting of the week it comes due, folded 
 | paper | level | the safety net |
 | --- | --- | --- |
 | 1 | heavy | A fill-in-the-blank annotation template and one pre-identified source, so the mechanics do not compete with the three-way comparison the paper is graded on. |
-| 2 | guided | A source-finding log a few days ahead of the due date, so nobody drifts for two weeks before finding out their sources do not hold up. |
-| 3 | guided to independent | A peer, not an instructor and not a template: students trade source picks before submitting. |
+| 2 | guided | A source-finding log, on paper at the week 8 meeting, October 6. |
+| 3 | guided to independent | A peer, not an instructor and not a template: students trade source picks in the week 11 meeting, October 27. |
 | 4 | independent | None. Dress rehearsal for Paper 5, with the edition defense as the new demand. |
 | 5 | none | None. Feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week. |
 

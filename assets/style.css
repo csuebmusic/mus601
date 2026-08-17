@@ -313,6 +313,26 @@ thead th {
   color: var(--ink-soft);
 }
 
+.deliverables td:first-child,
+.arc td:first-child {
+  width: 8rem;
+  font-family: var(--mono);
+  font-size: 0.86rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+
+.arc td:first-child {
+  width: 4rem;
+}
+
+.deliverables td:last-child,
+.arc td:nth-child(3),
+.arc td:nth-child(4),
+.arc td:last-child {
+  color: var(--ink-soft);
+}
+
 /* schedule */
 
 .week {
@@ -498,8 +518,50 @@ thead th {
 
   .facts td:first-child,
   .grades td:first-child,
-  .rubric td:nth-child(2) {
+  .rubric td:nth-child(2),
+  .deliverables td:first-child,
+  .arc td:first-child {
     width: auto;
+  }
+
+  .arc thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  .arc tr {
+    display: block;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .arc td {
+    display: block;
+    padding: 0.15rem 0;
+    border: 0;
+  }
+
+  .arc td:first-child {
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .arc td:first-child::before {
+    content: "paper ";
+  }
+
+  .arc td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
   }
 
   table {
