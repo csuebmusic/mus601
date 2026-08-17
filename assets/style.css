@@ -195,6 +195,11 @@ td .caps, th .caps { text-transform: none; }
 
 .grades tbody th, .rubric tbody th, .arc tbody th, .papers tbody th { width: 4rem; }
 .rubric td:first-of-type { width: 9rem; color: var(--muted); }
+.grades tbody th:nth-of-type(2),
+.grades thead th:nth-of-type(3) {
+  border-left: var(--line) solid var(--rule);
+  padding-left: calc(var(--step) * 3);
+}
 .deliverables tbody th { width: 7rem; white-space: normal; }
 .deliverables td:last-child { color: var(--muted); }
 .arc td:nth-of-type(2), .arc td:nth-of-type(3), .arc td:last-child { color: var(--muted); }
