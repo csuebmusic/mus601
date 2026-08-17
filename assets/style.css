@@ -201,7 +201,7 @@ td .caps, th .caps { text-transform: none; }
   padding-left: calc(var(--step) * 3);
 }
 .tools tbody th { width: 12rem; white-space: normal; color: var(--ink); }
-.arc td:last-child { color: var(--muted); }
+.arc td:nth-of-type(2) { color: var(--muted); }
 
 /* contents */
 
