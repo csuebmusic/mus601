@@ -1,42 +1,48 @@
 # visual conventions
 
-The house style for student-facing pages and interactive analytical tools across mus601 and mus602. Each repo carries its own copy of `assets/style.css` and its own fonts, so it stands alone. The two copies stay identical: edit here, copy across.
+The house style for student-facing pages and interactive analytical tools across mus601 and mus602, shared with mus312. Each repo carries its own copy of `assets/style.css` and its own fonts and stands alone. The copies stay identical: edit here, copy across.
 
-## the look
+## palette
 
-White-ish, minimalist, analytical. A near-white ground, high-contrast ink, one functional accent used for selection, emphasis, and links. Hairlines rather than boxes. Nothing rounded, nothing shadowed, no gradients.
-
-## color
-
-Addressed through named variables. No hardcoded hex in component CSS or in inline SVG.
+White ground, black line, one accent. The accent marks what is live: links, hover state, active controls, and the element under discussion. Fixed reference marks stay in ink.
 
 | variable | value | use |
 |---|---|---|
-| `--bg` | `#fafaf8` | page ground |
-| `--bg-alt` | `#f0f0ec` | panels, citation examples, quiet fills |
-| `--ink` | `#17181b` | body text, rules that carry structure |
-| `--ink-soft` | `#5d6067` | labels, secondary text, list markers |
-| `--accent` | `#1d5c56` | links, selection, emphasis, paper-due markers |
-| `--accent-soft` | `#dcebe8` | selected fills, link underlines at rest |
-| `--rule` | `#c6c6bc` | hairlines between sections |
-| `--paper` | `#ffffff` | page ground in the print stylesheet |
+| `--paper` | `#ffffff` | background |
+| `--ink` | `#101010` | text, primary strokes |
+| `--rule` | `#cfcfcf` | secondary strokes, dividers |
+| `--muted` | `#6a6a6a` | labels, captions, secondary text |
+| `--accent` | `#e2560d` | links, highlight, active state, paper-due markers |
+| `--accent-wash` | `rgba(226, 86, 13, 0.10)` | fills under the accent |
+| `--accent-edge` | `rgba(226, 86, 13, 0.38)` | outlines on washed fills |
+| `--accent-2` | `#1f5fa8` | a second strand, where two things move at once and must be told apart |
 
-Domain families for the tools, so a matrix or a pitch-class row is themed from the same place:
-
-| variable | value | use |
-|---|---|---|
-| `--pitch-bg`, `--pitch-ink` | `#f0f0ec`, `#17181b` | pitch-class chip at rest |
-| `--pitch-bg-sel`, `--pitch-ink-sel` | `#1d5c56`, `#fafaf8` | pitch-class chip selected |
-| `--interval-bg`, `--interval-ink` | `#e6ebef`, `#2b3a45` | interval labels and vectors |
-| `--cell-bg`, `--cell-bg-sel`, `--cell-rule` | `#fafaf8`, `#dcebe8`, `#c6c6bc` | matrix cells |
+Colors are addressed through these variables. Component CSS and inline SVG use no hex values.
 
 ## type
 
-IBM Plex Sans for prose, IBM Plex Mono for analytical data that carries meaning: pitch-class names, set-class labels, interval vectors, matrix cells, week markers, table headers, and small labels. Mono marks data rather than decorating; prose never sets in it.
+| variable | family | use |
+|---|---|---|
+| `--font-body` | IBM Plex Sans, 400, 400 italic, 600 | prose, headings |
+| `--font-data` | IBM Plex Mono, 400 and 500 | dates, week markers, table labels, eyebrows, and analytical data: pitch-class names, set-class labels, interval vectors, matrix cells |
 
-Five faces, self-hosted in `assets/fonts/` as woff2 so pages render with no network call: Sans Regular, Sans Italic, Sans SemiBold, Mono Regular, Mono Medium. Reach them through `--sans` and `--mono` rather than by family name. Titles of works and journals set in Sans Italic, which is why that face ships.
+Both are self-hosted woff2 in `assets/fonts/`, under the SIL Open Font License. Sans Italic carries titles of works and journals. Mono marks data; prose never sets in it.
 
-Body sets at 1.68 line height on a measure of 48rem. Headings are lowercase and semibold, separated by a hairline rather than by size alone. Numbers in tables use `font-variant-numeric: tabular-nums`.
+Body sets at 1rem on a 1.55 line height. Prose runs to a 34rem measure and takes `.full` to run the width of the column. Tables, panels, and figures are full width.
+
+Headings are lowercase and set in the body face at 600. The stylesheet lowercases them, so a proper noun that must keep its capital takes `<span class="caps">`.
+
+## layout
+
+One centered column, `.wrap` at 78rem, inside `body` padding. A page opens with a mono eyebrow, an `h1` carrying `id="top"`, and a `.lede full` paragraph, and closes with a `<footer>` carrying the font credit.
+
+Spacing is `--step`, 0.5rem. Two units between paragraphs, three from a heading to its content, four between blocks, six between sections.
+
+Tables carry their row labels as `th` in `tbody`. Numeric cells take `.num`. Table variants: `.rubric`, `.grades`, `.deliverables`, `.arc`. The `.arc` table stacks below 62rem with its column names as labels, read from `data-label`.
+
+The schedule sets units as `.unit` (mono label, then an `h3`) and weeks as `.week` (a `.marker` line, then an `h4`). A week carrying a paper due takes `.week.due`, which marks it in the accent. Readings sit in `ul.readings`. Citation specimens sit in `.cite`, a boxed list of hanging-indent entries under mono labels. Quoted specimens sit in `blockquote`, washed in the accent.
+
+The contents list at the head of a long page is `ul.toc`, two columns above 62rem and one below. Every `h2` takes an id and appears in it.
 
 ## pages
 
@@ -44,12 +50,14 @@ Student-facing material is HTML on the shared stylesheet. Markdown in this repo 
 
 Each page is self-contained and browser-only: no build step, no framework, no external runtime dependency, no CDN. SVG is written inline so the variables resolve. Scripts, where a tool needs them, are inline in the page.
 
-The layout is one column on a left-hand gutter, with the gutter carrying week markers on the schedule and collapsing to zero below 64rem. A page opens with a masthead (mono eyebrow, title, italic standfirst) and closes with a mono back link to the index.
+Pages are linked individually from Canvas. There is no landing page and no inter-page navigation beyond the links inside the prose.
+
+Interactive tools live in `tools/`.
 
 ## cache
 
-Pages link the stylesheet with a version query, `assets/style.css?v=N`. Bump N in every page whenever `style.css` changes, or browsers keep serving the old sheet and the change looks like it never landed.
+Pages link the stylesheet as `assets/style.css?v=N`. Bump N in every page whenever `style.css` changes.
 
 ## the quality floor
 
-Responsive to mobile, visible keyboard focus on every interactive element, `prefers-reduced-motion` respected, and a print stylesheet that drops navigation and page furniture. Contrast meets WCAG AA at every text size in the palette above.
+Responsive to mobile, visible keyboard focus on every interactive element, `prefers-reduced-motion` respected, and a print stylesheet that drops page furniture. Ink and muted text meet WCAG AA on the paper ground. The accent reaches 3.8:1, which meets AA for large text and for non-text marks; links carry an underline so color is never the only cue.
