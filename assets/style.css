@@ -130,7 +130,8 @@ body {
 /* headings */
 
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 600;
   letter-spacing: -0.008em;
   text-transform: lowercase;
@@ -333,7 +334,8 @@ thead th {
   color: var(--ink-soft);
 }
 
-.week h3 {
+.week h3,
+.week h4 {
   margin: 0 0 0.5rem;
   font-size: 1rem;
 }
@@ -346,7 +348,8 @@ thead th {
   color: var(--accent);
 }
 
-.week.due h3 {
+.week.due h3,
+.week.due h4 {
   color: var(--accent);
 }
 
@@ -376,7 +379,7 @@ thead th {
   color: var(--ink-soft);
 }
 
-.unit h2 {
+.unit h3 {
   margin: 0.35rem 0 0;
   padding-top: 0;
   border-top: 0;
