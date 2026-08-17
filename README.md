@@ -1,25 +1,38 @@
-# MUS 601: Analysis of Musical Styles
-*Birth and Death of Tonality*
+# mus 601, analysis of musical styles
 
-A graduate research-and-analysis seminar at California State University, East Bay. 601 traces tonality from the Renaissance to the Romantic: modal practice moving toward functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. The real subject is becoming a scholar of this repertoire, forming research questions, evaluating sources, writing scholarly analysis with correct citation, and connecting analysis to historical and cultural context.
+Course materials for MUS 601 at California State University, East Bay. A graduate research-and-analysis seminar tracing tonality from the Renaissance to the Romantic: modal practice moving toward functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. Fall 2026, Tuesdays, 7:00 to 9:00 PM, Music Resource Center, MB 1560.
+
+Instructor: Inés Thiebaut, ines.thiebaut@csueastbay.edu. Office hours Wednesdays 1:00 to 3:00 PM in MB2012.
 
 601 runs in the fall. 602, Post-Tonality and Beyond, takes up the spring where 601 ends.
 
-Course site: https://csuebmusic.github.io/mus601/
+## student-facing pages
 
-## what's here
+Live links, for Canvas.
 
-Student-facing material is HTML on the shared stylesheet, served from GitHub Pages and linked from Canvas. Markdown is the instructor's.
+**syllabus**
+https://csuebmusic.github.io/mus601/syllabus.html
+Course information, important dates, the catalog description and learning outcomes, assessment and the grade scale, the analytical papers, research and writing, the AI policy, the week-by-week schedule with readings and directed questions, policies, and the campus statements.
 
-- `index.html`: the course site, and the link students get.
-- `syllabus.html`: schedule, readings, directed questions, outcomes, the analytical papers, assessment, and policies.
-- `research/`: the source work handout and the Chicago citation guide.
-- `assets/`: the stylesheet and its fonts.
-- `outline.md`: the schedule at a glance.
-- `meta/`: conventions and course design.
+**source work**
+https://csuebmusic.github.io/mus601/research/source-work.html
+What is due and when, with every date and submission route. The source requirement carried by all five papers, the per-paper arc of what you find and which tool comes into play, the five tests for judging a source, and the form of an annotated entry.
 
-Pages are self-contained and open in the browser with no build step and no external dependency.
+**Chicago, notes-bibliography**
+https://csuebmusic.github.io/mus601/research/chicago-notes-bibliography.html
+Note and bibliography forms for scores and critical editions, books, chapters in edited volumes, journal articles, online reference works, dissertations, liner notes, and recordings. Citing the music itself, and what goes wrong most often.
 
-## practical
+## repository
 
-Two units, in-person (on-the-ground), graded A to F. The syllabus carries the current term's dates, meeting time, and logistics.
+```
+assets/       stylesheet and self-hosted fonts
+research/     the source work handout and the Chicago guide
+meta/         instructor notes and conventions
+outline.md    the schedule at a glance
+```
+
+Pages are hand-authored HTML on `assets/style.css`, self-contained and viewable in any browser with no build step. GitHub Pages serves them through the Actions workflow. Markdown is the instructor's.
+
+Two units, in-person, graded A to F. The syllabus carries the current term's dates, meeting time, and logistics.
+
+Text set in IBM Plex, under the SIL Open Font License.
