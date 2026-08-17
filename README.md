@@ -16,7 +16,7 @@ Course information, important dates, the catalog description and learning outcom
 
 **source work**
 https://csuebmusic.github.io/mus601/research/source-work.html
-What is due and when, with every date and submission route. The source requirement carried by all five papers, the per-paper arc of what you find and which tool comes into play, the five tests for judging a source, and the form of an annotated entry.
+What is due and when, with every date and submission route. The source requirement common to all five papers, the per-paper arc of what you find and which tool comes into play, the five tests for judging a source, and the form of an annotated entry.
 
 **Chicago, notes-bibliography**
 https://csuebmusic.github.io/mus601/research/chicago-notes-bibliography.html
@@ -33,6 +33,6 @@ outline.md    the schedule at a glance
 
 Pages are hand-authored HTML on `assets/style.css`, self-contained and viewable in any browser with no build step. GitHub Pages serves them through the Actions workflow. Markdown is the instructor's.
 
-Two units, in-person, graded A to F. The syllabus carries the current term's dates, meeting time, and logistics.
+Two units, in-person, graded A to F. The syllabus gives the current term's dates, meeting time, and logistics.
 
 Text set in IBM Plex, under the SIL Open Font License.
