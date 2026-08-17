@@ -30,7 +30,7 @@ Both are self-hosted woff2 in `assets/fonts/`, under the SIL Open Font License. 
 
 Body sets at 1rem on a 1.55 line height. Prose runs to a 34rem measure and takes `.full` to run the width of the column. Tables, panels, and figures are full width.
 
-Headings are lowercase and set in the body face at 600. The stylesheet lowercases them, so a proper noun that must keep its capital takes `<span class="caps">`.
+Headings are lowercase and set in the body face at 600. An `h2` opens its section under a hairline rule. The stylesheet lowercases them, so a proper noun that must keep its capital takes `<span class="caps">`.
 
 ## layout
 

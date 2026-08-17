@@ -79,11 +79,16 @@ h1, h2, h3, h4 {
 h1 .caps, h2 .caps, h3 .caps, h4 .caps { text-transform: none; }
 
 h1 { font-size: 1.5rem; margin-bottom: calc(var(--step) * 2); }
-h2 { font-size: 1.05rem; margin-top: calc(var(--step) * 6); }
+h2 {
+  font-size: 1.05rem;
+  margin-top: calc(var(--step) * 7);
+  padding-top: calc(var(--step) * 3);
+  border-top: var(--line) solid var(--rule);
+}
 h3 { font-size: 0.95rem; margin-top: calc(var(--step) * 4); }
 h4 { font-size: 0.92rem; margin-top: calc(var(--step) * 3); }
 
-h1 + h2, h2 + h3, h3 + h4 { margin-top: calc(var(--step) * 3); }
+h2 + h3, h3 + h4 { margin-top: calc(var(--step) * 3); }
 
 p { margin: 0 0 calc(var(--step) * 2); max-width: var(--measure); }
 
