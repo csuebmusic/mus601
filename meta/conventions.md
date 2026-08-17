@@ -6,9 +6,8 @@ Read this before drafting anything that follows the repo's conventions, and defe
 
 Each body of material has one canonical home. Edit it there; everything else points to it.
 
-- `syllabus.html`: the full course record and the source of truth for every course fact. Schedule, per-unit bibliographies, directed questions, outcomes, assessment, policies, term dates, meeting time, modality.
+- `syllabus.html`: the full course record and the source of truth for every course fact. Schedule, per-unit bibliographies, directed questions, outcomes, the analytical papers (what they are, the method, format, submission, assessment), assessment, policies, term dates, meeting time, modality.
 - `outline.md`: a one-page glance, mine. Dates, unit titles, paper due dates. Derived from the syllabus; keep it in step.
-- `research/analytical-papers.html`: the paper handout. What the papers are, the method, format, how they are assessed.
 - `research/source-work.html`: the source handout. Repertoire, source tasks, citation types, trustworthiness lenses, and the annotated entry live here alone.
 - `research/chicago-notes-bibliography.html`: the citation guide. Shared with 602: author here, copy there, keep identical.
 - `meta/research-and-bibliography.md`: the design behind the research work, mine.
@@ -20,6 +19,8 @@ Each body of material has one canonical home. Edit it there; everything else poi
 ## format by audience
 
 Student-facing material is HTML on `assets/style.css`, served from GitHub Pages and linked from Canvas. Markdown is instructor-facing. A fact lives in one file and one format.
+
+Heading levels on a page follow the document outline with no skipped levels: on the syllabus the schedule is `h2`, units and the introductory week are `h3`, and the weeks inside a unit are `h4`.
 
 Markdown files state what is the case. Keep out decision history, rationale for settled questions, and anything that reads as a log.
 

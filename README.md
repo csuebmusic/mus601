@@ -12,8 +12,8 @@ Course site: https://csuebmusic.github.io/mus601/
 Student-facing material is HTML on the shared stylesheet, served from GitHub Pages and linked from Canvas. Markdown is the instructor's.
 
 - `index.html`: the course site, and the link students get.
-- `syllabus.html`: schedule, readings, directed questions, outcomes, assessment, and policies.
-- `research/`: the analytical-paper guidelines, the source work handout, and the Chicago citation guide.
+- `syllabus.html`: schedule, readings, directed questions, outcomes, the analytical papers, assessment, and policies.
+- `research/`: the source work handout and the Chicago citation guide.
 - `assets/`: the stylesheet and its fonts.
 - `outline.md`: the schedule at a glance.
 - `meta/`: conventions and course design.

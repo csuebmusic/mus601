@@ -1,6 +1,6 @@
 # research and bibliography
 
-The design behind the research and bibliography work in 601. The student-facing form of the per-paper arc is `research/source-work.html`, and the citation forms are in `research/chicago-notes-bibliography.html`. Repertoire, source tasks, citation types, and trustworthiness lenses live there and only there.
+The design behind the research and bibliography work in 601. The student-facing form of the per-paper arc is `research/source-work.html`, the citation forms are in `research/chicago-notes-bibliography.html`, and the paper requirements are in `syllabus.html`. Repertoire, source tasks, citation types, and trustworthiness lenses live there and only there.
 
 Research and bibliography used to be its own course. It runs now as one module inside 601 and a second inside 602, built by Peter in Canvas against the outcomes below.
 
