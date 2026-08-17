@@ -193,15 +193,13 @@ tbody th {
 td .caps, th .caps { text-transform: none; }
 .num { font-family: var(--font-data); white-space: nowrap; }
 
-.grades tbody th, .rubric tbody th, .arc tbody th, .papers tbody th { width: 4rem; }
+.grades tbody th, .rubric tbody th, .papers tbody th { width: 4rem; }
 .rubric td:first-of-type { width: 9rem; color: var(--muted); }
 .grades tbody th:nth-of-type(2),
 .grades thead th:nth-of-type(3) {
   border-left: var(--line) solid var(--rule);
   padding-left: calc(var(--step) * 3);
 }
-.tools tbody th { width: 12rem; white-space: normal; color: var(--ink); }
-.arc td:nth-of-type(2) { color: var(--muted); }
 
 /* contents */
 
@@ -296,37 +294,9 @@ footer p { max-width: none; margin: 0; }
   table { font-size: 0.85rem; }
   tbody th { width: auto; white-space: normal; }
   .grades tbody th, .rubric tbody th, .rubric td:first-of-type,
-  .arc tbody th, .papers tbody th, .tools tbody th { width: auto; }
+  .papers tbody th { width: auto; }
   body { padding: calc(var(--step) * 4) calc(var(--step) * 2.5) calc(var(--step) * 8); }
 
-  .arc thead {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-  }
-  .arc tr {
-    display: block;
-    padding: calc(var(--step) * 1.5) 0;
-    border-bottom: var(--line) solid var(--rule);
-  }
-  .arc th, .arc td {
-    display: block;
-    padding: calc(var(--step) * 0.4) 0;
-    border: 0;
-  }
-  .arc tbody th { color: var(--ink); }
-  .arc tbody th::before { content: "paper "; }
-  .arc td[data-label]::before {
-    content: attr(data-label);
-    display: block;
-    font-family: var(--font-data);
-    font-size: 0.68rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
