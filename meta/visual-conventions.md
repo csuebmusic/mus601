@@ -40,7 +40,7 @@ Spacing is `--step`, 0.5rem. Two units between paragraphs, three from a heading 
 
 Tables carry their row labels as `th` in `tbody`. Numeric cells take `.num`. Table variants: `.papers`, `.rubric`, `.grades`, `.deliverables`, `.arc`. The `.arc` table stacks below 62rem with its column names as labels, read from `data-label`.
 
-The schedule sets units as `.unit` (mono label, then an `h3`) and weeks as `.week` (a `.marker` line, then an `h4`). A week carrying a paper due takes `.week.due`, which marks it in the accent. Readings sit in `ul.readings`. Citation specimens sit in `.cite`, a boxed list of hanging-indent entries under mono labels. Quoted specimens sit in `blockquote`, washed in the accent.
+The schedule sets units as `.unit` (mono label, then an `h3`) and weeks as `.week` (a `.marker` line in Mono Medium at full ink, then an `h4`). A week carrying a paper due takes `.week.due`, which marks it in the accent. Readings sit in `ul.readings`. Citation specimens sit in `.cite`, a boxed list of hanging-indent entries under mono labels. Quoted specimens sit in `blockquote`, washed in the accent.
 
 The contents list at the head of a long page is `ul.toc`, two columns above 62rem and one below. Every `h2` takes an id and appears in it.
 
