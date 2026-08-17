@@ -16,17 +16,13 @@ Course information, important dates, the catalog description and learning outcom
 
 **source work**
 https://csuebmusic.github.io/mus601/research/source-work.html
-What is due and when, with every date and submission route. The source requirement common to all five papers, the per-paper arc of what you find and which tool comes into play, the five tests for judging a source, and the form of an annotated entry.
-
-**Chicago, notes-bibliography**
-https://csuebmusic.github.io/mus601/research/chicago-notes-bibliography.html
-Note and bibliography forms for scores and critical editions, books, chapters in edited volumes, journal articles, online reference works, dissertations, liner notes, and recordings. Citing the music itself, and what goes wrong most often.
+What is due and when, with every date and submission route. The source requirement common to all five papers, the per-paper arc of what you find and which tool comes into play, the five tests for judging a source, the form of an annotated entry, and the Chicago notes-bibliography citation forms.
 
 ## repository
 
 ```
 assets/       stylesheet and self-hosted fonts
-research/     the source work handout and the Chicago guide
+research/     the source work and citation handout
 meta/         instructor notes and conventions
 outline.md    the schedule at a glance
 ```

@@ -8,8 +8,7 @@ Each body of material has one canonical home. Edit it there; everything else poi
 
 - `syllabus.html`: the full course record and the source of truth for every course fact. Schedule, per-unit bibliographies, directed questions, outcomes, the analytical papers (what they are, the method, format, submission, assessment), assessment, policies, term dates, meeting time, modality.
 - `outline.md`: a one-page glance, mine. Dates, unit titles, paper due dates. Derived from the syllabus; keep it in step.
-- `research/source-work.html`: the source handout. The deliverables and their dates, the per-paper arc, repertoire, source tasks, citation types, trustworthiness lenses, and the annotated entry live here alone. Citation mechanics do not; they are the Chicago guide's.
-- `research/chicago-notes-bibliography.html`: the citation guide. Shared with 602: author here, copy there, keep identical.
+- `research/source-work.html`: the source and citation handout. The deliverables and their dates, the per-paper arc, repertoire, source tasks, citation types, trustworthiness lenses, the annotated entry, and the Chicago notes-bibliography forms live here alone. Shared with 602: author here, copy there, keep identical.
 - `meta/research-and-bibliography.md`: the design behind the research work, mine.
 - `meta/editions.md`: the edition behind each seminar score, mine.
 - `meta/visual-conventions.md`: the house style. Shared with 602.
@@ -39,7 +38,7 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 - Tools come in as RILM, then JSTOR and WorldCat, then Grove and footnote-chasing, then ProQuest, with nothing new at Paper 5. Each is introduced in that week's meeting, folded into the lecture.
 - Paper 5's source component is the readiness gate into 602, with feedback keyed to the research outcomes.
 - Unit 4's single meeting before Paper 5, and week 13's double duty, are as intended.
-- In the Chicago guide, the note and the bibliography example inside one citation form use the same source, so the pair shows the difference in punctuation and name order.
+- Under each citation form, the note and the bibliography example use the same source.
 - Student-facing pages state what is the case. Keep out sentences that justify a design decision, announce what the next sentence will do, or explain why an ordering or requirement is as it is. The schedule names works and dates; it does not argue for them.
 - Every reading and score is required and carries equal weight, and all of them are provided through Canvas or library reserve. Students purchase nothing.
 - The week entries name the works studied in each meeting. Editions are not listed on the syllabus; they live in `meta/editions.md`.
