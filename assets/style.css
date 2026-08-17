@@ -193,7 +193,7 @@ tbody th {
 td .caps, th .caps { text-transform: none; }
 .num { font-family: var(--font-data); white-space: nowrap; }
 
-.grades tbody th, .rubric tbody th, .arc tbody th { width: 4rem; }
+.grades tbody th, .rubric tbody th, .arc tbody th, .papers tbody th { width: 4rem; }
 .rubric td:first-of-type { width: 9rem; color: var(--muted); }
 .deliverables tbody th { width: 7rem; white-space: normal; }
 .deliverables td:last-child { color: var(--muted); }
@@ -291,7 +291,7 @@ footer p { max-width: none; margin: 0; }
   table { font-size: 0.85rem; }
   tbody th { width: auto; white-space: normal; }
   .grades tbody th, .rubric tbody th, .rubric td:first-of-type,
-  .deliverables tbody th, .arc tbody th { width: auto; }
+  .deliverables tbody th, .arc tbody th, .papers tbody th { width: auto; }
   body { padding: calc(var(--step) * 4) calc(var(--step) * 2.5) calc(var(--step) * 8); }
 
   .arc thead {
