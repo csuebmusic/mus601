@@ -201,6 +201,7 @@ td .caps, th .caps { text-transform: none; }
   padding-left: calc(var(--step) * 3);
 }
 .deliverables tbody th { width: 7rem; white-space: normal; }
+.tools tbody th { width: 12rem; white-space: normal; color: var(--ink); }
 .deliverables td:last-child { color: var(--muted); }
 .arc td:nth-of-type(2), .arc td:nth-of-type(3), .arc td:last-child { color: var(--muted); }
 
@@ -297,7 +298,7 @@ footer p { max-width: none; margin: 0; }
   table { font-size: 0.85rem; }
   tbody th { width: auto; white-space: normal; }
   .grades tbody th, .rubric tbody th, .rubric td:first-of-type,
-  .deliverables tbody th, .arc tbody th, .papers tbody th { width: auto; }
+  .deliverables tbody th, .arc tbody th, .papers tbody th, .tools tbody th { width: auto; }
   body { padding: calc(var(--step) * 4) calc(var(--step) * 2.5) calc(var(--step) * 8); }
 
   .arc thead {

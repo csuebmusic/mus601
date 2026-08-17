@@ -8,7 +8,7 @@ Each body of material has one canonical home. Edit it there; everything else poi
 
 - `syllabus.html`: the full course record and the source of truth for every course fact. Schedule, per-unit bibliographies, directed questions, outcomes, the analytical papers (what they are, the method, format, submission, assessment), assessment, policies, term dates, meeting time, modality.
 - `outline.md`: a one-page glance, mine. Dates, unit titles, paper due dates. Derived from the syllabus; keep it in step.
-- `research/source-work.html`: the source and citation handout. The deliverables and their dates, the per-paper arc, repertoire, source tasks, citation types, trustworthiness lenses, the annotated entry, and the Chicago notes-bibliography forms live here alone. Shared with 602: author here, copy there, keep identical.
+- `research/source-work.html`: the source and citation handout. The definitions (primary and secondary sources, the authoritative edition), the research tools, the deliverables and their dates, the per-paper arc, repertoire, source tasks, trustworthiness lenses, the annotated entry, and the Chicago notes-bibliography forms live here alone. Shared with 602: author here, copy there, keep identical.
 - `meta/research-and-bibliography.md`: the design behind the research work, mine.
 - `meta/editions.md`: the edition behind each seminar score, mine.
 - `meta/visual-conventions.md`: the house style. Shared with 602.
