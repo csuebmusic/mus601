@@ -17,4 +17,4 @@ Each body of material has one canonical home. Edit it there; everything else poi
 
 ## format by audience
 
-Read the "how I want you to communicate" section of the profile instructions, and follow it.
+The narrative and style rules for every document in this repo are the "how I want you to communicate" section of my Claude profile preferences, under Settings, Profile. They are not a file in this repo and are not duplicated here. Read them there and follow them.
