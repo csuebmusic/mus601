@@ -1,6 +1,6 @@
 # editions
 
-The edition behind each score distributed in the seminar meetings, taken from the imprint on the copy itself. Chicago bibliography form, 18th edition, alphabetized by composer within each unit. Place of publication is dropped from the modern publisher line; a parenthetical naming the original print keeps its place, since it identifies the historical object rather than the edition cited.
+The edition behind each score distributed in the seminar meetings, taken from the imprint on the copy itself. Chicago bibliography form, 18th edition, alphabetized by composer within each unit. Where a copy carries no identifiable imprint, the entry describes the copy in place of citing it, and that copy cannot be cited as an edition. Place of publication is dropped from the modern publisher line; a parenthetical naming the original print keeps its place, since it identifies the historical object rather than the edition cited.
 
 ## unit 1
 
@@ -13,6 +13,7 @@ The edition behind each score distributed in the seminar meetings, taken from th
 
 ## unit 2
 
+- Bach, Johann Sebastian. *Brandenburg Concerto no. 1 in F*, BWV 1046. No publisher line, plate number, or editor anywhere in the file.
 - Corelli, Arcangelo. "Sonata II," Op. 3 no. 2. Augener's Edition. Augener, n.d.
 - Marini, Biagio. "Sonata à basso è violino ò cornetto." From *Per ogni sorte di strumento musicale diversi generi di sonate*, Op. 22 (Venice, 1655). Typeset by Johan Tufvesson, rev. 1.20, 2003.
 - Torelli, Giuseppe. *Weihnachtskonzert* ("Concerto a 4, in forma di Pastorale per il santissimo Natale"), from Op. 8 (Bologna, 1709). Arranged for practical use by Arnold Schering. C. F. Kahnt, 1926.
@@ -22,24 +23,16 @@ The edition behind each score distributed in the seminar meetings, taken from th
 
 - Bach, Johann Christian. *Symphony in G minor, Op. 6 no. 6*. Eulenburg 596. Eulenburg, n.d.
 - Beethoven, Ludwig van. *Quintett für 2 Violinen, 2 Bratschen und Violoncell*, Op. 29. In *Beethovens Werke*, no. 34. Breitkopf und Härtel, n.d.
+- Beethoven, Ludwig van. *Piano Sonata no. 21 in C*, Op. 53. English-language performing edition with editorial fingering, page 370 of an unnamed volume; no plate, publisher line, or editor anywhere in the file.
 - Beethoven, Ludwig van. *Trio für Pianoforte, Violine und Violoncell*, Op. 97. In *Beethovens Werke*, ser. 11, no. 84. Breitkopf und Härtel, n.d.
 - Haydn, Joseph. *Sinfonia no. 2*. Doblinger, 1962.
 - Haydn, Joseph. *Sinfonia no. 84 in E-flat major*. Edited by H. C. Robbins Landon. Haydn-Mozart Presse 140. Haydn-Mozart Presse, 1963.
+- Mozart, Wolfgang Amadeus. *Symphony no. 36 in C*, K. 425. Nineteenth-century engraving; no plate, publisher line, or editor anywhere in the file.
 - Stamitz, Johann. *Sinfonia a 8*, *La melodia germanica* no. 3. In *Denkmäler der Tonkunst in Bayern* 12. Breitkopf und Härtel, n.d.
 - Vivaldi, Antonio. *Concerto in la maggiore per archi e cembalo*, F. XI, no. 4. Edited by Angelo Ephrikian. Ricordi, 1947.
 - Wagenseil, Georg Christoph. *Sinfonia in E*. Edited by Bernhard Paumgartner. Diletto musicale 387. Doblinger, n.d.
 
 ## unit 4
 
-Both copies in hand carry an English-language title page in the same ornamental setting, and no imprint. Neither has an entry above.
-
-- Schubert, Franz. *Trio No. 2 in E-flat Major, Op. 100*, D. 929. Paginated 121 to 142, so cut from a larger volume; parts labeled Violino, Violoncello, Pianoforte; nineteenth-century engraving; no publisher line, plate number, or editor anywhere in the file.
-- Schubert, Franz. *Quintet in C Major, Op. 163*, D. 956. Paginated from 1; parts labeled Violino I and II, Viola, Violoncello I and II; miniature-score format, four systems to the page; no publisher line, plate number, or editor anywhere in the file.
-
-## unfixed
-
-Three copies carry no identifiable imprint, so they have no entry above.
-
-- Bach, Brandenburg Concerto no. 1, BWV 1046. No publisher line anywhere in the file.
-- Beethoven, Piano Sonata Op. 53. English-language performing edition with editorial fingering, page 370 of an unnamed volume, no plate or imprint.
-- Mozart, Symphony no. 36, K. 425. Nineteenth-century engraving, no imprint.
+- Schubert, Franz. *Quintet in C Major*, Op. 163, D. 956. English-language title page in an ornamental setting; paginated from 1; parts labeled Violino I and II, Viola, Violoncello I and II; miniature-score format, four systems to the page; no plate, publisher line, or editor anywhere in the file.
+- Schubert, Franz. *Trio No. 2 in E-flat Major*, Op. 100, D. 929. English-language title page in the same setting; paginated 121 to 142, so cut from a larger volume; nineteenth-century engraving; no plate, publisher line, or editor anywhere in the file.
