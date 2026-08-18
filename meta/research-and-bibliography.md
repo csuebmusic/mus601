@@ -106,8 +106,6 @@ Mozart and Haydn symphonies are heavily worked ground, so the open dissertations
 
 No prescribed tool. The count rises to two secondary sources on a single work, which is the first time a student has to find two pieces of scholarship that speak to each other rather than one per piece.
 
-Paper 4 adds the edition defense: a short paragraph inside the paper on why this edition, and why this recording where the analysis engages one.
-
 ## using a source in the paper
 
 A source earns its place by doing something in the argument. A source that appears once for a date is doing less than the requirement asks of it.
