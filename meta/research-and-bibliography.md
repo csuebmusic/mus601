@@ -16,7 +16,7 @@ By the end of 601 a student can:
 - Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition or a recording is authoritative.
 - Find a sourced edition of a work, and find scholarship on it with the tools below. Move from a topic to search terms, and follow the footnotes of a good source to further sources.
 - Cite in Chicago, notes-bibliography, for scores and editions, book chapters, journal articles, dissertations, liner notes, and online reference works.
-- Write an annotated entry that summarizes the source, judges it, and says what it is good for.
+- Put a source to work in an analytical paper: cite it where it bears on the argument, and say what it does there.
 
 ## the tools
 
@@ -88,7 +88,7 @@ Analysis and musical examples come from the score packets provided in seminar. S
 | 4 | Beethoven's sonata procedure | Beethoven | two, both on the one work | open, self-selected |
 | 5 | Schubert's chromaticism | Schubert | two, both on the one work | open, self-selected |
 
-Every source is annotated, on every paper.
+Sources are cited in the paper's footnotes and bibliography. Nothing is handed in separately.
 
 ### paper 1: RILM to JSTOR
 
@@ -109,6 +109,14 @@ No prescribed tool. The count rises to two secondary sources on a single work, w
 Paper 4 adds the edition defense: a short paragraph inside the paper on why this edition, and why this recording where the analysis engages one.
 
 Paper 5 feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week.
+
+## using a source in the paper
+
+A source earns its place by doing something in the argument. Cite it at the point it bears on the analysis rather than in a block of context at the top. A source that appears once for a date is doing less than the requirement asks of it.
+
+Three things a secondary source does in a paper of this kind. It supplies an analytical frame the paper adopts or resists, as Hepokoski's medial caesura does for a sonata exposition. It establishes a fact the analysis rests on, an attribution, a dating, a reading in a source. It states a position the paper argues with, which is the strongest use and the one Paper 5 is built toward.
+
+Where a source is weak on one of the five criteria and the paper uses it anyway, the paper says so in the note.
 
 ## citing
 
@@ -235,8 +243,6 @@ Page ranges abbreviate in Chicago's number style: 428–70, not 428–470, thoug
 Generative AI tools misformat these patterns and invent sources outright. Every citation is checked against the source in hand.
 
 ## open
-
-The form of the annotation, and whether it changes across the five papers.
 
 ## into 602
 
