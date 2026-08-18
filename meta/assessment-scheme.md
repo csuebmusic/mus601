@@ -42,13 +42,15 @@ Score each assignment 0 to 4. The level names and descriptions are course-specif
 
 | score | level | description |
 |---|---|---|
-| 4 | outstanding | top-level work, the standard the course aims for |
-| 3 | good | solid and well executed, minor gaps |
-| 2 | below average | present but underdeveloped |
-| 1 | unacceptable | minimal or seriously flawed |
+| 4 | outstanding | every specification met, and the work goes beyond them |
+| 3 | complete | every specification met |
+| 2 | incomplete | one or two specifications unmet |
+| 1 | substantially incomplete | several specifications unmet |
 | 0 | not submitted | no submission, or work that does not engage the task |
 
 No letter tags in the level column, and keep the five integer levels tied to 4/3/2/1/0 = A/B/C/D/F.
+
+601 grades against a published list of specifications rather than against quality alone. The specifications set the floor: meeting all of them is a 3, and the 4 is reserved for work that goes beyond them. Below 3 the score falls by how many specifications are unmet. A course applying this model publishes its specification list beside the rubric, and lateness stays with the late policy rather than counting as an unmet specification.
 
 The score-of-2 row carries the consequence a student needs to see, since a term at that level averages to a C. Which consequence depends on the standing rules below, so write it into the row for the course at hand.
 
