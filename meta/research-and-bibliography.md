@@ -14,13 +14,13 @@ By the end of 601 a student can:
 
 - Tell primary sources (scores and critical editions, composer writings and letters, contemporaneous documents, recordings) from secondary ones (scholarly books, journal articles, dissertations, reference entries), and scholarly sources from everything else.
 - Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition or a recording is authoritative.
-- Find sources with the five tools below, move from a topic to search terms, and follow the footnotes of a good source to further sources.
+- Find sources with the tools below, move from a topic to search terms, and follow the footnotes of a good source to further sources.
 - Cite in Chicago, notes-bibliography, for scores and editions, book chapters, journal articles, dissertations, liner notes, and online reference works.
 - Write an annotated entry that summarizes the source, judges it, and says what it is good for.
 
 ## the tools
 
-Five tools, learned in this order. Two are open to anyone; three come through the University Libraries A–Z database list at https://library.csueastbay.edu/az/databases, where the link hands off to a NetID and password sign-in.
+WorldCat is open to anyone. The rest come through the University Libraries A–Z database list at https://library.csueastbay.edu/az/databases, where the link hands off to a NetID and password sign-in.
 
 ### RILM Abstracts of Music Literature
 
@@ -58,9 +58,17 @@ How to search it: search within Grove specifically rather than across the platfo
 
 Access: through the library A–Z list, then NetID and password. The public site is https://www.proquest.com.
 
-What it is: the dissertation and thesis database, with full text for most North American doctoral dissertations from the last several decades. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, which is a real standard and a different one from peer review.
+What it is: the dissertation and thesis database. Results here are not exhaustive: they cover the open dissertations and theses, which is a large share of them and not all. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, which is a real standard and a different one from peer review.
 
 How to search it: search the composer and the work, then broaden to the genre or the analytical problem, since a dissertation chapter on your piece may sit inside a study with an unrelated title. Read the abstract and the table of contents before downloading. Note the degree, the institution, and the year, along with the ProQuest number, which the Chicago entry takes.
+
+### Alexander Street: Music and Performing Arts
+
+Access: through the library A–Z list, then NetID and password.
+
+What it is: a collection of digitized scores, streaming audio, and video. For 601 it is a second route to a score alongside IMSLP, and a route to recordings where an analysis engages a performance.
+
+How to search it: search the composer and the work, then filter by content type to separate scores from audio. A digitized score carries the same question an IMSLP file does: identify which edition the scan reproduces, from its title page and publication information, before citing it.
 
 ## how the tools are taught
 
@@ -88,6 +96,12 @@ Volume is held constant and independence scales. Every paper takes an authoritat
 | 5 | none | None. Feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week. |
 
 ## open
+
+Whether the library still subscribes to RILM. The Music subject guide at https://library.csueastbay.edu/MUS/musicbooksandarticles lists it with a working proxy link to EBSCO's `rih`; the A–Z list has not been checked. Confirm with the music subject librarian before the tool list is final.
+
+If RILM is gone, what replaces it as the tool for establishing that a piece of scholarship exists. Of the EBSCO databases held, only Academic Search Complete does work here, and it indexes journals rather than chapters in edited volumes, Festschriften, and conference papers. Candidates: OneSearch, Google Scholar configured with the CSUEB library link, and Grove's article bibliographies moved earlier in the sequence.
+
+ProQuest results are not exhaustive. They cover open dissertations and theses, which is a large share of them and not all.
 
 The Chicago citation forms are not yet scheduled against the papers. The previous schedule tied each paper to a citation type and broke wherever a student's chosen source took a different form.
 
