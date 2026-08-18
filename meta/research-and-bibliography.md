@@ -240,8 +240,6 @@ Generative AI tools misformat these patterns and invent sources outright. Every 
 
 The annotation progression past Paper 1, where the template falls away.
 
-`meta/editions.md` is written in 17th-edition form, with a place of publication before each publisher. It needs a pass against the 18th edition.
-
 ## into 602
 
 The papers drive the difference between the two modules. In 601 the papers are short and analytical, close readings that hold historical and interpretive context to a brief frame, so the bibliography is lean and in service of the analysis. In 602 the work culminates in a full research paper developed and revised across the term, where the scholarly context is the point and the bibliography is the backbone.

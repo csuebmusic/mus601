@@ -42,7 +42,7 @@ Markdown files state what is the case. Keep out decision history, rationale for 
 - Student-facing pages state what is the case. Keep out sentences that justify a design decision, announce what the next sentence will do, or explain why an ordering or requirement is as it is. The schedule names works and dates; it does not argue for them.
 - Every reading and score is required and carries equal weight, and all of them are provided through Canvas or library reserve. Students purchase nothing.
 - The week entries name the works studied in each meeting. Editions are not listed on the syllabus; they live in `meta/editions.md`.
-- The syllabus bibliography follows the Chicago style the seminar teaches: abbreviated page ranges, no initial "The" in journal titles, spaced initials, place of publication, season where the issue gives one. Christensen chapters stay nested under the volume; everything else is a full entry.
+- The syllabus bibliography follows the Chicago style the seminar teaches, notes-bibliography, 18th edition: abbreviated page ranges, no initial "The" in journal titles, spaced initials, no place of publication, no month or season. Christensen chapters stay nested under the volume with their page ranges; everything else is a full entry.
 
 ## open
 
