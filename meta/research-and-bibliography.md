@@ -94,8 +94,6 @@ Every source is annotated, on every paper.
 
 A double step. Students search RILM, read the abstract, and judge from it whether the article is worth having; then they find that article in JSTOR and read it. RILM establishes what exists, JSTOR supplies the text.
 
-The safety net is heaviest here: a fill-in-the-blank annotation template, and one of the three sources may come pre-identified from the Unit 1 bibliography, so the mechanics do not compete with the three-way comparison the paper is graded on.
-
 ### paper 2: Oxford Music Online
 
 Students search within Grove, read the entry, and work out from its bibliography to a secondary source on each concerto. A source-finding log is due on paper at the week 8 meeting, October 6: what was searched, what was rejected, and why.
@@ -106,7 +104,7 @@ Mozart and Haydn symphonies are heavily worked ground, so the open dissertations
 
 ### papers 4 and 5: open
 
-No prescribed tool and no safety net. The count rises to two secondary sources on a single work, which is the first time a student has to find two pieces of scholarship that speak to each other rather than one per piece.
+No prescribed tool. The count rises to two secondary sources on a single work, which is the first time a student has to find two pieces of scholarship that speak to each other rather than one per piece.
 
 Paper 4 adds the edition defense: a short paragraph inside the paper on why this edition, and why this recording where the analysis engages one.
 
@@ -238,7 +236,7 @@ Generative AI tools misformat these patterns and invent sources outright. Every 
 
 ## open
 
-The annotation progression past Paper 1, where the template falls away.
+The form of the annotation, and whether it changes across the five papers.
 
 ## into 602
 
