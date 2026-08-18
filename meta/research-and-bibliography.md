@@ -20,7 +20,7 @@ By the end of 601 a student can:
 
 ## the tools
 
-WorldCat is open to anyone. The rest go through the library proxy, which asks for a NetID and password. Each entry below carries its direct link. Google Scholar is not part of the sequence.
+WorldCat and ProQuest are open to anyone. The rest go through the library proxy, which asks for a NetID and password. Each entry below carries its direct link. Google Scholar is not part of the sequence.
 
 ### RILM Abstracts of Music Literature
 
@@ -56,15 +56,15 @@ How to search it: search within Grove specifically rather than across the platfo
 
 ### ProQuest Dissertations & Theses
 
-Access: direct link needed. The public site is https://www.proquest.com. The library's ProQuest links follow the pattern `http://proxylib.csueastbay.edu/login?url=http://search.proquest.com/[database]/advanced?accountid=28458`.
+Access: https://www.proquest.com. No sign-in.
 
-What it is: the dissertation and thesis database. Results here are not exhaustive: they cover the open dissertations and theses, which is a large share of them and not all. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, which is a real standard and a different one from peer review.
+What it is: the dissertation and thesis database. Without a subscription the results are the open-access dissertations and theses, which is a large share of them and not all. A search that returns nothing is not evidence that nothing was written. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, which is a real standard and a different one from peer review.
 
 How to search it: search the composer and the work, then broaden to the genre or the analytical problem, since a dissertation chapter on your piece may sit inside a study with an unrelated title. Read the abstract and the table of contents before downloading. Note the degree, the institution, and the year, along with the ProQuest number, which the Chicago entry takes.
 
 ### Alexander Street: Music and Performing Arts
 
-Access: `http://proxylib.csueastbay.edu/login?url=http://search.alexanderstreet.com/clmu`, then NetID and password.
+Access: `https://search-alexanderstreet-com.proxylib.csueastbay.edu/music-performing-arts/advanced-search`, then NetID and password.
 
 What it is: a collection of digitized scores, streaming audio, and video. For 601 it is a second route to a score alongside IMSLP, and a route to recordings where an analysis engages a performance.
 
@@ -96,10 +96,6 @@ Volume is held constant and independence scales. Every paper takes an authoritat
 | 5 | none | None. Feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week. |
 
 ## open
-
-The ProQuest direct link.
-
-Whether the Alexander Street link reaches the scores. `clmu` opens Classical Music Library, the streaming audio collection. The library's Music guide points at `https://search.alexanderstreet.com/music-performing-arts` for scores.
 
 The Chicago citation forms are not yet scheduled against the papers. The previous schedule tied each paper to a citation type and broke wherever a student's chosen source took a different form.
 
