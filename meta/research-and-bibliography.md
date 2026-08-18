@@ -2,7 +2,7 @@
 
 The design behind the research and bibliography work in 601. The student-facing form is `research/source-work.html`; the paper requirements are in `syllabus.html`.
 
-Research and bibliography used to be its own course. It runs now as one module inside 601 and a second inside 602, built by Peter in Canvas against the outcomes below.
+Research and bibliography used to be its own course. It runs now as one module inside 601 and a second inside 602. Peter's Canvas modules were built against an earlier version of the exit list and need a pass against the one below.
 
 ## where students start
 
@@ -13,20 +13,20 @@ No prior research training at the start of 601. Students cannot yet find scholar
 By the end of 601 a student can:
 
 - Tell primary sources (scores and critical editions, composer writings and letters, contemporaneous documents, recordings) from secondary ones (scholarly books, journal articles, dissertations, reference entries), and scholarly sources from everything else.
-- Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition or a recording is authoritative.
-- Find a sourced edition of a work, and find scholarship on it with the tools below. Move from a topic to search terms, and follow the footnotes of a good source to further sources.
-- Cite in Chicago, notes-bibliography, for scores and editions, book chapters, journal articles, dissertations, liner notes, and online reference works.
+- Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition is authoritative.
+- Find a sourced edition of a work, and find scholarship on it with the tools below. Move from a topic to search terms, and work out from a specialist's bibliography to the scholarship it names.
+- Cite in Chicago, notes-bibliography, for scores and editions, books, book chapters, journal articles, dissertations, and online reference works.
 - Put a source to work in an analytical paper: cite it where it bears on the argument, and say what it does there.
 
 ## the tools
 
-Learned one per paper, in the order below. ProQuest is open to anyone; the rest go through the library proxy, which asks for a NetID and password. Google Scholar is not part of the sequence.
+Alexander Street is in use on every paper. The literature tools arrive one at a time, in the order below, and accumulate. ProQuest, WorldCat, and IMSLP are open to anyone; Alexander Street, RILM, JSTOR, and Oxford Music Online go through the library proxy, which asks for a NetID and password. Google Scholar is not part of the sequence.
 
 ### Alexander Street: Music and Performing Arts
 
 Access: `https://search-alexanderstreet-com.proxylib.csueastbay.edu/music-performing-arts/advanced-search`, then NetID and password.
 
-What it is: a collection of digitized scores, streaming audio, and video. It is where students find a sourced edition of each work they analyze, and where they find recordings when an analysis engages a performance.
+What it is: a collection of digitized scores, streaming audio, and video. It is where students find a sourced edition of each work they analyze.
 
 How to search it: search the composer and the work in the advanced search, then filter by content type to separate scores from audio. A digitized score is a scan of some particular edition. Find the title page and the publication information, identify which edition the scan reproduces, and cite it as that.
 
@@ -72,11 +72,11 @@ IMSLP, open to anyone at https://imslp.org, holds scores whose copyright has lap
 
 ## how the tools are taught
 
-Each tool is introduced in the seminar meeting of the week it comes due, folded into that week's session rather than carried by a separate Canvas mini-lesson.
+Each tool is introduced in a seminar meeting during the unit whose paper first calls for it, folded into that week's session rather than carried by a separate Canvas mini-lesson.
 
 ## the scores
 
-Analysis and musical examples come from the score packets provided in seminar. Separately, each student finds a sourced edition of every work the paper analyzes on Alexander Street, and cites that edition in the paper. From 602 on, the edition a student finds is the edition a student analyzes.
+Analysis and musical examples come from the score packets provided in seminar. Separately, each student finds a sourced edition of every work the paper analyzes on Alexander Street, and cites that edition in the paper.
 
 ## the sources, paper by paper
 
@@ -85,7 +85,7 @@ Analysis and musical examples come from the score packets provided in seminar. S
 | 1 | modal sub-systems and text setting | Lasso, Monteverdi, Schütz | three, one per work | RILM to JSTOR |
 | 2 | ritornello form and system change | Vivaldi, Bach | two, one per work | Oxford Music Online |
 | 3 | the sonata exposition and the second key | Mozart, Haydn | two, one per work | ProQuest |
-| 4 | Beethoven's sonata procedure | Beethoven | two, both on the one work | open, self-selected |
+| 4 | mode switch and system battle | Beethoven | two, both on the one work | open, self-selected |
 | 5 | Schubert's chromaticism | Schubert | two, both on the one work | open, self-selected |
 
 Sources are cited in the paper's footnotes and bibliography. Nothing is handed in separately.
@@ -100,7 +100,7 @@ Students search within Grove, read the entry, and work out from its bibliography
 
 ### paper 3: ProQuest
 
-Mozart and Haydn symphonies are heavily worked ground, so the open dissertations are plentiful here.
+Mozart and Haydn symphonies are heavily worked ground.
 
 ### papers 4 and 5: open
 
@@ -110,15 +110,15 @@ No prescribed tool. The count rises to two secondary sources on a single work, w
 
 A source earns its place by doing something in the argument. A source that appears once for a date is doing less than the requirement asks of it.
 
-Three things a secondary source does in a paper of this kind. It supplies an analytical frame the paper adopts or resists, as Hepokoski's medial caesura does for a sonata exposition. It establishes a fact the analysis rests on, an attribution, a dating, a reading in a source. It states a position the paper argues with, which is the strongest use and the one Paper 5 is built toward.
+Three things a secondary source does in a paper of this kind. It supplies an analytical frame the paper adopts or resists, as Hepokoski's medial caesura does for a sonata exposition. It establishes a fact the analysis rests on, an attribution, a dating, a reading in a source. It states a position the paper argues with, which is the strongest of the three.
 
 Where a source is weak on one of the five criteria and the paper uses it anyway, the paper says so in the note.
 
 ## citing
 
-Sources for this section: the Chicago Manual of Style citation quick guide, at `https://www-chicagomanualofstyle-org.proxylib.csueastbay.edu/tools_citationguide/citation-guide-1.html` through the library proxy and at https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html publicly, and the University of Minnesota's Music Citation Guide (Chicago Style) at https://libguides.umn.edu/music-citation-chicago-style/scores. Both are current to the 18th edition. Anything not covered below is in CMOS chapters 13 and 14.
+Sources for this section: the Chicago Manual of Style citation quick guide, at `https://www-chicagomanualofstyle-org.proxylib.csueastbay.edu/tools_citationguide/citation-guide-1.html` through the library proxy and at https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html publicly, and the University of Minnesota's Music Citation Guide (Chicago Style) at https://libguides.umn.edu/music-citation-chicago-style/scores. The CMOS guide is current to the 18th edition. The Minnesota guide states no edition; its examples drop place of publication, and its reprint template does not. Anything not covered below is in CMOS chapters 13 and 14.
 
-Examples below use the seminar's own repertoire and readings, with edition data taken from `meta/editions.md`.
+Examples below use the seminar's own repertoire and readings. Edition data comes from `meta/editions.md` except where a template needs a field that file does not carry.
 
 ### what the 18th edition changed
 
@@ -150,13 +150,13 @@ Shortened note, used from the second reference onward: last name, short title, p
 
 ### score in a collected or critical edition
 
-Template, note: Composer First Last, *Work Title*, in *Series Title*, ed. Editor First Last, vol. number (Publisher, Year), page, m. measure.
+Template, note: Composer First Last, *Work Title*, in *Series Title*, vol. number, ed. Editor First Last (Publisher, Year), page, m. measure.
 
-Template, bibliography: Composer Last, First. *Work Title*. In *Series Title*, edited by Editor First Last, vol. number. Publisher, Year.
+Template, bibliography: Composer Last, First. *Work Title*. In *Series Title*. Vol. number, edited by Editor First Last. Publisher, Year.
 
-> 1. Claudio Monteverdi, *Concerto: Settimo libro dei madrigali*, in *Tutte le opere di Claudio Monteverdi*, ed. Gian Francesco Malipiero, vol. 7 (G. F. Malipiero, 1928), 112.
+> 1. Claudio Monteverdi, *Concerto: Settimo libro dei madrigali*, in *Tutte le opere di Claudio Monteverdi*, vol. 7, ed. Gian Francesco Malipiero (G. F. Malipiero, 1928), 112.
 
-> Monteverdi, Claudio. *Concerto: Settimo libro dei madrigali*. In *Tutte le opere di Claudio Monteverdi*, edited by Gian Francesco Malipiero, vol. 7. G. F. Malipiero, 1928.
+> Monteverdi, Claudio. *Concerto: Settimo libro dei madrigali*. In *Tutte le opere di Claudio Monteverdi*. Vol. 7, edited by Gian Francesco Malipiero. G. F. Malipiero, 1928.
 
 ### score in a numbered series
 
@@ -172,7 +172,7 @@ Template, note: Composer First Last, *Work Title*, ed. Editor First Last (Publis
 
 Template, bibliography: Composer Last, First. *Work Title*. Edited by Editor First Last. Publisher, Year. Accessed date. Database Name.
 
-> 1. Joseph Haydn, *Sinfonia no. 84 in E-flat major*, ed. H. C. Robbins Landon (Haydn-Mozart Presse, 1963), accessed September 8, 2026, Music and Performing Arts, Alexander Street, 12, m. 40.
+> 1. Composer First Last, *Work Title*, ed. Editor First Last (Publisher, Year), accessed September 8, 2026, Music and Performing Arts, Alexander Street, 12, m. 40.
 
 ### digitized score from IMSLP
 
@@ -218,14 +218,6 @@ Template, note: First Last, "Title of Dissertation" (PhD diss., University, year
 
 Template, bibliography: Last, First. "Title of Dissertation." PhD diss., University, year. ProQuest (number).
 
-### liner notes and recordings
-
-Give the medium at the end: compact disc, LP, or the streaming service with its URL. Where the recording bears on the argument, name the performers.
-
-Template, liner notes, bibliography: Last, First. Liner notes to Composer, *Title*. Performers. Label catalog number, year, compact disc.
-
-Template, the recording itself: Composer Last, First. *Work, with catalog number*. Performers. Label catalog number, year, compact disc.
-
 ### the music itself
 
 Measure numbers go in the text rather than in a note: the cadence at m. 47, or mm. 112–19. One measure is m., more than one is mm. A note carries the edition, cited in full once early in the paper, and anything a reader needs in order to check the claim: a rehearsal figure, a differing reading in another edition, an editorial accidental.
@@ -237,8 +229,6 @@ Musical examples are numbered figures with captions, and the caption credits the
 Page ranges abbreviate in Chicago's number style: 428–70, not 428–470, though a range crossing a hundred keeps both digits, as in 364–406. Ranges take an en dash rather than a hyphen. Journal and book titles are italicized; article and chapter titles take quotation marks. The bibliography is alphabetized by author surname and is not numbered. Every source cited in a note appears in the bibliography, and nothing appears there that the paper does not use.
 
 Generative AI tools misformat these patterns and invent sources outright. Every citation is checked against the source in hand.
-
-## open
 
 ## into 602
 
