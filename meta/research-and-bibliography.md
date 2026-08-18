@@ -20,11 +20,11 @@ By the end of 601 a student can:
 
 ## the tools
 
-WorldCat is open to anyone. The rest come through the University Libraries A–Z database list at https://library.csueastbay.edu/az/databases, where the link hands off to a NetID and password sign-in.
+WorldCat is open to anyone. The rest go through the library proxy, which asks for a NetID and password. Each entry below carries its direct link. Google Scholar is not part of the sequence.
 
 ### RILM Abstracts of Music Literature
 
-Access: through the library A–Z list. The public site at https://www.rilm.org describes the resource and holds RILM's own publications; the database itself is licensed through EBSCO.
+Access: `http://proxylib.csueastbay.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=rih`, then NetID and password. The public site at https://www.rilm.org describes the resource; the database itself is licensed through EBSCO.
 
 What it is: the international bibliography of writing about music, from 1967 forward with earlier coverage in places. It indexes journal articles, books, chapters in edited volumes, dissertations, conference papers, Festschriften, critical commentaries to complete editions, and reviews, in some 140 languages and from 178 countries. Every record carries a bibliographic citation, an abstract in English whatever the language of the source, and controlled subject headings. RILM indexes; it holds full text for only a subset. A RILM record establishes that a piece of scholarship exists and tells you enough to judge whether it is worth chasing.
 
@@ -32,7 +32,7 @@ How to search it: start from the composer and the work, in that order, before ad
 
 ### JSTOR
 
-Access: through the library A–Z list, then NetID and password.
+Access: `https://login.proxylib.csueastbay.edu/login?url=http://www.jstor.org/search`, then NetID and password.
 
 What it is: a full-text archive of scholarly journals, with deep back runs of the core musicology titles, among them the *Journal of the American Musicological Society*, *Music Theory Spectrum*, *19th-Century Music*, *Journal of Music Theory*, and the *Musical Quarterly*. Where RILM tells you an article exists, JSTOR is usually where you read it. Coverage runs to a moving wall a few years short of the present for many titles, so the newest scholarship is often elsewhere.
 
@@ -40,7 +40,7 @@ How to search it: search by article title carried over from RILM rather than by 
 
 ### WorldCat
 
-Access: open to anyone at https://search.worldcat.org.
+Access: open to anyone at https://search.worldcat.org. No sign-in.
 
 What it is: the union catalog of library holdings worldwide. It is where a book, a score, or a critical edition is confirmed to exist in a particular form, and where its publication details are settled: editor, series, volume, place, publisher, date, edition statement. It also shows which libraries hold a copy, which is how an interlibrary loan request starts.
 
@@ -48,7 +48,7 @@ How to search it: search the work rather than the composer alone, and read the f
 
 ### Oxford Music Online
 
-Access: through the library A–Z list, then NetID and password.
+Access: `https://login.proxylib.csueastbay.edu/login?url=http://www.oxfordmusiconline.com/`, then NetID and password.
 
 What it is: the platform holding three distinct reference works. *Grove Music Online* is the principal scholarly music reference source in English: signed articles, each with a work-list and a bibliography, written by specialists and citable in their own right. *The Oxford Dictionary of Music* and *The Oxford Companion to Music* are written for a general readership; they are useful for orientation and are not scholarly sources for a paper.
 
@@ -56,7 +56,7 @@ How to search it: search within Grove specifically rather than across the platfo
 
 ### ProQuest Dissertations & Theses
 
-Access: through the library A–Z list, then NetID and password. The public site is https://www.proquest.com.
+Access: direct link needed. The public site is https://www.proquest.com. The library's ProQuest links follow the pattern `http://proxylib.csueastbay.edu/login?url=http://search.proquest.com/[database]/advanced?accountid=28458`.
 
 What it is: the dissertation and thesis database. Results here are not exhaustive: they cover the open dissertations and theses, which is a large share of them and not all. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, which is a real standard and a different one from peer review.
 
@@ -64,7 +64,7 @@ How to search it: search the composer and the work, then broaden to the genre or
 
 ### Alexander Street: Music and Performing Arts
 
-Access: through the library A–Z list, then NetID and password.
+Access: `http://proxylib.csueastbay.edu/login?url=http://search.alexanderstreet.com/clmu`, then NetID and password.
 
 What it is: a collection of digitized scores, streaming audio, and video. For 601 it is a second route to a score alongside IMSLP, and a route to recordings where an analysis engages a performance.
 
@@ -97,11 +97,9 @@ Volume is held constant and independence scales. Every paper takes an authoritat
 
 ## open
 
-Whether the library still subscribes to RILM. The Music subject guide at https://library.csueastbay.edu/MUS/musicbooksandarticles lists it with a working proxy link to EBSCO's `rih`; the A–Z list has not been checked. Confirm with the music subject librarian before the tool list is final.
+The ProQuest direct link.
 
-If RILM is gone, what replaces it as the tool for establishing that a piece of scholarship exists. Of the EBSCO databases held, only Academic Search Complete does work here, and it indexes journals rather than chapters in edited volumes, Festschriften, and conference papers. Candidates: OneSearch, Google Scholar configured with the CSUEB library link, and Grove's article bibliographies moved earlier in the sequence.
-
-ProQuest results are not exhaustive. They cover open dissertations and theses, which is a large share of them and not all.
+Whether the Alexander Street link reaches the scores. `clmu` opens Classical Music Library, the streaming audio collection. The library's Music guide points at `https://search.alexanderstreet.com/music-performing-arts` for scores.
 
 The Chicago citation forms are not yet scheduled against the papers. The previous schedule tied each paper to a citation type and broke wherever a student's chosen source took a different form.
 
