@@ -54,13 +54,13 @@ No letter tags in the level column.
 
 The specification model departs from the integer levels: a term of full compliance averages 3.5, which rounds up to 3.7 and posts as an A minus. A course using the integer levels keeps 4/3/2/1/0 tied to A/B/C/D/F.
 
-The score-of-2 row carries the consequence a student needs to see, since a term at that level averages to a C. Which consequence depends on the standing rules below, so write it into the row for the course at hand.
+Where a level averages to a grade with a consequence a student needs to see, write the consequence into that row. Which consequence depends on the standing rules below.
 
 ## decisions to settle per course
 
 - Graduate versus undergraduate standing. The MUS 601 syllabus uses the Graduate Student Handbook rules: only C or better counts toward the degree, a C– or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing, with anything below it triggering academic probation. Undergraduate courses use the undergraduate standing and minimum-grade rules instead, where a music major or minor needs a C– or better for the course to count toward the major or minor. Do not carry either set of rules across.
 - Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. Where a course weights assignments differently, use the weighted average of the 0 to 4 scores. The scale does not change.
-- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it lands on the same scale as everything else. Canvas's automatic late policy is the exception, since it takes a percentage per day and a percentage floor and nothing else. Where it runs the deduction, state the percentage and its grade-point equivalent together: 601 takes 2% of the paper's value per day (0.08 grade points), floored at 50%, a score of 2.0. Note what the floor does on a five-point scale. A paper already at or below 2.0 is never reduced, so lateness costs a student who earned a 3 or a 4 and costs nobody else.
+- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it lands on the same scale as everything else. Canvas's automatic late policy is the exception, since it takes a percentage per day and a percentage floor and nothing else. Where it runs the deduction, state the percentage and its grade-point equivalent together: 601 takes 2% of the paper's value per day (0.08 grade points), floored at 50%, a score of 2.0. Note what the floor does against the rubric's own levels. A paper already at or below the floor is never reduced, so lateness costs the students above it and costs nobody else. Under the 601 rubric the floor of 2.0 sits between the 2.5 and 1.5 levels, so a submitted paper at 1.5 is never reduced.
 
 ## style, to match across syllabi
 

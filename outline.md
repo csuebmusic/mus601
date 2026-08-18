@@ -2,7 +2,7 @@
 
 Tuesdays, 7:00–9:00 pm, Fall 2026 (Aug 18 to Dec 1). Fifteen meetings across sixteen Tuesdays, with no class on the Nov 24 recess. Full readings, directed questions, outcomes, assessment, and policies live in `syllabus.html`.
 
-**week 1. Aug 18. introduction.** Graduate theory and analysis review, and a first pass at the research and writing apparatus.
+**week 1. Aug 18. introduction.** Graduate theory and analysis review.
 
 ## unit 1: modal practice and the emergence of tonality (weeks 2–6)
 
@@ -17,7 +17,7 @@ Tuesdays, 7:00–9:00 pm, Fall 2026 (Aug 18 to Dec 1). Fifteen meetings across s
 
 ## unit 3: Classicism, sonata procedure, and Beethoven (weeks 10–14)
 
-- weeks 10 & 11. Oct 20, Oct 27. mature Classicism and sonata procedure (Haydn 84, Mozart 36 "Linz").
+- weeks 10 & 11. Oct 20, Oct 27. the emergence of the symphony (Vivaldi, Wagenseil, Haydn 2 and 84, Stamitz, J. C. Bach, Mozart 36 "Linz").
 - **week 12. Nov 3. paper 3 due.** Comparison: Mozart 41 "Jupiter," Haydn 90, first movements.
 - week 13. Nov 10. Beethoven and the extension of Classical procedure.
 - **week 14. Nov 17. paper 4 due.** Beethoven, "Kreutzer" Sonata Op. 47, first movement.

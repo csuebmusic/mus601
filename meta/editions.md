@@ -6,7 +6,7 @@ The edition behind each score distributed in the seminar meetings, taken from th
 
 - Josquin des Prez or Pierre de la Rue. "Absalon, fili mi." Edited by Gordon J. Callon from GB-Lbl Royal 8 G vii, fols. 56v–58r. 2017.
 - Lasso, Orlando di. *Prophetiae Sibyllarum*. Edited by Joachim Therstappen. Das Chorwerk 48. Möseler, 1937.
-- Monteverdi, Claudio. *Concerto: Settimo libro dei madrigali*. In *Tutte le opere di Claudio Monteverdi*, edited by Gian Francesco Malipiero, vol. 7. G. F. Malipiero, 1928.
+- Monteverdi, Claudio. *Concerto: Settimo libro dei madrigali*. In *Tutte le opere di Claudio Monteverdi*. Vol. 7, edited by Gian Francesco Malipiero. G. F. Malipiero, 1928.
 - Rore, Cipriano de. "Da le belle contrade d'oriente." From *Il quinto libro di madrigali a cinque voci* (Venice, 1566). Edited by Allen Garvin. 2013.
 - Schütz, Heinrich. "O quam tu pulchra es," SWV 265. From *Symphoniae sacrae*, opus ecclesiasticum secundum (Venice: Bartolomeo Magni, 1629). Digital edition EN 213-09, 2015.
 - Schütz, Heinrich. "Saul, Saul, was verfolgst du mich?" SWV 415. From *Symphoniae sacrae III*, op. 12, no. 18 (Dresden, 1650). Digital edition EN 2014-158, 2014.
@@ -29,6 +29,13 @@ The edition behind each score distributed in the seminar meetings, taken from th
 - Vivaldi, Antonio. *Concerto in la maggiore per archi e cembalo*, F. XI, no. 4. Edited by Angelo Ephrikian. Ricordi, 1947.
 - Wagenseil, Georg Christoph. *Sinfonia in E*. Edited by Bernhard Paumgartner. Diletto musicale 387. Doblinger, n.d.
 
+## unit 4
+
+Both copies in hand carry an English-language title page in the same ornamental setting, and no imprint. Neither has an entry above.
+
+- Schubert, Franz. *Trio No. 2 in E-flat Major, Op. 100*, D. 929. Paginated 121 to 142, so cut from a larger volume; parts labeled Violino, Violoncello, Pianoforte; nineteenth-century engraving; no publisher line, plate number, or editor anywhere in the file.
+- Schubert, Franz. *Quintet in C Major, Op. 163*, D. 956. Paginated from 1; parts labeled Violino I and II, Viola, Violoncello I and II; miniature-score format, four systems to the page; no publisher line, plate number, or editor anywhere in the file.
+
 ## unfixed
 
 Three copies carry no identifiable imprint, so they have no entry above.
@@ -36,5 +43,3 @@ Three copies carry no identifiable imprint, so they have no entry above.
 - Bach, Brandenburg Concerto no. 1, BWV 1046. No publisher line anywhere in the file.
 - Beethoven, Piano Sonata Op. 53. English-language performing edition with editorial fingering, page 370 of an unnamed volume, no plate or imprint.
 - Mozart, Symphony no. 36, K. 425. Nineteenth-century engraving, no imprint.
-
-Unit 4 scores are not yet in hand.

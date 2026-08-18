@@ -34,13 +34,13 @@ Headings are lowercase and set in the body face at 600. An `h2` opens its sectio
 
 ## layout
 
-One centered column, `.wrap` at 78rem, inside `body` padding. A page opens with a mono eyebrow, an `h1` carrying `id="top"`, and a `.lede full` paragraph, and closes with a `<footer>` carrying the font credit.
+One centered column, `.wrap` at 78rem, inside `body` padding. A page opens with a mono eyebrow, an `h1` carrying `id="top"`, and a `.lede full` paragraph, and closes with a `<footer>` carrying the font credit. `.lede` is a semantic hook and carries no rule; `.full` does the work.
 
 Spacing is `--step`, 0.5rem. Two units between paragraphs, three from a heading to its content, four between blocks, six between sections.
 
 Tables carry their row labels as `th` in `tbody`. Numeric cells take `.num`. Table variants: `.papers`, `.rubric`, `.grades`.
 
-The schedule sets units as `.unit` (mono label, then an `h3`) and weeks as `.week` (a `.marker` line in Mono Medium at full ink, then an `h4`). A week carrying a paper due takes `.week.due`, which marks it in the accent. Readings sit in `ul.readings`. Citation specimens sit in `.cite`, a boxed list of hanging-indent entries under mono labels. Quoted specimens sit in `blockquote`, washed in the accent.
+The schedule sets units as `.unit` (mono label, then an `h3`) and weeks as `.week` (a `.marker` line in Mono Medium at full ink, then an `h4`). A week carrying a paper due takes `.week.due`, which marks it in the accent. A break between weeks takes `.recess`. Readings sit in `ul.readings`. Citation specimens sit in `.cite`, a boxed list of hanging-indent entries under mono labels. Quoted specimens sit in `blockquote`, washed in the accent. Small print takes `.note`.
 
 The contents list at the head of a long page is `ul.toc`, two columns above 62rem and one below. Every `h2` takes an id and appears in it.
 
