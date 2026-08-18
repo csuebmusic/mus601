@@ -14,13 +14,13 @@ Course information, important dates, the catalog description and learning outcom
 
 **source work**
 https://csuebmusic.github.io/mus601/research/source-work.html
-In progress.
+The research tools and how to search each one, with the links that reach them. Which score to analyze from and which edition to cite. What each paper needs in sources and which tool it introduces. How a source earns its place in an argument, and the Chicago notes-bibliography forms for scores, editions, articles, chapters, books, reference entries, and dissertations.
 
 ## repository
 
 ```
 assets/       stylesheet and self-hosted fonts
-research/     the source work and citation handout, in progress
+research/     the source work and citation handout
 tools/        interactive analytical tools, empty for now
 meta/         instructor notes and conventions
 outline.md    the schedule at a glance
