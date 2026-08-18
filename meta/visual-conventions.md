@@ -48,6 +48,8 @@ The contents list at the head of a long page is `ul.toc`, two columns above 62re
 
 Student-facing material is HTML on the shared stylesheet. Markdown in this repo is for the instructor.
 
+Every link that leaves the page opens in a new tab, with `target="_blank"` and `rel="noopener"`. In-page anchors and `mailto:` links take neither.
+
 Each page is self-contained and browser-only: no build step, no framework, no external runtime dependency, no CDN. SVG is written inline so the variables resolve. Scripts, where a tool needs them, are inline in the page.
 
 Pages are linked individually from Canvas. There is no landing page and no inter-page navigation beyond the links inside the prose.
