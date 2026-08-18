@@ -112,11 +112,135 @@ Paper 4 adds the edition defense: a short paragraph inside the paper on why this
 
 Paper 5 feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week.
 
+## citing
+
+Sources for this section: the Chicago Manual of Style citation quick guide, at `https://www-chicagomanualofstyle-org.proxylib.csueastbay.edu/tools_citationguide/citation-guide-1.html` through the library proxy and at https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html publicly, and the University of Minnesota's Music Citation Guide (Chicago Style) at https://libguides.umn.edu/music-citation-chicago-style/scores. Both are current to the 18th edition. Anything not covered below is in CMOS chapters 13 and 14.
+
+Examples below use the seminar's own repertoire and readings, with edition data taken from `meta/editions.md`.
+
+### what the 18th edition changed
+
+Students who find an older guide online will produce citations that look right and are not. The changes that touch this course:
+
+- Place of publication is dropped from book and score citations (14.30). Ashgate, 2007, rather than Aldershot: Ashgate, 2007.
+- Month and season are dropped from journal article citations (13.26). 34, no. 3 (1981), rather than 34, no. 3 (Autumn 1981).
+- The page range of a chapter in an edited volume is no longer required in the bibliography entry (14.8). The note still gives the page cited.
+- Shortened citations replace *ibid.*, including for consecutive references to the same source (13.37).
+- Up to six authors are named in a bibliography entry; up to two in a note, then et al. (13.23, 13.107).
+- Three em dashes no longer stand in for a repeated author name in the bibliography (13.72, 13.113).
+- AI-generated content has its own guidance (14.112).
+
+### the two forms
+
+A note points at the page, measure, or claim in hand at that moment. A bibliography entry identifies the source as a whole. The same source takes both, and they differ in name order and punctuation.
+
+Note. Author in normal order, elements separated by commas, publication data in parentheses, ending at the page cited.
+
+> 1. Harold S. Powers, "Tonal Types and Modal Categories in Renaissance Polyphony," *Journal of the American Musicological Society* 34, no. 3 (1981): 439.
+
+Bibliography. Author inverted, elements separated by periods, nothing parenthesized, ending with the full page range.
+
+> Powers, Harold S. "Tonal Types and Modal Categories in Renaissance Polyphony." *Journal of the American Musicological Society* 34, no. 3 (1981): 428–70.
+
+Shortened note, used from the second reference onward: last name, short title, page.
+
+> 5. Powers, "Tonal Types," 441.
+
+### score in a collected or critical edition
+
+Template, note: Composer First Last, *Work Title*, in *Series Title*, ed. Editor First Last, vol. number (Publisher, Year), page, m. measure.
+
+Template, bibliography: Composer Last, First. *Work Title*. In *Series Title*, edited by Editor First Last, vol. number. Publisher, Year.
+
+> 1. Claudio Monteverdi, *Concerto: Settimo libro dei madrigali*, in *Tutte le opere di Claudio Monteverdi*, ed. Gian Francesco Malipiero, vol. 7 (G. F. Malipiero, 1928), 112.
+
+> Monteverdi, Claudio. *Concerto: Settimo libro dei madrigali*. In *Tutte le opere di Claudio Monteverdi*, edited by Gian Francesco Malipiero, vol. 7. G. F. Malipiero, 1928.
+
+### score in a numbered series
+
+Where the edition belongs to a monument series or a numbered scholarly series, the series name and number stand after the editor.
+
+> Lasso, Orlando di. *Prophetiae Sibyllarum*. Edited by Joachim Therstappen. Das Chorwerk 48. Möseler, 1937.
+
+### digitized score from a database
+
+For a score read on Alexander Street. The proxy URL is long and works only for signed-in CSUEB users, so name the database instead of pasting the link. Give the page number printed in the score rather than the page number of the PDF.
+
+Template, note: Composer First Last, *Work Title*, ed. Editor First Last (Publisher, Year), accessed date, Database Name, page, m. measure.
+
+Template, bibliography: Composer Last, First. *Work Title*. Edited by Editor First Last. Publisher, Year. Accessed date. Database Name.
+
+> 1. Joseph Haydn, *Sinfonia no. 84 in E-flat major*, ed. H. C. Robbins Landon (Haydn-Mozart Presse, 1963), accessed September 8, 2026, Music and Performing Arts, Alexander Street, 12, m. 40.
+
+### digitized score from IMSLP
+
+IMSLP is open, so the URL goes in. Identify the edition first; a file with no publication information anywhere cannot be cited as an edition. Where a scan gives no date, n.d. stands in its place.
+
+> Vivaldi, Antonio. Concerto, Op. 3 no. 8. In *Johann Sebastian Bach's Werke* 38. Bach-Gesellschaft, n.d. Accessed September 8, 2026. [URL].
+
+### journal article
+
+The DOI or the stable URL from the JSTOR landing page goes at the end of the bibliography entry. A database name on its own is not a locator for an article.
+
+> 1. Laurence Dreyfus, "J. S. Bach's Concerto Ritornellos and the Question of Invention," *Musical Quarterly* 71, no. 3 (1985): 331.
+
+> Dreyfus, Laurence. "J. S. Bach's Concerto Ritornellos and the Question of Invention." *Musical Quarterly* 71, no. 3 (1985): 327–58. [DOI or stable URL].
+
+### chapter in an edited volume
+
+The note abbreviates edited by to ed.; the bibliography spells it out.
+
+> 1. Cristle Collins Judd, "Renaissance Modal Theory: Theoretical, Compositional, and Editorial Perspectives," in *The Cambridge History of Western Music Theory*, ed. Thomas Christensen (Cambridge University Press, 2002), 371.
+
+> Judd, Cristle Collins. "Renaissance Modal Theory: Theoretical, Compositional, and Editorial Perspectives." In *The Cambridge History of Western Music Theory*, edited by Thomas Christensen. Cambridge University Press, 2002.
+
+### book
+
+> 1. Henry Burnett and Roy Nitzberg, *Composition, Chromaticism and the Developmental Process: A New Theory of Tonality* (Ashgate, 2007), 88.
+
+> Burnett, Henry, and Roy Nitzberg. *Composition, Chromaticism and the Developmental Process: A New Theory of Tonality*. Ashgate, 2007.
+
+### entry in Grove Music Online
+
+Grove entries are signed and dated. Name the author, use the revision date where there is one, and copy the permalink the entry supplies rather than the browser URL, which encodes the session.
+
+Template, note: Author First Last, "Entry Title," *Grove Music Online*, year, permalink.
+
+Template, bibliography: Author Last, First. "Entry Title." *Grove Music Online*. Oxford University Press, year. Permalink.
+
+### dissertation
+
+The title takes quotation marks rather than italics. The degree and institution stand where publication data would.
+
+Template, note: First Last, "Title of Dissertation" (PhD diss., University, year), page.
+
+Template, bibliography: Last, First. "Title of Dissertation." PhD diss., University, year. ProQuest (number).
+
+### liner notes and recordings
+
+Give the medium at the end: compact disc, LP, or the streaming service with its URL. Where the recording bears on the argument, name the performers.
+
+Template, liner notes, bibliography: Last, First. Liner notes to Composer, *Title*. Performers. Label catalog number, year, compact disc.
+
+Template, the recording itself: Composer Last, First. *Work, with catalog number*. Performers. Label catalog number, year, compact disc.
+
+### the music itself
+
+Measure numbers go in the text rather than in a note: the cadence at m. 47, or mm. 112–19. One measure is m., more than one is mm. A note carries the edition, cited in full once early in the paper, and anything a reader needs in order to check the claim: a rehearsal figure, a differing reading in another edition, an editorial accidental.
+
+Musical examples are numbered figures with captions, and the caption credits the edition the example is drawn from.
+
+### what goes wrong most often
+
+Page ranges abbreviate in Chicago's number style: 428–70, not 428–470, though a range crossing a hundred keeps both digits, as in 364–406. Ranges take an en dash rather than a hyphen. Journal and book titles are italicized; article and chapter titles take quotation marks. The bibliography is alphabetized by author surname and is not numbered. Every source cited in a note appears in the bibliography, and nothing appears there that the paper does not use.
+
+Generative AI tools misformat these patterns and invent sources outright. Every citation is checked against the source in hand.
+
 ## open
 
-The Chicago citation forms are not yet scheduled against the papers. The previous schedule tied each paper to a citation type and broke wherever a student's chosen source took a different form.
-
 The annotation progression past Paper 1, where the template falls away.
+
+`meta/editions.md` is written in 17th-edition form, with a place of publication before each publisher. It needs a pass against the 18th edition.
 
 ## into 602
 
