@@ -4,8 +4,6 @@ Course materials for MUS 601 at California State University, East Bay. A graduat
 
 Instructor: Inés Thiebaut, ines.thiebaut@csueastbay.edu. Office hours Wednesdays 1:00 to 3:00 PM in MB2012.
 
-601 runs in the fall. 602, Post-Tonality and Beyond, takes up the spring where 601 ends.
-
 ## student-facing pages
 
 Live links, for Canvas.

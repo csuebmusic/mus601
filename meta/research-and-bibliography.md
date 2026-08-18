@@ -96,19 +96,17 @@ A double step. Students search RILM, read the abstract, and judge from it whethe
 
 ### paper 2: Oxford Music Online
 
-Students search within Grove, read the entry, and work out from its bibliography to a secondary source on each concerto. A source-finding log is due on paper at the week 8 meeting, October 6: what was searched, what was rejected, and why.
+Students search within Grove, read the entry, and work out from its bibliography to a secondary source on each concerto.
 
 ### paper 3: ProQuest
 
-Mozart and Haydn symphonies are heavily worked ground, so the open dissertations are plentiful here. Students trade source picks with a classmate in the week 11 meeting, October 27, and read each other's against the trustworthiness criteria.
+Mozart and Haydn symphonies are heavily worked ground, so the open dissertations are plentiful here.
 
 ### papers 4 and 5: open
 
 No prescribed tool. The count rises to two secondary sources on a single work, which is the first time a student has to find two pieces of scholarship that speak to each other rather than one per piece.
 
 Paper 4 adds the edition defense: a short paragraph inside the paper on why this edition, and why this recording where the analysis engages one.
-
-Paper 5 feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week.
 
 ## using a source in the paper
 
