@@ -27,7 +27,7 @@ Volume is held constant and independence scales. Every paper takes the authorita
 | Primary vs. secondary; scholarly vs. non-scholarly | Introduced | Reinforced | Reinforced | Reinforced | Independent |
 | Judging trustworthiness | Edition authority; publisher venue | + Peer review; currency | + Author standing | + Recording authority; dissertation vetting | Independent, full criteria |
 | Finding tools of the field | RILM (guided) | JSTOR; WorldCat | Grove; footnote-chasing | ProQuest Dissertations | Independent, self-selected |
-| Chicago citation, by source type | Score/edition; chapter | + Journal article | + Reference work (Grove) | + Dissertation and/or liner notes | Independent, any type needed |
+| Chicago citation, by source type | Edition; chapter; book; journal article | No new type; the DOI or stable link on a JSTOR article | + Reference work (Grove) | + Dissertation and/or liner notes | Independent, any type needed |
 | Annotated entry (summarize / judge / use) | Templated | Free-form, guided | Free-form, peer-checked | Independent | Independent, fluent |
 
 Each tool is introduced in the seminar meeting of the week it comes due, folded into that week's lecture rather than carried by a separate Canvas mini-lesson.
