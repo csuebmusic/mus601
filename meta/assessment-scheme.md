@@ -4,7 +4,7 @@ A reusable grading scheme, applied consistently across syllabi. It covers what t
 
 ## the core idea
 
-Each graded assignment is scored 0 to 4, and that score is its grade-point value: 4 is an A, 3 a B, 2 a C, 1 a D, 0 an F. The course grade is the average of the assignment scores, weighted if the assignments carry different weights, which is the course GPA, converted to a letter.
+Each graded assignment is scored 0 to 4, and that score is its grade-point value: 4 is an A, 3 a B, 2 a C, 1 a D, 0 an F. Scores need not be integers, and a course may award half points where its rubric calls for them. The course grade is the average of the assignment scores, weighted if the assignments carry different weights, which is the course GPA, converted to a letter.
 
 The 0 to 4 score is grade points rather than a percentage. Never divide the average by four and never express the scale as a percentage: a 3 is a B, and 75% of the available points is the same 3. The two conversions are incompatible, so only the grade-point one appears on a syllabus.
 
@@ -60,7 +60,7 @@ Where a level averages to a grade with a consequence a student needs to see, wri
 
 - Graduate versus undergraduate standing. The MUS 601 syllabus uses the Graduate Student Handbook rules: only C or better counts toward the degree, a C– or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing, with anything below it triggering academic probation. Undergraduate courses use the undergraduate standing and minimum-grade rules instead, where a music major or minor needs a C– or better for the course to count toward the major or minor. Do not carry either set of rules across.
 - Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. Where a course weights assignments differently, use the weighted average of the 0 to 4 scores. The scale does not change.
-- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it lands on the same scale as everything else. Canvas's automatic late policy is the exception, since it takes a percentage per day and a percentage floor and nothing else. Where it runs the deduction, state the percentage and its grade-point equivalent together: 601 takes 2% of the paper's value per day (0.08 grade points), floored at 50%, a score of 2.0. Note what the floor does against the rubric's own levels. A paper already at or below the floor is never reduced, so lateness costs the students above it and costs nobody else. Under the 601 rubric the floor of 2.0 sits between the 2.5 and 1.5 levels, so a submitted paper at 1.5 is never reduced.
+- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it lands on the same scale as everything else. Canvas's automatic late policy is the exception, since it takes a percentage per day and an optional percentage floor and nothing else. Where it runs the deduction, state the percentage and its grade-point equivalent together: 601 takes 2% of the paper's value per day, which is 0.08 grade points. 601 sets no floor, so the Canvas floor field is left empty and the deduction runs to zero. State how long that takes from the levels the rubric actually awards: at 0.08 a day, a 3.5 reaches zero after 44 days and a 4 after 50.
 
 ## style, to match across syllabi
 

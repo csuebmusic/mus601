@@ -1,6 +1,6 @@
 # visual conventions
 
-The house style for student-facing pages and interactive analytical tools across mus601 and mus602, shared with mus312. Each repo carries its own copy of `assets/style.css` and its own fonts and stands alone. The copies stay identical: edit here, copy across.
+The house style for student-facing pages and interactive analytical tools in mus601. It began as a copy of the mus312 stylesheet and has since diverged; mus312 is not kept in step with it. mus602 takes a copy of `assets/style.css` and the fonts when that course is built, and the two are kept in step from then on. Each repo stands alone.
 
 ## palette
 

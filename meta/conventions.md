@@ -13,6 +13,7 @@ Each body of material has one canonical home. Edit it there; everything else poi
 - `meta/editions.md`: the edition behind each seminar score, mine.
 - `meta/visual-conventions.md`: the house style. Shared with 602 and with mus312.
 - `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the grading mechanics, reusable across courses.
+- `tools/`: interactive analytical tools, when there are any. Empty for now.
 - `meta/`: planning and conventions, mine and Claude only. The repo is public, so everything here is readable at the repo and at the Pages URL.
 
 ## format by audience

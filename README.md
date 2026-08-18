@@ -10,7 +10,7 @@ Live links, for Canvas.
 
 **syllabus**
 https://csuebmusic.github.io/mus601/syllabus.html
-Course information, important dates, the catalog description and learning outcomes, assessment and the grade scale, the analytical papers, research and writing, the AI policy, the week-by-week schedule with readings and directed questions, policies, and the campus statements.
+Course information, important dates, the catalog description and learning outcomes, assessment and the grade scale, the analytical papers and their specifications, the AI policy, the week-by-week schedule with readings and directed questions, policies, and the campus statements.
 
 **source work**
 https://csuebmusic.github.io/mus601/research/source-work.html
@@ -21,12 +21,13 @@ In progress.
 ```
 assets/       stylesheet and self-hosted fonts
 research/     the source work and citation handout, in progress
+tools/        interactive analytical tools, empty for now
 meta/         instructor notes and conventions
 outline.md    the schedule at a glance
 ```
 
 Pages are hand-authored HTML on `assets/style.css`, self-contained and viewable in any browser with no build step. GitHub Pages serves them through the Actions workflow. Markdown is the instructor's.
 
-Two units, in-person, graded A to F. The syllabus gives the current term's dates, meeting time, and logistics.
+Two units, two contact hours a week, in-person, graded A to F. The syllabus gives the current term's dates, meeting time, and logistics.
 
 Text set in IBM Plex, under the SIL Open Font License.
