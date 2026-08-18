@@ -14,37 +14,37 @@ By the end of 601 a student can:
 
 - Tell primary sources (scores and critical editions, composer writings and letters, contemporaneous documents, recordings) from secondary ones (scholarly books, journal articles, dissertations, reference entries), and scholarly sources from everything else.
 - Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition or a recording is authoritative.
-- Find sources with the tools below, move from a topic to search terms, and follow the footnotes of a good source to further sources.
+- Find a sourced edition of a work, and find scholarship on it with the tools below. Move from a topic to search terms, and follow the footnotes of a good source to further sources.
 - Cite in Chicago, notes-bibliography, for scores and editions, book chapters, journal articles, dissertations, liner notes, and online reference works.
 - Write an annotated entry that summarizes the source, judges it, and says what it is good for.
 
 ## the tools
 
-WorldCat and ProQuest are open to anyone. The rest go through the library proxy, which asks for a NetID and password. Each entry below carries its direct link. Google Scholar is not part of the sequence.
+Learned one per paper, in the order below. ProQuest is open to anyone; the rest go through the library proxy, which asks for a NetID and password. Google Scholar is not part of the sequence.
+
+### Alexander Street: Music and Performing Arts
+
+Access: `https://search-alexanderstreet-com.proxylib.csueastbay.edu/music-performing-arts/advanced-search`, then NetID and password.
+
+What it is: a collection of digitized scores, streaming audio, and video. It is where students find a sourced edition of each work they analyze, and where they find recordings when an analysis engages a performance.
+
+How to search it: search the composer and the work in the advanced search, then filter by content type to separate scores from audio. A digitized score is a scan of some particular edition. Find the title page and the publication information, identify which edition the scan reproduces, and cite it as that.
 
 ### RILM Abstracts of Music Literature
 
-Access: `http://proxylib.csueastbay.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=rih`, then NetID and password. The public site at https://www.rilm.org describes the resource; the database itself is licensed through EBSCO.
+Access: `http://proxylib.csueastbay.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=rih`, then NetID and password.
 
-What it is: the international bibliography of writing about music, from 1967 forward with earlier coverage in places. It indexes journal articles, books, chapters in edited volumes, dissertations, conference papers, Festschriften, critical commentaries to complete editions, and reviews, in some 140 languages and from 178 countries. Every record carries a bibliographic citation, an abstract in English whatever the language of the source, and controlled subject headings. RILM indexes; it holds full text for only a subset. A RILM record establishes that a piece of scholarship exists and tells you enough to judge whether it is worth chasing.
+What it is: the international bibliography of writing about music, from 1967 forward with earlier coverage in places. It indexes journal articles, books, chapters in edited volumes, dissertations, conference papers, Festschriften, critical commentaries to complete editions, and reviews, in some 140 languages and from 178 countries. Every record carries a bibliographic citation, an abstract in English whatever the language of the source, and controlled subject headings. RILM indexes; it holds full text for only a subset.
 
-How to search it: start from the composer and the work, in that order, before adding the analytical problem. Read the abstract rather than the title, since titles in musicology are often oblique. Take the subject headings from a record that looks right and search those directly, which surfaces the neighboring scholarship a keyword search misses. Narrow by document type where the paper calls for a particular kind of source, and by date when currency is the question. Carry the citation out of RILM and into JSTOR or the catalog to get the text.
+How to search it: start from the composer and the work, in that order, before adding the analytical problem. Read the abstract rather than the title, since titles in musicology are often oblique. Take the subject headings from a record that looks right and search those directly, which surfaces the neighboring scholarship a keyword search misses. Narrow by document type where a particular kind of source is wanted, and by date when currency is the question.
 
 ### JSTOR
 
 Access: `https://login.proxylib.csueastbay.edu/login?url=http://www.jstor.org/search`, then NetID and password.
 
-What it is: a full-text archive of scholarly journals, with deep back runs of the core musicology titles, among them the *Journal of the American Musicological Society*, *Music Theory Spectrum*, *19th-Century Music*, *Journal of Music Theory*, and the *Musical Quarterly*. Where RILM tells you an article exists, JSTOR is usually where you read it. Coverage runs to a moving wall a few years short of the present for many titles, so the newest scholarship is often elsewhere.
+What it is: a full-text archive of scholarly journals, with deep back runs of the core musicology titles, among them the *Journal of the American Musicological Society*, *Music Theory Spectrum*, *19th-Century Music*, *Journal of Music Theory*, and the *Musical Quarterly*. Coverage runs to a moving wall a few years short of the present for many titles.
 
-How to search it: search by article title carried over from RILM rather than by keyword, when you already have a citation. For open searching, use the advanced search with the discipline limited to Music, and limit to articles to keep reviews out. The stable URL and the DOI on the article's landing page are what a Chicago bibliography entry takes; a database name is not a locator. JSTOR's own reference list on an article page is a fast route into footnote-chasing.
-
-### WorldCat
-
-Access: open to anyone at https://search.worldcat.org. No sign-in.
-
-What it is: the union catalog of library holdings worldwide. It is where a book, a score, or a critical edition is confirmed to exist in a particular form, and where its publication details are settled: editor, series, volume, place, publisher, date, edition statement. It also shows which libraries hold a copy, which is how an interlibrary loan request starts.
-
-How to search it: search the work rather than the composer alone, and read the format facet, since scores, books, and recordings all surface together. For a critical edition, search the series title (Neue Mozart-Ausgabe, Neue Bach-Ausgabe) rather than the individual work, then find the volume. Open the full record for the editor and series statement, which is the part a bookseller listing or a scan usually omits and a Chicago citation requires.
+How to search it: search the article title carried over from RILM rather than by keyword. The stable URL and the DOI on the article's landing page are what a Chicago bibliography entry takes; a database name is not a locator. The reference list on a JSTOR article page is a fast route into footnote-chasing.
 
 ### Oxford Music Online
 
@@ -52,52 +52,71 @@ Access: `https://login.proxylib.csueastbay.edu/login?url=http://www.oxfordmusico
 
 What it is: the platform holding three distinct reference works. *Grove Music Online* is the principal scholarly music reference source in English: signed articles, each with a work-list and a bibliography, written by specialists and citable in their own right. *The Oxford Dictionary of Music* and *The Oxford Companion to Music* are written for a general readership; they are useful for orientation and are not scholarly sources for a paper.
 
-How to search it: search within Grove specifically rather than across the platform, so the general-readership entries do not crowd the results. Read the article, then work from its bibliography, which is a curated reading list assembled by a specialist. Use the work-list to confirm catalog numbers and dates. Grove entries are signed and dated; take the author's name and the revision date, and copy the permalink the entry supplies rather than the browser URL.
+How to search it: search within Grove specifically rather than across the platform, so the general-readership entries do not crowd the results. Read the article, then work from its bibliography, which is a reading list assembled by a specialist. Use the work-list to confirm catalog numbers and dates. Grove entries are signed and dated; take the author's name and the revision date, and copy the permalink the entry supplies rather than the browser URL.
 
 ### ProQuest Dissertations & Theses
 
 Access: https://www.proquest.com. No sign-in.
 
-What it is: the dissertation and thesis database. Without a subscription the results are the open-access dissertations and theses, which is a large share of them and not all. A search that returns nothing is not evidence that nothing was written. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, which is a real standard and a different one from peer review.
+What it is: the dissertation and thesis database. Without a subscription the results are the open-access dissertations and theses, which is a large share of them and not all. A search that returns nothing is not evidence that nothing was written. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, a real standard and a different one from peer review.
 
-How to search it: search the composer and the work, then broaden to the genre or the analytical problem, since a dissertation chapter on your piece may sit inside a study with an unrelated title. Read the abstract and the table of contents before downloading. Note the degree, the institution, and the year, along with the ProQuest number, which the Chicago entry takes.
+How to search it: search the composer and the work, then broaden to the genre or the analytical problem, since a chapter on a given piece may sit inside a study with an unrelated title. Read the abstract and the table of contents before downloading. Note the degree, the institution, the year, and the ProQuest number, which the Chicago entry takes.
 
-### Alexander Street: Music and Performing Arts
+### alongside: WorldCat and IMSLP
 
-Access: `https://search-alexanderstreet-com.proxylib.csueastbay.edu/music-performing-arts/advanced-search`, then NetID and password.
+Neither is part of the sequence. Both are there when a student needs to locate a book or settle a citation.
 
-What it is: a collection of digitized scores, streaming audio, and video. For 601 it is a second route to a score alongside IMSLP, and a route to recordings where an analysis engages a performance.
+WorldCat, open to anyone at https://search.worldcat.org, is the union catalog of library holdings. Use it to find which library holds a book, which is where a CSU+ or interlibrary loan request starts, and to confirm the details a citation needs and a bookseller listing omits: editor, series, volume, place, publisher, date.
 
-How to search it: search the composer and the work, then filter by content type to separate scores from audio. A digitized score carries the same question an IMSLP file does: identify which edition the scan reproduces, from its title page and publication information, before citing it.
+IMSLP, open to anyone at https://imslp.org, holds scores whose copyright has lapsed. A file there may be a nineteenth-century collected edition, a performing edition carrying a later editor's additions, or a scan with nothing on it to say what it is, so it takes the same identification a score from Alexander Street takes.
 
 ## how the tools are taught
 
 Each tool is introduced in the seminar meeting of the week it comes due, folded into that week's session rather than carried by a separate Canvas mini-lesson.
 
-## the design
+## the scores
 
-Volume is held constant and independence scales. Every paper takes an authoritative edition of each work analyzed plus two secondary sources, both annotated. What moves is how much of the finding is done for students, which tool is newly in play, and which trustworthiness criterion is the explicit lens. By Paper 5 every item on the exit list has been exercised unaided at least once.
+Analysis and musical examples come from the score packets provided in seminar. Separately, each student finds a sourced edition of every work the paper analyzes on Alexander Street, and cites that edition in the paper. From 602 on, the edition a student finds is the edition a student analyzes.
 
-| exit-list skill | Paper 1 | Paper 2 | Paper 3 | Paper 4 | Paper 5 |
-| --- | --- | --- | --- | --- | --- |
-| Primary vs. secondary; scholarly vs. non-scholarly | Introduced | Reinforced | Reinforced | Reinforced | Independent |
-| Judging trustworthiness | Edition authority; publisher venue | + Peer review; currency | + Author standing | + Recording authority; dissertation vetting | Independent, full criteria |
-| Finding tools of the field | RILM | JSTOR; WorldCat | Oxford Music Online; footnote-chasing | ProQuest | Independent, self-selected |
-| Annotated entry (summarize / judge / use) | Templated | Free-form, guided | Free-form, peer-checked | Independent | Independent, fluent |
+## the sources, paper by paper
 
-## scaffolding, paper by paper
+| paper | topic | works | secondary sources | tool |
+| --- | --- | --- | --- | --- |
+| 1 | modal sub-systems and text setting | Lasso, Monteverdi, Schütz | three, one per work | RILM to JSTOR |
+| 2 | ritornello form and system change | Vivaldi, Bach | two, one per work | Oxford Music Online |
+| 3 | the sonata exposition and the second key | Mozart, Haydn | two, one per work | ProQuest |
+| 4 | Beethoven's sonata procedure | Beethoven | two, both on the one work | open, self-selected |
+| 5 | Schubert's chromaticism | Schubert | two, both on the one work | open, self-selected |
 
-| paper | level | the safety net |
-| --- | --- | --- |
-| 1 | heavy | A fill-in-the-blank annotation template and one pre-identified source, so the mechanics do not compete with the three-way comparison the paper is graded on. |
-| 2 | guided | A source-finding log, on paper at the week 8 meeting, October 6. |
-| 3 | guided to independent | A peer, not an instructor and not a template: students trade source picks in the week 11 meeting, October 27. |
-| 4 | independent | None. Dress rehearsal for Paper 5, with the edition defense as the new demand. |
-| 5 | none | None. Feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week. |
+Every source is annotated, on every paper.
+
+### paper 1: RILM to JSTOR
+
+A double step. Students search RILM, read the abstract, and judge from it whether the article is worth having; then they find that article in JSTOR and read it. RILM establishes what exists, JSTOR supplies the text.
+
+The safety net is heaviest here: a fill-in-the-blank annotation template, and one of the three sources may come pre-identified from the Unit 1 bibliography, so the mechanics do not compete with the three-way comparison the paper is graded on.
+
+### paper 2: Oxford Music Online
+
+Students search within Grove, read the entry, and work out from its bibliography to a secondary source on each concerto. A source-finding log is due on paper at the week 8 meeting, October 6: what was searched, what was rejected, and why.
+
+### paper 3: ProQuest
+
+Mozart and Haydn symphonies are heavily worked ground, so the open dissertations are plentiful here. Students trade source picks with a classmate in the week 11 meeting, October 27, and read each other's against the trustworthiness criteria.
+
+### papers 4 and 5: open
+
+No prescribed tool and no safety net. The count rises to two secondary sources on a single work, which is the first time a student has to find two pieces of scholarship that speak to each other rather than one per piece.
+
+Paper 4 adds the edition defense: a short paragraph inside the paper on why this edition, and why this recording where the analysis engages one.
+
+Paper 5 feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week.
 
 ## open
 
 The Chicago citation forms are not yet scheduled against the papers. The previous schedule tied each paper to a citation type and broke wherever a student's chosen source took a different form.
+
+The annotation progression past Paper 1, where the template falls away.
 
 ## into 602
 
