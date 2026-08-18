@@ -1,6 +1,6 @@
 # research and bibliography
 
-The design behind the research and bibliography work in 601. The student-facing form of the per-paper arc and the citation forms is `research/source-work.html`, and the paper requirements are in `syllabus.html`. Repertoire, source tasks, citation types, and trustworthiness lenses live there and only there.
+The design behind the research and bibliography work in 601. The student-facing form is `research/source-work.html`; the paper requirements are in `syllabus.html`.
 
 Research and bibliography used to be its own course. It runs now as one module inside 601 and a second inside 602, built by Peter in Canvas against the outcomes below.
 
@@ -14,23 +14,68 @@ By the end of 601 a student can:
 
 - Tell primary sources (scores and critical editions, composer writings and letters, contemporaneous documents, recordings) from secondary ones (scholarly books, journal articles, dissertations, reference entries), and scholarly sources from everything else.
 - Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition or a recording is authoritative.
-- Find sources with the tools of the field: RILM, JSTOR, Oxford Music Online and Grove, the library catalog and WorldCat, ProQuest Dissertations, and IMSLP and critical editions for scores. Move from a topic to search terms, and follow the footnotes of a good source to further sources.
+- Find sources with the five tools below, move from a topic to search terms, and follow the footnotes of a good source to further sources.
 - Cite in Chicago, notes-bibliography, for scores and editions, book chapters, journal articles, dissertations, liner notes, and online reference works.
 - Write an annotated entry that summarizes the source, judges it, and says what it is good for.
 
+## the tools
+
+Five tools, learned in this order. Two are open to anyone; three come through the University Libraries A–Z database list at https://library.csueastbay.edu/az/databases, where the link hands off to a NetID and password sign-in.
+
+### RILM Abstracts of Music Literature
+
+Access: through the library A–Z list. The public site at https://www.rilm.org describes the resource and holds RILM's own publications; the database itself is licensed through EBSCO.
+
+What it is: the international bibliography of writing about music, from 1967 forward with earlier coverage in places. It indexes journal articles, books, chapters in edited volumes, dissertations, conference papers, Festschriften, critical commentaries to complete editions, and reviews, in some 140 languages and from 178 countries. Every record carries a bibliographic citation, an abstract in English whatever the language of the source, and controlled subject headings. RILM indexes; it holds full text for only a subset. A RILM record establishes that a piece of scholarship exists and tells you enough to judge whether it is worth chasing.
+
+How to search it: start from the composer and the work, in that order, before adding the analytical problem. Read the abstract rather than the title, since titles in musicology are often oblique. Take the subject headings from a record that looks right and search those directly, which surfaces the neighboring scholarship a keyword search misses. Narrow by document type where the paper calls for a particular kind of source, and by date when currency is the question. Carry the citation out of RILM and into JSTOR or the catalog to get the text.
+
+### JSTOR
+
+Access: through the library A–Z list, then NetID and password.
+
+What it is: a full-text archive of scholarly journals, with deep back runs of the core musicology titles, among them the *Journal of the American Musicological Society*, *Music Theory Spectrum*, *19th-Century Music*, *Journal of Music Theory*, and the *Musical Quarterly*. Where RILM tells you an article exists, JSTOR is usually where you read it. Coverage runs to a moving wall a few years short of the present for many titles, so the newest scholarship is often elsewhere.
+
+How to search it: search by article title carried over from RILM rather than by keyword, when you already have a citation. For open searching, use the advanced search with the discipline limited to Music, and limit to articles to keep reviews out. The stable URL and the DOI on the article's landing page are what a Chicago bibliography entry takes; a database name is not a locator. JSTOR's own reference list on an article page is a fast route into footnote-chasing.
+
+### WorldCat
+
+Access: open to anyone at https://search.worldcat.org.
+
+What it is: the union catalog of library holdings worldwide. It is where a book, a score, or a critical edition is confirmed to exist in a particular form, and where its publication details are settled: editor, series, volume, place, publisher, date, edition statement. It also shows which libraries hold a copy, which is how an interlibrary loan request starts.
+
+How to search it: search the work rather than the composer alone, and read the format facet, since scores, books, and recordings all surface together. For a critical edition, search the series title (Neue Mozart-Ausgabe, Neue Bach-Ausgabe) rather than the individual work, then find the volume. Open the full record for the editor and series statement, which is the part a bookseller listing or a scan usually omits and a Chicago citation requires.
+
+### Oxford Music Online
+
+Access: through the library A–Z list, then NetID and password.
+
+What it is: the platform holding three distinct reference works. *Grove Music Online* is the principal scholarly music reference source in English: signed articles, each with a work-list and a bibliography, written by specialists and citable in their own right. *The Oxford Dictionary of Music* and *The Oxford Companion to Music* are written for a general readership; they are useful for orientation and are not scholarly sources for a paper.
+
+How to search it: search within Grove specifically rather than across the platform, so the general-readership entries do not crowd the results. Read the article, then work from its bibliography, which is a curated reading list assembled by a specialist. Use the work-list to confirm catalog numbers and dates. Grove entries are signed and dated; take the author's name and the revision date, and copy the permalink the entry supplies rather than the browser URL.
+
+### ProQuest Dissertations & Theses
+
+Access: through the library A–Z list, then NetID and password. The public site is https://www.proquest.com.
+
+What it is: the dissertation and thesis database, with full text for most North American doctoral dissertations from the last several decades. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, which is a real standard and a different one from peer review.
+
+How to search it: search the composer and the work, then broaden to the genre or the analytical problem, since a dissertation chapter on your piece may sit inside a study with an unrelated title. Read the abstract and the table of contents before downloading. Note the degree, the institution, and the year, along with the ProQuest number, which the Chicago entry takes.
+
+## how the tools are taught
+
+Each tool is introduced in the seminar meeting of the week it comes due, folded into that week's session rather than carried by a separate Canvas mini-lesson.
+
 ## the design
 
-Volume is held constant and independence scales. Every paper takes the authoritative edition of each work analyzed plus two secondary sources, both annotated, so the unit stays evaluable and the comparison across papers is real. What moves is how much of the finding is done for students, which tool is newly in play, which citation type is practiced, and which trustworthiness criterion is the explicit lens. By Paper 5 every item on the exit list has been exercised unaided at least once.
+Volume is held constant and independence scales. Every paper takes an authoritative edition of each work analyzed plus two secondary sources, both annotated. What moves is how much of the finding is done for students, which tool is newly in play, and which trustworthiness criterion is the explicit lens. By Paper 5 every item on the exit list has been exercised unaided at least once.
 
 | exit-list skill | Paper 1 | Paper 2 | Paper 3 | Paper 4 | Paper 5 |
 | --- | --- | --- | --- | --- | --- |
 | Primary vs. secondary; scholarly vs. non-scholarly | Introduced | Reinforced | Reinforced | Reinforced | Independent |
 | Judging trustworthiness | Edition authority; publisher venue | + Peer review; currency | + Author standing | + Recording authority; dissertation vetting | Independent, full criteria |
-| Finding tools of the field | RILM (guided) | JSTOR; WorldCat | Grove; footnote-chasing | ProQuest Dissertations | Independent, self-selected |
-| Chicago citation, by source type | Edition; chapter; book; journal article | No new type; the DOI or stable link on a JSTOR article | + Reference work (Grove) | + Dissertation and/or liner notes | Independent, any type needed |
+| Finding tools of the field | RILM | JSTOR; WorldCat | Oxford Music Online; footnote-chasing | ProQuest | Independent, self-selected |
 | Annotated entry (summarize / judge / use) | Templated | Free-form, guided | Free-form, peer-checked | Independent | Independent, fluent |
-
-Each tool is introduced in the seminar meeting of the week it comes due, folded into that week's lecture rather than carried by a separate Canvas mini-lesson.
 
 ## scaffolding, paper by paper
 
@@ -41,6 +86,10 @@ Each tool is introduced in the seminar meeting of the week it comes due, folded 
 | 3 | guided to independent | A peer, not an instructor and not a template: students trade source picks in the week 11 meeting, October 27. |
 | 4 | independent | None. Dress rehearsal for Paper 5, with the edition defense as the new demand. |
 | 5 | none | None. Feedback comes back keyed point by point to the exit list, so what a student cannot yet do unaided is named before the spring rather than discovered in 602's first week. |
+
+## open
+
+The Chicago citation forms are not yet scheduled against the papers. The previous schedule tied each paper to a citation type and broke wherever a student's chosen source took a different form.
 
 ## into 602
 
