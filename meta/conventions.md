@@ -1,6 +1,6 @@
 # MUS 601: conventions
 
-Read this before drafting anything that follows the repo's conventions, and defer to it.
+Read this before drafting anything at all in this repo, and defer to it.
 
 ## who owns what
 
