@@ -112,7 +112,7 @@ Paper 5 feedback comes back keyed point by point to the exit list, so what a stu
 
 ## using a source in the paper
 
-A source earns its place by doing something in the argument. Cite it at the point it bears on the analysis rather than in a block of context at the top. A source that appears once for a date is doing less than the requirement asks of it.
+A source earns its place by doing something in the argument. A source that appears once for a date is doing less than the requirement asks of it.
 
 Three things a secondary source does in a paper of this kind. It supplies an analytical frame the paper adopts or resists, as Hepokoski's medial caesura does for a sonata exposition. It establishes a fact the analysis rests on, an attribution, a dating, a reading in a source. It states a position the paper argues with, which is the strongest use and the one Paper 5 is built toward.
 
