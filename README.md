@@ -12,6 +12,13 @@ Live links, for Canvas.
 https://csuebmusic.github.io/mus601/syllabus.html
 Course information, important dates, the catalog description and learning outcomes, assessment and the grade scale, the analytical papers and their specifications, the AI policy, the week-by-week schedule with readings and directed questions, policies, and the campus statements.
 
+**unit pages**
+https://csuebmusic.github.io/mus601/units/unit-1.html
+https://csuebmusic.github.io/mus601/units/unit-2.html
+https://csuebmusic.github.io/mus601/units/unit-3.html
+https://csuebmusic.github.io/mus601/units/unit-4.html
+One page per unit, for the Canvas modules. The unit's selected bibliography, its weeks with the works studied in each, and its papers with their directed questions.
+
 **source work**
 https://csuebmusic.github.io/mus601/research/source-work.html
 The research tools and how to search each one, with the links that reach them. Which score to analyze from and which edition to cite. What each paper needs in sources and which tool it introduces. How a source earns its place in an argument, and the Chicago notes-bibliography forms for scores, editions, articles, chapters, books, reference entries, and dissertations.
@@ -21,6 +28,7 @@ The research tools and how to search each one, with the links that reach them. W
 ```
 assets/       stylesheet and self-hosted fonts
 research/     the source work and citation handout
+units/        one page per unit, for the Canvas modules
 tools/        interactive analytical tools, empty for now
 meta/         instructor notes and conventions
 outline.md    the schedule at a glance
