@@ -28,7 +28,7 @@ The research tools and how to search each one, with the links that reach them. W
 ```
 assets/       stylesheet and self-hosted fonts
 research/     the source work and citation handout
-units/        one page per unit, for the Canvas modules
+units/        one page per unit, for the Canvas modules, and the reading synthesis for each
 tools/        interactive analytical tools, empty for now
 meta/         instructor notes and conventions
 outline.md    the schedule at a glance
