@@ -2,6 +2,24 @@
 
 Instructor-facing. What each assigned reading argues, what in it is teachable, and where the readings meet the unit's repertoire. Ordered by the period each reading covers, not by the bibliography.
 
+## the unit 1 scores, chronologically
+
+Dates are of composition where it is known and differs from publication, otherwise of the first print. The unit's teaching order is not the chronological order: *Lagrime di San Pietro* belongs by date with Weeks 2 and 3 and falls in Week 6.
+
+| date | work | week | reading that analyzes it |
+|---|---|---|---|
+| copied c. 1516–22 | Josquin or la Rue, "Absalon, fili mi" (GB-Lbl Royal 8 G vii, Alamire workshop) | 2–3 | Burnett ch. 3: 2♭ to 3♭ to 4♭, B♭ lydian to B♭ dorian |
+| composed c. 1550–60, published Munich 1600 | Lasso, *Prophetiae Sibyllarum*, prologue | 2–3 | Burnett ch. 3: full PCA, system shifts durus to mollis |
+| 1566 | Rore, "Da le belle contrade d'oriente" (*Il quinto libro*) | 2–3 | Burnett ch. 3: 1♭ frame, naturalis at m. 36, descent to 3♭ |
+| composed 1594, published Munich 1595 | Lasso, *Lagrime di San Pietro*, nos. I and V | 6 (Paper 1) | Powers: tonal-type table, no. I as ♮-c1-D, no. V as ♭-c1-G |
+| 1619 | Monteverdi, *Concerto: Settimo libro dei madrigali* | 4–5 | Burnett ch. 3: *Eccomi pronta ai baci*, *Ecco vicine o bella Tigre* |
+| 1629 | Schütz, "O quam tu pulchra es," SWV 265 (*Symphoniae sacrae* I) | 4–5 | none |
+| 1629 | Schütz, "Fili mi, Absalon," SWV 269 (*Symphoniae sacrae* I) | 6 (Paper 1) | none |
+| 1638 | Monteverdi, "Perché te'n fuggi, o Fillide?" (Book 8) | 6 (Paper 1) | none |
+| 1650 | Schütz, "Saul, Saul, was verfolgst du mich?" SWV 415 (*Symphoniae sacrae* III) | 4–5 | none |
+
+The composition date of the *Prophetiae* is disputed: Boetticher argues for c. 1550–52 in Naples, Einstein for 1555–60. Lasso's sons published the cycle in 1600, six years after his death. The *Lagrime* dedication to Clement VIII was signed three weeks before Lasso died in June 1594.
+
 ## cohen, "notes, scales, and modes in the earlier middle ages" (pp. 307–63) · c. 800 to c. 1500
 
 The prehistory of every term the unit uses.
@@ -121,6 +139,8 @@ The strongest convergence falls on Paper 1. Powers's table of *Lagrime di San Pi
 
 The directed questions ask students to place each piece in naturalis, mollis, or durus. That is Burnett's system-level taxonomy, in which durus is the G system reached by D♯. In Powers, Judd, and Barnett, cantus durus and cantus mollis are the only two signature systems and naturalis is not a term. Students reading Powers first will read the question as offering three signature categories where only two exist. Decision needed: gloss the term on the unit page, or restate the question in Burnett's terms.
 
-Paper 1's three works have no analytical model in the assigned reading. Burnett analyzes no Schütz, no *Lagrime*, and nothing from Book 8. Powers supplies the *Lagrime* tonal-type table and nothing on the other two. Decision needed: leave the gap as scaffolding removal, or add a handout applying the three-hexachord method to *Fili mi, Absalon* and *Perché te'n fuggi*.
+Five of the nine works have no analytical model in the assigned reading: all three Schütz pieces, the Book 8 madrigal, and *Lagrime di San Pietro* beyond Powers's tonal-type table. Burnett states outright that space prevented the chapter from taking up Schütz. Decision needed: leave the gap as scaffolding removal, or add a handout applying the three-hexachord method to *O quam tu pulchra es*, *Fili mi, Absalon*, and *Perché te'n fuggi*.
+
+`meta/editions.md` carries no Unit 1 entry for the three Paper 1 works. Decision needed: whether those scores are distributed in the meeting and so belong in that file.
 
 The Burnett entry in the unit bibliography carries no page range. Chapter 3 is pp. 39–88.
