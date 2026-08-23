@@ -11,6 +11,7 @@ Each body of material has one canonical home. Edit it there; everything else poi
 - `research/source-work.html`: the source and citation handout. The research tools and how to search them, what each paper asks for in sources, and the Chicago notes-bibliography forms. Shared with 602: author here, copy there, keep identical.
 - `meta/research-and-bibliography.md`: the design behind the research work, mine. The tools with their access routes, the per-paper source plan, and the citation forms the handout draws on.
 - `meta/editions.md`: the edition behind each seminar score, mine.
+- `meta/unit-1-readings.md`: what each Unit 1 reading argues and where the readings meet the unit's repertoire, mine.
 - `meta/visual-conventions.md`: the house style. Shared with 602 and with mus312.
 - `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the grading mechanics, reusable across courses.
 - `units/unit-1.html` to `units/unit-4.html`: the per-unit pages linked from the Canvas modules. Each carries its unit's selected bibliography, weeks, works, and paper prompt with directed questions. Derived from `syllabus.html`; keep in step, and edit the syllabus first.
