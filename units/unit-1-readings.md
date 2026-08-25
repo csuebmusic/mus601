@@ -24,16 +24,29 @@ The composition date of the *Prophetiae* is disputed: Boetticher argues for c. 1
 
 The prehistory of every term the unit uses. Three sections: the ninth century, the eleventh-century syntheses, and a postscript to c. 1500.
 
-**The three strands the Carolingians fused**
+**What the chapter is for**
 
-- The cantus tradition: the evolving repertory of Gregorian melodies, plus the eight *toni* superimposed on it by Frankish cantors by around 800, adapted from the Byzantine *oktoechos*.
-- The harmonics tradition: notes, intervals, and scale, transmitted through Boethius above all, and through Cassiodorus, Isidore, and Martianus Capella.
-- The practical motive: liturgical uniformity. A rationalized account of the chant promised more accurate transmission and more disciplined performance.
+The ninth century established a scale system and a systematic modal theory based on it, which is where two features of theoretical thought that still shape the culture originate: an abstract background scale system, and the intervallic analysis of pitch structures.
+
+**The three elements the Carolingians integrated**
+
+- The still evolving repertory of Gregorian chant melodies, the concrete actuality of liturgical song (*cantus*), which is the constant touchstone and ultimate object of all theory construction.
+- The system of eight *toni* used by the church to classify and organize those melodies, whose organization, nomenclature, and procedures bear the marks of its origin in Byzantine liturgical practices.
+- Concepts, constructions, and procedures of analysis adapted from ancient Greek harmonics, the scientific study of the pitch components of music: pitch itself, notes, intervals, scales, modes. Transmitted to the Carolingians by late Roman and earlier medieval writers, and called in Latin the science or art of music, *ars musica*.
+
+The first two together are the cantus tradition; the third is the harmonics tradition. The Carolingian cantors and scholars took integrating all three as their task, using each to illuminate the others.
+
+**The motive and the result**
+
+- The practical motivation was the awareness that a more systematic and rationalized understanding of the cantus tradition would promote liturgical uniformity, always an ideal of the Carolingian monarchs and higher clergy, by securing more accurate transmission of the sacred melodies and more disciplined, uniform performance of them.
+- What the integration produced was a new way of understanding the concrete actualities of liturgical song, conceptualizing entities and events that had formerly been grasped only or primarily empirically, in ways that were truly theoretical in involving abstraction and system construction.
+- The named transmitters of the harmonics tradition, where Cohen names them, are Boethius and Martianus Capella, alongside other late Roman writers on the ancient *ars musica*. Boethius, Cassiodorus, and Isidore are the authorities from whom Aurelian's opening chapters draw their extracts.
 
 **What the earliest documents do and do not contain**
 
 - Earliest tonaries: the St.-Riquier Tonary, c. 800, and the Carolingian Tonary of Metz, archetype c. 825–55. Modal treatises often travel with a tonary and probably began as glosses on its terminology.
 - *De octo tonis* circulates both attributed to Alcuin and as the opening of chapter 8 of Aurelian's *Musica disciplina*.
+- The Carolingian *toni* were adapted from the *oktoechos*, used by the Byzantine clergy since at least the seventh century to classify their liturgical melodies into eight categories called *echoi*. The Greek terminology in the earliest extant modal documents is part of the evidence.
 - Four *maneriae* named by Greek ordinals: protus, deuterus, tritus, tetrardus. Each pairs an authentic with a plagal, from *authentes* and *plagios*, Latinized as *authenticus* and *plagius*, or translated as *auctoralis* and *lateralis*. The pair is described as master and pupil, *magister* and *discipulus*.
 - No final. No criterion distinguishing the four main categories from each other. Authentic and plagal are separated only by vague range language, *altiores* against *inferiores*.
 - Intonation formulas carry the modal identity instead: *Nonanoeane*, *Noeagis*, later Latin texts such as "Primus tonus sic incipit" and model antiphons such as "Primum quaerite regnum Dei."
