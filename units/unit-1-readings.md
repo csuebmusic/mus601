@@ -615,5 +615,4 @@ Five of the nine works have no analytical model in the assigned reading: all thr
 From `syllabus.html`.
 
 - Place each piece in its system (naturalis, mollis, durus) and track any modulation between systems: what pitch forces each change, and where does it land? Compared on their system behavior, what is the essential harmonic difference among the three?
-- Where is the harmony hardest to fix to a single system, and what does that ambiguity do for the setting?
-- How does each composer's texture and melodic motion answer to its text? Where does the text shape the form rather than decorate it?
+- Where does the text shape the setting rather than decorate it, and by what means: melodic motion and texture, or harmonic ambiguity where the music is hardest to fix to a single system?
