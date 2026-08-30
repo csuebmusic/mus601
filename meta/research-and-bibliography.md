@@ -110,7 +110,7 @@ No prescribed tool. The count rises to two secondary sources on a single work, w
 
 Every source cited has a function in the argument. A source that appears once for a date meets the count and not the requirement.
 
-A secondary source has one of three functions in a paper of this kind. It supplies an analytical frame the paper adopts or resists, as Hepokoski's medial caesura does for a sonata exposition. It establishes a fact the analysis rests on, an attribution, a dating, a reading in a source. It states a position the paper argues with, which is the strongest of the three.
+A secondary source has one of three functions in a paper of this kind. It supplies an analytical frame the paper adopts or resists, as Hepokoski's medial caesura does for a sonata exposition. It establishes a fact the analysis rests on, an attribution, a dating, a reading in a source. It states a position the paper argues with.
 
 Where a source is weak on one of the five criteria and the paper uses it anyway, the paper says so in the note.
 
