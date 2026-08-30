@@ -11,7 +11,7 @@ Dates are of composition where it is known and differs from publication, otherwi
 | copied c. 1516–22 | Josquin or la Rue, "Absalon, fili mi" (GB-Lbl Royal 8 G vii, Alamire workshop) | 2–3 | Burnett ch. 3: 2♭ to 3♭ to 4♭, B♭ lydian to B♭ dorian |
 | composed c. 1550–60, published Munich 1600 | Lasso, *Prophetiae Sibyllarum*, prologue | 2–3 | Burnett ch. 3: full PCA, system shifts durus to mollis |
 | 1566 | Rore, "Da le belle contrade d'oriente" (*Il quinto libro*) | 2–3 | Burnett ch. 3: 1♭ frame, naturalis at m. 36, descent to 3♭ |
-| composed 1594, published Munich 1595 | Lasso, *Lagrime di San Pietro*, nos. I and V | 6 (Paper 1) | Powers: tonal-type table, no. I as ♮-c1-D, no. V as ♭-c1-G |
+| composed 1594, published Munich 1595 | Lasso, *Lagrime di San Pietro*, no. I | 6 (Paper 1) | Powers: tonal-type table, no. I as ♮-c1-D |
 | 1619 | Monteverdi, *Concerto: Settimo libro dei madrigali* | 4–5 | Burnett ch. 3: *Eccomi pronta ai baci*, *Ecco vicine o bella Tigre* |
 | 1629 | Schütz, "O quam tu pulchra es," SWV 265 (*Symphoniae sacrae* I) | 4–5 | none |
 | 1629 | Schütz, "Fili mi, Absalon," SWV 269 (*Symphoniae sacrae* I) | 6 (Paper 1) | none |
@@ -600,7 +600,7 @@ Four compatible uses, one term. Worth putting on the board in Week 2.
 
 **Convergence at Paper 1**
 
-Powers's table of *Lagrime di San Pietro* gives madrigals 1 to 4 as ♮-c1-D representing mode 1, and 5 to 8 as ♭-c1-G representing mode 2. Paper 1 pairs numbers I and V, one from each block: naturalis against mollis in Burnett's terms, cantus durus against cantus mollis in Powers's. Two frameworks, one observation, and different claims about what the observation means.
+Powers's table of *Lagrime di San Pietro* gives madrigals 1 to 4 as ♮-c1-D representing mode 1, and 5 to 8 as ♭-c1-G representing mode 2. Paper 1 takes no. I, from the first block: naturalis in Burnett's terms, cantus durus in Powers's. Two frameworks, one observation, and different claims about what the observation means. The Monteverdi and the Schütz supply the mollis side of the comparison.
 
 **Fuller, Schubert, and the analytical questions**
 
@@ -612,4 +612,3 @@ The directed questions ask students to place each piece in naturalis, mollis, or
 
 Five of the nine works have no analytical model in the assigned reading: all three Schütz pieces, the Book 8 madrigal, and *Lagrime di San Pietro* beyond Powers's tonal-type table. Burnett states outright that space prevented the chapter from taking up Schütz. Decision needed: leave the gap as scaffolding removal, or add a handout applying the three-hexachord method to *O quam tu pulchra es*, *Fili mi, Absalon*, and *Perché te'n fuggi*.
 
-`meta/editions.md` carries no entry for *Lagrime di San Pietro* no. V. The copy is not in the packet files.
