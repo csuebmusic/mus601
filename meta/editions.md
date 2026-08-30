@@ -1,6 +1,6 @@
 # editions
 
-The edition behind each score distributed in the seminar meetings, taken from the imprint on the copy itself. Chicago bibliography form, 18th edition, alphabetized by composer within each unit. Where a copy carries no identifiable imprint, the entry describes the copy in place of citing it, and that copy cannot be cited as an edition. Place of publication is dropped from the modern publisher line; a parenthetical naming the original print keeps its place, since it identifies the historical object rather than the edition cited.
+The edition behind each score distributed in the seminar meetings, taken from the imprint on the copy itself. Chicago bibliography form, 18th edition, alphabetized by composer within each unit. Where a copy has no identifiable imprint, the entry describes the copy in place of citing it, and that copy cannot be cited as an edition. Place of publication is dropped from the modern publisher line; a parenthetical naming the original print keeps its place, since it identifies the historical object rather than the edition cited.
 
 ## unit 1
 

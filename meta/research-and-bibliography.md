@@ -34,7 +34,7 @@ How to search it: search the composer and the work in the advanced search, then 
 
 Access: `http://proxylib.csueastbay.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=rih`, then NetID and password.
 
-What it is: the international bibliography of writing about music, from 1967 forward with earlier coverage in places. It indexes journal articles, books, chapters in edited volumes, dissertations, conference papers, Festschriften, critical commentaries to complete editions, and reviews, in some 140 languages and from 178 countries. Every record carries a bibliographic citation, an abstract in English whatever the language of the source, and controlled subject headings. RILM indexes; it holds full text for only a subset.
+What it is: the international bibliography of writing about music, from 1967 forward with earlier coverage in places. It indexes journal articles, books, chapters in edited volumes, dissertations, conference papers, Festschriften, critical commentaries to complete editions, and reviews, in some 140 languages and from 178 countries. Every record gives a bibliographic citation, an abstract in English whatever the language of the source, and controlled subject headings. RILM indexes; it holds full text for only a subset.
 
 How to search it: start from the composer and the work, in that order, before adding the analytical problem. Read the abstract rather than the title, since titles in musicology are often oblique. Take the subject headings from a record that looks right and search those directly, which surfaces the neighboring scholarship a keyword search misses. Narrow by document type where a particular kind of source is wanted, and by date when currency is the question.
 
@@ -44,7 +44,7 @@ Access: `https://login.proxylib.csueastbay.edu/login?url=http://www.jstor.org/se
 
 What it is: a full-text archive of scholarly journals, with deep back runs of the core musicology titles, among them the *Journal of the American Musicological Society*, *Music Theory Spectrum*, *19th-Century Music*, *Journal of Music Theory*, and the *Musical Quarterly*. Coverage runs to a moving wall a few years short of the present for many titles.
 
-How to search it: search the article title carried over from RILM rather than by keyword. The stable URL and the DOI on the article's landing page are what a Chicago bibliography entry takes; a database name is not a locator. The reference list on a JSTOR article page is a fast route into footnote-chasing.
+How to search it: search the article title taken from RILM rather than by keyword. The stable URL and the DOI on the article's landing page are what a Chicago bibliography entry takes; a database name is not a locator. The reference list on a JSTOR article page is a fast route into footnote-chasing.
 
 ### Oxford Music Online
 
@@ -68,11 +68,11 @@ Neither is part of the sequence. Both are there when a student needs to locate a
 
 WorldCat, open to anyone at https://search.worldcat.org, is the union catalog of library holdings. Use it to find which library holds a book, which is where a CSU+ or interlibrary loan request starts, and to confirm the details a citation needs and a bookseller listing omits: editor, series, volume, place, publisher, date.
 
-IMSLP, open to anyone at https://imslp.org, holds scores whose copyright has lapsed. A file there may be a nineteenth-century collected edition, a performing edition carrying a later editor's additions, or a scan with nothing on it to say what it is, so it takes the same identification a score from Alexander Street takes.
+IMSLP, open to anyone at https://imslp.org, holds scores whose copyright has lapsed. A file there may be a nineteenth-century collected edition, a performing edition with a later editor's additions, or a scan with nothing on it to say what it is, so it takes the same identification a score from Alexander Street takes.
 
 ## how the tools are taught
 
-Each tool is introduced in a seminar meeting during the unit whose paper first calls for it, folded into that week's session rather than carried by a separate Canvas mini-lesson.
+Each tool is introduced in a seminar meeting during the unit whose paper first calls for it, folded into that week's session rather than given as a separate Canvas mini-lesson.
 
 ## the scores
 
@@ -118,7 +118,7 @@ Where a source is weak on one of the five criteria and the paper uses it anyway,
 
 Sources for this section: the Chicago Manual of Style citation quick guide, at `https://www-chicagomanualofstyle-org.proxylib.csueastbay.edu/tools_citationguide/citation-guide-1.html` through the library proxy and at https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html publicly, and the University of Minnesota's Music Citation Guide (Chicago Style) at https://libguides.umn.edu/music-citation-chicago-style/scores. The CMOS guide is current to the 18th edition. The Minnesota guide states no edition; its examples drop place of publication, and its reprint template does not. Anything not covered below is in CMOS chapters 13 and 14.
 
-Examples below use the seminar's own repertoire and readings. Edition data comes from `meta/editions.md` except where a template needs a field that file does not carry.
+Examples below use the seminar's own repertoire and readings. Edition data comes from `meta/editions.md` except where a template needs a field that file does not record.
 
 ### what the 18th edition changed
 
@@ -220,7 +220,7 @@ Template, bibliography: Last, First. "Title of Dissertation." PhD diss., Univers
 
 ### the music itself
 
-Measure numbers go in the text rather than in a note: the cadence at m. 47, or mm. 112–19. One measure is m., more than one is mm. A note carries the edition, cited in full once early in the paper, and anything a reader needs in order to check the claim: a rehearsal figure, a differing reading in another edition, an editorial accidental.
+Measure numbers go in the text rather than in a note: the cadence at m. 47, or mm. 112–19. One measure is m., more than one is mm. A note gives the edition, cited in full once early in the paper, and anything a reader needs in order to check the claim: a rehearsal figure, a differing reading in another edition, an editorial accidental.
 
 Musical examples are numbered figures with captions, and the caption credits the edition the example is drawn from.
 
@@ -238,4 +238,4 @@ The 602 module runs alongside that paper sequence: research question, then a gra
 
 Two things go deeper there. Critical evaluation, because post-tonal theory is itself evolving and contested, so students weigh competing analytical frameworks and take a position rather than collect sources that agree. And synthesis, because the paper enters an existing conversation, which means reading sources against each other rather than one at a time.
 
-The 602 annotated bibliography is a scale jump rather than a skill jump. These 602 expectations move to the mus602 repo once it carries course documents.
+The 602 annotated bibliography is a scale jump rather than a skill jump. These 602 expectations move to the mus602 repo when that course is built.
