@@ -18,6 +18,8 @@ Dates are of composition where it is known and differs from publication, otherwi
 | 1638 | Monteverdi, "Perché te'n fuggi, o Fillide?" (Book 8) | 6 (Paper 1) | none |
 | 1650 | Schütz, "Saul, Saul, was verfolgst du mich?" SWV 415 (*Symphoniae sacrae* III) | 4–5 | none |
 
+The three Schütz pieces and the Book 8 madrigal have no analytical model in the assigned reading, and neither does *Lagrime* no. I beyond Powers's tonal-type table. Burnett states outright that space prevented the chapter from taking up Schütz. These five are analyzed in seminar.
+
 The composition date of the *Prophetiae* is disputed: Boetticher argues for c. 1550–52 in Naples, Einstein for 1555–60. Lasso's sons published the cycle in 1600, six years after his death. The *Lagrime* dedication to Clement VIII was signed three weeks before Lasso died in June 1594.
 
 ## cohen, "notes, scales, and modes in the earlier middle ages" (pp. 307–63) · c. 800 to c. 1500
@@ -605,10 +607,6 @@ Powers's table of *Lagrime di San Pietro* gives madrigals 1 to 4 as ♮-c1-D rep
 **Fuller, Schubert, and the analytical questions**
 
 Both refuse the assumption that treatise precepts are composition rules. Fuller makes the point against Riemann, Schubert against the expectation that improvised training should resemble finished pieces. That refusal is the counterweight to Burnett, who reads Vicentino, Banchieri, Harnisch, and Kircher as evidence of what composers held in mind. Students who take the theorists at face value in one direction should be asked to reconcile it with the other.
-
-## open items
-
-Five of the nine works have no analytical model in the assigned reading: all three Schütz pieces, the Book 8 madrigal, and *Lagrime di San Pietro* beyond Powers's tonal-type table. Burnett states outright that space prevented the chapter from taking up Schütz. Decision needed: leave the gap as scaffolding removal, or add a handout applying the three-hexachord method to *O quam tu pulchra es*, *Fili mi, Absalon*, and *Perché te'n fuggi*.
 
 ## the paper 1 directed questions
 
