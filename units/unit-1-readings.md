@@ -593,7 +593,7 @@ An anonymous treatise, probably early eighteenth century, states that the studen
 
 - Cohen: two scales into which the gamut divides by about 1500, defined by hexachord content, with *cantus fictus* at two flats.
 - Powers: one of three markers of a tonal type, notated ♮ and ♭, purely a signature fact.
-- Burnett: the signature that identifies the initial system, with the system itself extending through transpositions the signature does not show.
+- Burnett: the signature that identifies the initial system, with the system itself extending through transpositions the signature does not show. At p. 52 he equates cantus durus with his own naturalis system, against his naturalis, mollis, durus taxonomy, in which durus is the G system reached by D♯. The directed questions use the taxonomy and carry no gloss.
 - Barnett: the two scale systems that all seventeenth-century signatures reduce to for a singer, by imagined clef substitution.
 
 Four compatible uses, one term. Worth putting on the board in Week 2.
@@ -608,16 +608,12 @@ Both refuse the assumption that treatise precepts are composition rules. Fuller 
 
 ## open items
 
-The directed questions ask students to place each piece in naturalis, mollis, or durus. That is Burnett's system-level taxonomy, in which durus is the G system reached by D♯. In Powers, Judd, and Barnett, cantus durus and cantus mollis are the only two signature systems and naturalis is not a term. Students reading Powers first will read the question as offering three signature categories where only two exist. Decision needed: gloss the term on the unit page, or restate the question in Burnett's terms.
-
 Five of the nine works have no analytical model in the assigned reading: all three Schütz pieces, the Book 8 madrigal, and *Lagrime di San Pietro* beyond Powers's tonal-type table. Burnett states outright that space prevented the chapter from taking up Schütz. Decision needed: leave the gap as scaffolding removal, or add a handout applying the three-hexachord method to *O quam tu pulchra es*, *Fili mi, Absalon*, and *Perché te'n fuggi*.
-
 
 ## the paper 1 directed questions
 
 From `syllabus.html`.
 
-- Place each piece in its sub-system (naturalis, mollis, durus) and track any modulation between sub-systems: what pitch forces each change, and where does it land?
-- Where is the harmony hardest to fix to a single sub-system, and what does that ambiguity do for the setting?
+- Place each piece in its system (naturalis, mollis, durus) and track any modulation between systems: what pitch forces each change, and where does it land? Compared on their system behavior, what is the essential harmonic difference among the three?
+- Where is the harmony hardest to fix to a single system, and what does that ambiguity do for the setting?
 - How does each composer's texture and melodic motion answer to its text? Where does the text shape the form rather than decorate it?
-- Compared on their sub-system behavior, what is the essential harmonic difference among the three?

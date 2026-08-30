@@ -82,7 +82,7 @@ Analysis and musical examples come from the score packets provided in seminar. S
 
 | paper | topic | works | secondary sources | tool |
 | --- | --- | --- | --- | --- |
-| 1 | modal sub-systems and text setting | Lasso, Monteverdi, Schütz | three, one per work | RILM to JSTOR |
+| 1 | modal systems and text setting | Lasso, Monteverdi, Schütz | three, one per work | RILM to JSTOR |
 | 2 | ritornello form and system change | Vivaldi, Bach | two, one per work | Oxford Music Online |
 | 3 | the sonata exposition and the second key | Mozart, Haydn | two, one per work | ProQuest |
 | 4 | mode switch and system battle | Beethoven | two, both on the one work | open, self-selected |
