@@ -17,7 +17,7 @@ The edition behind each score distributed in the seminar meetings, taken from th
 - Corelli, Arcangelo. "Sonata II," Op. 3 no. 2. Augener's Edition. Augener, n.d.
 - Marini, Biagio. "Sonata à basso è violino ò cornetto." From *Per ogni sorte di strumento musicale diversi generi di sonate*, Op. 22 (Venice, 1655). Typeset by Johan Tufvesson, rev. 1.20, 2003.
 - Torelli, Giuseppe. *Weihnachtskonzert* ("Concerto a 4, in forma di Pastorale per il santissimo Natale"), from Op. 8 (Bologna, 1709). Arranged for practical use by Arnold Schering. C. F. Kahnt, 1926.
-- Vivaldi, Antonio. Concerto, Op. 3 no. 8, printed as "Concerto VI von Antonio Vivaldi." In *Johann Sebastian Bach's Werke* 38. Bach-Gesellschaft, n.d.
+- Vivaldi, Antonio. Concerto, Op. 3 no. 8, printed as "Concerto VI von Antonio Vivaldi." In *Johann Sebastian Bach's Werke* 38, 229–34. Bach-Gesellschaft, n.d.
 
 ## unit 3
 
