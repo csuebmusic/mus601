@@ -62,4 +62,4 @@ Pages link the stylesheet as `assets/style.css?v=N`. Bump N in every page whenev
 
 ## the quality floor
 
-Responsive to mobile, visible keyboard focus on every interactive element, `prefers-reduced-motion` respected, and a print stylesheet that drops page furniture. Ink and muted text meet WCAG AA on the paper ground. The accent reaches 3.8:1, which meets AA for large text and for non-text marks; links carry an underline so color is never the only cue.
+Responsive to mobile, visible keyboard focus on every interactive element, `prefers-reduced-motion` respected, and a print stylesheet that clears the body padding and sets links in ink. Ink and muted text meet WCAG AA on the paper ground. The accent reaches 3.8:1, which meets AA for large text and for non-text marks; links carry an underline so color is never the only cue.
