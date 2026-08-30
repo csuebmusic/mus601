@@ -50,7 +50,7 @@ How to search it: search the article title taken from RILM rather than by keywor
 
 Access: `https://login.proxylib.csueastbay.edu/login?url=http://www.oxfordmusiconline.com/`, then NetID and password.
 
-What it is: the platform holding three distinct reference works. *Grove Music Online* is the principal scholarly music reference source in English: signed articles, each with a work-list and a bibliography, written by specialists and citable in their own right. *The Oxford Dictionary of Music* and *The Oxford Companion to Music* are written for a general readership; they are useful for orientation and are not scholarly sources for a paper.
+What it is: the platform holding three distinct reference works. *Grove Music Online* is a scholarly reference work: signed articles, each with a work-list and a bibliography, written by specialists and citable in their own right. *The Oxford Dictionary of Music* and *The Oxford Companion to Music* are written for a general readership; they are useful for orientation and are not scholarly sources for a paper.
 
 How to search it: search within Grove specifically rather than across the platform, so the general-readership entries do not crowd the results. Read the article, then work from its bibliography, which is a reading list assembled by a specialist. Use the work-list to confirm catalog numbers and dates. Grove entries are signed and dated; take the author's name and the revision date, and copy the permalink the entry supplies rather than the browser URL.
 
@@ -58,7 +58,7 @@ How to search it: search within Grove specifically rather than across the platfo
 
 Access: https://www.proquest.com. No sign-in.
 
-What it is: the dissertation and thesis database. Without a subscription the results are the open-access dissertations and theses, which is a large share of them and not all. A search that returns nothing is not evidence that nothing was written. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who read everything on that subject. It is vetted by a committee, a real standard and a different one from peer review.
+What it is: the dissertation and thesis database. Without a subscription the results are the open-access dissertations and theses, which is a large share of them and not all. A search that returns nothing is not evidence that nothing was written. A dissertation is often the only extended study of a narrow subject, and its bibliography is built by someone who worked through the literature on that subject. It is vetted by a committee, a real standard and a different one from peer review.
 
 How to search it: search the composer and the work, then broaden to the genre or the analytical problem, since a chapter on a given piece may sit inside a study with an unrelated title. Read the abstract and the table of contents before downloading. Note the degree, the institution, the year, and the ProQuest number, which the Chicago entry takes.
 
