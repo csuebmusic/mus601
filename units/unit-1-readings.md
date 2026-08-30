@@ -612,6 +612,4 @@ The directed questions ask students to place each piece in naturalis, mollis, or
 
 Five of the nine works have no analytical model in the assigned reading: all three Schütz pieces, the Book 8 madrigal, and *Lagrime di San Pietro* beyond Powers's tonal-type table. Burnett states outright that space prevented the chapter from taking up Schütz. Decision needed: leave the gap as scaffolding removal, or add a handout applying the three-hexachord method to *O quam tu pulchra es*, *Fili mi, Absalon*, and *Perché te'n fuggi*.
 
-`meta/editions.md` carries no Unit 1 entry for the three Paper 1 works. Decision needed: whether those scores are distributed in the meeting and so belong in that file.
-
-The Burnett entry in the unit bibliography carries no page range. Chapter 3 is pp. 39–88.
+The Paper 1 scores are in the packet and belong in `meta/editions.md`. The three Unit 1 entries wait on the imprints: *Lagrime di San Pietro* nos. I and V, "Perché te'n fuggi, o Fillide?", and "Fili mi, Absalon," SWV 269.
