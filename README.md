@@ -1,8 +1,8 @@
 # mus 601, analysis of musical styles
 
-Course materials for MUS 601 at California State University, East Bay. A graduate research-and-analysis seminar tracing tonality from the Renaissance to the Romantic: modal practice moving toward functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. Fall 2026, Tuesdays, 7:00 to 9:00 PM, Music Resource Center, MB 1560.
+Course materials for MUS 601 at California State University, East Bay. A graduate research-and-analysis seminar tracing tonality from the Renaissance to the Romantic: modal practice moving toward functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. Fall 2026, Tuesdays, 7:00 to 9:00 pm, Music Resource Center, MB 1560.
 
-Instructor: Inés Thiebaut, ines.thiebaut@csueastbay.edu. Office hours Wednesdays 1:00 to 3:00 PM in MB2012.
+Instructor: Inés Thiebaut, ines.thiebaut@csueastbay.edu. Office hours Wednesdays 1:00 to 3:00 pm in MB 2012.
 
 ## student-facing pages
 
@@ -21,7 +21,7 @@ One page per unit, for the Canvas modules. The unit's selected bibliography, its
 
 **source work**
 https://csuebmusic.github.io/mus601/research/source-work.html
-The research tools and how to search each one, with the links that reach them. Which score to analyze from and which edition to cite. What each paper needs in sources and which tool it introduces. How a source earns its place in an argument, and the Chicago notes-bibliography forms for scores, editions, articles, chapters, books, reference entries, and dissertations.
+The research tools and how to search each one, with the links that reach them. Which score to analyze from and which edition to cite. What each paper needs in sources and which tool it introduces. What a source has to do in an argument, and the Chicago notes-bibliography forms for scores, editions, articles, chapters, books, reference entries, and dissertations.
 
 ## repository
 
