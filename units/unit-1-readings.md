@@ -612,3 +612,12 @@ The directed questions ask students to place each piece in naturalis, mollis, or
 
 Five of the nine works have no analytical model in the assigned reading: all three Schütz pieces, the Book 8 madrigal, and *Lagrime di San Pietro* beyond Powers's tonal-type table. Burnett states outright that space prevented the chapter from taking up Schütz. Decision needed: leave the gap as scaffolding removal, or add a handout applying the three-hexachord method to *O quam tu pulchra es*, *Fili mi, Absalon*, and *Perché te'n fuggi*.
 
+
+## the paper 1 directed questions
+
+From `syllabus.html`.
+
+- Place each piece in its sub-system (naturalis, mollis, durus) and track any modulation between sub-systems: what pitch forces each change, and where does it land?
+- Where is the harmony hardest to fix to a single sub-system, and what does that ambiguity do for the setting?
+- How does each composer's texture and melodic motion answer to its text? Where does the text shape the form rather than decorate it?
+- Compared on their sub-system behavior, what is the essential harmonic difference among the three?
