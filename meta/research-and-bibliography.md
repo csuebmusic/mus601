@@ -16,7 +16,7 @@ By the end of 601 a student can:
 - Judge what makes a source trustworthy: peer review, the author's standing, the venue or publisher, currency, and, specific to music, whether an edition is authoritative.
 - Find a sourced edition of a work, and find scholarship on it with the tools below. Move from a topic to search terms, and work out from a specialist's bibliography to the scholarship it names.
 - Cite in Chicago, notes-bibliography, for scores and editions, books, book chapters, journal articles, dissertations, and online reference works.
-- Put a source to work in an analytical paper: cite it where it bears on the argument, and say what it does there.
+- Use a source in an analytical paper: cite it where it bears on the argument, and name its function there.
 
 ## the tools
 
@@ -108,9 +108,9 @@ No prescribed tool. The count rises to two secondary sources on a single work, w
 
 ## using a source in the paper
 
-A source earns its place by doing something in the argument. A source that appears once for a date is doing less than the requirement asks of it.
+Every source cited has a function in the argument. A source that appears once for a date meets the count and not the requirement.
 
-Three things a secondary source does in a paper of this kind. It supplies an analytical frame the paper adopts or resists, as Hepokoski's medial caesura does for a sonata exposition. It establishes a fact the analysis rests on, an attribution, a dating, a reading in a source. It states a position the paper argues with, which is the strongest of the three.
+A secondary source has one of three functions in a paper of this kind. It supplies an analytical frame the paper adopts or resists, as Hepokoski's medial caesura does for a sonata exposition. It establishes a fact the analysis rests on, an attribution, a dating, a reading in a source. It states a position the paper argues with, which is the strongest of the three.
 
 Where a source is weak on one of the five criteria and the paper uses it anyway, the paper says so in the note.
 
