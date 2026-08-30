@@ -26,7 +26,7 @@ The 0 to 4 score is grade points rather than a percentage. Never divide the aver
 
 The values are grade-point anchors rather than range endpoints, and they are the CSUEB standard. Source: the GPA computation policy, https://www.csueastbay.edu/aps/academic-services/academic-policies/gpa-computation.html
 
-List all eleven anchors on the syllabus. Collapsing them into five bands (A, B, C, D, F) hides which of B–, B, and B+ a given average lands on, which is the question a student actually has.
+List all eleven anchors on the syllabus. Collapsing them into five bands (A, B, C, D, F) hides which of B–, B, and B+ a given average yields, which is the question a student actually has.
 
 ## rounding
 
@@ -60,7 +60,7 @@ Where a level averages to a grade with a consequence a student needs to see, wri
 
 - Graduate versus undergraduate standing. The MUS 601 syllabus uses the Graduate Student Handbook rules: only C or better counts toward the degree, a C– or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing, with anything below it triggering academic probation. Undergraduate courses use the undergraduate standing and minimum-grade rules instead, where a music major or minor needs a C– or better for the course to count toward the major or minor. Do not carry either set of rules across.
 - Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. Where a course weights assignments differently, use the weighted average of the 0 to 4 scores. The scale does not change.
-- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it lands on the same scale as everything else. Canvas's automatic late policy is the exception, since it takes a percentage per day and an optional percentage floor and nothing else. Where it runs the deduction, state the percentage and its grade-point equivalent together: 601 takes 2% of the paper's value per day, which is 0.08 grade points. 601 sets no floor, so the Canvas floor field is left empty and the deduction runs to zero. State how long that takes from the levels the rubric actually awards: at 0.08 a day, a 3.5 reaches zero after 44 days and a 4 after 50.
+- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it uses the same scale as everything else. Canvas's automatic late policy is the exception, since it takes a percentage per day and an optional percentage floor and nothing else. Where it runs the deduction, state the percentage and its grade-point equivalent together: 601 takes 2% of the paper's value per day, which is 0.08 grade points. 601 sets no floor, so the Canvas floor field is left empty and the deduction runs to zero. State how long that takes from the levels the rubric actually awards: at 0.08 a day, a 3.5 reaches zero after 44 days and a 4 after 50.
 
 ## style, to match across syllabi
 

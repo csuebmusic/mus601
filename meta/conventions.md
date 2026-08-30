@@ -14,7 +14,7 @@ Each body of material has one canonical home. Edit it there; everything else poi
 - `meta/visual-conventions.md`: the house style. Shared with 602 and with mus312.
 - `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the grading mechanics, reusable across courses.
 - `units/unit-1.html` to `units/unit-4.html`: the per-unit pages linked from the Canvas modules. Each carries its unit's selected bibliography, weeks, works, and paper prompt with directed questions. Derived from `syllabus.html`; keep in step, and edit the syllabus first.
-- `units/unit-N-readings.md`: the reading synthesis for that unit, mine. What each assigned reading argues, where the readings meet the unit's repertoire, and the open items. `units/unit-1-readings.md` exists; the others land as the units are built.
+- `units/unit-N-readings.md`: the reading synthesis for that unit, mine. What each assigned reading argues, where the readings meet the unit's repertoire, and the open items. `units/unit-1-readings.md` exists; the others are written as the units are built.
 - `tools/`: interactive analytical tools, when there are any. Empty for now.
 - `meta/`: planning and conventions, mine and Claude only. Markdown anywhere in the repo, including in `units/`, is mine and Claude's. The repo is public, so all of it is readable at the repo and at the Pages URL.
 
