@@ -27,9 +27,9 @@ The research tools and how to search each one, with the links that reach them. W
 https://csuebmusic.github.io/mus601/tools/modal-species.html
 Eleventh-century modal theory in the South German writers. The three species of fourth and the four species of fifth with their intervallic patterns, the four categories of mode with their finals, the authentic and plagal ambitus of each, the eight modal octaves as a diagram and in notation, the tetrardus exception, and the two divisions of the octave D to d. Prints to PDF from the page.
 
-**gamut layers**
+**scalar and modal theory in the eleventh century**
 https://csuebmusic.github.io/mus601/tools/gamut-layers.html
-The Guidonian gamut with three divisions laid over it: the seven hexachords, the eight modal octaves with their species of fifth and fourth, and the tetrachords of the South German school. Select a mode to see which hexachords its octave crosses and where they overlap. Click a note for its voces and the hexachords that give them.
+One pitch field with three divisions laid over it: the seven hexachords in their three species, each on its own line with its syllables; the tetrachords of the South German school; and the eight modal octaves with their species of fifth and fourth. Select a mode to see which hexachords its octave crosses and where they overlap. Click a note to read its voces down the column.
 
 ## repository
 
