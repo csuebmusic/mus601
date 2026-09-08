@@ -132,7 +132,6 @@
     <span class="label">layers</span>
     <button type="button" class="btn" id="t-hex" aria-pressed="true">hexachords</button>
     <button type="button" class="btn" id="t-tet" aria-pressed="false">tetrachords</button>
-    <button type="button" class="btn" id="t-syn" aria-pressed="false">synemmenon</button>
   </div>
 </div>
 
@@ -199,16 +198,17 @@
     { name: "superacutae", a: 15, b: 19 }
   ];
 
-  // start index in GAMUT, species, display row
+  // ut index in GAMUT; one display row per species
   var HEX = [
-    { ut: 0, sp: "durum", row: 0, name: "\u0393 durum" },
-    { ut: 3, sp: "naturale", row: 1, name: "C naturale" },
-    { ut: 6, sp: "molle", row: 0, name: "F molle" },
-    { ut: 7, sp: "durum", row: 2, name: "G durum" },
-    { ut: 10, sp: "naturale", row: 1, name: "c naturale" },
-    { ut: 13, sp: "molle", row: 0, name: "f molle" },
-    { ut: 14, sp: "durum", row: 2, name: "g durum" }
+    { ut: 0, sp: "durum", row: 0, bar: "\u0393 ut", name: "durum on \u0393" },
+    { ut: 7, sp: "durum", row: 0, bar: "G ut", name: "durum on G" },
+    { ut: 14, sp: "durum", row: 0, bar: "g ut", name: "durum on g" },
+    { ut: 3, sp: "naturale", row: 1, bar: "C ut", name: "naturale on C" },
+    { ut: 10, sp: "naturale", row: 1, bar: "c ut", name: "naturale on c" },
+    { ut: 6, sp: "molle", row: 2, bar: "F ut", name: "molle on F" },
+    { ut: 13, sp: "molle", row: 2, bar: "f ut", name: "molle on f" }
   ];
+  var HEXROWS = ["durum", "naturale", "molle"];
   var SYL = ["ut", "re", "mi", "fa", "sol", "la"];
 
   var TET = [
@@ -217,7 +217,6 @@
     { name: "superiores", a: 8, b: 11, row: 0 },
     { name: "excellentes", a: 11, b: 14, row: 1 }
   ];
-  var SYN = { name: "synemmenon (with soft b)", a: 8, b: 11 };
 
   var MODES = [
     null,
@@ -233,7 +232,7 @@
 
   var ORD = ["", "first", "second", "third", "fourth"];
 
-  var state = { mode: 0, hex: true, tet: false, syn: false, note: -1 };
+  var state = { mode: 0, hex: true, tet: false, note: -1 };
 
   var board = document.getElementById("board");
   var readout = document.getElementById("readout");
@@ -321,12 +320,12 @@
     }
 
     if (state.hex) {
-      [0, 1, 2].forEach(function (row) {
-        rowLabel(r, row === 0 ? "hexachords" : "");
+      HEXROWS.forEach(function (species, row) {
+        rowLabel(r, species);
         HEX.forEach(function (h) {
           if (h.row !== row) { return; }
           var lit = state.note >= 0 && state.note >= h.ut && state.note <= h.ut + 5;
-          var d = cell("bar hex" + (lit ? " on" : ""), h.ut, h.ut + 5, r, h.name);
+          var d = cell("bar hex" + (lit ? " on" : ""), h.ut, h.ut + 5, r, h.bar);
           d.title = SYL.join(" ");
         });
         r += 1;
@@ -343,12 +342,6 @@
         });
         r += 1;
       });
-    }
-
-    if (state.syn) {
-      rowLabel(r, "");
-      cell("bar tet", SYN.a, SYN.b, r, SYN.name);
-      r += 1;
     }
 
     report();
@@ -386,7 +379,7 @@
     var crossed = HEX.filter(function (h) {
       return h.ut <= m.b && h.ut + 5 >= m.a;
     });
-    var names = crossed.map(function (h) { return h.name; });
+    var names = crossed.map(function (h) { return "the " + h.name; });
     para("Its octave crosses " + names.length + " hexachords: " + names.join(", ") + ".");
 
     var shared = [];
@@ -396,7 +389,7 @@
       var notes = [];
       for (var k = lo; k <= hi; k += 1) { notes.push(GAMUT[k].l); }
       if (notes.length) {
-        shared.push(x.name + " and " + y.name + " share <span class=\"mono\">" +
+        shared.push("the " + x.name + " and the " + y.name + " share <span class=\"mono\">" +
           notes.join(" ") + "</span> inside this octave");
       }
     }
@@ -435,7 +428,6 @@
   }
   toggle("t-hex", "hex");
   toggle("t-tet", "tet");
-  toggle("t-syn", "syn");
 
   draw();
 }());
