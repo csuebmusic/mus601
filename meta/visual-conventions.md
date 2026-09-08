@@ -28,6 +28,8 @@ Colors are addressed through these variables. Component CSS and inline SVG use n
 
 Both are self-hosted woff2 in `assets/fonts/`, under the SIL Open Font License. Sans Italic sets titles of works and journals. Mono marks data; prose never sets in it.
 
+Music glyphs set in Bravura, a SMuFL font subset to the glyphs in use and self-hosted as `assets/fonts/Bravura-subset.woff2`, under the SIL Open Font License. Its `@font-face` is declared in the page that uses it rather than in the stylesheet. One staff space is a quarter of the em: set `font-size` to four times the staff space in pixels. Clef glyphs sit on the baseline at their reference line, noteheads at their vertical center. A page using it credits both families in the footer.
+
 Body sets at 1rem on a 1.55 line height. Prose runs to a 34rem measure and takes `.full` to run the width of the column. Tables, panels, and figures are full width.
 
 Headings are lowercase and set in the body face at 600. An `h2` opens its section under a hairline rule. The stylesheet lowercases them, so a proper noun that must keep its capital takes `<span class="caps">`.
