@@ -157,11 +157,24 @@
   <li><span class="mono">modes</span>, modal. Eight octaves around four finals, <span class="mono">D</span>, <span class="mono">E</span>, <span class="mono">F</span>, and <span class="mono">G</span>, which are the four notes of the <em>finales</em> tetrachord. Each octave divides at a species of fifth and a species of fourth, the fourth above the fifth in an authentic mode and below it in a plagal. From the same school, in the interpolated chapters of the <em>Prologus</em>.</li>
 </ul>
 
-<p class="full">No eleventh-century treatise puts the three together. The hexachords come from one school and the tetrachords and species from another, working on overlapping pitch material toward different ends, and the field drawn here runs from &Gamma; to <span class="mono">ee</span> in the Italian form. The South German writers work on Hucbald's scale, from <span class="mono">A</span> to <span class="mono">aa</span>, which is why Berno's series of species starts at <span class="mono">A</span>. Hermannus takes the low gamma from the Italians later.</p>
+<p class="full">The board is a composite. Cohen sets these out as the doctrines of two schools, the North Italian and the South German, distinct and ultimately compatible. The pitch field drawn here is the Italian one, &Gamma; to <span class="mono">ee</span>. The South German writers work on Hucbald's two-octave scale, <span class="mono">A</span> to <span class="mono">aa</span>, and Berno's series of species begins at <span class="mono">A</span>. Hermannus takes the low gamma from the Italian school later. The layers are also not contemporaries: Hucbald's scale and the <span class="caps">E</span>nchiriadis names reach the eleventh century as inheritance from the ninth.</p>
 
-<p class="full">Select a mode and the readout names the hexachords its octave crosses and the notes they share. No modal octave lies inside a single hexachord, so singing one through requires mutation at a shared note.</p>
+<p class="full">Select a mode and the readout names the hexachords its octave crosses and the notes they share. A hexachord spans six notes and a modal octave eight, so no modal octave lies inside a single hexachord. Singing through one requires mutation: at a note carrying two or three voces, the singer treats it as a pivot and shifts from one vox to another, moving from a higher vox in one hexachord to a lower one in another to continue upward, and the reverse to continue downward.</p>
+
+<p class="full">Mutation is not permitted between <span class="mono">b fa</span> and <span class="mono">b mi</span>. In the upper two octaves those two voces stand for different pitches, soft b and hard b, so the readout leaves the b out of the notes it offers as pivots.</p>
 
 <p class="full">The species and the modal octaves are set out in the <a href="modal-species.html" target="_blank" rel="noopener">modal species handout</a>.</p>
+
+<h2 id="sources">sources</h2>
+
+<ul class="readings">
+  <li>Christensen, Thomas, ed. <em>The Cambridge History of Western Music Theory</em>. Cambridge University Press, 2002.
+    <ul>
+      <li>Bower, Calvin M. &ldquo;The Transmission of Ancient Music Theory into the Middle Ages.&rdquo; 136&ndash;67. Authors and texts with their dates, Table 5.4, 150; the pitch collection of the South German school, 161&ndash;62.</li>
+      <li>Cohen, David E. &ldquo;Notes, Scales, and Modes in the Earlier Middle Ages.&rdquo; 307&ndash;63. The gamut and its hexachords, Table 11.8, 342&ndash;43; composite names, mutation, and the b, 343&ndash;44; the four categories, the finals, and the practical ranges, 347; the South German tetrachords and the modal species, 351&ndash;54, with Figure 11.9.</li>
+    </ul>
+  </li>
+</ul>
 
 <footer>
   <p>Text set in IBM Plex under the SIL Open Font License.</p>
@@ -232,6 +245,8 @@
     { n: 7, cat: "tetrardus", amb: "authentic", a: 7, b: 14, j: 11, f: 7, sp5: 4, sp4: 1 },
     { n: 8, cat: "tetrardus", amb: "plagal", a: 4, b: 11, j: 7, f: 7, sp5: 4, sp4: 1 }
   ];
+
+  var BNOTES = [9, 16];
 
   var ORD = ["", "first", "second", "third", "fourth"];
 
@@ -375,19 +390,25 @@
     var names = crossed.map(function (h) { return "the " + h.name; });
     para("Its octave crosses " + names.length + " hexachords: " + names.join(", ") + ".");
 
-    var shared = [];
+    var shared = [], bHeld = false;
     for (var i = 0; i < crossed.length - 1; i += 1) {
       var x = crossed[i], y = crossed[i + 1];
       var lo = Math.max(x.ut, y.ut, m.a), hi = Math.min(x.ut + 5, y.ut + 5, m.b);
       var notes = [];
-      for (var k = lo; k <= hi; k += 1) { notes.push(GAMUT[k].l); }
+      for (var k = lo; k <= hi; k += 1) {
+        if (BNOTES.indexOf(k) >= 0) { bHeld = true; } else { notes.push(GAMUT[k].l); }
+      }
       if (notes.length) {
         shared.push("the " + x.name + " and the " + y.name + " share <span class=\"mono\">" +
           notes.join(" ") + "</span> inside this octave");
       }
     }
     if (shared.length) {
-      para("Mutation is available where consecutive hexachords overlap: " + shared.join("; ") + ".");
+      para("Pivots for mutation, where consecutive hexachords overlap: " + shared.join("; ") + ".");
+    }
+    if (bHeld) {
+      para("The overlap also covers the b, which is not available as a pivot: <span class=\"mono\">b fa</span> " +
+        "and <span class=\"mono\">b mi</span> are different pitches.");
     }
     if (state.note >= 0) { noteReport(); }
   }
