@@ -23,13 +23,17 @@ One page per unit, for the Canvas modules. The unit's selected bibliography, its
 https://csuebmusic.github.io/mus601/research/source-work.html
 The research tools and how to search each one, with the links that reach them. Which score to analyze from and which edition to cite. What each paper needs in sources and which tool it introduces. What a source has to do in an argument, and the Chicago notes-bibliography forms for scores, editions, articles, chapters, books, reference entries, and dissertations.
 
+**modal species**
+https://csuebmusic.github.io/mus601/tools/modal-species.html
+Eleventh-century modal theory in the South German writers. The three species of fourth and the four species of fifth with their intervallic patterns, the four categories of mode with their finals, the authentic and plagal ambitus of each, the eight modal octaves as a diagram and a table, the tetrardus exception, and the two divisions of the octave D to d. Prints to PDF from the page.
+
 ## repository
 
 ```
 assets/       stylesheet and self-hosted fonts
 research/     the source work and citation handout
 units/        one page per unit, for the Canvas modules, and the reading synthesis for each
-tools/        interactive analytical tools, empty for now
+tools/        interactive analytical tools and handouts
 meta/         instructor notes and conventions
 outline.md    the schedule at a glance
 ```
