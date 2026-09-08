@@ -25,7 +25,7 @@ The research tools and how to search each one, with the links that reach them. W
 
 **1. scalar and modal theory in the eleventh century**
 https://csuebmusic.github.io/mus601/tools/gamut-layers.html
-One pitch field with three divisions laid over it: the seven hexachords in their three species, each on its own line with its syllables; the tetrachords of the South German school; and the eight modal octaves with their species of fifth and fourth. Select a mode to see which hexachords its octave crosses and where they overlap. Click a note to read its voces down the column.
+One pitch field (gamut) with three divisions laid over it: the seven hexachords in their three species, each on its own line with its syllables; the tetrachords of the South German school; and the eight modal octaves with their species of fifth and fourth. Select a mode to see which hexachords its octave crosses and where they overlap. Click a note to read its voces down the column.
 
 **2. the four categories of mode and the species of the fourth and fifth**
 https://csuebmusic.github.io/mus601/tools/modal-species.html
