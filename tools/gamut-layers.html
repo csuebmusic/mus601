@@ -59,21 +59,18 @@
   }
   .littera:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
   .littera.lit { color: var(--accent-2); border-color: var(--accent-edge); background: var(--accent-wash); }
-  .voces {
+  .syl {
     font-family: var(--font-data);
-    font-size: 0.62rem;
-    line-height: 1.35;
-    color: var(--muted);
+    font-size: 0.7rem;
     text-align: center;
-    padding-bottom: calc(var(--step) * 0.8);
+    padding: calc(var(--step) * 0.5) 0;
+    color: var(--ink);
+    border-top: var(--line) solid var(--accent-2);
+    border-bottom: var(--line) solid var(--accent-2);
   }
-  .voces span {
-    display: block;
-    padding: 1px 0;
-    border-top: var(--line) solid var(--rule);
-  }
-  .voces span:first-child { border-top: 0; }
-  .voces span.on { color: var(--accent-2); }
+  .syl.first { border-left: var(--line) solid var(--accent-2); }
+  .syl.last { border-right: var(--line) solid var(--accent-2); }
+  .syl.on { background: var(--accent-2); color: var(--paper); }
 
   .bar {
     font-family: var(--font-data);
@@ -84,8 +81,6 @@
     white-space: nowrap;
     overflow: hidden;
   }
-  .bar.hex { color: var(--accent-2); border-color: var(--accent-2); background: transparent; cursor: pointer; }
-  .bar.hex.on { background: var(--accent-2); color: var(--paper); }
   .bar.tet { color: var(--muted); border-style: dashed; }
   .bar.five { color: var(--accent); border-color: var(--accent); background: var(--accent-wash); }
   .bar.four { color: var(--accent); border-color: var(--accent-edge); }
@@ -148,7 +143,7 @@
 
 <h2 id="reading">reading the board</h2>
 
-<p class="full">The littera is the letter name of the note and the voces beneath it are its solmization syllables, one for each hexachord the note belongs to. Most notes carry two or three, since the seven hexachords overlap. Click a note to light the hexachords that contain it and the syllable it takes in each.</p>
+<p class="full">The top line gives the littera, the letter name of each note. Below it each hexachord has a line of its own, labelled by the note carrying its <span class="mono">ut</span> and by its species, with <span class="mono">ut re mi fa sol la</span> written under the six notes it covers. Read down a column and you get that note's voces: <span class="mono">G</span> is <span class="mono">sol</span> in the naturale on <span class="mono">C</span>, <span class="mono">re</span> in the molle on <span class="mono">F</span>, and <span class="mono">ut</span> in the durum on <span class="mono">G</span>, which is the composite name <span class="mono">G sol re ut</span>. Click a note to light its column.</p>
 
 <p class="full">The mode bar takes the accent, washed under the species of fifth and outlined under the species of fourth, with the final marked below. The hexachord bars are blue. The tetrachord bars are dashed and set in the muted grey.</p>
 
@@ -203,17 +198,16 @@
     { name: "superacutae", a: 15, b: 19 }
   ];
 
-  // ut index in GAMUT; one display row per species
+  // the seven deductiones, in gamut order; one board row each
   var HEX = [
-    { ut: 0, sp: "durum", row: 0, bar: "\u0393 ut", name: "durum on \u0393" },
-    { ut: 7, sp: "durum", row: 0, bar: "G ut", name: "durum on G" },
-    { ut: 14, sp: "durum", row: 0, bar: "g ut", name: "durum on g" },
-    { ut: 3, sp: "naturale", row: 1, bar: "C ut", name: "naturale on C" },
-    { ut: 10, sp: "naturale", row: 1, bar: "c ut", name: "naturale on c" },
-    { ut: 6, sp: "molle", row: 2, bar: "F ut", name: "molle on F" },
-    { ut: 13, sp: "molle", row: 2, bar: "f ut", name: "molle on f" }
+    { ut: 0, sp: "durum", bar: "\u0393 ut", name: "durum on \u0393" },
+    { ut: 3, sp: "naturale", bar: "C ut", name: "naturale on C" },
+    { ut: 6, sp: "molle", bar: "F ut", name: "molle on F" },
+    { ut: 7, sp: "durum", bar: "G ut", name: "durum on G" },
+    { ut: 10, sp: "naturale", bar: "c ut", name: "naturale on c" },
+    { ut: 13, sp: "molle", bar: "f ut", name: "molle on f" },
+    { ut: 14, sp: "durum", bar: "g ut", name: "durum on g" }
   ];
-  var HEXROWS = ["durum", "naturale", "molle"];
   var SYL = ["ut", "re", "mi", "fa", "sol", "la"];
 
   var TET = [
@@ -293,21 +287,6 @@
     });
     r += 1;
 
-    rowLabel(r, "voces");
-    GAMUT.forEach(function (g, i) {
-      var d = cell("voces", i, i, r);
-      var all = hexesContaining(i);
-      var lit = state.note === i;
-      all.forEach(function (h) {
-        var s = document.createElement("span");
-        s.textContent = SYL[i - h.ut];
-        s.title = h.name;
-        if (lit) { s.className = "on"; }
-        d.appendChild(s);
-      });
-    });
-    r += 1;
-
     cell("spacer", 0, 19, r); r += 1;
 
     var m = MODES[state.mode];
@@ -327,14 +306,17 @@
     }
 
     if (state.hex) {
-      HEXROWS.forEach(function (species, row) {
-        rowLabel(r, species);
-        HEX.forEach(function (h) {
-          if (h.row !== row) { return; }
-          var lit = state.note >= 0 && state.note >= h.ut && state.note <= h.ut + 5;
-          var d = cell("bar hex" + (lit ? " on" : ""), h.ut, h.ut + 5, r, h.bar);
-          d.title = SYL.join(" ");
-        });
+      HEX.forEach(function (h) {
+        rowLabel(r, h.bar + "  " + h.sp);
+        for (var k = 0; k < 6; k += 1) {
+          var col = h.ut + k;
+          var cls = "syl";
+          if (k === 0) { cls += " first"; }
+          if (k === 5) { cls += " last"; }
+          if (state.note === col) { cls += " on"; }
+          var d = cell(cls, col, col, r, SYL[k]);
+          d.title = h.name;
+        }
         r += 1;
       });
       cell("spacer", 0, 19, r); r += 1;
