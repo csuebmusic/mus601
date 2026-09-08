@@ -25,7 +25,7 @@ The research tools and how to search each one, with the links that reach them. W
 
 **modal species**
 https://csuebmusic.github.io/mus601/tools/modal-species.html
-Eleventh-century modal theory in the South German writers. The three species of fourth and the four species of fifth with their intervallic patterns, the four categories of mode with their finals, the authentic and plagal ambitus of each, the eight modal octaves as a diagram and a table, the tetrardus exception, and the two divisions of the octave D to d. Prints to PDF from the page.
+Eleventh-century modal theory in the South German writers. The three species of fourth and the four species of fifth with their intervallic patterns, the four categories of mode with their finals, the authentic and plagal ambitus of each, the eight modal octaves as a diagram and in notation, the tetrardus exception, and the two divisions of the octave D to d. Prints to PDF from the page.
 
 ## repository
 
