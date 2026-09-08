@@ -6,6 +6,13 @@
 <title>Eight modes become twelve &middot; MUS 601</title>
 <link rel="stylesheet" href="../assets/style.css?v=17">
 <style>
+@font-face {
+  font-family: "Bravura";
+  src: url("../assets/fonts/Bravura-subset.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
   .ctl-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--step); margin-bottom: calc(var(--step) * 3); }
   .ctl-row .label { margin: 0 calc(var(--step) * 1.5) 0 0; flex: none; }
   .btn {
@@ -27,6 +34,21 @@
   .modes td, .modes th { white-space: nowrap; }
   .modes .new { color: var(--accent); }
   .modes .num { width: 4rem; }
+
+  figure.staves { margin: 0 0 calc(var(--step) * 3); }
+  figure.staves svg { width: 100%; max-width: 40rem; height: auto; display: block; }
+  .staffgrid text { font-family: var(--font-data); fill: var(--ink); }
+  .staffgrid .rowlabel { font-size: 11px; fill: var(--muted); }
+  .staffgrid .stf { stroke: var(--rule); stroke-width: 1; }
+  .staffgrid .clef, .staffgrid .note { font-family: "Bravura"; font-size: 26px; fill: var(--ink); }
+  .staffgrid .note { text-anchor: middle; }
+  .staffgrid .plabel { font-size: 11px; text-anchor: middle; fill: var(--muted); }
+  .staffgrid .brk { fill: none; stroke-width: 1; }
+  .staffgrid .brklabel { font-size: 11px; text-anchor: middle; }
+  .staffgrid .brk.five { stroke: var(--accent); }
+  .staffgrid .brk.four { stroke: var(--accent); stroke-dasharray: 3 2; }
+  .staffgrid text.five, .staffgrid text.four { stroke: none; fill: var(--accent); }
+  .staffgrid .sub { font-size: 8px; }
 </style>
 </head>
 <body class="hasrail">
@@ -64,6 +86,377 @@
 
 <div class="readout" id="readout"></div>
 
+<figure class="staves">
+<svg viewBox="0 0 660 1157" role="img" aria-labelledby="mtitle mdesc" class="staffgrid">
+  <title id="mtitle">The twelve modal octaves in notation</title>
+  <desc id="mdesc">Twelve staves, one per mode, each writing out its octave. Brackets above the staff give the species of fifth and the species of fourth and mark where they meet. The final is written as a breve.</desc>
+
+  <!-- D authentic -->
+  <text class="rowlabel" id="lbl-D-auth" x="0" y="77.5"></text>
+  <line class="stf" x1="160" y1="54.0" x2="620" y2="54.0"></line>
+  <line class="stf" x1="160" y1="60.5" x2="620" y2="60.5"></line>
+  <line class="stf" x1="160" y1="67.0" x2="620" y2="67.0"></line>
+  <line class="stf" x1="160" y1="73.5" x2="620" y2="73.5"></line>
+  <line class="stf" x1="160" y1="80.0" x2="620" y2="80.0"></line>
+  <text class="clef" x="176" y="73.5">&#xE050;</text>
+  <text class="note" x="230" y="83.2">&#xE0A0;</text>
+  <text class="plabel" x="230" y="106.0">D</text>
+  <text class="note" x="278" y="80.0">&#xE0A2;</text>
+  <text class="plabel" x="278" y="106.0">E</text>
+  <text class="note" x="326" y="76.8">&#xE0A2;</text>
+  <text class="plabel" x="326" y="106.0">F</text>
+  <text class="note" x="374" y="73.5">&#xE0A2;</text>
+  <text class="plabel" x="374" y="106.0">G</text>
+  <text class="note" x="422" y="70.2">&#xE0A2;</text>
+  <text class="plabel" x="422" y="106.0">a</text>
+  <text class="note" x="470" y="67.0">&#xE0A2;</text>
+  <text class="plabel" x="470" y="106.0">b</text>
+  <text class="note" x="518" y="63.8">&#xE0A2;</text>
+  <text class="plabel" x="518" y="106.0">c</text>
+  <text class="note" x="566" y="60.5">&#xE0A2;</text>
+  <text class="plabel" x="566" y="106.0">d</text>
+  <path class="brk five" d="M 230 36.0 L 230 32.0 L 422 32.0 L 422 36.0"></path>
+  <text class="brklabel five" x="326" y="27.0">5<tspan class="sub" dy="3">1</tspan></text>
+  <path class="brk four" d="M 422 36.0 L 422 32.0 L 566 32.0 L 566 36.0"></path>
+  <text class="brklabel four" x="494" y="27.0">4<tspan class="sub" dy="3">1</tspan></text>
+
+  <!-- D plagal -->
+  <text class="rowlabel" id="lbl-D-plag" x="0" y="171.5"></text>
+  <line class="stf" x1="160" y1="148.0" x2="620" y2="148.0"></line>
+  <line class="stf" x1="160" y1="154.5" x2="620" y2="154.5"></line>
+  <line class="stf" x1="160" y1="161.0" x2="620" y2="161.0"></line>
+  <line class="stf" x1="160" y1="167.5" x2="620" y2="167.5"></line>
+  <line class="stf" x1="160" y1="174.0" x2="620" y2="174.0"></line>
+  <text class="clef" x="176" y="167.5">&#xE050;</text>
+  <line class="stf" x1="220" y1="180.5" x2="240" y2="180.5"></line>
+  <line class="stf" x1="220" y1="187.0" x2="240" y2="187.0"></line>
+  <text class="note" x="230" y="187.0">&#xE0A2;</text>
+  <text class="plabel" x="230" y="200.0">A</text>
+  <line class="stf" x1="268" y1="180.5" x2="288" y2="180.5"></line>
+  <text class="note" x="278" y="183.8">&#xE0A2;</text>
+  <text class="plabel" x="278" y="200.0">B</text>
+  <line class="stf" x1="316" y1="180.5" x2="336" y2="180.5"></line>
+  <text class="note" x="326" y="180.5">&#xE0A2;</text>
+  <text class="plabel" x="326" y="200.0">C</text>
+  <text class="note" x="374" y="177.2">&#xE0A0;</text>
+  <text class="plabel" x="374" y="200.0">D</text>
+  <text class="note" x="422" y="174.0">&#xE0A2;</text>
+  <text class="plabel" x="422" y="200.0">E</text>
+  <text class="note" x="470" y="170.8">&#xE0A2;</text>
+  <text class="plabel" x="470" y="200.0">F</text>
+  <text class="note" x="518" y="167.5">&#xE0A2;</text>
+  <text class="plabel" x="518" y="200.0">G</text>
+  <text class="note" x="566" y="164.2">&#xE0A2;</text>
+  <text class="plabel" x="566" y="200.0">a</text>
+  <path class="brk four" d="M 230 130.0 L 230 126.0 L 374 126.0 L 374 130.0"></path>
+  <text class="brklabel four" x="302" y="121.0">4<tspan class="sub" dy="3">1</tspan></text>
+  <path class="brk five" d="M 374 130.0 L 374 126.0 L 566 126.0 L 566 130.0"></path>
+  <text class="brklabel five" x="470" y="121.0">5<tspan class="sub" dy="3">1</tspan></text>
+
+  <!-- E authentic -->
+  <text class="rowlabel" id="lbl-E-auth" x="0" y="265.5"></text>
+  <line class="stf" x1="160" y1="242.0" x2="620" y2="242.0"></line>
+  <line class="stf" x1="160" y1="248.5" x2="620" y2="248.5"></line>
+  <line class="stf" x1="160" y1="255.0" x2="620" y2="255.0"></line>
+  <line class="stf" x1="160" y1="261.5" x2="620" y2="261.5"></line>
+  <line class="stf" x1="160" y1="268.0" x2="620" y2="268.0"></line>
+  <text class="clef" x="176" y="261.5">&#xE050;</text>
+  <text class="note" x="230" y="268.0">&#xE0A0;</text>
+  <text class="plabel" x="230" y="294.0">E</text>
+  <text class="note" x="278" y="264.8">&#xE0A2;</text>
+  <text class="plabel" x="278" y="294.0">F</text>
+  <text class="note" x="326" y="261.5">&#xE0A2;</text>
+  <text class="plabel" x="326" y="294.0">G</text>
+  <text class="note" x="374" y="258.2">&#xE0A2;</text>
+  <text class="plabel" x="374" y="294.0">a</text>
+  <text class="note" x="422" y="255.0">&#xE0A2;</text>
+  <text class="plabel" x="422" y="294.0">b</text>
+  <text class="note" x="470" y="251.8">&#xE0A2;</text>
+  <text class="plabel" x="470" y="294.0">c</text>
+  <text class="note" x="518" y="248.5">&#xE0A2;</text>
+  <text class="plabel" x="518" y="294.0">d</text>
+  <text class="note" x="566" y="245.2">&#xE0A2;</text>
+  <text class="plabel" x="566" y="294.0">e</text>
+  <path class="brk five" d="M 230 224.0 L 230 220.0 L 422 220.0 L 422 224.0"></path>
+  <text class="brklabel five" x="326" y="215.0">5<tspan class="sub" dy="3">2</tspan></text>
+  <path class="brk four" d="M 422 224.0 L 422 220.0 L 566 220.0 L 566 224.0"></path>
+  <text class="brklabel four" x="494" y="215.0">4<tspan class="sub" dy="3">2</tspan></text>
+
+  <!-- E plagal -->
+  <text class="rowlabel" id="lbl-E-plag" x="0" y="359.5"></text>
+  <line class="stf" x1="160" y1="336.0" x2="620" y2="336.0"></line>
+  <line class="stf" x1="160" y1="342.5" x2="620" y2="342.5"></line>
+  <line class="stf" x1="160" y1="349.0" x2="620" y2="349.0"></line>
+  <line class="stf" x1="160" y1="355.5" x2="620" y2="355.5"></line>
+  <line class="stf" x1="160" y1="362.0" x2="620" y2="362.0"></line>
+  <text class="clef" x="176" y="355.5">&#xE050;</text>
+  <line class="stf" x1="220" y1="368.5" x2="240" y2="368.5"></line>
+  <text class="note" x="230" y="371.8">&#xE0A2;</text>
+  <text class="plabel" x="230" y="388.0">B</text>
+  <line class="stf" x1="268" y1="368.5" x2="288" y2="368.5"></line>
+  <text class="note" x="278" y="368.5">&#xE0A2;</text>
+  <text class="plabel" x="278" y="388.0">C</text>
+  <text class="note" x="326" y="365.2">&#xE0A2;</text>
+  <text class="plabel" x="326" y="388.0">D</text>
+  <text class="note" x="374" y="362.0">&#xE0A0;</text>
+  <text class="plabel" x="374" y="388.0">E</text>
+  <text class="note" x="422" y="358.8">&#xE0A2;</text>
+  <text class="plabel" x="422" y="388.0">F</text>
+  <text class="note" x="470" y="355.5">&#xE0A2;</text>
+  <text class="plabel" x="470" y="388.0">G</text>
+  <text class="note" x="518" y="352.2">&#xE0A2;</text>
+  <text class="plabel" x="518" y="388.0">a</text>
+  <text class="note" x="566" y="349.0">&#xE0A2;</text>
+  <text class="plabel" x="566" y="388.0">b</text>
+  <path class="brk four" d="M 230 318.0 L 230 314.0 L 374 314.0 L 374 318.0"></path>
+  <text class="brklabel four" x="302" y="309.0">4<tspan class="sub" dy="3">2</tspan></text>
+  <path class="brk five" d="M 374 318.0 L 374 314.0 L 566 314.0 L 566 318.0"></path>
+  <text class="brklabel five" x="470" y="309.0">5<tspan class="sub" dy="3">2</tspan></text>
+
+  <!-- F authentic -->
+  <text class="rowlabel" id="lbl-F-auth" x="0" y="453.5"></text>
+  <line class="stf" x1="160" y1="430.0" x2="620" y2="430.0"></line>
+  <line class="stf" x1="160" y1="436.5" x2="620" y2="436.5"></line>
+  <line class="stf" x1="160" y1="443.0" x2="620" y2="443.0"></line>
+  <line class="stf" x1="160" y1="449.5" x2="620" y2="449.5"></line>
+  <line class="stf" x1="160" y1="456.0" x2="620" y2="456.0"></line>
+  <text class="clef" x="176" y="449.5">&#xE050;</text>
+  <text class="note" x="230" y="452.8">&#xE0A0;</text>
+  <text class="plabel" x="230" y="482.0">F</text>
+  <text class="note" x="278" y="449.5">&#xE0A2;</text>
+  <text class="plabel" x="278" y="482.0">G</text>
+  <text class="note" x="326" y="446.2">&#xE0A2;</text>
+  <text class="plabel" x="326" y="482.0">a</text>
+  <text class="note" x="374" y="443.0">&#xE0A2;</text>
+  <text class="plabel" x="374" y="482.0">b</text>
+  <text class="note" x="422" y="439.8">&#xE0A2;</text>
+  <text class="plabel" x="422" y="482.0">c</text>
+  <text class="note" x="470" y="436.5">&#xE0A2;</text>
+  <text class="plabel" x="470" y="482.0">d</text>
+  <text class="note" x="518" y="433.2">&#xE0A2;</text>
+  <text class="plabel" x="518" y="482.0">e</text>
+  <text class="note" x="566" y="430.0">&#xE0A2;</text>
+  <text class="plabel" x="566" y="482.0">f</text>
+  <path class="brk five" d="M 230 412.0 L 230 408.0 L 422 408.0 L 422 412.0"></path>
+  <text class="brklabel five" x="326" y="403.0">5<tspan class="sub" dy="3">3</tspan></text>
+  <path class="brk four" d="M 422 412.0 L 422 408.0 L 566 408.0 L 566 412.0"></path>
+  <text class="brklabel four" x="494" y="403.0">4<tspan class="sub" dy="3">3</tspan></text>
+
+  <!-- F plagal -->
+  <text class="rowlabel" id="lbl-F-plag" x="0" y="547.5"></text>
+  <line class="stf" x1="160" y1="524.0" x2="620" y2="524.0"></line>
+  <line class="stf" x1="160" y1="530.5" x2="620" y2="530.5"></line>
+  <line class="stf" x1="160" y1="537.0" x2="620" y2="537.0"></line>
+  <line class="stf" x1="160" y1="543.5" x2="620" y2="543.5"></line>
+  <line class="stf" x1="160" y1="550.0" x2="620" y2="550.0"></line>
+  <text class="clef" x="176" y="543.5">&#xE050;</text>
+  <line class="stf" x1="220" y1="556.5" x2="240" y2="556.5"></line>
+  <text class="note" x="230" y="556.5">&#xE0A2;</text>
+  <text class="plabel" x="230" y="576.0">C</text>
+  <text class="note" x="278" y="553.2">&#xE0A2;</text>
+  <text class="plabel" x="278" y="576.0">D</text>
+  <text class="note" x="326" y="550.0">&#xE0A2;</text>
+  <text class="plabel" x="326" y="576.0">E</text>
+  <text class="note" x="374" y="546.8">&#xE0A0;</text>
+  <text class="plabel" x="374" y="576.0">F</text>
+  <text class="note" x="422" y="543.5">&#xE0A2;</text>
+  <text class="plabel" x="422" y="576.0">G</text>
+  <text class="note" x="470" y="540.2">&#xE0A2;</text>
+  <text class="plabel" x="470" y="576.0">a</text>
+  <text class="note" x="518" y="537.0">&#xE0A2;</text>
+  <text class="plabel" x="518" y="576.0">b</text>
+  <text class="note" x="566" y="533.8">&#xE0A2;</text>
+  <text class="plabel" x="566" y="576.0">c</text>
+  <path class="brk four" d="M 230 506.0 L 230 502.0 L 374 502.0 L 374 506.0"></path>
+  <text class="brklabel four" x="302" y="497.0">4<tspan class="sub" dy="3">3</tspan></text>
+  <path class="brk five" d="M 374 506.0 L 374 502.0 L 566 502.0 L 566 506.0"></path>
+  <text class="brklabel five" x="470" y="497.0">5<tspan class="sub" dy="3">3</tspan></text>
+
+  <!-- G authentic -->
+  <text class="rowlabel" id="lbl-G-auth" x="0" y="641.5"></text>
+  <line class="stf" x1="160" y1="618.0" x2="620" y2="618.0"></line>
+  <line class="stf" x1="160" y1="624.5" x2="620" y2="624.5"></line>
+  <line class="stf" x1="160" y1="631.0" x2="620" y2="631.0"></line>
+  <line class="stf" x1="160" y1="637.5" x2="620" y2="637.5"></line>
+  <line class="stf" x1="160" y1="644.0" x2="620" y2="644.0"></line>
+  <text class="clef" x="176" y="637.5">&#xE050;</text>
+  <text class="note" x="230" y="637.5">&#xE0A0;</text>
+  <text class="plabel" x="230" y="670.0">G</text>
+  <text class="note" x="278" y="634.2">&#xE0A2;</text>
+  <text class="plabel" x="278" y="670.0">a</text>
+  <text class="note" x="326" y="631.0">&#xE0A2;</text>
+  <text class="plabel" x="326" y="670.0">b</text>
+  <text class="note" x="374" y="627.8">&#xE0A2;</text>
+  <text class="plabel" x="374" y="670.0">c</text>
+  <text class="note" x="422" y="624.5">&#xE0A2;</text>
+  <text class="plabel" x="422" y="670.0">d</text>
+  <text class="note" x="470" y="621.2">&#xE0A2;</text>
+  <text class="plabel" x="470" y="670.0">e</text>
+  <text class="note" x="518" y="618.0">&#xE0A2;</text>
+  <text class="plabel" x="518" y="670.0">f</text>
+  <text class="note" x="566" y="614.8">&#xE0A2;</text>
+  <text class="plabel" x="566" y="670.0">g</text>
+  <path class="brk five" d="M 230 600.0 L 230 596.0 L 422 596.0 L 422 600.0"></path>
+  <text class="brklabel five" x="326" y="591.0">5<tspan class="sub" dy="3">4</tspan></text>
+  <path class="brk four" d="M 422 600.0 L 422 596.0 L 566 596.0 L 566 600.0"></path>
+  <text class="brklabel four" x="494" y="591.0">4<tspan class="sub" dy="3">1</tspan></text>
+
+  <!-- G plagal -->
+  <text class="rowlabel" id="lbl-G-plag" x="0" y="735.5"></text>
+  <line class="stf" x1="160" y1="712.0" x2="620" y2="712.0"></line>
+  <line class="stf" x1="160" y1="718.5" x2="620" y2="718.5"></line>
+  <line class="stf" x1="160" y1="725.0" x2="620" y2="725.0"></line>
+  <line class="stf" x1="160" y1="731.5" x2="620" y2="731.5"></line>
+  <line class="stf" x1="160" y1="738.0" x2="620" y2="738.0"></line>
+  <text class="clef" x="176" y="731.5">&#xE050;</text>
+  <text class="note" x="230" y="741.2">&#xE0A2;</text>
+  <text class="plabel" x="230" y="764.0">D</text>
+  <text class="note" x="278" y="738.0">&#xE0A2;</text>
+  <text class="plabel" x="278" y="764.0">E</text>
+  <text class="note" x="326" y="734.8">&#xE0A2;</text>
+  <text class="plabel" x="326" y="764.0">F</text>
+  <text class="note" x="374" y="731.5">&#xE0A0;</text>
+  <text class="plabel" x="374" y="764.0">G</text>
+  <text class="note" x="422" y="728.2">&#xE0A2;</text>
+  <text class="plabel" x="422" y="764.0">a</text>
+  <text class="note" x="470" y="725.0">&#xE0A2;</text>
+  <text class="plabel" x="470" y="764.0">b</text>
+  <text class="note" x="518" y="721.8">&#xE0A2;</text>
+  <text class="plabel" x="518" y="764.0">c</text>
+  <text class="note" x="566" y="718.5">&#xE0A2;</text>
+  <text class="plabel" x="566" y="764.0">d</text>
+  <path class="brk four" d="M 230 694.0 L 230 690.0 L 374 690.0 L 374 694.0"></path>
+  <text class="brklabel four" x="302" y="685.0">4<tspan class="sub" dy="3">1</tspan></text>
+  <path class="brk five" d="M 374 694.0 L 374 690.0 L 566 690.0 L 566 694.0"></path>
+  <text class="brklabel five" x="470" y="685.0">5<tspan class="sub" dy="3">4</tspan></text>
+
+  <!-- a authentic -->
+  <text class="rowlabel" id="lbl-a-auth" x="0" y="829.5"></text>
+  <line class="stf" x1="160" y1="806.0" x2="620" y2="806.0"></line>
+  <line class="stf" x1="160" y1="812.5" x2="620" y2="812.5"></line>
+  <line class="stf" x1="160" y1="819.0" x2="620" y2="819.0"></line>
+  <line class="stf" x1="160" y1="825.5" x2="620" y2="825.5"></line>
+  <line class="stf" x1="160" y1="832.0" x2="620" y2="832.0"></line>
+  <text class="clef" x="176" y="825.5">&#xE050;</text>
+  <text class="note" x="230" y="822.2">&#xE0A0;</text>
+  <text class="plabel" x="230" y="858.0">a</text>
+  <text class="note" x="278" y="819.0">&#xE0A2;</text>
+  <text class="plabel" x="278" y="858.0">b</text>
+  <text class="note" x="326" y="815.8">&#xE0A2;</text>
+  <text class="plabel" x="326" y="858.0">c</text>
+  <text class="note" x="374" y="812.5">&#xE0A2;</text>
+  <text class="plabel" x="374" y="858.0">d</text>
+  <text class="note" x="422" y="809.2">&#xE0A2;</text>
+  <text class="plabel" x="422" y="858.0">e</text>
+  <text class="note" x="470" y="806.0">&#xE0A2;</text>
+  <text class="plabel" x="470" y="858.0">f</text>
+  <text class="note" x="518" y="802.8">&#xE0A2;</text>
+  <text class="plabel" x="518" y="858.0">g</text>
+  <line class="stf" x1="556" y1="799.5" x2="576" y2="799.5"></line>
+  <text class="note" x="566" y="799.5">&#xE0A2;</text>
+  <text class="plabel" x="566" y="858.0">aa</text>
+  <path class="brk five" d="M 230 788.0 L 230 784.0 L 422 784.0 L 422 788.0"></path>
+  <text class="brklabel five" x="326" y="779.0">5<tspan class="sub" dy="3">1</tspan></text>
+  <path class="brk four" d="M 422 788.0 L 422 784.0 L 566 784.0 L 566 788.0"></path>
+  <text class="brklabel four" x="494" y="779.0">4<tspan class="sub" dy="3">2</tspan></text>
+
+  <!-- a plagal -->
+  <text class="rowlabel" id="lbl-a-plag" x="0" y="923.5"></text>
+  <line class="stf" x1="160" y1="900.0" x2="620" y2="900.0"></line>
+  <line class="stf" x1="160" y1="906.5" x2="620" y2="906.5"></line>
+  <line class="stf" x1="160" y1="913.0" x2="620" y2="913.0"></line>
+  <line class="stf" x1="160" y1="919.5" x2="620" y2="919.5"></line>
+  <line class="stf" x1="160" y1="926.0" x2="620" y2="926.0"></line>
+  <text class="clef" x="176" y="919.5">&#xE050;</text>
+  <text class="note" x="230" y="926.0">&#xE0A2;</text>
+  <text class="plabel" x="230" y="952.0">E</text>
+  <text class="note" x="278" y="922.8">&#xE0A2;</text>
+  <text class="plabel" x="278" y="952.0">F</text>
+  <text class="note" x="326" y="919.5">&#xE0A2;</text>
+  <text class="plabel" x="326" y="952.0">G</text>
+  <text class="note" x="374" y="916.2">&#xE0A0;</text>
+  <text class="plabel" x="374" y="952.0">a</text>
+  <text class="note" x="422" y="913.0">&#xE0A2;</text>
+  <text class="plabel" x="422" y="952.0">b</text>
+  <text class="note" x="470" y="909.8">&#xE0A2;</text>
+  <text class="plabel" x="470" y="952.0">c</text>
+  <text class="note" x="518" y="906.5">&#xE0A2;</text>
+  <text class="plabel" x="518" y="952.0">d</text>
+  <text class="note" x="566" y="903.2">&#xE0A2;</text>
+  <text class="plabel" x="566" y="952.0">e</text>
+  <path class="brk four" d="M 230 882.0 L 230 878.0 L 374 878.0 L 374 882.0"></path>
+  <text class="brklabel four" x="302" y="873.0">4<tspan class="sub" dy="3">2</tspan></text>
+  <path class="brk five" d="M 374 882.0 L 374 878.0 L 566 878.0 L 566 882.0"></path>
+  <text class="brklabel five" x="470" y="873.0">5<tspan class="sub" dy="3">1</tspan></text>
+
+  <!-- c authentic -->
+  <text class="rowlabel" id="lbl-c-auth" x="0" y="1017.5"></text>
+  <line class="stf" x1="160" y1="994.0" x2="620" y2="994.0"></line>
+  <line class="stf" x1="160" y1="1000.5" x2="620" y2="1000.5"></line>
+  <line class="stf" x1="160" y1="1007.0" x2="620" y2="1007.0"></line>
+  <line class="stf" x1="160" y1="1013.5" x2="620" y2="1013.5"></line>
+  <line class="stf" x1="160" y1="1020.0" x2="620" y2="1020.0"></line>
+  <text class="clef" x="176" y="1013.5">&#xE050;</text>
+  <text class="note" x="230" y="1003.8">&#xE0A0;</text>
+  <text class="plabel" x="230" y="1046.0">c</text>
+  <text class="note" x="278" y="1000.5">&#xE0A2;</text>
+  <text class="plabel" x="278" y="1046.0">d</text>
+  <text class="note" x="326" y="997.2">&#xE0A2;</text>
+  <text class="plabel" x="326" y="1046.0">e</text>
+  <text class="note" x="374" y="994.0">&#xE0A2;</text>
+  <text class="plabel" x="374" y="1046.0">f</text>
+  <text class="note" x="422" y="990.8">&#xE0A2;</text>
+  <text class="plabel" x="422" y="1046.0">g</text>
+  <line class="stf" x1="460" y1="987.5" x2="480" y2="987.5"></line>
+  <text class="note" x="470" y="987.5">&#xE0A2;</text>
+  <text class="plabel" x="470" y="1046.0">aa</text>
+  <line class="stf" x1="508" y1="987.5" x2="528" y2="987.5"></line>
+  <text class="note" x="518" y="984.2">&#xE0A2;</text>
+  <text class="plabel" x="518" y="1046.0">bb</text>
+  <line class="stf" x1="556" y1="987.5" x2="576" y2="987.5"></line>
+  <line class="stf" x1="556" y1="981.0" x2="576" y2="981.0"></line>
+  <text class="note" x="566" y="981.0">&#xE0A2;</text>
+  <text class="plabel" x="566" y="1046.0">cc</text>
+  <path class="brk five" d="M 230 976.0 L 230 972.0 L 422 972.0 L 422 976.0"></path>
+  <text class="brklabel five" x="326" y="967.0">5<tspan class="sub" dy="3">4</tspan></text>
+  <path class="brk four" d="M 422 976.0 L 422 972.0 L 566 972.0 L 566 976.0"></path>
+  <text class="brklabel four" x="494" y="967.0">4<tspan class="sub" dy="3">3</tspan></text>
+
+  <!-- c plagal -->
+  <text class="rowlabel" id="lbl-c-plag" x="0" y="1111.5"></text>
+  <line class="stf" x1="160" y1="1088.0" x2="620" y2="1088.0"></line>
+  <line class="stf" x1="160" y1="1094.5" x2="620" y2="1094.5"></line>
+  <line class="stf" x1="160" y1="1101.0" x2="620" y2="1101.0"></line>
+  <line class="stf" x1="160" y1="1107.5" x2="620" y2="1107.5"></line>
+  <line class="stf" x1="160" y1="1114.0" x2="620" y2="1114.0"></line>
+  <text class="clef" x="176" y="1107.5">&#xE050;</text>
+  <text class="note" x="230" y="1107.5">&#xE0A2;</text>
+  <text class="plabel" x="230" y="1140.0">G</text>
+  <text class="note" x="278" y="1104.2">&#xE0A2;</text>
+  <text class="plabel" x="278" y="1140.0">a</text>
+  <text class="note" x="326" y="1101.0">&#xE0A2;</text>
+  <text class="plabel" x="326" y="1140.0">b</text>
+  <text class="note" x="374" y="1097.8">&#xE0A0;</text>
+  <text class="plabel" x="374" y="1140.0">c</text>
+  <text class="note" x="422" y="1094.5">&#xE0A2;</text>
+  <text class="plabel" x="422" y="1140.0">d</text>
+  <text class="note" x="470" y="1091.2">&#xE0A2;</text>
+  <text class="plabel" x="470" y="1140.0">e</text>
+  <text class="note" x="518" y="1088.0">&#xE0A2;</text>
+  <text class="plabel" x="518" y="1140.0">f</text>
+  <text class="note" x="566" y="1084.8">&#xE0A2;</text>
+  <text class="plabel" x="566" y="1140.0">g</text>
+  <path class="brk four" d="M 230 1070.0 L 230 1066.0 L 374 1066.0 L 374 1070.0"></path>
+  <text class="brklabel four" x="302" y="1061.0">4<tspan class="sub" dy="3">3</tspan></text>
+  <path class="brk five" d="M 374 1070.0 L 374 1066.0 L 566 1066.0 L 566 1070.0"></path>
+  <text class="brklabel five" x="470" y="1061.0">5<tspan class="sub" dy="3">4</tspan></text>
+</svg>
+</figure>
+
+<p class="note">Each staff writes out its mode's octave, the final as a breve, with the species of fifth on a solid bracket and the species of fourth on a dashed one. The labels above each staff follow the numbering selected above.</p>
+
+<p class="full">Neither new pair reproduces the mode it came from. The eight modes use four combinations: first fifth with first fourth for the protus, second with second for the deuterus, third with third for the tritus, and fourth fifth with first fourth for the tetrardus. Aeolian and Hypoaeolian on <span class="mono">a</span> take the first species of fifth with the second species of fourth. Ionian and Hypoionian on <span class="mono">c</span> take the fourth species of fifth with the third species of fourth. Both are combinations none of the eight has, which is what a cofinal does to a mode's species: the fifth survives the move and the fourth does not.</p>
+
 <h2 id="reading">reading the table</h2>
 
 <p class="full">Four of the twelve are new, marked in the accent. They are not new pitches: <span class="mono">a</span> and <span class="mono">c</span> were the cofinals of the protus and the tritus, the notes a fifth above <span class="mono">D</span> and <span class="mono">F</span>, where a chant went when the gamut could not supply what it needed. Glarean makes them finals in their own right. The tetrardus has no cofinal, so <span class="mono">G</span> contributes nothing new here.</p>
@@ -86,7 +479,7 @@
 </ul>
 
 <footer>
-  <p>Text set in IBM Plex under the SIL Open Font License.</p>
+  <p>Text set in IBM Plex, music glyphs in Bravura, both under the SIL Open Font License.</p>
 </footer>
 
 </div>
@@ -155,6 +548,11 @@
       ? "The eight modes keep their numbers and the four new ones are added above them. <em>Ego veni</em> is Mode 11."
       : "The finals run <span class=\"mono\">C</span> to <span class=\"mono\">a</span> with no gap and the numbering starts again from <span class=\"mono\">C</span>. Every mode changes its number. <em>Ego veni</em> is Mode 1.";
     readout.appendChild(p);
+
+    rows.forEach(function (r) {
+      var el = document.getElementById("lbl-" + r[2] + "-" + r[3].slice(0, 4));
+      if (el) { el.textContent = r[0] + ". " + r[1]; }
+    });
   }
 
   document.querySelectorAll("[data-scheme]").forEach(function (b) {
