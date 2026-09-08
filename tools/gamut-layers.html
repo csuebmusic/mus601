@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gamut layers &middot; MUS 601</title>
+<link rel="stylesheet" href="../assets/style.css?v=16">
+<style>
+  .controls { margin: 0 0 calc(var(--step) * 4); }
+  .ctl-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--step); margin-bottom: calc(var(--step) * 2); }
+  .ctl-row .label { margin: 0 calc(var(--step) * 1.5) 0 0; width: 7rem; flex: none; }
+  .btn {
+    font-family: var(--font-data);
+    font-size: 0.78rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: var(--line) solid var(--rule);
+    padding: calc(var(--step) * 0.9) calc(var(--step) * 1.6);
+    cursor: pointer;
+  }
+  .btn:hover { border-color: var(--ink); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-wash); }
+
+  .board-scroll { overflow-x: auto; margin: 0 0 calc(var(--step) * 4); }
+  .board {
+    display: grid;
+    grid-template-columns: 7rem repeat(20, minmax(34px, 1fr));
+    align-items: stretch;
+    row-gap: 2px;
+    min-width: 50rem;
+  }
+  .board .rowlab {
+    grid-column: 1;
+    font-family: var(--font-data);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    align-self: center;
+    padding-right: calc(var(--step) * 1.5);
+  }
+  .band {
+    font-family: var(--font-data);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    border-bottom: var(--line) solid var(--rule);
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  .littera {
+    font-family: var(--font-data);
+    font-size: 0.95rem;
+    text-align: center;
+    padding: calc(var(--step) * 0.6) 0 0;
+    cursor: pointer;
+    border: var(--line) solid transparent;
+  }
+  .littera:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .littera.lit { color: var(--accent-2); border-color: var(--accent-edge); background: var(--accent-wash); }
+  .voces {
+    font-family: var(--font-data);
+    font-size: 0.62rem;
+    line-height: 1.35;
+    color: var(--muted);
+    text-align: center;
+    padding-bottom: calc(var(--step) * 0.8);
+  }
+  .voces span { display: block; }
+  .voces span.on { color: var(--accent-2); }
+
+  .bar {
+    font-family: var(--font-data);
+    font-size: 0.68rem;
+    text-align: center;
+    padding: calc(var(--step) * 0.5) 0;
+    border: var(--line) solid var(--rule);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .bar.hex { color: var(--accent-2); border-color: var(--accent-2); background: transparent; cursor: pointer; }
+  .bar.hex.on { background: var(--accent-2); color: var(--paper); }
+  .bar.tet { color: var(--muted); border-style: dashed; }
+  .bar.five { color: var(--accent); border-color: var(--accent); background: var(--accent-wash); }
+  .bar.four { color: var(--accent); border-color: var(--accent-edge); }
+  .final {
+    align-self: center;
+    text-align: center;
+    font-family: var(--font-data);
+    font-size: 0.68rem;
+    color: var(--accent);
+  }
+  .spacer { min-height: calc(var(--step) * 1.5); }
+
+  .readout {
+    border: var(--line) solid var(--ink);
+    padding: calc(var(--step) * 3);
+    margin: 0 0 calc(var(--step) * 4);
+  }
+  .readout p { max-width: none; margin: 0 0 calc(var(--step) * 1.5); }
+  .readout > :last-child { margin-bottom: 0; }
+  .readout .label { margin: 0 0 var(--step); }
+
+  @media (max-width: 62rem) {
+    .ctl-row .label { width: auto; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; tool</p>
+<h1 id="top">Three divisions of one gamut</h1>
+
+<p class="lede full">The Guidonian gamut cut three ways: into hexachords for solmization, into modal octaves around a final, and into the tetrachords of the South German school. The three partitions run over the same pitch field and do not line up.</p>
+
+<div class="controls">
+  <div class="ctl-row" role="group" aria-label="mode">
+    <span class="label">mode</span>
+    <button type="button" class="btn" data-mode="0" aria-pressed="true">none</button>
+    <button type="button" class="btn" data-mode="1" aria-pressed="false">1</button>
+    <button type="button" class="btn" data-mode="2" aria-pressed="false">2</button>
+    <button type="button" class="btn" data-mode="3" aria-pressed="false">3</button>
+    <button type="button" class="btn" data-mode="4" aria-pressed="false">4</button>
+    <button type="button" class="btn" data-mode="5" aria-pressed="false">5</button>
+    <button type="button" class="btn" data-mode="6" aria-pressed="false">6</button>
+    <button type="button" class="btn" data-mode="7" aria-pressed="false">7</button>
+    <button type="button" class="btn" data-mode="8" aria-pressed="false">8</button>
+  </div>
+  <div class="ctl-row" role="group" aria-label="layers">
+    <span class="label">layers</span>
+    <button type="button" class="btn" id="t-hex" aria-pressed="true">hexachords</button>
+    <button type="button" class="btn" id="t-tet" aria-pressed="false">tetrachords</button>
+    <button type="button" class="btn" id="t-syn" aria-pressed="false">synemmenon</button>
+  </div>
+</div>
+
+<div class="board-scroll">
+  <div class="board" id="board"></div>
+</div>
+
+<div class="readout" id="readout"></div>
+
+<h2 id="reading">reading the board</h2>
+
+<p class="full">The littera is the letter name of the note and the voces beneath it are its solmization syllables, one for each hexachord the note belongs to. Most notes carry two or three, since the seven hexachords overlap. Click a note to light the hexachords that contain it and the syllable it takes in each.</p>
+
+<p class="full">The mode bar takes the accent, washed under the species of fifth and outlined under the species of fourth, with the final marked below. The hexachord bars are blue. The tetrachord bars are dashed and set in the muted grey.</p>
+
+<p class="full">A note on one collision of names. The Guidonian gamut divides into registers called <em>graves</em>, <em>acutae</em>, and <em>superacutae</em>, printed above the letters. The South German tetrachords carry the functional names of the <span class="caps">E</span>nchiriadis tradition, <em>graves</em>, <em>finales</em>, <em>superiores</em>, and <em>excellentes</em>. The word <em>graves</em> names two different spans: the register from &Gamma; to G, and the tetrachord from A to D.</p>
+
+<h2 id="what">what the layers show</h2>
+
+<p class="full">The hexachord is a T&ndash;S&ndash;T tetrachord with a whole tone at each end, placed at its seven possible positions in three species: <em>durum</em> with hard b as <span class="mono">mi</span>, <em>naturale</em> with neither b, <em>molle</em> with soft b as <span class="mono">fa</span>. It's the largest scale segment whose internal series of tones and semitones replicates at intervals other than the octave, at the fourth and the fifth. Its boundaries fall where they do to keep the semitone between <span class="mono">mi</span> and <span class="mono">fa</span>.</p>
+
+<p class="full">The modal octave divides at the final into a species of fifth and a species of fourth. The four finals, <span class="mono">D</span>, <span class="mono">E</span>, <span class="mono">F</span>, and <span class="mono">G</span>, are the four notes of the <em>finales</em> tetrachord. An authentic mode sets the fourth above the fifth, a plagal mode below.</p>
+
+<p class="full">Select a mode and the readout names the hexachords its octave crosses and the notes they share. No modal octave lies inside a single hexachord, so singing one through requires mutation at a shared note.</p>
+
+<p class="full">The species and the modal octaves are set out in the <a href="modal-species.html" target="_blank" rel="noopener">modal species handout</a>.</p>
+
+<footer>
+  <p>Text set in IBM Plex under the SIL Open Font License.</p>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var GAMUT = [
+    { l: "\u0393", v: ["ut"] },
+    { l: "A", v: ["re"] },
+    { l: "B", v: ["mi"] },
+    { l: "C", v: ["fa", "ut"] },
+    { l: "D", v: ["sol", "re"] },
+    { l: "E", v: ["la", "mi"] },
+    { l: "F", v: ["fa", "ut"] },
+    { l: "G", v: ["sol", "re", "ut"] },
+    { l: "a", v: ["la", "mi", "re"] },
+    { l: "b/\u266e", v: ["fa", "mi"] },
+    { l: "c", v: ["sol", "fa", "ut"] },
+    { l: "d", v: ["la", "sol", "re"] },
+    { l: "e", v: ["la", "mi"] },
+    { l: "f", v: ["fa", "ut"] },
+    { l: "g", v: ["sol", "re", "ut"] },
+    { l: "aa", v: ["la", "mi", "re"] },
+    { l: "bb/\u266e\u266e", v: ["fa", "mi"] },
+    { l: "cc", v: ["sol", "fa"] },
+    { l: "dd", v: ["la", "sol"] },
+    { l: "ee", v: ["la"] }
+  ];
+
+  var BANDS = [
+    { name: "graves", a: 0, b: 7 },
+    { name: "acutae", a: 8, b: 14 },
+    { name: "superacutae", a: 15, b: 19 }
+  ];
+
+  // start index in GAMUT, species, display row
+  var HEX = [
+    { ut: 0, sp: "durum", row: 0, name: "\u0393 durum" },
+    { ut: 3, sp: "naturale", row: 1, name: "C naturale" },
+    { ut: 6, sp: "molle", row: 0, name: "F molle" },
+    { ut: 7, sp: "durum", row: 2, name: "G durum" },
+    { ut: 10, sp: "naturale", row: 1, name: "c naturale" },
+    { ut: 13, sp: "molle", row: 0, name: "f molle" },
+    { ut: 14, sp: "durum", row: 2, name: "g durum" }
+  ];
+  var SYL = ["ut", "re", "mi", "fa", "sol", "la"];
+
+  var TET = [
+    { name: "graves", a: 1, b: 4, row: 0 },
+    { name: "finales", a: 4, b: 7, row: 1 },
+    { name: "superiores", a: 8, b: 11, row: 0 },
+    { name: "excellentes", a: 11, b: 14, row: 1 }
+  ];
+  var SYN = { name: "synemmenon (with soft b)", a: 8, b: 11 };
+
+  var MODES = [
+    null,
+    { n: 1, cat: "protus", amb: "authentic", a: 4, b: 11, j: 8, f: 4, sp5: 1, sp4: 1 },
+    { n: 2, cat: "protus", amb: "plagal", a: 1, b: 8, j: 4, f: 4, sp5: 1, sp4: 1 },
+    { n: 3, cat: "deuterus", amb: "authentic", a: 5, b: 12, j: 9, f: 5, sp5: 2, sp4: 2 },
+    { n: 4, cat: "deuterus", amb: "plagal", a: 2, b: 9, j: 5, f: 5, sp5: 2, sp4: 2 },
+    { n: 5, cat: "tritus", amb: "authentic", a: 6, b: 13, j: 10, f: 6, sp5: 3, sp4: 3 },
+    { n: 6, cat: "tritus", amb: "plagal", a: 3, b: 10, j: 6, f: 6, sp5: 3, sp4: 3 },
+    { n: 7, cat: "tetrardus", amb: "authentic", a: 7, b: 14, j: 11, f: 7, sp5: 4, sp4: 1 },
+    { n: 8, cat: "tetrardus", amb: "plagal", a: 4, b: 11, j: 7, f: 7, sp5: 4, sp4: 1 }
+  ];
+
+  var ORD = ["", "first", "second", "third", "fourth"];
+
+  var state = { mode: 0, hex: true, tet: false, syn: false, note: -1 };
+
+  var board = document.getElementById("board");
+  var readout = document.getElementById("readout");
+
+  function cell(cls, colA, colB, row, text) {
+    var d = document.createElement("div");
+    d.className = cls;
+    d.style.gridColumn = (colA + 2) + " / " + (colB + 3);
+    d.style.gridRow = String(row);
+    if (text !== undefined) { d.textContent = text; }
+    board.appendChild(d);
+    return d;
+  }
+
+  function rowLabel(row, text) {
+    var d = document.createElement("div");
+    d.className = "rowlab";
+    d.style.gridRow = String(row);
+    d.textContent = text;
+    board.appendChild(d);
+  }
+
+  function hexOf(h) { return { a: h.ut, b: h.ut + 5 }; }
+
+  function hexesContaining(i) {
+    var out = [];
+    HEX.forEach(function (h) {
+      if (i >= h.ut && i <= h.ut + 5) { out.push(h); }
+    });
+    return out;
+  }
+
+  function draw() {
+    board.innerHTML = "";
+    var r = 1;
+
+    BANDS.forEach(function (b) { cell("band", b.a, b.b, r, b.name); });
+    r += 1;
+
+    rowLabel(r, "littera");
+    GAMUT.forEach(function (g, i) {
+      var d = cell("littera" + (state.note === i ? " lit" : ""), i, i, r, g.l);
+      d.tabIndex = 0;
+      d.setAttribute("role", "button");
+      d.addEventListener("click", function () {
+        state.note = (state.note === i) ? -1 : i;
+        draw();
+      });
+      d.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); d.click(); }
+      });
+    });
+    r += 1;
+
+    rowLabel(r, "voces");
+    GAMUT.forEach(function (g, i) {
+      var d = cell("voces", i, i, r);
+      var lit = state.note === i ? hexesContaining(i) : [];
+      g.v.forEach(function (vox) {
+        var s = document.createElement("span");
+        s.textContent = vox;
+        var on = lit.some(function (h) { return SYL[i - h.ut] === vox; });
+        if (on) { s.className = "on"; }
+        d.appendChild(s);
+      });
+    });
+    r += 1;
+
+    cell("spacer", 0, 19, r); r += 1;
+
+    var m = MODES[state.mode];
+    if (m) {
+      rowLabel(r, "mode " + m.n);
+      if (m.amb === "authentic") {
+        cell("bar five", m.a, m.j, r).innerHTML = "5<sub>" + m.sp5 + "</sub>";
+        cell("bar four", m.j, m.b, r).innerHTML = "4<sub>" + m.sp4 + "</sub>";
+      } else {
+        cell("bar four", m.a, m.j, r).innerHTML = "4<sub>" + m.sp4 + "</sub>";
+        cell("bar five", m.j, m.b, r).innerHTML = "5<sub>" + m.sp5 + "</sub>";
+      }
+      r += 1;
+      cell("final", m.f, m.f, r, "final");
+      r += 1;
+      cell("spacer", 0, 19, r); r += 1;
+    }
+
+    if (state.hex) {
+      [0, 1, 2].forEach(function (row) {
+        rowLabel(r, row === 0 ? "hexachords" : "");
+        HEX.forEach(function (h) {
+          if (h.row !== row) { return; }
+          var lit = state.note >= 0 && state.note >= h.ut && state.note <= h.ut + 5;
+          var d = cell("bar hex" + (lit ? " on" : ""), h.ut, h.ut + 5, r, h.name);
+          d.title = SYL.join(" ");
+        });
+        r += 1;
+      });
+      cell("spacer", 0, 19, r); r += 1;
+    }
+
+    if (state.tet) {
+      [0, 1].forEach(function (row) {
+        rowLabel(r, row === 0 ? "tetrachords" : "");
+        TET.forEach(function (t) {
+          if (t.row !== row) { return; }
+          cell("bar tet", t.a, t.b, r, t.name);
+        });
+        r += 1;
+      });
+    }
+
+    if (state.syn) {
+      rowLabel(r, "");
+      cell("bar tet", SYN.a, SYN.b, r, SYN.name);
+      r += 1;
+    }
+
+    report();
+  }
+
+  function para(html) {
+    var p = document.createElement("p");
+    p.innerHTML = html;
+    readout.appendChild(p);
+  }
+
+  function report() {
+    readout.innerHTML = "";
+    var lab = document.createElement("p");
+    lab.className = "label";
+    readout.appendChild(lab);
+
+    var m = MODES[state.mode];
+    if (!m) {
+      lab.textContent = "readout";
+      para("Select a mode to place its octave on the gamut.");
+      if (state.note >= 0) { noteReport(); }
+      return;
+    }
+
+    lab.textContent = "mode " + m.n;
+    para("The " + m.cat + " " + m.amb + ", final <span class=\"mono\">" +
+      GAMUT[m.f].l + "</span>, octave <span class=\"mono\">" + GAMUT[m.a].l +
+      "&ndash;" + GAMUT[m.b].l + "</span>. It takes the " + ORD[m.sp5] +
+      " species of fifth, <span class=\"mono\">" + GAMUT[m.amb === "authentic" ? m.a : m.j].l +
+      "&ndash;" + GAMUT[m.amb === "authentic" ? m.j : m.b].l + "</span>, and the " + ORD[m.sp4] +
+      " species of fourth, <span class=\"mono\">" + GAMUT[m.amb === "authentic" ? m.j : m.a].l +
+      "&ndash;" + GAMUT[m.amb === "authentic" ? m.b : m.j].l + "</span>.");
+
+    var crossed = HEX.filter(function (h) {
+      return h.ut <= m.b && h.ut + 5 >= m.a;
+    });
+    var names = crossed.map(function (h) { return h.name; });
+    para("Its octave crosses " + names.length + " hexachords: " + names.join(", ") + ".");
+
+    var shared = [];
+    for (var i = 0; i < crossed.length - 1; i += 1) {
+      var x = crossed[i], y = crossed[i + 1];
+      var lo = Math.max(x.ut, y.ut, m.a), hi = Math.min(x.ut + 5, y.ut + 5, m.b);
+      var notes = [];
+      for (var k = lo; k <= hi; k += 1) { notes.push(GAMUT[k].l); }
+      if (notes.length) {
+        shared.push(x.name + " and " + y.name + " share <span class=\"mono\">" +
+          notes.join(" ") + "</span> inside this octave");
+      }
+    }
+    if (shared.length) {
+      para("Mutation is available where consecutive hexachords overlap: " + shared.join("; ") + ".");
+    }
+    if (state.note >= 0) { noteReport(); }
+  }
+
+  function noteReport() {
+    var i = state.note, g = GAMUT[i];
+    var hs = hexesContaining(i);
+    var parts = hs.map(function (h) {
+      return "<span class=\"mono\">" + SYL[i - h.ut] + "</span> in the " + h.name;
+    });
+    para("<span class=\"mono\">" + g.l + "</span> is " + parts.join(", ") + ".");
+  }
+
+  document.querySelectorAll("[data-mode]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      state.mode = parseInt(b.getAttribute("data-mode"), 10);
+      document.querySelectorAll("[data-mode]").forEach(function (o) {
+        o.setAttribute("aria-pressed", o === b ? "true" : "false");
+      });
+      draw();
+    });
+  });
+
+  function toggle(id, key) {
+    var b = document.getElementById(id);
+    b.addEventListener("click", function () {
+      state[key] = !state[key];
+      b.setAttribute("aria-pressed", state[key] ? "true" : "false");
+      draw();
+    });
+  }
+  toggle("t-hex", "hex");
+  toggle("t-tet", "tet");
+  toggle("t-syn", "syn");
+
+  draw();
+}());
+</script>
+</body>
+</html>
