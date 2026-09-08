@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modal species &middot; MUS 601</title>
+<link rel="stylesheet" href="../assets/style.css?v=16">
+<style>
+  .pdf-bar { margin: 0 0 calc(var(--step) * 5); }
+  .pdf {
+    font-family: var(--font-data);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--paper);
+    border: var(--line) solid var(--accent);
+    padding: calc(var(--step) * 1.2) calc(var(--step) * 2);
+    cursor: pointer;
+  }
+  .pdf:hover { background: var(--accent-wash); }
+  .pdf:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  figure.grid { margin: 0 0 calc(var(--step) * 3); }
+  figure.grid svg { width: 100%; height: auto; display: block; }
+  .grid text { font-family: var(--font-data); fill: var(--ink); }
+  .grid .pitch { font-size: 12px; fill: var(--muted); text-anchor: middle; }
+  .grid .rowlabel { font-size: 11px; fill: var(--muted); }
+  .grid .rowlabel tspan.n { fill: var(--ink); }
+  .grid .barlabel { font-size: 11px; text-anchor: middle; }
+  .grid .fifthlabel { fill: var(--accent); }
+  .grid .fourthlabel { fill: var(--accent-2); }
+  .grid .finalletter { font-size: 11px; text-anchor: middle; fill: var(--ink); }
+  .grid .fifth { fill: var(--accent-wash); stroke: var(--accent-edge); }
+  .grid .fourth { fill: var(--accent-2); fill-opacity: 0.08; stroke: var(--accent-2); stroke-opacity: 0.45; }
+  .grid .hair { stroke: var(--rule); stroke-width: 1; }
+  .grid .final { stroke: var(--ink); stroke-width: 1.5; }
+
+  @media print {
+    .pdf-bar, .toc { display: none; }
+    .grid .fifth, .grid .fourth { fill-opacity: 0.14; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; handout</p>
+<h1 id="top">The four categories of mode and the species of the fourth and fifth</h1>
+
+<p class="lede full">Eleventh-century modal theory in the South German writers, from Berno of Reichenau to Hermannus Contractus. Four categories of mode, defined by final and built from one species of fifth and one species of fourth, each dividing into an authentic and a plagal ambitus.</p>
+
+<p class="pdf-bar"><button type="button" class="pdf" id="pdf">download PDF</button></p>
+
+<ul class="toc">
+  <li><a href="#species">what a species is</a></li>
+  <li><a href="#tables">the three fourths and the four fifths</a></li>
+  <li><a href="#categories">the four categories</a></li>
+  <li><a href="#octaves">the eight modal octaves</a></li>
+  <li><a href="#tetrardus">the tetrardus and the octave <span class="caps">D</span>&ndash;d</a></li>
+  <li><a href="#after">what happens to the species afterward</a></li>
+  <li><a href="#sources">sources</a></li>
+</ul>
+
+<h2 id="species">what a species is</h2>
+
+<p class="full">A species is one ordering of the tones and semitones between the consecutive notes of a fixed consonance. In the diatonic scale those inter-step intervals are whole tones and semitones, and the number of distinct species of a consonance is one fewer than the number of notes it spans: three species of fourth, four species of fifth, seven species of octave. Fourth, fifth, and octave here always mean the perfect forms.</p>
+
+<p class="full">The doctrine reaches the Middle Ages from Greek harmonics through Boethius, <em>De institutione musica</em> iv.14&ndash;17, where the octave species are the ones tied to the modes. The species of the fourth and fifth acquire that function in the eleventh century, in the treatises of the South German school. The account below is the one in the interpolated chapters of Berno's <em>Prologus in tonarium</em>, written after 1021.</p>
+
+<p class="full">A species recurs wherever the scale presents the same sequence of tones and semitones. The first species of fourth, <span class="mono">T&ndash;S&ndash;T</span>, is <span class="mono">A&ndash;B&ndash;C&ndash;D</span> and equally <span class="mono">d&ndash;e&ndash;f&ndash;g</span>. The segments in the tables below are the positions Berno's continuous ascending series assigns, running the fourths and then the fifths upward from the bottom of the scale.</p>
+
+<h2 id="tables">the three fourths and the four fifths</h2>
+
+<p class="label">species of the fourth</p>
+
+<table>
+  <thead>
+    <tr><th scope="col">species</th><th scope="col">pattern</th><th scope="col">segment</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">first</th><td class="num">T&ndash;S&ndash;T</td><td class="num">A&ndash;B&ndash;C&ndash;D</td></tr>
+    <tr><th scope="row">second</th><td class="num">S&ndash;T&ndash;T</td><td class="num">B&ndash;C&ndash;D&ndash;E</td></tr>
+    <tr><th scope="row">third</th><td class="num">T&ndash;T&ndash;S</td><td class="num">C&ndash;D&ndash;E&ndash;F</td></tr>
+  </tbody>
+</table>
+
+<p class="label">species of the fifth</p>
+
+<table>
+  <thead>
+    <tr><th scope="col">species</th><th scope="col">pattern</th><th scope="col">segment</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">first</th><td class="num">T&ndash;S&ndash;T&ndash;T</td><td class="num">D&ndash;E&ndash;F&ndash;G&ndash;a</td></tr>
+    <tr><th scope="row">second</th><td class="num">S&ndash;T&ndash;T&ndash;T</td><td class="num">E&ndash;F&ndash;G&ndash;a&ndash;b</td></tr>
+    <tr><th scope="row">third</th><td class="num">T&ndash;T&ndash;T&ndash;S</td><td class="num">F&ndash;G&ndash;a&ndash;b&ndash;c</td></tr>
+    <tr><th scope="row">fourth</th><td class="num">T&ndash;T&ndash;S&ndash;T</td><td class="num">G&ndash;a&ndash;b&ndash;c&ndash;d</td></tr>
+  </tbody>
+</table>
+
+<p class="note">Capitals are the lower octave and lowercase the upper, in the Odonian letters. Every <span class="mono">b</span> here is b natural.</p>
+
+<h2 id="categories">the four categories</h2>
+
+<p class="full">Four finals, <span class="mono">D</span>, <span class="mono">E</span>, <span class="mono">F</span>, and <span class="mono">G</span>, give four categories of mode, named with the Byzantine ordinals protus, deuterus, tritus, and tetrardus. A category is defined by its pair of species: which species of fifth and which species of fourth the mode is built from.</p>
+
+<p class="full">Each category divides into two ambitus. An authentic mode has its fourth above its fifth, and its octave runs upward from the final. A plagal mode has the fourth below the fifth, and its final stands a fourth above the bottom of the octave. Authentic and plagal partners share the same two species and differ in their order alone. Counting the two ambitus of each category separately gives the eight numbered modes; the species belong to the category, and the position of the fourth against the fifth gives the ambitus.</p>
+
+<p class="full">The modal octaves are theoretical constructs, and the ranges the chant treatises assign run wider. An authentic melody descends a step below its final and reaches as high as nine or ten steps above it. A plagal melody descends a fifth below the final, a fourth for the tritus, and ascends a sixth or a seventh above.</p>
+
+<p class="note">Cohen calls the four categories <em>maneriae</em>. The term entered modal theory with this meaning in the twelfth century, in the Cistercian treatises, later than the theory set out here.</p>
+
+<h2 id="octaves">the eight modal octaves</h2>
+
+<figure class="grid">
+<svg viewBox="0 0 800 430" role="img" aria-labelledby="gridtitle griddesc" class="grid">
+  <title id="gridtitle">The eight modal octaves built from a species of fifth and a species of fourth</title>
+  <desc id="griddesc">A pitch grid from A to g. Each of the eight modes is drawn as a species of fifth and a species of fourth placed end to end, with a vertical tick at the final.</desc>
+
+  <!-- pitch names -->
+  <text class="pitch" x="180" y="22">A</text>
+  <text class="pitch" x="224" y="22">B</text>
+  <text class="pitch" x="268" y="22">C</text>
+  <text class="pitch" x="312" y="22">D</text>
+  <text class="pitch" x="356" y="22">E</text>
+  <text class="pitch" x="400" y="22">F</text>
+  <text class="pitch" x="444" y="22">G</text>
+  <text class="pitch" x="488" y="22">a</text>
+  <text class="pitch" x="532" y="22">b</text>
+  <text class="pitch" x="576" y="22">c</text>
+  <text class="pitch" x="620" y="22">d</text>
+  <text class="pitch" x="664" y="22">e</text>
+  <text class="pitch" x="708" y="22">f</text>
+  <text class="pitch" x="752" y="22">g</text>
+  <line class="hair" x1="0" y1="32" x2="800" y2="32"></line>
+
+  <!-- mode 1: protus authentic, D-a fifth 1, a-d fourth 1, final D -->
+  <text class="rowlabel" x="0" y="66"><tspan class="n">1</tspan>  protus authentic</text>
+  <rect class="fifth" x="312" y="52" width="176" height="22"></rect>
+  <rect class="fourth" x="488" y="52" width="132" height="22"></rect>
+  <text class="barlabel fifthlabel" x="400" y="67">1st fifth D&ndash;a</text>
+  <text class="barlabel fourthlabel" x="554" y="67">1st fourth a&ndash;d</text>
+  <line class="final" x1="312" y1="46" x2="312" y2="80"></line>
+  <text class="finalletter" x="312" y="92">D</text>
+
+  <!-- mode 2: protus plagal, A-D fourth 1, D-a fifth 1, final D -->
+  <text class="rowlabel" x="0" y="112"><tspan class="n">2</tspan>  protus plagal</text>
+  <rect class="fourth" x="180" y="98" width="132" height="22"></rect>
+  <rect class="fifth" x="312" y="98" width="176" height="22"></rect>
+  <text class="barlabel fourthlabel" x="246" y="113">1st fourth A&ndash;D</text>
+  <text class="barlabel fifthlabel" x="400" y="113">1st fifth D&ndash;a</text>
+  <line class="final" x1="312" y1="92" x2="312" y2="126"></line>
+  <text class="finalletter" x="312" y="138">D</text>
+
+  <!-- mode 3: deuterus authentic, E-b fifth 2, b-e fourth 2, final E -->
+  <text class="rowlabel" x="0" y="158"><tspan class="n">3</tspan>  deuterus authentic</text>
+  <rect class="fifth" x="356" y="144" width="176" height="22"></rect>
+  <rect class="fourth" x="532" y="144" width="132" height="22"></rect>
+  <text class="barlabel fifthlabel" x="444" y="159">2nd fifth E&ndash;b</text>
+  <text class="barlabel fourthlabel" x="598" y="159">2nd fourth b&ndash;e</text>
+  <line class="final" x1="356" y1="138" x2="356" y2="172"></line>
+  <text class="finalletter" x="356" y="184">E</text>
+
+  <!-- mode 4: deuterus plagal, B-E fourth 2, E-b fifth 2, final E -->
+  <text class="rowlabel" x="0" y="204"><tspan class="n">4</tspan>  deuterus plagal</text>
+  <rect class="fourth" x="224" y="190" width="132" height="22"></rect>
+  <rect class="fifth" x="356" y="190" width="176" height="22"></rect>
+  <text class="barlabel fourthlabel" x="290" y="205">2nd fourth B&ndash;E</text>
+  <text class="barlabel fifthlabel" x="444" y="205">2nd fifth E&ndash;b</text>
+  <line class="final" x1="356" y1="184" x2="356" y2="218"></line>
+  <text class="finalletter" x="356" y="230">E</text>
+
+  <!-- mode 5: tritus authentic, F-c fifth 3, c-f fourth 3, final F -->
+  <text class="rowlabel" x="0" y="250"><tspan class="n">5</tspan>  tritus authentic</text>
+  <rect class="fifth" x="400" y="236" width="176" height="22"></rect>
+  <rect class="fourth" x="576" y="236" width="132" height="22"></rect>
+  <text class="barlabel fifthlabel" x="488" y="251">3rd fifth F&ndash;c</text>
+  <text class="barlabel fourthlabel" x="642" y="251">3rd fourth c&ndash;f</text>
+  <line class="final" x1="400" y1="230" x2="400" y2="264"></line>
+  <text class="finalletter" x="400" y="276">F</text>
+
+  <!-- mode 6: tritus plagal, C-F fourth 3, F-c fifth 3, final F -->
+  <text class="rowlabel" x="0" y="296"><tspan class="n">6</tspan>  tritus plagal</text>
+  <rect class="fourth" x="268" y="282" width="132" height="22"></rect>
+  <rect class="fifth" x="400" y="282" width="176" height="22"></rect>
+  <text class="barlabel fourthlabel" x="334" y="297">3rd fourth C&ndash;F</text>
+  <text class="barlabel fifthlabel" x="488" y="297">3rd fifth F&ndash;c</text>
+  <line class="final" x1="400" y1="276" x2="400" y2="310"></line>
+  <text class="finalletter" x="400" y="322">F</text>
+
+  <!-- mode 7: tetrardus authentic, G-d fifth 4, d-g fourth 1, final G -->
+  <text class="rowlabel" x="0" y="342"><tspan class="n">7</tspan>  tetrardus authentic</text>
+  <rect class="fifth" x="444" y="328" width="176" height="22"></rect>
+  <rect class="fourth" x="620" y="328" width="132" height="22"></rect>
+  <text class="barlabel fifthlabel" x="532" y="343">4th fifth G&ndash;d</text>
+  <text class="barlabel fourthlabel" x="686" y="343">1st fourth d&ndash;g</text>
+  <line class="final" x1="444" y1="322" x2="444" y2="356"></line>
+  <text class="finalletter" x="444" y="368">G</text>
+
+  <!-- mode 8: tetrardus plagal, D-G fourth 1, G-d fifth 4, final G -->
+  <text class="rowlabel" x="0" y="388"><tspan class="n">8</tspan>  tetrardus plagal</text>
+  <rect class="fourth" x="312" y="374" width="132" height="22"></rect>
+  <rect class="fifth" x="444" y="374" width="176" height="22"></rect>
+  <text class="barlabel fourthlabel" x="378" y="389">1st fourth D&ndash;G</text>
+  <text class="barlabel fifthlabel" x="532" y="389">4th fifth G&ndash;d</text>
+  <line class="final" x1="444" y1="368" x2="444" y2="402"></line>
+  <text class="finalletter" x="444" y="414">G</text>
+</svg>
+</figure>
+
+<p class="note">The fifth is washed in the accent, the fourth in blue. The ink tick and the letter beneath it give the final.</p>
+
+<table>
+  <thead>
+    <tr><th scope="col">mode</th><th scope="col">category</th><th scope="col">ambitus</th><th scope="col">final</th><th scope="col">fifth</th><th scope="col">fourth</th><th scope="col">octave</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">1</th><td>protus</td><td>authentic</td><td class="num">D</td><td class="num">1st, D&ndash;a</td><td class="num">1st, a&ndash;d</td><td class="num">D&ndash;d</td></tr>
+    <tr><th scope="row">2</th><td>protus</td><td>plagal</td><td class="num">D</td><td class="num">1st, D&ndash;a</td><td class="num">1st, A&ndash;D</td><td class="num">A&ndash;a</td></tr>
+    <tr><th scope="row">3</th><td>deuterus</td><td>authentic</td><td class="num">E</td><td class="num">2nd, E&ndash;b</td><td class="num">2nd, b&ndash;e</td><td class="num">E&ndash;e</td></tr>
+    <tr><th scope="row">4</th><td>deuterus</td><td>plagal</td><td class="num">E</td><td class="num">2nd, E&ndash;b</td><td class="num">2nd, B&ndash;E</td><td class="num">B&ndash;b</td></tr>
+    <tr><th scope="row">5</th><td>tritus</td><td>authentic</td><td class="num">F</td><td class="num">3rd, F&ndash;c</td><td class="num">3rd, c&ndash;f</td><td class="num">F&ndash;f</td></tr>
+    <tr><th scope="row">6</th><td>tritus</td><td>plagal</td><td class="num">F</td><td class="num">3rd, F&ndash;c</td><td class="num">3rd, C&ndash;F</td><td class="num">C&ndash;c</td></tr>
+    <tr><th scope="row">7</th><td>tetrardus</td><td>authentic</td><td class="num">G</td><td class="num">4th, G&ndash;d</td><td class="num">1st, d&ndash;g</td><td class="num">G&ndash;g</td></tr>
+    <tr><th scope="row">8</th><td>tetrardus</td><td>plagal</td><td class="num">G</td><td class="num">4th, G&ndash;d</td><td class="num">1st, D&ndash;G</td><td class="num">D&ndash;d</td></tr>
+  </tbody>
+</table>
+
+<h2 id="tetrardus">the tetrardus and the octave <span class="caps">D</span>&ndash;d</h2>
+
+<p class="full">The numbering lines up in the first three categories. Protus takes the first species of fifth with the first species of fourth, deuterus the second with the second, tritus the third with the third. The tetrardus breaks the pattern, since a fourth species of fourth does not exist. It takes the fourth species of fifth with the first species of fourth, at <span class="mono">D&ndash;G</span> in the plagal and <span class="mono">d&ndash;g</span> in the authentic.</p>
+
+<p class="full">Modes 1 and 8 both occupy the octave <span class="mono">D&ndash;d</span>, the fourth species of octave, and the species divide it two ways. In mode 1 the final is <span class="mono">D</span>, with the first species of fifth below the first species of fourth. In mode 8 the final is <span class="mono">G</span>, with the first species of fourth below the fourth species of fifth. The division, rather than the outer boundaries, tells the two apart.</p>
+
+<h2 id="after">what happens to the species afterward</h2>
+
+<p class="full">The species of the consonances spread through Italy in the fourteenth and fifteenth centuries and were a common component of modal theory across Western Europe by the sixteenth. With Marchetto of Padua the species are governed by the final, and the pairs are named by solmization: the first species of fifth is <span class="mono">re&ndash;la</span>, the first species of fourth <span class="mono">re&ndash;sol</span>. Modal and hexachordal relationships are joined at this point.</p>
+
+<p class="full">In the seventeenth century the species become a rule for imitative writing. Diruta, Scacchi, and Berardi require the subject of a modally correct fugue in an authentic mode to present the proper fifth and the answer to present the proper fourth, reversed in a plagal mode. Exact imitation at the fifth was held to contradict the mode, and the tonal answer was argued in these terms.</p>
+
+<h2 id="sources">sources</h2>
+
+<ul class="readings">
+  <li>Christensen, Thomas, ed. <em>The Cambridge History of Western Music Theory</em>. Cambridge University Press, 2002.
+    <ul>
+      <li>Cohen, David E. &ldquo;Notes, Scales, and Modes in the Earlier Middle Ages.&rdquo; 307&ndash;63. On species, 332&ndash;33; on the four categories and the ambitus, 347; on Berno and the modal species, 351&ndash;54, with Table 11.13 and Figure 11.9.</li>
+      <li>Judd, Cristle Collins. &ldquo;Renaissance Modal Theory: Theoretical, Compositional, and Editorial Perspectives.&rdquo; 364&ndash;406. On Marchetto and the solmization names, 365.</li>
+      <li>Barnett, Gregory. &ldquo;Tonal Organization in Seventeenth-Century Music Theory.&rdquo; 407&ndash;55. On the species and the fugal answer, 417&ndash;18.</li>
+    </ul>
+  </li>
+  <li>Berno of Reichenau. <em>Die Musiktraktate des Abtes Bern von Reichenau</em>. Edited by A. Rausch. Tutzing: Hans Schneider, 1999.</li>
+  <li>Warburton, J. &ldquo;Questions of Attribution and Chronology in Three Medieval Texts on Species Theory.&rdquo; <em>Music Theory Spectrum</em> 22 (2000): 225&ndash;35.</li>
+</ul>
+
+<footer>
+  <p>Text set in IBM Plex under the SIL Open Font License.</p>
+</footer>
+
+</div>
+<script>
+  document.getElementById("pdf").addEventListener("click", function () { window.print(); });
+</script>
+</body>
+</html>
