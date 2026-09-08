@@ -25,7 +25,7 @@
   .board-scroll { overflow-x: auto; margin: 0 0 calc(var(--step) * 4); }
   .board {
     display: grid;
-    grid-template-columns: 7rem repeat(20, minmax(34px, 1fr));
+    grid-template-columns: 7rem repeat(20, minmax(42px, 1fr));
     align-items: stretch;
     row-gap: 2px;
     min-width: 50rem;
@@ -67,7 +67,12 @@
     text-align: center;
     padding-bottom: calc(var(--step) * 0.8);
   }
-  .voces span { display: block; }
+  .voces span {
+    display: block;
+    padding: 1px 0;
+    border-top: var(--line) solid var(--rule);
+  }
+  .voces span:first-child { border-top: 0; }
   .voces span.on { color: var(--accent-2); }
 
   .bar {
@@ -170,26 +175,26 @@
   "use strict";
 
   var GAMUT = [
-    { l: "\u0393", v: ["ut"] },
-    { l: "A", v: ["re"] },
-    { l: "B", v: ["mi"] },
-    { l: "C", v: ["fa", "ut"] },
-    { l: "D", v: ["sol", "re"] },
-    { l: "E", v: ["la", "mi"] },
-    { l: "F", v: ["fa", "ut"] },
-    { l: "G", v: ["sol", "re", "ut"] },
-    { l: "a", v: ["la", "mi", "re"] },
-    { l: "b/\u266e", v: ["fa", "mi"] },
-    { l: "c", v: ["sol", "fa", "ut"] },
-    { l: "d", v: ["la", "sol", "re"] },
-    { l: "e", v: ["la", "mi"] },
-    { l: "f", v: ["fa", "ut"] },
-    { l: "g", v: ["sol", "re", "ut"] },
-    { l: "aa", v: ["la", "mi", "re"] },
-    { l: "bb/\u266e\u266e", v: ["fa", "mi"] },
-    { l: "cc", v: ["sol", "fa"] },
-    { l: "dd", v: ["la", "sol"] },
-    { l: "ee", v: ["la"] }
+    { l: "\u0393" },
+    { l: "A" },
+    { l: "B" },
+    { l: "C" },
+    { l: "D" },
+    { l: "E" },
+    { l: "F" },
+    { l: "G" },
+    { l: "a" },
+    { l: "b/\u266e" },
+    { l: "c" },
+    { l: "d" },
+    { l: "e" },
+    { l: "f" },
+    { l: "g" },
+    { l: "aa" },
+    { l: "bb/\u266e\u266e" },
+    { l: "cc" },
+    { l: "dd" },
+    { l: "ee" }
   ];
 
   var BANDS = [
@@ -262,6 +267,7 @@
     HEX.forEach(function (h) {
       if (i >= h.ut && i <= h.ut + 5) { out.push(h); }
     });
+    out.sort(function (x, y) { return x.ut - y.ut; });
     return out;
   }
 
@@ -290,12 +296,13 @@
     rowLabel(r, "voces");
     GAMUT.forEach(function (g, i) {
       var d = cell("voces", i, i, r);
-      var lit = state.note === i ? hexesContaining(i) : [];
-      g.v.forEach(function (vox) {
+      var all = hexesContaining(i);
+      var lit = state.note === i;
+      all.forEach(function (h) {
         var s = document.createElement("span");
-        s.textContent = vox;
-        var on = lit.some(function (h) { return SYL[i - h.ut] === vox; });
-        if (on) { s.className = "on"; }
+        s.textContent = SYL[i - h.ut];
+        s.title = h.name;
+        if (lit) { s.className = "on"; }
         d.appendChild(s);
       });
     });
@@ -378,7 +385,7 @@
 
     var crossed = HEX.filter(function (h) {
       return h.ut <= m.b && h.ut + 5 >= m.a;
-    });
+    }).sort(function (x, y) { return x.ut - y.ut; });
     var names = crossed.map(function (h) { return "the " + h.name; });
     para("Its octave crosses " + names.length + " hexachords: " + names.join(", ") + ".");
 
