@@ -275,6 +275,33 @@ li::marker { color: var(--muted); }
 
 .recess { color: var(--muted); margin: calc(var(--step) * 4) 0; }
 
+/* rail */
+
+.rail { margin: 0 0 calc(var(--step) * 5); }
+.rail .label { margin: 0 0 var(--step); }
+.rail ol {
+  font-family: var(--font-data);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  max-width: none;
+  margin: 0;
+  padding-left: calc(var(--step) * 2.5);
+}
+.rail li { margin-bottom: calc(var(--step) * 1.2); }
+.rail li[aria-current="page"] { color: var(--accent); }
+.rail li[aria-current="page"]::marker { color: var(--accent); }
+
+@media (min-width: 75rem) {
+  body.hasrail { padding-left: 16rem; }
+  .rail {
+    position: fixed;
+    left: calc(var(--step) * 4);
+    top: calc(var(--step) * 6);
+    width: 13rem;
+    margin: 0;
+  }
+}
+
 /* small print */
 
 .note { max-width: none; font-size: 0.85rem; color: var(--muted); }
@@ -303,6 +330,7 @@ footer p { max-width: none; margin: 0; }
 }
 
 @media print {
-  body { padding: 0; }
+  body, body.hasrail { padding: 0; }
   a { color: var(--ink); }
+  .rail { display: none; }
 }

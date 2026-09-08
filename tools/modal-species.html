@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Modal species &middot; MUS 601</title>
-<link rel="stylesheet" href="../assets/style.css?v=16">
+<link rel="stylesheet" href="../assets/style.css?v=17">
 <style>
 @font-face {
   font-family: "Bravura";
@@ -37,10 +37,10 @@
   .grid .barlabel { font-size: 11px; text-anchor: middle; }
   .grid .sub { font-size: 8px; }
   .grid .fifthlabel { fill: var(--accent); }
-  .grid .fourthlabel { fill: var(--accent-2); }
+  .grid .fourthlabel { fill: var(--accent); }
   .grid .finalletter { font-size: 11px; text-anchor: middle; fill: var(--ink); }
   .grid .fifth { fill: var(--accent-wash); stroke: var(--accent-edge); }
-  .grid .fourth { fill: var(--accent-2); fill-opacity: 0.08; stroke: var(--accent-2); stroke-opacity: 0.45; }
+  .grid .fourth { fill: none; stroke: var(--accent-edge); stroke-dasharray: 3 2; }
   .grid .hair { stroke: var(--rule); stroke-width: 1; }
   .grid .final { stroke: var(--ink); stroke-width: 1.5; }
 
@@ -58,9 +58,9 @@
   .staffgrid .brk { fill: none; stroke-width: 1; }
   .staffgrid .brklabel { font-size: 11px; text-anchor: middle; }
   .staffgrid .brk.five { stroke: var(--accent); }
-  .staffgrid .brk.four { stroke: var(--accent-2); }
+  .staffgrid .brk.four { stroke: var(--accent); stroke-dasharray: 3 2; }
   .staffgrid text.five { stroke: none; fill: var(--accent); }
-  .staffgrid text.four { stroke: none; fill: var(--accent-2); }
+  .staffgrid text.four { stroke: none; fill: var(--accent); }
   .staffgrid .sub { font-size: 8px; }
 
   @media print {
@@ -69,11 +69,20 @@
   }
 </style>
 </head>
-<body>
+<body class="hasrail">
 <div class="wrap">
 
+<nav class="rail" aria-label="eleventh-century modal theory">
+  <p class="label">eleventh-century modal theory</p>
+  <ol>
+    <li aria-current="page">the four categories and the species</li>
+    <li><a href="gamut-layers.html">the gamut and its three divisions</a></li>
+    <li><a href="affinities.html">affinities, cofinals, transposition</a></li>
+  </ol>
+</nav>
+
 <p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; handout</p>
-<h1 id="top">The four categories of mode and the species of the fourth and fifth</h1>
+<h1 id="top">1. The four categories of mode and the species of the fourth and fifth</h1>
 
 <p class="lede full">Eleventh-century modal theory in the South German writers, in Berno of Reichenau's <em>Prologus in tonarium</em>. Four categories of mode, defined by final and built from one species of fifth and one species of fourth, each dividing into an authentic and a plagal ambitus.</p>
 
@@ -236,7 +245,7 @@
 </svg>
 </figure>
 
-<p class="note"><span class="mono">5</span> with a subscript is a species of fifth and <span class="mono">4</span> with a subscript a species of fourth, so <span class="mono">5<sub>2</sub></span> is the second species of fifth. The fifth is washed in the accent, the fourth in blue. The ink tick and the letter beneath it give the final.</p>
+<p class="note"><span class="mono">5</span> with a subscript is a species of fifth and <span class="mono">4</span> with a subscript a species of fourth, so <span class="mono">5<sub>2</sub></span> is the second species of fifth. The fifth is washed in the accent and the fourth outlined in it with a dashed edge. The ink tick and the letter beneath it give the final.</p>
 
 <figure class="staves">
 <svg viewBox="0 0 660 836" role="img" aria-labelledby="stafftitle staffdesc" class="staffgrid">
@@ -484,11 +493,11 @@
 </svg>
 </figure>
 
-<p class="note">Each staff writes out its mode's octave from the lowest note to the highest, in the register of the medieval gamut, where <span class="mono">A</span> is the A below middle C and <span class="mono">a</span> the A above it. The final is written as a breve. Brackets name the species and mark where the fifth and the fourth meet, the fifth in the accent and the fourth in blue.</p>
+<p class="note">Each staff writes out its mode's octave from the lowest note to the highest, in the register of the medieval gamut, where <span class="mono">A</span> is the A below middle C and <span class="mono">a</span> the A above it. The final is written as a breve. Brackets name the species and mark where the fifth and the fourth meet, the fifth on a solid bracket and the fourth on a dashed one, both in the accent.</p>
 
 <h2 id="tetrardus">the tetrardus and the octave <span class="caps">D</span>&ndash;d</h2>
 
-<p class="full">The numbering lines up in the first three categories. Protus takes the first species of fifth with the first species of fourth, deuterus the second with the second, tritus the third with the third. The tetrardus breaks the pattern, since a fourth species of fourth does not exist. It takes the fourth species of fifth with the first species of fourth, at <span class="mono">D&ndash;G</span> in the plagal and <span class="mono">d&ndash;g</span> in the authentic.</p>
+<p class="full">The numbering lines up in the first three categories. Protus takes the first species of fifth with the first species of fourth, deuterus the second with the second, tritus the third with the third. The tetrardus breaks the pattern, since a fourth species of fourth does not exist. It takes the fourth species of fifth with the first species of fourth, at <span class="mono">D&ndash;G</span> in the plagal and <span class="mono">d&ndash;g</span> in the authentic. The fourth category is the exception in the other eleventh-century doctrine as well: <span class="mono">G</span> has no affinity, and so no cofinal.</p>
 
 <p class="full">Modes 1 and 8 both occupy the octave <span class="mono">D&ndash;d</span>, the fourth species of octave, and the species divide it two ways. In mode 1 the final is <span class="mono">D</span>, with the first species of fifth below the first species of fourth. In mode 8 the final is <span class="mono">G</span>, with the first species of fourth below the fourth species of fifth. The division, rather than the outer boundaries, tells the two apart.</p>
 
