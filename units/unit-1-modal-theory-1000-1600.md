@@ -36,21 +36,46 @@ The three student-facing pages: `tools/modal-species.html`, `tools/gamut-layers.
 
 ## the four changes
 
+Each list runs in date order.
+
 ### species pinned to the final
 
-In Berno the species are segments of the scale and the mode is assembled from two of them. With Marchetto the final is the given and the species belong to it, named by solmization: the first species of fifth spells re–mi–fa–sol–la, written by its boundary syllables as re–la. From Jerome of Moravia the syllables mark modal quality and affinity, which they had not done before: re, mi, fa give the finals D, E, F and the cofinals a, ♮, c, and sol gives G. The hexachord and the mode are welded here, three centuries after both exist. Judd 365; Cohen 355.
+- **after 1021, Berno.** The species are segments of the scale, listed in one ascending series from A. The mode is assembled from two of them and the final falls out of the arrangement. Cohen 351–53.
+- **c. 1272–1304, Jerome of Moravia.** The hexachord syllables enter modal theory and become markers of modal quality and affinity, which they had not been: re, mi, fa give the finals D, E, F and the cofinals a, ♮, c, and sol gives G. Cohen 355.
+- **1317/18, Marchetto.** The final is the given and the species belong to it. The species are named by solmization: the first species of fifth spells re–mi–fa–sol–la, written by its boundary syllables as re–la. Judd 365.
+- **1609, Diruta.** The naming is a compositional rule. Mode 1's species are re–la and re–sol, between D la sol re, A la mi re, and D la sol re, with subject and answer taking one each. Barnett 417.
+
+The hexachord and the mode are welded in the second and third of these, three centuries after both exist.
 
 ### transposition and system
 
-The upper-fifth cofinal is the eleventh-century solution for melodies the gamut cannot hold. The upper-fourth transposition with b♭ is admitted from the early fourteenth century and fully accepted by about 1500, and species theory is the argument for it: it preserves the species of all four categories exactly, where the upper-fifth cofinals do not. By 1500 the flat signature has split the gamut into *cantus durus* and *cantus mollis*, with *cantus fictus* at two flats. The tritus runs the other way, using b♭ regularly on F, so for it *cantus durus* signals transposition to c. This is the layer Burnett and Nitzberg rebuild as the three-hexachord system. Cohen 355–56; Burnett and Nitzberg ch. 3.
+- **eleventh century.** A melody needing pitches the gamut cannot supply moves to the cofinal a fifth above. The tetrardus has no cofinal. Cohen 349–50.
+- **early 14th c.** Transposition at the upper fourth with b♭ is increasingly admitted, the protus on G as re, the deuterus on a as mi. Cohen 355.
+- **14th to 15th c.** Species theory is the argument for the upper fourth: it preserves the species of all four categories exactly, where the upper-fifth cofinals do not. Cohen 355.
+- **by c. 1500.** The flat signature splits the gamut into *cantus durus* and *cantus mollis*, with *cantus fictus* at two flats. The upper-fourth transposition is completely accepted. The tritus runs the other way, using b♭ regularly on F, so for it *cantus durus* signals transposition to c. Cohen 356.
+- **16th c.** This is the layer Burnett and Nitzberg rebuild as the three-hexachord system. Burnett and Nitzberg ch. 3.
 
 ### eight modes become twelve
 
-Glarean rejects the eight-mode system in the *Dodecachordon*, tying twelve to classical antecedents while authenticating it from the chant repertory, and promotes a and c to finals of their own modes: Aeolian and Hypoaeolian on a, Ionian and Hypoionian on c. (Cohen's parenthesis at 356 lists the two pairs in reverse order against the notes.) Zarlino adopts the nomenclature by 1549 and the theory across the *Istitutioni* and the *Dimostrationi*, renumbering the modes from C to a so that the former Ionian is Mode 1 and equating new Mode 1 with Dorian. Twelve never replaces eight. Dressler, Aiguino, and Cerreto keep eight; Palestrina and Lasso write eight-mode cycles; keyboard treatises such as Banchieri's carry both systems side by side, eight for chant and the psalm tones, twelve in the traditional numbering with a nod to Zarlino's. Cohen 356; Judd 388–99.
+- **1547, Glarean, *Dodecachordon*.** The eight-mode system is rejected for twelve, tied to classical antecedents and authenticated from the chant repertory. a and c become regular finals: Aeolian and Hypoaeolian on a, Ionian and Hypoionian on c. Cohen's parenthesis at 356 lists the two pairs in reverse order against the notes. Cohen 356; Judd 388–92.
+- **1549, Zarlino, *Musici quinque vocum*.** Glarean's nomenclature, Aeolian and Ionian included, appears in printed modal attributions. Judd 393–95.
+- **1558, *Le istitutioni harmoniche*.** Twelve modes in Glarean's order. Judd 395–96.
+- **1561–62, Dressler and Aiguino.** The eight-mode system is still advocated by writers who know the alternative. Judd 398.
+- **1571, *Dimostrationi harmoniche*.** Zarlino renumbers from C to a with no gap in finals; the former Ionian becomes Mode 1, equated with Dorian. Judd 396–97.
+- **1573, *Istitutioni*, second edition.** Part IV revised to follow the renumbering. Judd 397.
+- **1581, Aiguino.** Explicit refutation of twelve- and fourteen-mode systems. Judd 398.
+- **later 16th c.** Palestrina and Lasso write eight-mode cyclic compositions. Judd 398–99.
+- **1582–1613.** Dodecachordal theory is transmitted, mediated by Zarlino 1558: Hoffmann, Artusi, Tigrini, Cerone. Twelve-mode cycles are mostly instrumental, by Merulo, Gabrieli, Luzzaschi, Frescobaldi. Judd 399.
+- **1601–26, Cerreto; Banchieri.** Cerreto keeps eight and refutes twelve. Banchieri's keyboard treatises carry both, eight for chant and the psalm tones, twelve in the traditional numbering with a nod to Zarlino's. Judd 398–99.
+
+Twelve never replaces eight.
 
 ### mode applied to polyphony
 
-Tinctoris's treatise is explicitly about polyphony as well as plainchant, a project with few precedents and heavily developed through the sixteenth century. The questions it opens have no settled answers in the period: species or final as the determinant, whether the authentic and plagal distinction means anything in polyphony, whether mode belongs to one voice or to the whole complex, and whether any of it is audible. Judd 364–65; Cohen 356.
+- **1476, Tinctoris.** Modal theory is applied to polyphony as well as plainchant, a project with few precedents. Judd 370; Cohen 356.
+- **1533, Vanneus.** Mode sits under plainsong, after the definitions of music, the voces and litterae, mutation, and the species of consonances. No innovations, which is why Judd uses it as the touchstone for the 1530s and 40s. Judd 369–71.
+- **1561, Dressler.** Lecture notes give explicit information on the modal disposition of cadences and imitative subjects, and become a central text for later scholars describing modality in polyphony. Judd 398.
+- **through the 16th c.** The questions stay open: species or final as the determinant, whether authentic and plagal mean anything in polyphony, whether mode belongs to one voice or the whole complex, and whether any of it is audible. Judd 364–65.
 
 ## the dispute in the scholarship
 
