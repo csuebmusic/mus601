@@ -35,6 +35,18 @@ Eleventh-century modal theory in the South German writers. The three species of 
 https://csuebmusic.github.io/mus601/tools/affinities.html
 What the modes were for, Guido's qualities and modi vocum, the affinities among A, D, and a and their two companion sets, the cofinals as alternative endings for chant, transposition at the upper fifth and transformation at the upper fourth, and which species survive each. Prints to PDF from the page.
 
+**4. the three-hexachord system**
+https://csuebmusic.github.io/mus601/tools/systems.html
+The sixteenth-century gamut system after Burnett and Nitzberg. Pick a signature from 4♭ to 2♯ and the board gives the system's subdominant, central, and dominant hexachords, the central hexachord reordered as fifths for the roots available to the piece, and the missing pitch class with the system modulation each spelling produces.
+
+**5. eight modes become twelve**
+https://csuebmusic.github.io/mus601/tools/twelve-modes.html
+The twelve modes with their finals and ambitus, switchable between Glarean's numbering as Zarlino took it up in 1558 and Zarlino's renumbering of 1571. The four new modes are marked, with the cofinal each comes from.
+
+**6. tonal types and modal categories**
+https://csuebmusic.github.io/mus601/tools/tonal-types.html
+Rore's first book of madrigals of 1542 by clef, system, and final, after Powers. Sort by the order of the print or by tonal type, switch the modal assignment on and off, and read the clef against system matrix.
+
 ## repository
 
 ```

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The three-hexachord system &middot; MUS 601</title>
+<link rel="stylesheet" href="../assets/style.css?v=17">
+<style>
+  .ctl-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--step); margin-bottom: calc(var(--step) * 3); }
+  .ctl-row .label { margin: 0 calc(var(--step) * 1.5) 0 0; flex: none; }
+  .btn {
+    font-family: var(--font-data);
+    font-size: 0.78rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: var(--line) solid var(--rule);
+    padding: calc(var(--step) * 0.9) calc(var(--step) * 1.6);
+    cursor: pointer;
+  }
+  .btn:hover { border-color: var(--ink); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-wash); }
+  .readout { border: var(--line) solid var(--ink); padding: calc(var(--step) * 3); margin: 0 0 calc(var(--step) * 4); }
+  .readout p { max-width: none; margin: 0 0 calc(var(--step) * 1.5); }
+  .readout > :last-child { margin-bottom: 0; }
+  .readout .label { margin: 0 0 var(--step); }
+  .hexrow { font-family: var(--font-data); font-size: 0.85rem; }
+  .hexrow td { white-space: nowrap; }
+  .central { background: var(--accent-wash); }
+  .miss { color: var(--accent); }
+</style>
+</head>
+<body class="hasrail">
+<div class="wrap">
+
+<nav class="rail" aria-label="modal theory to 1600">
+  <p class="label">modal theory to 1600</p>
+  <ol>
+    <li><a href="gamut-layers.html">the gamut and its three divisions</a></li>
+    <li><a href="modal-species.html">the four categories and the species</a></li>
+    <li><a href="affinities.html">affinities, cofinals, transposition</a></li>
+    <li aria-current="page">the three-hexachord system</li>
+    <li><a href="twelve-modes.html">eight modes become twelve</a></li>
+    <li><a href="tonal-types.html">tonal types</a></li>
+  </ol>
+</nav>
+
+<p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; tool</p>
+<h1 id="top">4. The three-hexachord system</h1>
+
+<p class="lede full">The sixteenth-century gamut system as Burnett and Nitzberg set it out: a signature names a system, the system carries three hexachords a fifth apart, and the central hexachord reordered as fifths gives the roots the music can use. One pitch class is missing, and its spelling decides which way the system moves.</p>
+
+<div class="ctl-row" role="group" aria-label="system">
+  <span class="label">system</span>
+  <button type="button" class="btn" data-sys="4b" aria-pressed="false">4&#9837;</button>
+  <button type="button" class="btn" data-sys="3b" aria-pressed="false">3&#9837;</button>
+  <button type="button" class="btn" data-sys="2b" aria-pressed="false">2&#9837;</button>
+  <button type="button" class="btn" data-sys="1b" aria-pressed="false">1&#9837; mollis</button>
+  <button type="button" class="btn" data-sys="0" aria-pressed="true">naturalis</button>
+  <button type="button" class="btn" data-sys="1s" aria-pressed="false">1&#9839;</button>
+  <button type="button" class="btn" data-sys="2s" aria-pressed="false">2&#9839;</button>
+</div>
+
+<table class="hexrow">
+  <thead>
+    <tr><th scope="col">hexachord</th><th scope="col">ut</th><th scope="col">re</th><th scope="col">mi</th><th scope="col">fa</th><th scope="col">sol</th><th scope="col">la</th></tr>
+  </thead>
+  <tbody id="hexbody"></tbody>
+</table>
+
+<div class="readout" id="readout"></div>
+
+<h2 id="reading">reading the board</h2>
+
+<p class="full">The signature identifies the system: a natural signature a naturalis system, a one-flat signature a mollis system, a two-flat signature a 2&#9837; system, and so on. The central hexachord governs the system, the hexachord a fifth above it is the dominant hexachord and the one a fifth below the subdominant hexachord. The number of flats a piece may add is contingent on the number in the subdominant hexachord.</p>
+
+<p class="full">Reordering the central hexachord as fifths gives the pitch classes that can carry triads and the cadential points available within a single composition, each able to support a major or a minor third. In modality those fifths relate to each other rather than to a background final.</p>
+
+<p class="full">The system is an eleven-pitch-class field: the chromatic aggregate minus one pitch, a minor third or augmented second above the root of the central hexachord. Once a piece is under way, that missing pitch is what moves the system. Spelled as the minor third above the root it transposes the system down a fifth; spelled as the augmented second it transposes the system up a fifth. A piece may stay in one system throughout, unfold fewer than eleven pitch classes, or modulate once or more.</p>
+
+<h2 id="repertoire">on the unit's repertoire</h2>
+
+<p class="full">Rore's &ldquo;Da le belle contrade d'oriente&rdquo; (1566) is set in an F mode in cantus mollis, a 1&#9837; system. Its outer sections are diatonic and stay in that system, unfolding eleven pitch classes that omit G&#9839; and A&#9837;; the chromatic middle section shifts systems repeatedly. <em>Absalon, fili mi</em> runs 2&#9837; to 3&#9837; to 4&#9837;. The <em>Prophetiae Sibyllarum</em> prologue shifts durus to mollis.</p>
+
+<h2 id="sources">sources</h2>
+
+<ul class="readings">
+  <li>Burnett, Henry, and Roy Nitzberg. <em>Composition, Chromaticism and the Developmental Process: A New Theory of Tonality</em>. Ashgate, 2007. The system and its missing pitch, 14; the medieval gamut and the three-hexachord system, with Figure 3.1, 39&ndash;45; what determines a system and how it modulates, 63; Rore, 63&ndash;64.</li>
+</ul>
+
+<footer>
+  <p>Text set in IBM Plex under the SIL Open Font License.</p>
+</footer>
+
+</div>
+<script>
+(function () {
+  "use strict";
+
+  var HEX = {
+    "Db": ["D\u266d", "E\u266d", "F", "G\u266d", "A\u266d", "B\u266d"],
+    "Ab": ["A\u266d", "B\u266d", "C", "D\u266d", "E\u266d", "F"],
+    "Eb": ["E\u266d", "F", "G", "A\u266d", "B\u266d", "C"],
+    "Bb": ["B\u266d", "C", "D", "E\u266d", "F", "G"],
+    "F":  ["F", "G", "A", "B\u266d", "C", "D"],
+    "C":  ["C", "D", "E", "F", "G", "A"],
+    "G":  ["G", "A", "B", "C", "D", "E"],
+    "D":  ["D", "E", "F\u266f", "G", "A", "B"],
+    "A":  ["A", "B", "C\u266f", "D", "E", "F\u266f"]
+  };
+
+  var SYS = {
+    "4b": { name: "4\u266d", sub: "Db", cen: "Ab", dom: "Eb", m3: "C\u266d", a2: "B\u266e", down: "no system below on this board", up: "3\u266d" },
+    "3b": { name: "3\u266d", sub: "Ab", cen: "Eb", dom: "Bb", m3: "G\u266d", a2: "F\u266f", down: "4\u266d", up: "2\u266d" },
+    "2b": { name: "2\u266d", sub: "Eb", cen: "Bb", dom: "F", m3: "D\u266d", a2: "C\u266f", down: "3\u266d", up: "1\u266d mollis" },
+    "1b": { name: "1\u266d mollis", sub: "Bb", cen: "F", dom: "C", m3: "A\u266d", a2: "G\u266f", down: "2\u266d", up: "naturalis" },
+    "0":  { name: "naturalis", sub: "F", cen: "C", dom: "G", m3: "E\u266d", a2: "D\u266f", down: "1\u266d mollis", up: "1\u266f" },
+    "1s": { name: "1\u266f", sub: "C", cen: "G", dom: "D", m3: "B\u266d", a2: "A\u266f", down: "naturalis", up: "2\u266f" },
+    "2s": { name: "2\u266f", sub: "G", cen: "D", dom: "A", m3: "F\u266e", a2: "E\u266f", down: "1\u266f", up: "no system above on this board" }
+  };
+
+  var cur = "0";
+  var body = document.getElementById("hexbody");
+  var readout = document.getElementById("readout");
+
+  function row(label, key, central) {
+    var tr = document.createElement("tr");
+    if (central) { tr.className = "central"; }
+    var th = document.createElement("th");
+    th.scope = "row";
+    th.textContent = label + " on " + HEX[key][0];
+    tr.appendChild(th);
+    HEX[key].forEach(function (p) {
+      var td = document.createElement("td");
+      td.textContent = p;
+      tr.appendChild(td);
+    });
+    body.appendChild(tr);
+  }
+
+  function fifths(key) {
+    var h = HEX[key];
+    return [h[3], h[0], h[4], h[1], h[5], h[2]];
+  }
+
+  function draw() {
+    var s = SYS[cur];
+    body.innerHTML = "";
+    row("dominant", s.dom, false);
+    row("central", s.cen, true);
+    row("subdominant", s.sub, false);
+
+    readout.innerHTML = "";
+    function para(html) {
+      var p = document.createElement("p");
+      p.innerHTML = html;
+      readout.appendChild(p);
+    }
+    var lab = document.createElement("p");
+    lab.className = "label";
+    lab.textContent = s.name + " system";
+    readout.appendChild(lab);
+
+    para("Central hexachord on <span class=\"mono\">" + HEX[s.cen][0] +
+      "</span>, reordered as fifths: <span class=\"mono\">" + fifths(s.cen).join(" ") +
+      "</span>. Those six pitch classes are the roots available to the piece, each able to carry a major or a minor third.");
+    para("Missing pitch class: <span class=\"miss mono\">" + s.m3 + "</span> or <span class=\"miss mono\">" +
+      s.a2 + "</span>. Spelled as the minor third above <span class=\"mono\">" + HEX[s.cen][0] +
+      "</span> it moves the system down a fifth, to " + s.down + ". Spelled as the augmented second it moves the system up a fifth, to " + s.up + ".");
+  }
+
+  document.querySelectorAll("[data-sys]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      cur = b.getAttribute("data-sys");
+      document.querySelectorAll("[data-sys]").forEach(function (o) {
+        o.setAttribute("aria-pressed", o === b ? "true" : "false");
+      });
+      draw();
+    });
+  });
+
+  draw();
+}());
+</script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eight modes become twelve &middot; MUS 601</title>
+<link rel="stylesheet" href="../assets/style.css?v=17">
+<style>
+  .ctl-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--step); margin-bottom: calc(var(--step) * 3); }
+  .ctl-row .label { margin: 0 calc(var(--step) * 1.5) 0 0; flex: none; }
+  .btn {
+    font-family: var(--font-data);
+    font-size: 0.78rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: var(--line) solid var(--rule);
+    padding: calc(var(--step) * 0.9) calc(var(--step) * 1.6);
+    cursor: pointer;
+  }
+  .btn:hover { border-color: var(--ink); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-wash); }
+  .readout { border: var(--line) solid var(--ink); padding: calc(var(--step) * 3); margin: 0 0 calc(var(--step) * 4); }
+  .readout p { max-width: none; margin: 0 0 calc(var(--step) * 1.5); }
+  .readout > :last-child { margin-bottom: 0; }
+  .readout .label { margin: 0 0 var(--step); }
+  .modes td, .modes th { white-space: nowrap; }
+  .modes .new { color: var(--accent); }
+  .modes .num { width: 4rem; }
+</style>
+</head>
+<body class="hasrail">
+<div class="wrap">
+
+<nav class="rail" aria-label="modal theory to 1600">
+  <p class="label">modal theory to 1600</p>
+  <ol>
+    <li><a href="gamut-layers.html">the gamut and its three divisions</a></li>
+    <li><a href="modal-species.html">the four categories and the species</a></li>
+    <li><a href="affinities.html">affinities, cofinals, transposition</a></li>
+    <li><a href="systems.html">the three-hexachord system</a></li>
+    <li aria-current="page">eight modes become twelve</li>
+    <li><a href="tonal-types.html">tonal types</a></li>
+  </ol>
+</nav>
+
+<p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; tool</p>
+<h1 id="top">5. Eight modes become twelve</h1>
+
+<p class="lede full">Glarean promotes the old cofinals <span class="mono">a</span> and <span class="mono">c</span> to finals of their own modes, and Zarlino later renumbers the whole set. Switch between the two schemes to see which numbers and names a given final carries.</p>
+
+<div class="ctl-row" role="group" aria-label="numbering">
+  <span class="label">numbering</span>
+  <button type="button" class="btn" data-scheme="glarean" aria-pressed="true">Glarean 1547, Zarlino 1558</button>
+  <button type="button" class="btn" data-scheme="zarlino" aria-pressed="false">Zarlino 1571</button>
+</div>
+
+<table class="modes">
+  <thead>
+    <tr><th scope="col" class="num">no.</th><th scope="col">name</th><th scope="col">final</th><th scope="col">ambitus</th><th scope="col">in the eight-mode system</th></tr>
+  </thead>
+  <tbody id="modebody"></tbody>
+</table>
+
+<div class="readout" id="readout"></div>
+
+<h2 id="reading">reading the table</h2>
+
+<p class="full">Four of the twelve are new, marked in the accent. They are not new pitches: <span class="mono">a</span> and <span class="mono">c</span> were the cofinals of the protus and the tritus, the notes a fifth above <span class="mono">D</span> and <span class="mono">F</span>, where a chant went when the gamut could not supply what it needed. Glarean makes them finals in their own right. The tetrardus has no cofinal, so <span class="mono">G</span> contributes nothing new here.</p>
+
+<p class="full">Zarlino's renumbering orders the finals from <span class="mono">C</span> to <span class="mono">a</span> with no gap, the discarded diapason on <span class="mono">B</span> aside, so the former Ionian becomes Mode 1. He also realigns the Greek names against that order of finals, equating new Mode 1 on <span class="mono">C</span> with Dorian and Mode 3 on <span class="mono">D</span> with Phrygian. Judd gives those two equations and continues with &ldquo;and so forth,&rdquo; which is how the rest of the column below is filled in.</p>
+
+<p class="full">One motet shows what this costs. Zarlino composed <em>Ego veni</em> as a representation of Mode 5 for a putative eight-mode cycle. It was printed as Ionian in 1549, cited as Mode 11 in the 1558 <em>Istitutioni</em>, and became Mode 1 in the 1573 revision. Four labels in twenty-four years, for one piece.</p>
+
+<p class="full">Twelve never replaces eight. Dressler and Aiguino keep eight in 1561 and 1562, Aiguino refutes twelve- and fourteen-mode systems in 1581, Cerreto refutes twelve in 1601 and 1626, and Palestrina and Lasso write eight-mode cycles through the second half of the century.</p>
+
+<h2 id="sources">sources</h2>
+
+<ul class="readings">
+  <li>Christensen, Thomas, ed. <em>The Cambridge History of Western Music Theory</em>. Cambridge University Press, 2002.
+    <ul>
+      <li>Cohen, David E. &ldquo;Notes, Scales, and Modes in the Earlier Middle Ages.&rdquo; 307&ndash;63. The octave-species argument against the cofinals and Glarean's promotion of a and c, 356.</li>
+      <li>Judd, Cristle Collins. &ldquo;Renaissance Modal Theory: Theoretical, Compositional, and Editorial Perspectives.&rdquo; 364&ndash;406. Glarean, 388&ndash;92; Zarlino's prints and treatises and <em>Ego veni</em>, 393&ndash;97; the renumbering, 396&ndash;97; the eight-mode tradition after Glarean, 398&ndash;99.</li>
+    </ul>
+  </li>
+</ul>
+
+<footer>
+  <p>Text set in IBM Plex under the SIL Open Font License.</p>
+</footer>
+
+</div>
+<script>
+(function () {
+  "use strict";
+
+  var GLAREAN = [
+    [1, "Dorian", "D", "authentic", "mode 1"],
+    [2, "Hypodorian", "D", "plagal", "mode 2"],
+    [3, "Phrygian", "E", "authentic", "mode 3"],
+    [4, "Hypophrygian", "E", "plagal", "mode 4"],
+    [5, "Lydian", "F", "authentic", "mode 5"],
+    [6, "Hypolydian", "F", "plagal", "mode 6"],
+    [7, "Mixolydian", "G", "authentic", "mode 7"],
+    [8, "Hypomixolydian", "G", "plagal", "mode 8"],
+    [9, "Aeolian", "a", "authentic", "cofinal of the protus"],
+    [10, "Hypoaeolian", "a", "plagal", "cofinal of the protus"],
+    [11, "Ionian", "c", "authentic", "cofinal of the tritus"],
+    [12, "Hypoionian", "c", "plagal", "cofinal of the tritus"]
+  ];
+
+  var ZARLINO = [
+    [1, "Dorian", "C", "authentic", "cofinal of the tritus"],
+    [2, "Hypodorian", "C", "plagal", "cofinal of the tritus"],
+    [3, "Phrygian", "D", "authentic", "mode 1"],
+    [4, "Hypophrygian", "D", "plagal", "mode 2"],
+    [5, "Lydian", "E", "authentic", "mode 3"],
+    [6, "Hypolydian", "E", "plagal", "mode 4"],
+    [7, "Mixolydian", "F", "authentic", "mode 5"],
+    [8, "Hypomixolydian", "F", "plagal", "mode 6"],
+    [9, "Aeolian", "G", "authentic", "mode 7"],
+    [10, "Hypoaeolian", "G", "plagal", "mode 8"],
+    [11, "Ionian", "a", "authentic", "cofinal of the protus"],
+    [12, "Hypoionian", "a", "plagal", "cofinal of the protus"]
+  ];
+
+  var scheme = "glarean";
+  var body = document.getElementById("modebody");
+  var readout = document.getElementById("readout");
+
+  function draw() {
+    var rows = scheme === "glarean" ? GLAREAN : ZARLINO;
+    body.innerHTML = "";
+    rows.forEach(function (r) {
+      var isNew = r[4].indexOf("cofinal") === 0;
+      var tr = document.createElement("tr");
+      if (isNew) { tr.className = "new"; }
+      var cells = [r[0], r[1], r[2], r[3], r[4]];
+      cells.forEach(function (c, i) {
+        var el = document.createElement(i === 0 ? "th" : "td");
+        if (i === 0) { el.scope = "row"; el.className = "num"; }
+        el.textContent = c;
+        tr.appendChild(el);
+      });
+      body.appendChild(tr);
+    });
+
+    readout.innerHTML = "";
+    var lab = document.createElement("p");
+    lab.className = "label";
+    lab.textContent = scheme === "glarean" ? "Glarean 1547, taken up by Zarlino 1558" : "Zarlino, Dimostrationi harmoniche 1571";
+    readout.appendChild(lab);
+    var p = document.createElement("p");
+    p.innerHTML = scheme === "glarean"
+      ? "The eight modes keep their numbers and the four new ones are added above them. <em>Ego veni</em> is Mode 11."
+      : "The finals run <span class=\"mono\">C</span> to <span class=\"mono\">a</span> with no gap and the numbering starts again from <span class=\"mono\">C</span>. Every mode changes its number. <em>Ego veni</em> is Mode 1.";
+    readout.appendChild(p);
+  }
+
+  document.querySelectorAll("[data-scheme]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      scheme = b.getAttribute("data-scheme");
+      document.querySelectorAll("[data-scheme]").forEach(function (o) {
+        o.setAttribute("aria-pressed", o === b ? "true" : "false");
+      });
+      draw();
+    });
+  });
+
+  draw();
+}());
+</script>
+</body>
+</html>
