@@ -23,13 +23,13 @@ One page per unit, for the Canvas modules. The unit's selected bibliography, its
 https://csuebmusic.github.io/mus601/research/source-work.html
 The research tools and how to search each one, with the links that reach them. Which score to analyze from and which edition to cite. What each paper needs in sources and which tool it introduces. What a source has to do in an argument, and the Chicago notes-bibliography forms for scores, editions, articles, chapters, books, reference entries, and dissertations.
 
-**1. the four categories of mode and the species of the fourth and fifth**
-https://csuebmusic.github.io/mus601/tools/modal-species.html
-Eleventh-century modal theory in the South German writers. The three species of fourth and the four species of fifth with their intervallic patterns, the four categories of mode with their finals, the authentic and plagal ambitus of each, the eight modal octaves as a diagram and in notation, the tetrardus exception, and the two divisions of the octave D to d. Prints to PDF from the page.
-
-**2. scalar and modal theory in the eleventh century**
+**1. scalar and modal theory in the eleventh century**
 https://csuebmusic.github.io/mus601/tools/gamut-layers.html
 One pitch field with three divisions laid over it: the seven hexachords in their three species, each on its own line with its syllables; the tetrachords of the South German school; and the eight modal octaves with their species of fifth and fourth. Select a mode to see which hexachords its octave crosses and where they overlap. Click a note to read its voces down the column.
+
+**2. the four categories of mode and the species of the fourth and fifth**
+https://csuebmusic.github.io/mus601/tools/modal-species.html
+Eleventh-century modal theory in the South German writers. The three species of fourth and the four species of fifth with their intervallic patterns, the four categories of mode with their finals, the authentic and plagal ambitus of each, the eight modal octaves as a diagram and in notation, the tetrardus exception, and the two divisions of the octave D to d. Prints to PDF from the page.
 
 **3. affinities, cofinals, and transposition**
 https://csuebmusic.github.io/mus601/tools/affinities.html
