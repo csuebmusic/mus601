@@ -43,10 +43,6 @@ The sixteenth-century gamut system after Burnett and Nitzberg. Pick a signature 
 https://csuebmusic.github.io/mus601/tools/twelve-modes.html
 The twelve modes with their finals and ambitus, switchable between Glarean's numbering as Zarlino took it up in 1558 and Zarlino's renumbering of 1571. The four new modes are marked, with the cofinal each comes from.
 
-**6. tonal types and modal categories**
-https://csuebmusic.github.io/mus601/tools/tonal-types.html
-Rore's first book of madrigals of 1542 by clef, system, and final, after Powers. Sort by the order of the print or by tonal type, switch the modal assignment on and off, and read the clef against system matrix.
-
 ## repository
 
 ```
