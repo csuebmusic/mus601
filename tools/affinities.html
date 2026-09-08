@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Affinities and transposition &middot; MUS 601</title>
+<link rel="stylesheet" href="../assets/style.css?v=16">
+<style>
+  .pdf-bar { margin: 0 0 calc(var(--step) * 5); }
+  .pdf {
+    font-family: var(--font-data);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--paper);
+    border: var(--line) solid var(--accent);
+    padding: calc(var(--step) * 1.2) calc(var(--step) * 2);
+    cursor: pointer;
+  }
+  .pdf:hover { background: var(--accent-wash); }
+  .pdf:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  figure.grid { margin: 0 0 calc(var(--step) * 3); }
+  figure.grid svg { width: 100%; max-width: 44rem; height: auto; display: block; }
+  .affgrid text { font-family: var(--font-data); fill: var(--ink); }
+  .affgrid .pitch { font-size: 12px; fill: var(--muted); text-anchor: middle; }
+  .affgrid .rowlabel { font-size: 11px; fill: var(--muted); }
+  .affgrid .hair { stroke: var(--rule); stroke-width: 1; }
+  .affgrid .seg { fill: none; stroke: var(--accent-2); stroke-width: 1; }
+  .affgrid .seglabel { font-size: 11px; text-anchor: middle; fill: var(--accent-2); }
+  .affgrid .tie { stroke: var(--accent); stroke-width: 1; }
+  .affgrid .dot { fill: var(--accent); }
+  .affgrid .dotlabel { font-size: 11px; text-anchor: middle; fill: var(--ink); }
+
+  @media print {
+    .pdf-bar, .toc { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; handout</p>
+<h1 id="top">Affinities, cofinals, and transposition</h1>
+
+<p class="lede full">The North Italian half of eleventh-century modal theory: what the modes were for, why the quality of a final recurs a fifth above it, and what a chant melody does when the gamut cannot supply the pitches it needs.</p>
+
+<p class="pdf-bar"><button type="button" class="pdf" id="pdf">download PDF</button></p>
+
+<ul class="toc">
+  <li><a href="#for">what a mode was for</a></li>
+  <li><a href="#qualities">qualities and modi vocum</a></li>
+  <li><a href="#affinities">the affinities</a></li>
+  <li><a href="#cofinals">cofinals</a></li>
+  <li><a href="#fourth">transposition at the upper fourth</a></li>
+  <li><a href="#species">what survives a transposition</a></li>
+  <li><a href="#sources">sources</a></li>
+</ul>
+
+<h2 id="for">what a mode was for</h2>
+
+<p class="full">In the ecclesiastical tradition a mode is a category for melodies rather than a pitch system. It developed as a practical means of classifying antiphons and relating them to psalm tones, and extended over the rest of the chant repertory it remained a scheme of classification, resting on final, ambitus, and beginnings. Frans Wiering calls the definition at its core the <em>omnis cantus</em> definition: a mode is the rule by which every song is to be judged, and the final is the source of that rule.</p>
+
+<p class="full">The species doctrine and the affinities are attempts to ground that classification in the structure of the scale. Whether the grounding ever succeeded is a live question in the scholarship, put most sharply by Harold Powers in the title of his essay &ldquo;Is Mode Real?&rdquo;, which argues against treating modality as an inherent property of the music in the way tonality is treated for later repertory.</p>
+
+<h2 id="qualities">qualities and modi vocum</h2>
+
+<p class="full">Guido takes up the qualities (<em>qualitates</em>) and affinities (<em>affinitates</em>) of the notes in chapters 7 to 9 of the <em>Micrologus</em>. He explains them by intervallic patterns he calls <em>modi vocum</em>, modes of notes: the configuration of intervals around a note gives it a kind, and that kind is its quality. His first <em>modus vocum</em> is a whole tone below the note with the ascending series <span class="mono">T&ndash;S&ndash;T&ndash;T</span> above it, the configuration around <span class="mono">A</span> and <span class="mono">D</span>. These intervallic modes are not the church modes.</p>
+
+<p class="full">Octave equivalence leaves seven distinct notes, so there can be at most seven qualities. There turn out to be four. Three pairs share a quality because they share a <em>modus vocum</em>, <span class="mono">A</span> with <span class="mono">D</span>, <span class="mono">B</span> with <span class="mono">E</span>, and <span class="mono">C</span> with <span class="mono">F</span>. The seventh note, <span class="mono">G</span>, stands alone with a quality and a <em>modus vocum</em> of its own and no affinity to any other note. Guido does not explain why he assigns <span class="mono">G</span> a <em>modus vocum</em> so different from the rest.</p>
+
+<h2 id="affinities">the affinities</h2>
+
+<p class="full">The shared <em>modi vocum</em> of the three pairs occupy two identically structured six-note segments, <span class="mono">&Gamma;&ndash;E</span> and <span class="mono">C&ndash;a</span>, which are substantively though not functionally identical to the hard and natural hexachords. Guido states that affinities occur at the perfect fourth and the perfect fifth, and adds three more to <span class="mono">D</span>, <span class="mono">E</span>, and <span class="mono">F</span>: the notes a fifth above them, <span class="mono">a</span>, <span class="mono">b&#9838;</span>, and <span class="mono">c</span>, whose six-note module is <span class="mono">G&ndash;e</span>. The middle segment, <span class="mono">C&ndash;a</span>, holds the four finals with a whole tone above and below them, and the other two replicate it at the fourth below and the fifth above.</p>
+
+<figure class="grid">
+<svg viewBox="0 0 760 322" role="img" aria-labelledby="afftitle affdesc" class="affgrid">
+  <title id="afftitle">Guido's six-note segments and the affinities</title>
+  <desc id="affdesc">A pitch field from gamma to e. Three identically structured six-note segments are drawn as bars, and beneath them the notes sharing each quality are joined: A, D, and a; B, E, and b natural; C, F, and c. G stands alone.</desc>
+
+  <text class="pitch" x="170" y="20">Γ</text>
+  <text class="pitch" x="214" y="20">A</text>
+  <text class="pitch" x="258" y="20">B</text>
+  <text class="pitch" x="302" y="20">C</text>
+  <text class="pitch" x="346" y="20">D</text>
+  <text class="pitch" x="390" y="20">E</text>
+  <text class="pitch" x="434" y="20">F</text>
+  <text class="pitch" x="478" y="20">G</text>
+  <text class="pitch" x="522" y="20">a</text>
+  <text class="pitch" x="566" y="20">b♮</text>
+  <text class="pitch" x="610" y="20">c</text>
+  <text class="pitch" x="654" y="20">d</text>
+  <text class="pitch" x="698" y="20">e</text>
+  <line class="hair" x1="0" y1="30" x2="760" y2="30"></line>
+  <text class="rowlabel" x="0" y="61">six-note segments</text>
+  <rect class="seg" x="153" y="46" width="254" height="22"></rect>
+  <text class="seglabel" x="280" y="61">Γ–E</text>
+  <rect class="seg" x="285" y="76" width="254" height="22"></rect>
+  <text class="seglabel" x="412" y="91">C–a</text>
+  <rect class="seg" x="461" y="106" width="254" height="22"></rect>
+  <text class="seglabel" x="588" y="121">G–e</text>
+  <text class="rowlabel" x="0" y="156">protus quality</text>
+  <line class="tie" x1="214" y1="152" x2="522" y2="152"></line>
+  <circle class="dot" cx="214" cy="152" r="5"></circle>
+  <text class="dotlabel" x="214" y="172">A</text>
+  <circle class="dot" cx="346" cy="152" r="5"></circle>
+  <text class="dotlabel" x="346" y="172">D</text>
+  <circle class="dot" cx="522" cy="152" r="5"></circle>
+  <text class="dotlabel" x="522" y="172">a</text>
+  <text class="rowlabel" x="0" y="196">deuterus quality</text>
+  <line class="tie" x1="258" y1="192" x2="566" y2="192"></line>
+  <circle class="dot" cx="258" cy="192" r="5"></circle>
+  <text class="dotlabel" x="258" y="212">B</text>
+  <circle class="dot" cx="390" cy="192" r="5"></circle>
+  <text class="dotlabel" x="390" y="212">E</text>
+  <circle class="dot" cx="566" cy="192" r="5"></circle>
+  <text class="dotlabel" x="566" y="212">b♮</text>
+  <text class="rowlabel" x="0" y="236">tritus quality</text>
+  <line class="tie" x1="302" y1="232" x2="610" y2="232"></line>
+  <circle class="dot" cx="302" cy="232" r="5"></circle>
+  <text class="dotlabel" x="302" y="252">C</text>
+  <circle class="dot" cx="434" cy="232" r="5"></circle>
+  <text class="dotlabel" x="434" y="252">F</text>
+  <circle class="dot" cx="610" cy="232" r="5"></circle>
+  <text class="dotlabel" x="610" y="252">c</text>
+  <text class="rowlabel" x="0" y="276">tetrardus quality</text>
+  <circle class="dot" cx="478" cy="272" r="5"></circle>
+  <text class="dotlabel" x="478" y="292">G</text>
+</svg>
+</figure>
+
+<p class="note">The three six-note segments in blue. Beneath them the notes joined in the accent share a quality. <span class="mono">G</span> has no partner.</p>
+
+<p class="full">In chapter 8, discussing affinities at the upper fourth, Guido allows <span class="mono">G</span> partial affinities with both <span class="mono">D</span> and <span class="mono">C</span>: <span class="mono">G</span> and <span class="mono">C</span> have the series <span class="mono">T&ndash;T&ndash;S</span> above them, and <span class="mono">G</span> and <span class="mono">D</span> share the descending series <span class="mono">T&ndash;S</span>.</p>
+
+<p class="full">Pseudo-Odo takes up the same phenomenon in the <em>Dialogus</em> under the name <em>similitudines vocum</em>, likenesses of the notes, assigning each note of his scale except <span class="mono">b&#9837;</span> to one, two, or three modes. Hucbald had already noticed it in the ninth century and called it <em>socialitas</em>, and the <em>Enchiriadis</em> authors explained it by the recurrence of identical intervallic configurations around notes five steps apart.</p>
+
+<h2 id="cofinals">cofinals</h2>
+
+<p class="full">The affinities answer a practical problem: where to put a chant melody on the scale. A number of traditional melodies predate the modal and scalar systems imposed on them and call for pitches the gamut does not provide, chiefly low <span class="mono">B&#9837;</span>, <span class="mono">E&#9837;</span>, and <span class="mono">F&#9839;</span>. Some theorists advocated low <span class="mono">B&#9837;</span> as a regular note of the scale and some practical sources used it, though this was never a common solution, and the period had no concept of chromatic alteration to make <span class="mono">E&#9837;</span> and <span class="mono">F&#9839;</span> available.</p>
+
+<p class="full">The usual solution was to move the melody to the fifth above and end it on a cofinal, <em>affinalis</em> or <em>confinalis</em> in later theorists: <span class="mono">a</span> for the protus, <span class="mono">b&#9838;</span> for the deuterus, <span class="mono">c</span> for the tritus. Up there the gamut carries both <span class="mono">b&#9837;</span> and <span class="mono">b&#9838;</span>, which often makes the required pitches and intervals available. The tetrardus has no cofinal, since <span class="mono">G</span> has no affinity.</p>
+
+<h2 id="fourth">transposition at the upper fourth</h2>
+
+<p class="full">Guido mentions further affinities at the fourth above the finals, some of them requiring <span class="mono">b&#9837;</span>, and disapproves of using <span class="mono">b&#9837;</span> in this way. His objection is that it produces a confusion and transformation of the established qualities: in the segment <span class="mono">g&ndash;a&ndash;b&#9837;&ndash;c</span> the <span class="mono">g</span> takes on protus quality, the <span class="mono">a</span> becomes deuterus, the <span class="mono">c</span> becomes tetrardus, and the <span class="mono">b&#9837;</span> itself counts as a tritus note.</p>
+
+<p class="full">Other theorists of the time accepted the procedure, under the name transformation. It stayed much less common than transposition to the cofinal at the upper fifth for as long as the music in question was plainchant, and it is increasingly accepted from the thirteenth century, especially among theorists of the late fifteenth and sixteenth centuries writing about mode in polyphony. From the early fourteenth century theorists admit the transformative transpositions at the upper fourth as a matter of course, with the protus situated on <span class="mono">G</span> as <span class="mono">re</span> and the deuterus on <span class="mono">a</span> as <span class="mono">mi</span>.</p>
+
+<h2 id="species">what survives a transposition</h2>
+
+<p class="full">Species theory later validated the upper-fourth transposition, since it preserves the modal species for all four categories exactly, while the upper-fifth cofinals do not. The protus shows the difference. At its cofinal <span class="mono">a</span> the fifth <span class="mono">a&ndash;e</span> runs <span class="mono">T&ndash;S&ndash;T&ndash;T</span>, still the first species, while the fourth above it, <span class="mono">e&ndash;a</span>, runs <span class="mono">S&ndash;T&ndash;T</span>, which is the second species and not the first. Transposed instead to <span class="mono">G</span> with <span class="mono">b&#9837;</span>, the fifth <span class="mono">G&ndash;d</span> runs <span class="mono">T&ndash;S&ndash;T&ndash;T</span> and the fourth <span class="mono">d&ndash;g</span> runs <span class="mono">T&ndash;S&ndash;T</span>, both the first species, and the mode arrives intact.</p>
+
+<table>
+  <thead>
+    <tr><th scope="col">protus</th><th scope="col">fifth</th><th scope="col">fourth</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">on <span class="caps">D</span></th><td class="num">D&ndash;a, T&ndash;S&ndash;T&ndash;T, first</td><td class="num">a&ndash;d, T&ndash;S&ndash;T, first</td></tr>
+    <tr><th scope="row">on a, upper fifth</th><td class="num">a&ndash;e, T&ndash;S&ndash;T&ndash;T, first</td><td class="num">e&ndash;a, S&ndash;T&ndash;T, second</td></tr>
+    <tr><th scope="row">on <span class="caps">G</span> with b&#9837;, upper fourth</th><td class="num">G&ndash;d, T&ndash;S&ndash;T&ndash;T, first</td><td class="num">d&ndash;g, T&ndash;S&ndash;T, first</td></tr>
+  </tbody>
+</table>
+
+<p class="note">The species and the modal octaves are set out in the <a href="modal-species.html" target="_blank" rel="noopener">modal species handout</a>. The gamut with its three divisions is in <a href="gamut-layers.html" target="_blank" rel="noopener">scalar and modal theory in the eleventh century</a>.</p>
+
+<h2 id="sources">sources</h2>
+
+<ul class="readings">
+  <li>Christensen, Thomas, ed. <em>The Cambridge History of Western Music Theory</em>. Cambridge University Press, 2002.
+    <ul>
+      <li>Cohen, David E. &ldquo;Notes, Scales, and Modes in the Earlier Middle Ages.&rdquo; 307&ndash;63. <em>Socialitas</em> in Hucbald and the <em>Enchiriadis</em> treatises, 322&ndash;23 and 326; Pseudo-Odo's <em>similitudines vocum</em>, 347, with Table 11.11; Guido on qualities, <em>modi vocum</em>, and the affinities, 348&ndash;49, with Table 11.12; cofinals and transposition, 349&ndash;50; the species and the transpositions at the upper fourth, 355.</li>
+      <li>Judd, Cristle Collins. &ldquo;Renaissance Modal Theory: Theoretical, Compositional, and Editorial Perspectives.&rdquo; 364&ndash;406. The ecclesiastical tradition, the <em>omnis cantus</em> definition, and Powers's question, 364&ndash;65.</li>
+    </ul>
+  </li>
+  <li>Guido of Arezzo. <em>Micrologus</em>, chapters 7 to 9. Translated by Warren Babb in <em>Hucbald, Guido, and John on Music: Three Medieval Treatises</em>, edited by Claude V. Palisca. New Haven: Yale University Press, 1978.</li>
+  <li>Powers, Harold S. &ldquo;Is Mode Real? Pietro Aron, the Octenary System, and Polyphony.&rdquo; <em>Basler Jahrbuch f&uuml;r historische Musikpraxis</em> 16 (1992): 9&ndash;52.</li>
+</ul>
+
+<footer>
+  <p>Text set in IBM Plex under the SIL Open Font License.</p>
+</footer>
+
+</div>
+<script>
+  document.getElementById("pdf").addEventListener("click", function () { window.print(); });
+</script>
+</body>
+</html>

@@ -31,6 +31,10 @@ Eleventh-century modal theory in the South German writers. The three species of 
 https://csuebmusic.github.io/mus601/tools/gamut-layers.html
 One pitch field with three divisions laid over it: the seven hexachords in their three species, each on its own line with its syllables; the tetrachords of the South German school; and the eight modal octaves with their species of fifth and fourth. Select a mode to see which hexachords its octave crosses and where they overlap. Click a note to read its voces down the column.
 
+**affinities, cofinals, and transposition**
+https://csuebmusic.github.io/mus601/tools/affinities.html
+What the modes were for, Guido's qualities and modi vocum, the affinities among A, D, and a and their two companion sets, the cofinals as alternative endings for chant, transposition at the upper fifth and transformation at the upper fourth, and which species survive each. Prints to PDF from the page.
+
 ## repository
 
 ```
