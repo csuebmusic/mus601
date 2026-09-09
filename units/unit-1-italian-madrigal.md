@@ -2,9 +2,45 @@
 
 Instructor-facing. What the project's readings give on the madrigal, and a working sheet for "Da le belle contrade d'oriente."
 
-## what the readings cover
+## where this comes from
 
-The project files carry the madrigal as a theoretical problem, not as a genre history. Burnett and Nitzberg give the system analysis and the chromatic practice of the 1540s onward; Judd gives the modal and tonal-type question as it bears on secular polyphony; Powers gives tonal types from Rore's first book. Nothing in the files narrates the genre itself: no Verdelot, Arcadelt, or Willaert, no account of the poetry, the print culture, or the shift from the first generation to the second. If you want that in the seminar it has to come from elsewhere, and I can find scholarship for it.
+The two sections below, on the genre historically and musically, are not in the project files. They are synthesized from the standard reference literature listed at the end and are orientation rather than argument: use them to frame the seminar, and send students to the scholarship for anything they will cite. Everything from "the madrigal in the theoretical readings" onward is sourced to the uploaded texts with page numbers.
+
+## the genre historically
+
+### precursors and the name, to about 1530
+
+The sixteenth-century madrigal takes its name from the trecento madrigal and shares almost nothing else with it. The musical line of descent runs from the frottola, the light, largely chordal Italian secular song that Petrucci printed in eleven books between 1504 and 1514, and from the motet and the French chanson. What changes is the poetry. Pietro Bembo's *Prose della volgar lingua* (1525) codifies a literary program built on Petrarch, and the composers who take it up set serious verse with serious means. Bernardo Pisano's settings of Petrarch canzoni, printed about 1520, sit at the hinge.
+
+The first print carrying the name is *Madrigali de diversi musici: libro primo de la Serena* (Rome, 1530), with works by Philippe Verdelot and Costanzo Festa. Fenlon and Haar locate the genre's rise and early cultivation chiefly in Florence and Rome, and their inventory of the manuscripts and prints is the reference point for dates and provenance.
+
+### the first generation, 1530s and 1540s
+
+Verdelot in Florence, Costanzo Festa in Rome, and Jacques Arcadelt, whose first book of 1538 was reprinted more often than any other madrigal collection of the century. Mostly four voices, textures balancing chordal declamation against brief points of imitation, the text audible throughout. Adrian Willaert, at San Marco in Venice from 1527, belongs here by date and to the next phase by manner.
+
+### the classic madrigal, 1540s to 1560s
+
+Venice becomes the center, and the printing houses of Antonio Gardano and Girolamo Scotto make it the center of the trade as well as the style. Willaert's *Musica nova*, printed in 1559 though largely composed in the 1540s, sets Petrarch sonnets in dense imitative polyphony with careful declamation. Rore (1516 to 1565), Willaert's pupil, works chiefly at Ferrara and Parma and briefly succeeds him at San Marco. Five voices become standard. The *note nere* madrigals of the 1540s move in smaller values and press the declamation further. This is where chromatic experiment enters the repertory, and where the theory readings pick the genre up.
+
+### the late madrigal, 1570s to about 1620
+
+Lasso, Giaches de Wert at Mantua, Luca Marenzio, Philippe de Monte, Carlo Gesualdo, and Monteverdi. At Ferrara from 1580 the *concerto delle donne*, a professional ensemble of virtuoso women singers, reshapes what composers write and for whom; Newcomb's book is the study. Scoring runs to six and more voices, solo and ensemble virtuosity enters, dissonance treatment loosens, and the chromatic vocabulary widens to the point where Gesualdo's later books strain any modal account.
+
+The genre's crisis is documented. Giovanni Maria Artusi attacks Monteverdi's madrigals in *L'Artusi* (1600); Monteverdi replies briefly in the preface to his Fifth Book (1605), and his brother Giulio Cesare expands the reply in the *Dichiaratione* appended to the *Scherzi musicali* (1607), naming Rore as the originator of the seconda prattica. The madrigal then dissolves into what follows it: continuo madrigals, monody, and the dramatic genres.
+
+### where madrigals were sung
+
+One voice per part, by amateurs and professionals, in academies, in the informal gatherings called *ridotti*, and in domestic settings. The music was sold in partbooks, one slim volume per voice, which is worth putting in front of students: nobody in the sixteenth century read a madrigal from a score, and the vertical simultaneity we analyze was not on anyone's desk.
+
+## the genre musically
+
+- **Form.** Through-composed. No refrain, no repeating scheme. The poem's syntax governs the sectional articulation, and cadences mark its divisions. A madrigal is as long as its poem.
+- **Poetry.** Sonnets, single stanzas of canzoni, ballate, ottava rima, and the free madrigal proper, a short unfixed run of seven- and eleven-syllable lines. Petrarch above all, then Bembo, Ariosto, Sannazaro, and later Tasso and Guarini.
+- **Scoring.** Three or four voices early, five as the norm by mid-century, six and more later. High and low clef combinations, the *chiavette*, carry information about transposition and are one leg of Powers's tonal types.
+- **Texture.** Alternation is the principle: points of imitation against homophonic declamation, full ensemble against reduced groupings, with the change of texture used to articulate the text.
+- **Text setting.** Largely syllabic, with melismas reserved for words that earn them. Word painting, the madrigalism, is the genre's signature: rising lines for ascent, black notation for darkness, suspensions for pain, a halt for death. Einstein's chapter on the aesthetics of the device, including eye music, is the classic treatment.
+- **Mode and system.** The cadence plan articulates the mode; the tonal type, clef plus signature plus final of the lowest voice, is what the prints and their ordering actually show. Chromatic passages are handled through shifts of the three-hexachord system rather than through any modulation in the later sense.
+- **Dissonance.** Prepared and resolved by the counterpoint rules of the mid-century treatises, then increasingly free from the 1570s, which is precisely what Artusi objects to in Monteverdi.
 
 ## the madrigal in the theoretical readings
 
@@ -71,3 +107,21 @@ The cadence model behind that is the 6–8 progression: the upper voice ascends 
 - Whether the E♭ at mm. 41–42 reads as an upper neighbor to D or as something structural in its own right.
 
 The system layer is on `tools/systems.html`: set it to 1♭ and the missing pitch, the three hexachords, and the two directions of modulation are all there.
+
+## bibliography for the genre
+
+Verified at catalogue level. I have not read these in this session, so the descriptions say what each covers and no more.
+
+- Einstein, Alfred. *The Italian Madrigal*. Translated by Alexander H. Krappe, Roger Sessions, and Oliver Strunk. 3 vols. Princeton University Press, 1949. The foundational cultural history of the genre from about 1500 to its seventeenth-century decline, and the study that put Rore at the center.
+- Fenlon, Iain, and James Haar. *The Italian Madrigal in the Early Sixteenth Century: Sources and Interpretation*. Cambridge University Press, 1988. Part one covers the rise and early cultivation of the madrigal in Florence and Rome; part two is a descriptive inventory of all known manuscripts and printed editions with contents and concordances.
+- Feldman, Martha. *City Culture and the Madrigal at Venice*. University of California Press, 1995. The Venetian madrigal read through Ciceronian rhetorical norms and the city's literary theory, with a social history of printers, academies, and patrons.
+- Newcomb, Anthony. *The Madrigal at Ferrara, 1579–1597*. Princeton University Press, 1980. The late madrigal at the Ferrarese court, including the *concerto delle donne*.
+- Haar, James. *Essays on Italian Poetry and Music in the Renaissance, 1350–1600*. University of California Press, 1986.
+- Tomlinson, Gary. *Monteverdi and the End of the Renaissance*. University of California Press, 1987.
+
+For a starting point that students can read in a week, the Grove article "Madrigal" (16th-century Italian) carries the standard periodization and a bibliography; the citations above are drawn from it and from publishers' catalogue records rather than from the volumes themselves.
+
+## open items
+
+- Nothing in the project files covers the genre historically. If the seminar needs a student-facing reading on it, say so and I will draft one from the sources above, or find an article-length piece to assign instead.
+- The chapter of Feldman that bears most directly on Rore and Venetian modal practice is worth locating before Week 3.
