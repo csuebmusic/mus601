@@ -100,12 +100,12 @@
 <div class="ctl-row" role="group" aria-label="tuning">
   <span class="label">tuning</span>
   <button type="button" class="btn" data-t="pyth" aria-pressed="false">Pythagorean</button>
-  <button type="button" class="btn" data-t="ramis" aria-pressed="false">Ramis 1482</button>
-  <button type="button" class="btn" data-t="mt27" aria-pressed="false">2/7-comma 1558</button>
-  <button type="button" class="btn" data-t="mt14" aria-pressed="true">1/4-comma 1523</button>
-  <button type="button" class="btn" data-t="mt13" aria-pressed="false">1/3-comma 1577</button>
+  <button type="button" class="btn" data-t="ramis" aria-pressed="false">just, Ramis 1482</button>
+  <button type="button" class="btn" data-t="mt27" aria-pressed="false">meantone 2/7-comma, 1558</button>
+  <button type="button" class="btn" data-t="mt14" aria-pressed="true">meantone 1/4-comma, 1523</button>
+  <button type="button" class="btn" data-t="mt13" aria-pressed="false">meantone 1/3-comma, 1577</button>
   <button type="button" class="btn" data-t="equal" aria-pressed="false">equal</button>
-  <button type="button" class="btn" data-t="werck" aria-pressed="false">Werckmeister III 1691</button>
+  <button type="button" class="btn" data-t="werck" aria-pressed="false">Werckmeister III, 1691</button>
 </div>
 
 <div class="board">
@@ -154,9 +154,9 @@
 
 <p class="full">Octaves and fifths are pure, and every other interval is built from them. The major third is 407.8 cents, a syntonic comma wide, and the diatonic semitone is 90.2 cents. Pythagorean tuning suits a practice whose consonances are the octave, fifth, and fourth, and where thirds and sixths are dissonances; in the double-leading-tone cadence the wide third of the penultimate sonority is more dissonant, and its leading tones rise by the narrow semitone. Burzio (1487) builds the five raised keys of an organ as flats, B&#9837; E&#9837; A&#9837; D&#9837; G&#9837;, each dividing its whole tone into a 90-cent semitone below and a 114-cent semitone above. The board follows Burzio. The circle closes at B&ndash;G&#9837;, a diminished sixth of 678.5 cents, a ditonic comma narrower than a fifth. The four natural roots whose third falls on a raised key (B, E, A, D) can only reach it as a diminished fourth, and that interval is 384.4 cents, 2.0 cents below a pure third. Glarean's monochord (1547) is Pythagorean for its diatonic notes and has no sharps.</p>
 
-<h3 id="ramis">Ramis de Pareia, <em>Musica practica</em> (1482)</h3>
+<h3 id="ramis">just intonation: Ramis de Pareia, <em>Musica practica</em> (1482)</h3>
 
-<p class="full">Two chains of pure fifths, D&ndash;A&ndash;E&ndash;B and B&#9837;&ndash;F&ndash;C&ndash;G, joined by pure minor thirds (D&ndash;F, A&ndash;C, E&ndash;G), so that the B&#9837; chain sits a syntonic comma above where Pythagorean tuning would put it. Every third is pure except B&ndash;D and G&ndash;B&#9837;, which gives pure major triads on B&#9837;, F, and C and a pure major third on G. The fifth G&ndash;D is a comma narrow, 680.4 cents, and unusable. Whole tones alternate between 204 and 182 cents, and the semitones E&ndash;F, A&ndash;B&#9837;, and B&ndash;C are 112 cents. Later in the treatise Ramis extends the chains to F&#9839; and C&#9839; on one side and E&#9837; and A&#9837; on the other, which the board includes; the new fifth C&#9839;&ndash;A&#9837; is 2 cents below pure. Hothby and Burzio attacked the division in print.</p>
+<p class="full">A just tuning departs from Pythagorean tuning by introducing pure thirds, and Ramis's is the best known of the early just monochords. It has two chains of pure fifths, D&ndash;A&ndash;E&ndash;B and B&#9837;&ndash;F&ndash;C&ndash;G, joined by pure minor thirds (D&ndash;F, A&ndash;C, E&ndash;G), so that the B&#9837; chain sits a syntonic comma above where Pythagorean tuning would put it. Every third is pure except B&ndash;D and G&ndash;B&#9837;, which gives pure major triads on B&#9837;, F, and C and a pure major third on G. The fifth G&ndash;D is a comma narrow, 680.4 cents, and unusable. Whole tones alternate between 204 and 182 cents, and the semitones E&ndash;F, A&ndash;B&#9837;, and B&ndash;C are 112 cents. Later in the treatise Ramis extends the chains to F&#9839; and C&#9839; on one side and E&#9837; and A&#9837; on the other, which the board includes; the new fifth C&#9839;&ndash;A&#9837; is 2 cents below pure. Hothby and Burzio attacked the division in print.</p>
 
 <h3 id="meantone">meantone: Aaron, Zarlino, Salinas</h3>
 
@@ -229,7 +229,7 @@
       text: "Eleven pure fifths. The circle closes at the diminished sixth from B to G" + F + ", a ditonic comma narrow."
     },
     ramis: {
-      name: "Ramis de Pareia, 1482, with his extension",
+      name: "just intonation, Ramis de Pareia, 1482, with his extension",
       chain: ["A" + F, "E" + F, "B" + F, "F", "C", "G", "D", "A", "E", "B", "F" + S, "C" + S],
       fifths: [P5, P5, P5, P5, P5, P5 - SC, P5, P5, P5, P5, P5],
       text: "Pure fifths throughout except G\u2013D, a syntonic comma narrow. Pure minor thirds join the chain from A" + F + " to G to the chain from D to C" + S + ", which puts the two a syntonic comma apart from their Pythagorean positions."
