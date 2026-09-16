@@ -104,7 +104,11 @@
     <div class="readout" id="readout" aria-live="polite"></div>
     <div class="keys">
       <p class="label">keyboard, one octave</p>
+      <p class="note">A key sounds until it's clicked again. Held keys retune when the tuning changes.</p>
       <div id="keys"></div>
+      <div class="ctl-row" style="margin: var(--step) 0 0;">
+        <button type="button" class="btn small" id="release">release all</button>
+      </div>
     </div>
   </div>
 </div>
@@ -399,14 +403,22 @@
       var g = el("g", { tabindex: "0", role: "button" }, svg);
       var pc = step % 12;
       var nm = built.names[pc] + (step === 12 ? " (octave)" : "");
-      g.setAttribute("aria-label", "play " + nm + ", " + fmt(built.cents[pc] + (step === 12 ? 1200 : 0), false) + " cents");
+      g.setAttribute("aria-label", "hold " + nm + ", " + fmt(built.cents[pc] + (step === 12 ? 1200 : 0), false) + " cents");
       var rect = el("rect", { x: x, y: 1, width: w, height: h, "class": cls }, g);
       var lb = el("text", { x: x + w / 2, y: h - 10, "class": "kl " + (cls === "w" ? "onw" : "onb") }, g);
       lb.textContent = built.names[pc];
+      if (held[step]) { rect.classList.add("on"); }
+      g.setAttribute("aria-pressed", held[step] ? "true" : "false");
       function go() {
-        playNotes([freq(step)], 1.6);
-        rect.classList.add("on");
-        setTimeout(function () { rect.classList.remove("on"); }, 400);
+        if (held[step]) {
+          stopVoice(step);
+          rect.classList.remove("on");
+          g.setAttribute("aria-pressed", "false");
+        } else {
+          startVoice(step);
+          rect.classList.add("on");
+          g.setAttribute("aria-pressed", "true");
+        }
       }
       g.addEventListener("click", go);
       g.addEventListener("keydown", function (e) {
@@ -493,6 +505,63 @@
     return BASE * Math.pow(2, (built.cents[step % 12] + (step >= 12 ? 1200 : 0)) / 1200);
   }
 
+  var held = {};
+  var bus = null;
+
+  function holdBus(a) {
+    if (!bus) {
+      bus = a.createGain();
+      bus.gain.value = 0.07;
+      var comp = a.createDynamicsCompressor();
+      bus.connect(comp);
+      comp.connect(a.destination);
+    }
+    return bus;
+  }
+
+  function startVoice(step) {
+    var a = audio();
+    if (!a) { return; }
+    var now = a.currentTime + 0.02;
+    var o = a.createOscillator();
+    var g = a.createGain();
+    o.setPeriodicWave(wave);
+    o.frequency.value = freq(step);
+    g.gain.setValueAtTime(0, now);
+    g.gain.linearRampToValueAtTime(1, now + 0.05);
+    o.connect(g);
+    g.connect(holdBus(a));
+    o.start(now);
+    held[step] = { o: o, g: g };
+  }
+
+  function stopVoice(step) {
+    var v = held[step];
+    if (!v || !ctx) { return; }
+    var now = ctx.currentTime;
+    v.g.gain.cancelScheduledValues(now);
+    v.g.gain.setValueAtTime(v.g.gain.value, now);
+    v.g.gain.linearRampToValueAtTime(0, now + 0.15);
+    v.o.stop(now + 0.2);
+    delete held[step];
+  }
+
+  function retune() {
+    if (!ctx) { return; }
+    var now = ctx.currentTime;
+    Object.keys(held).forEach(function (k) {
+      var f = held[k].o.frequency;
+      f.cancelScheduledValues(now);
+      f.setValueAtTime(f.value, now);
+      f.linearRampToValueAtTime(freq(Number(k)), now + 0.25);
+    });
+  }
+
+  document.getElementById("release").addEventListener("click", function () {
+    Object.keys(held).forEach(function (k) { stopVoice(Number(k)); });
+    drawKeys();
+  });
+
   function playNotes(fs, dur) {
     var a = audio();
     if (!a) { return; }
@@ -535,6 +604,7 @@
     drawReadout();
     drawKeys();
     drawTable();
+    retune();
   }
 
   document.querySelectorAll("[data-t]").forEach(function (b) {
