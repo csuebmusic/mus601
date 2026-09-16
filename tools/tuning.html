@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tuning and temperament &middot; MUS 601</title>
+<link rel="stylesheet" href="../assets/style.css?v=17">
+<style>
+  .ctl-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--step); margin-bottom: calc(var(--step) * 3); }
+  .ctl-row .label { margin: 0 calc(var(--step) * 1.5) 0 0; flex: none; }
+  .btn {
+    font-family: var(--font-data);
+    font-size: 0.78rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: var(--line) solid var(--rule);
+    padding: calc(var(--step) * 0.9) calc(var(--step) * 1.6);
+    cursor: pointer;
+  }
+  .btn:hover { border-color: var(--ink); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-wash); }
+  .btn.small { font-size: 0.7rem; padding: calc(var(--step) * 0.4) calc(var(--step) * 1); }
+
+  .board { display: grid; grid-template-columns: minmax(16rem, 26rem) 1fr; gap: calc(var(--step) * 5); align-items: start; margin-bottom: calc(var(--step) * 4); }
+  .ring svg { width: 100%; height: auto; display: block; }
+  .ring .node circle { fill: var(--paper); stroke: var(--ink); stroke-width: 1; }
+  .ring .node text { font-family: var(--font-data); font-size: 13px; fill: var(--ink); text-anchor: middle; dominant-baseline: central; }
+  .ring .edge { stroke: var(--rule); stroke-width: 2; fill: none; }
+  .ring .edge.off { stroke: var(--accent); stroke-width: 3; }
+  .ring .dev { font-family: var(--font-data); font-size: 10.5px; fill: var(--muted); text-anchor: middle; dominant-baseline: central; }
+  .ring .dev.off { fill: var(--accent); }
+  .ring .centre { font-family: var(--font-data); font-size: 10.5px; fill: var(--muted); text-anchor: middle; }
+
+  .readout { border: var(--line) solid var(--ink); padding: calc(var(--step) * 3); }
+  .readout p { max-width: none; margin: 0 0 calc(var(--step) * 1.5); }
+  .readout > :last-child { margin-bottom: 0; }
+  .readout .label { margin: 0 0 var(--step); }
+
+  .keys { margin: calc(var(--step) * 3) 0 0; }
+  .keys svg { width: 100%; max-width: 30rem; height: auto; display: block; }
+  .keys .w { fill: var(--paper); stroke: var(--ink); stroke-width: 1; cursor: pointer; }
+  .keys .b { fill: var(--ink); stroke: var(--ink); stroke-width: 1; cursor: pointer; }
+  .keys .w:hover, .keys .w.on { fill: var(--accent-wash); }
+  .keys .b:hover, .keys .b.on { fill: var(--accent); }
+  .keys g:focus { outline: none; }
+  .keys g:focus-visible .w, .keys g:focus-visible .b { stroke: var(--accent); stroke-width: 3; }
+  .keys .kl { font-family: var(--font-data); font-size: 10px; text-anchor: middle; pointer-events: none; }
+  .keys .kl.onw { fill: var(--ink); }
+  .keys .kl.onb { fill: var(--paper); }
+
+  .triads td, .triads th { white-space: nowrap; }
+  .triads .off { color: var(--accent); }
+  .triads td.play { width: 1%; }
+  .triads td.play .btn + .btn { margin-left: calc(var(--step) * 0.5); }
+  .wrapx { overflow-x: auto; margin-bottom: calc(var(--step) * 4); }
+  .wrapx table { margin-bottom: 0; }
+
+  .check { font-family: var(--font-data); font-size: 0.78rem; display: inline-flex; align-items: center; gap: var(--step); cursor: pointer; }
+  .check input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  @media (max-width: 62rem) {
+    .board { grid-template-columns: 1fr; }
+    .ring { max-width: 24rem; }
+  }
+  @media print {
+    .btn, .check, .keys { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; tool</p>
+<h1 id="top">Tuning and temperament, 1482 to 1691</h1>
+
+<p class="lede full">Seven keyboard tunings, 1482 to 1691, on one circle of fifths. Pick a tuning to read the size of every fifth and major third in cents, and play any fifth, third, or major triad against its pure form.</p>
+
+<ul class="toc">
+  <li><a href="#board">the board</a></li>
+  <li><a href="#comma">the comma</a></li>
+  <li><a href="#tunings">the seven tunings</a></li>
+  <li><a href="#keys">the raised keys and the three-hexachord system</a></li>
+  <li><a href="#repertoire">on the unit's repertoire</a></li>
+  <li><a href="#sources">sources</a></li>
+</ul>
+
+<h2 id="board">the board</h2>
+
+<div class="ctl-row" role="group" aria-label="tuning">
+  <span class="label">tuning</span>
+  <button type="button" class="btn" data-t="pyth" aria-pressed="false">Pythagorean</button>
+  <button type="button" class="btn" data-t="ramis" aria-pressed="false">Ramis 1482</button>
+  <button type="button" class="btn" data-t="mt27" aria-pressed="false">2/7-comma 1558</button>
+  <button type="button" class="btn" data-t="mt14" aria-pressed="true">1/4-comma 1523</button>
+  <button type="button" class="btn" data-t="mt13" aria-pressed="false">1/3-comma 1577</button>
+  <button type="button" class="btn" data-t="equal" aria-pressed="false">equal</button>
+  <button type="button" class="btn" data-t="werck" aria-pressed="false">Werckmeister III 1691</button>
+</div>
+
+<div class="board">
+  <div class="ring" id="ring" aria-hidden="true"></div>
+  <div>
+    <div class="readout" id="readout" aria-live="polite"></div>
+    <div class="keys">
+      <p class="label">keyboard, one octave</p>
+      <div id="keys"></div>
+    </div>
+  </div>
+</div>
+
+<div class="ctl-row">
+  <label class="check"><input type="checkbox" id="pure"> play the pure interval instead</label>
+</div>
+
+<div class="wrapx">
+<table class="triads">
+  <thead>
+    <tr>
+      <th scope="col">root</th>
+      <th scope="col">cents from C</th>
+      <th scope="col">third</th>
+      <th scope="col" class="num">size</th>
+      <th scope="col" class="num">from 5:4</th>
+      <th scope="col">fifth</th>
+      <th scope="col" class="num">size</th>
+      <th scope="col" class="num">from 3:2</th>
+      <th scope="col">play</th>
+    </tr>
+  </thead>
+  <tbody id="tbody"></tbody>
+</table>
+</div>
+
+<p class="note">Sizes and deviations are in cents. The ring and the table mark in the accent every interval a syntonic comma or more from pure. Each row's third and fifth are spelled from the keys of the chosen tuning, so a third that the keyboard can only spell as a diminished fourth appears as one. In equal temperament and Werckmeister III each raised key serves both spellings, and the table gives the conventional names. The pure setting keeps the root at its tempered pitch and tunes the upper notes to 5:4 and 3:2 above it.</p>
+
+<h2 id="comma">the comma</h2>
+
+<p class="full">A cent is a hundredth of an equal-tempered semitone; an interval with frequency ratio <span class="mono">r</span> measures <span class="mono">1200 log<sub>2</sub> r</span> cents. The octave is 1200.</p>
+
+<p class="full">Four pure fifths (3:2) less two octaves give the ratio 81:64, 407.8 cents. The pure major third, 5:4, is 386.3 cents. The difference, 81:80 or 21.5 cents, is the syntonic comma. A fixed-pitch instrument can have pure fifths or pure major thirds, and not both: either the fifths are narrowed, or the thirds are left wide, or some of each. In the sixteenth and seventeenth centuries the thirds were given priority, and the fifths were narrowed.</p>
+
+<p class="full">Twelve pure fifths exceed seven octaves by the ditonic comma, 531,441:524,288 or 23.5 cents. It's 2.0 cents larger than the syntonic comma, a difference called the schisma, and the two aren't interchangeable. Twelve keys close the circle of fifths only if the ditonic comma is taken up somewhere: in one fifth, in several, or evenly across all twelve.</p>
+
+<p class="full">A temperament is named by the fraction of a comma by which its tempered fifths depart from pure.</p>
+
+<h2 id="tunings">the seven tunings</h2>
+
+<h3 id="pyth">Pythagorean tuning</h3>
+
+<p class="full">Octaves and fifths are pure, and every other interval is built from them. The major third is 407.8 cents, a syntonic comma wide, and the diatonic semitone is 90.2 cents. Pythagorean tuning suits a practice whose consonances are the octave, fifth, and fourth, and where thirds and sixths are dissonances; in the double-leading-tone cadence the wide third of the penultimate sonority is more dissonant, and its leading tones rise by the narrow semitone. Burzio (1487) builds the five raised keys of an organ as flats, B&#9837; E&#9837; A&#9837; D&#9837; G&#9837;, each dividing its whole tone into a 90-cent semitone below and a 114-cent semitone above. The board follows Burzio. The circle closes at B&ndash;G&#9837;, a diminished sixth of 678.5 cents, a ditonic comma narrower than a fifth. The four natural roots whose third falls on a raised key (B, E, A, D) can only reach it as a diminished fourth, and that interval is 384.4 cents, 2.0 cents below a pure third. Glarean's monochord (1547) is Pythagorean for its diatonic notes and has no sharps.</p>
+
+<h3 id="ramis">Ramis de Pareia, <em>Musica practica</em> (1482)</h3>
+
+<p class="full">Two chains of pure fifths, D&ndash;A&ndash;E&ndash;B and B&#9837;&ndash;F&ndash;C&ndash;G, joined by pure minor thirds (D&ndash;F, A&ndash;C, E&ndash;G), so that the B&#9837; chain sits a syntonic comma above where Pythagorean tuning would put it. Every third is pure except B&ndash;D and G&ndash;B&#9837;, which gives pure major triads on B&#9837;, F, and C and a pure major third on G. The fifth G&ndash;D is a comma narrow, 680.4 cents, and unusable. Whole tones alternate between 204 and 182 cents, and the semitones E&ndash;F, A&ndash;B&#9837;, and B&ndash;C are 112 cents. Later in the treatise Ramis extends the chains to F&#9839; and C&#9839; on one side and E&#9837; and A&#9837; on the other, which the board includes; the new fifth C&#9839;&ndash;A&#9837; is 2 cents below pure. Hothby and Burzio attacked the division in print.</p>
+
+<h3 id="meantone">meantone: Aaron, Zarlino, Salinas</h3>
+
+<p class="full">Aaron's <em>Toscanello in musica</em> (1523) tells the tuner to narrow each fifth as far as the ear allows and to check that four of them arrive at a practically pure major third. Schlick (1511) may describe the same thing. Zarlino gives the first systematic temperament in <em>Le istitutioni harmoniche</em> (1558): fifths narrowed by 2/7 of a syntonic comma, which leaves major and minor thirds each 1/7 comma small. Rasch describes it as apparently without practical significance. Zarlino describes quarter-comma meantone in the <em>Dimostrationi harmoniche</em> (1571), with fifths narrowed by 1/4 comma and pure major thirds, and mentions a third variety, 1/3 comma, in the 1573 <em>Istitutioni</em>. Salinas works out the 1/3-comma temperament in <em>De musica libri septem</em> (1577); its minor thirds are pure. The name meantone for the quarter-comma temperament dates from the eighteenth century. After Zarlino it's probably the tuning described most often until well into the eighteenth century.</p>
+
+<p class="full">In quarter-comma meantone the fifth is 696.6 cents and the major third 386.3. The chromatic semitone (76.0 cents) is smaller than the diatonic (117.1), as in just intonation and the reverse of Pythagorean tuning. Each raised key has one spelling. The usual set is C&#9839; E&#9837; F&#9839; G&#9839; B&#9837;, and the circle closes at G&#9839;&ndash;E&#9837;, a wolf of 737.6 cents. In the early seventeenth century the Nijmegen organist Jacobus Verheyden, answering Stevin, described the instruments he knew in these terms: pure major thirds, fifths beating narrow, and a chromatic semitone noticeably narrower than the diatonic.</p>
+
+<h3 id="equal">equal temperament: Galilei and Stevin</h3>
+
+<p class="full">The ditonic comma is divided equally among all twelve fifths, and every semitone is 100 cents. Zarlino, Salinas, and Vincenzo Galilei describe it informally. Galilei's <em>Dialogo della musica antica e della moderna</em> (1581) sets the frets of string instruments at successive 18:17 ratios, semitones of 99 cents. Simon Stevin calculates it by root extraction in a treatise drafted in the 1580s, revised in the 1610s, and unpublished at his death in 1620; for Stevin the equal intervals were the true ones and the small-ratio intervals approximations of them. Unequal fret placement produces false octaves, and viols and lutes required something close to equal division. Rasch judges its practical use in the sixteenth and seventeenth centuries to have been limited; John Bull and Frescobaldi are names that have been connected with it on keyboards. In the eighteenth century it becomes the prevailing keyboard tuning.</p>
+
+<h3 id="werckmeister">Werckmeister III, <em>Musicalische Temperatur</em> (1691)</h3>
+
+<p class="full">The ditonic comma is divided into four parts. The fifths C&ndash;G, G&ndash;D, D&ndash;A, and B&ndash;F&#9839; are each narrowed by a quarter, and the other eight are pure. The system is already in Werckmeister's <em>Orgel-Probe</em> (1681). Between about 1690 and 1790, mainly in Germany, Werckmeister, Neidhardt, Sorge, and Marpurg published many such tunings, each distributing the ditonic comma unevenly around the circle. In them the keys near C are less tempered than the keys far from it, and every key is usable. Neidhardt (1724) orders four of his temperaments from unequal to equal and assigns them to a village, a town, a city, and the court, the last being equal temperament.</p>
+
+<h2 id="keys">the raised keys and the three-hexachord system</h2>
+
+<p class="full">In Burnett and Nitzberg's terms, the naturalis system lacks E&#9837;/D&#9839; and the mollis system lacks G&#9839;/A&#9837;. The usual meantone keyboard, with C&#9839; E&#9837; F&#9839; G&#9839; B&#9837;, holds exactly the pitch classes of the two systems together, each with the spelling that system uses. Its E&#9837; is the spelling that moves a naturalis system down to mollis, and its G&#9839; the spelling that moves a mollis system up to naturalis. The spellings that leave the pair, D&#9839; (naturalis up to 1&#9839;) and A&#9837; (mollis down to 2&#9837;), aren't on it, and the wolf fifth falls between the two that are, G&#9839; and E&#9837;. Seventeenth-century instruments with split keys most often divide D&#9839;/E&#9837; and G&#9839;/A&#9837;.</p>
+
+<p class="full">In quarter-comma meantone D&#9839; is 41.1 cents lower than E&#9837;, and G&#9839; 41.1 cents lower than A&#9837;. That interval is the diesis, 128:125. The <a href="systems.html" target="_blank" rel="noopener">three-hexachord system board</a> gives both spellings of the missing pitch for each system.</p>
+
+<h2 id="repertoire">on the unit's repertoire</h2>
+
+<p class="full">Rore's &ldquo;Da le belle contrade d'oriente&rdquo; (1566) descends from the 1&#9837; system through A&#9837; (m. 46) and D&#9837; (m. 48), spellings the usual meantone keyboard lacks. Monteverdi's &ldquo;Eccomi pronta ai baci&rdquo; (Book 7, 1619) stays in naturalis with no flats at all. &ldquo;Ecco vicine o bella Tigre&rdquo; (Book 7), for two tenors and basso continuo, lifts to G durus with D&#9839; at mm. 37 and 64. A keyboard continuo in quarter-comma meantone with the usual raised keys can only give E&#9837; there, 41.1 cents above D&#9839;.</p>
+
+<p class="full">Artusi's <em>L'Artusi, overo delle imperfettioni della moderna musica</em> (1600) opens with a ragionamento on ensemble performance, whose last requirement is that all the instruments be tuned to one temperament by a single ear. The attack on Monteverdi's madrigals follows in the second ragionamento.</p>
+
+<h2 id="sources">sources</h2>
+
+<ul class="readings">
+  <li>Burnett, Henry, and Roy Nitzberg. <em>Composition, Chromaticism and the Developmental Process: A New Theory of Tonality</em>. Ashgate, 2007. What determines a system and how it modulates, 63; Rore, 63&ndash;64; &ldquo;Eccomi pronta ai baci,&rdquo; 80&ndash;84; &ldquo;Ecco vicine o bella Tigre,&rdquo; 84&ndash;88.</li>
+  <li>Chrissochoidis, Ilias. &ldquo;The &lsquo;Artusi-Monteverdi&rsquo; Controversy: Background, Content, and Modern Interpretations.&rdquo; <em>British Postgraduate Musicology</em> 6 (2004). <a href="http://britishpostgraduatemusicology.org/bpm6-artusi.htm" target="_blank" rel="noopener">britishpostgraduatemusicology.org/bpm6-artusi.htm</a>.</li>
+  <li>Christensen, Thomas, ed. <em>The Cambridge History of Western Music Theory</em>. Cambridge University Press, 2002.
+    <ul>
+      <li>Herlinger, Jan. &ldquo;Medieval Canonics.&rdquo; 168&ndash;92. Pythagorean intervals and Table 6.3, 176&ndash;78; Ramis, 178&ndash;80; Burzio, 180; Galilei, 190 n. 53.</li>
+      <li>Rasch, Rudolf. &ldquo;Tuning and Temperament.&rdquo; 193&ndash;222. Glarean and the two commas, 195&ndash;98; Salinas, 198&ndash;200; the fifth and the third, and meantone, 200&ndash;203; equal temperament, Stevin, Galilei, and Verheyden, 203&ndash;207; Werckmeister and Neidhardt, 214&ndash;18.</li>
+    </ul>
+  </li>
+</ul>
+
+<footer>
+  <p>Text set in IBM Plex under the SIL Open Font License.</p>
+</footer>
+
+</div>
+<script>
+(function () {
+  "use strict";
+
+  var SC = 1200 * Math.log2(81 / 80);
+  var PC = 1200 * Math.log2(531441 / 524288);
+  var P5 = 1200 * Math.log2(3 / 2);
+  var M3 = 1200 * Math.log2(5 / 4);
+  var S = "\u266f", F = "\u266d";
+
+  function uniform(size) {
+    var a = [];
+    for (var i = 0; i < 11; i++) { a.push(size); }
+    return a;
+  }
+
+  /* each tuning: a chain of twelve names in ascending fifths, and the eleven fifths between them */
+  var MT_CHAIN = ["E" + F, "B" + F, "F", "C", "G", "D", "A", "E", "B", "F" + S, "C" + S, "G" + S];
+
+  var T = {
+    pyth: {
+      name: "Pythagorean, raised keys after Burzio",
+      chain: ["G" + F, "D" + F, "A" + F, "E" + F, "B" + F, "F", "C", "G", "D", "A", "E", "B"],
+      fifths: uniform(P5),
+      text: "Eleven pure fifths. The circle closes at the diminished sixth from B to G" + F + ", a ditonic comma narrow."
+    },
+    ramis: {
+      name: "Ramis de Pareia, 1482, with his extension",
+      chain: ["A" + F, "E" + F, "B" + F, "F", "C", "G", "D", "A", "E", "B", "F" + S, "C" + S],
+      fifths: [P5, P5, P5, P5, P5, P5 - SC, P5, P5, P5, P5, P5],
+      text: "Pure fifths throughout except G\u2013D, a syntonic comma narrow. Pure minor thirds join the chain from A" + F + " to G to the chain from D to C" + S + ", which puts the two a syntonic comma apart from their Pythagorean positions."
+    },
+    mt27: {
+      name: "2/7-comma meantone, Zarlino 1558",
+      chain: MT_CHAIN,
+      fifths: uniform(P5 - SC * 2 / 7),
+      text: "Every fifth narrowed by 2/7 of a syntonic comma. Major and minor thirds are each 1/7 comma small."
+    },
+    mt14: {
+      name: "quarter-comma meantone, Aaron 1523, Zarlino 1571",
+      chain: MT_CHAIN,
+      fifths: uniform(P5 - SC / 4),
+      text: "Every fifth narrowed by 1/4 of a syntonic comma, so four fifths less two octaves give a pure major third."
+    },
+    mt13: {
+      name: "1/3-comma meantone, Salinas 1577",
+      chain: MT_CHAIN,
+      fifths: uniform(P5 - SC / 3),
+      text: "Every fifth narrowed by 1/3 of a syntonic comma, so three fifths down and two octaves up give a pure minor third."
+    },
+    equal: {
+      name: "equal temperament",
+      chain: MT_CHAIN,
+      fifths: uniform(700),
+      both: true,
+      text: "The ditonic comma divided equally among the twelve fifths. Every fifth is 700 cents and every semitone 100."
+    },
+    werck: {
+      name: "Werckmeister III, 1691",
+      chain: ["C", "G", "D", "A", "E", "B", "F" + S, "C" + S, "G" + S, "E" + F, "B" + F, "F"],
+      fifths: [P5 - PC / 4, P5 - PC / 4, P5 - PC / 4, P5, P5, P5 - PC / 4, P5, P5, P5, P5, P5],
+      both: true,
+      text: "C\u2013G, G\u2013D, D\u2013A, and B\u2013F" + S + " narrowed by a quarter of the ditonic comma. The other eight fifths are pure."
+    }
+  };
+
+  var LETTERS = "CDEFGAB";
+  var NAT = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+
+  function pcOf(name) {
+    var pc = NAT[name.charAt(0)];
+    if (name.indexOf(S) > -1) { pc += 1; }
+    if (name.indexOf(F) > -1) { pc -= 1; }
+    return (pc + 12) % 12;
+  }
+
+  function mod(x, m) { return ((x % m) + m) % m; }
+
+  /* build: pitch in cents above C, and name, for each pitch class */
+  function build(t) {
+    var pos = [0];
+    for (var i = 0; i < 11; i++) { pos.push(pos[i] + t.fifths[i]); }
+    var cIdx = t.chain.indexOf("C");
+    var off = pos[cIdx];
+    var cents = [], names = [];
+    t.chain.forEach(function (n, k) {
+      var pc = pcOf(n);
+      cents[pc] = mod(pos[k] - off, 1200);
+      names[pc] = n;
+    });
+    return { cents: cents, names: names };
+  }
+
+  function up(b, a, pcB) {
+    return mod(b.cents[pcB] - b.cents[a], 1200);
+  }
+
+  function spelled(rootName, upperName, steps) {
+    var li = LETTERS.indexOf(rootName.charAt(0));
+    var expect = LETTERS.charAt((li + steps) % 7);
+    return upperName.charAt(0) === expect;
+  }
+
+  function fmt(x, sign) {
+    var v = Math.round(x * 10) / 10;
+    if (v === 0) { v = 0; }
+    var s = v.toFixed(1);
+    if (sign && v > 0) { s = "+" + s; }
+    if (s.charAt(0) === "-") { s = "\u2212" + s.slice(1); }
+    return s;
+  }
+
+  var OFF = SC - 0.05;
+  var cur = "mt14";
+  var built = build(T[cur]);
+
+  /* ring */
+  var FIFTHS_PC = [0, 7, 2, 9, 4, 11, 6, 1, 8, 3, 10, 5];
+  var NS = "http://www.w3.org/2000/svg";
+
+  function el(tag, attrs, parent) {
+    var e = document.createElementNS(NS, tag);
+    Object.keys(attrs).forEach(function (k) { e.setAttribute(k, attrs[k]); });
+    if (parent) { parent.appendChild(e); }
+    return e;
+  }
+
+  function drawRing() {
+    var box = document.getElementById("ring");
+    box.innerHTML = "";
+    var svg = el("svg", { viewBox: "0 0 400 400", role: "img" }, box);
+    var cx = 200, cy = 200, r = 140, rl = 176;
+    var pts = FIFTHS_PC.map(function (pc, i) {
+      var a = -Math.PI / 2 + i * Math.PI / 6;
+      return { pc: pc, x: cx + r * Math.cos(a), y: cy + r * Math.sin(a), a: a };
+    });
+    var offCount = 0;
+    pts.forEach(function (p, i) {
+      var q = pts[(i + 1) % 12];
+      var size = up(built, p.pc, q.pc);
+      var dev = size - P5;
+      var isOff = Math.abs(dev) >= OFF;
+      if (isOff) { offCount++; }
+      el("line", { x1: p.x, y1: p.y, x2: q.x, y2: q.y, "class": "edge" + (isOff ? " off" : "") }, svg);
+      var am = p.a + Math.PI / 12;
+      var t = el("text", { x: cx + rl * Math.cos(am), y: cy + rl * Math.sin(am), "class": "dev" + (isOff ? " off" : "") }, svg);
+      t.textContent = fmt(dev, true);
+    });
+    pts.forEach(function (p) {
+      var g = el("g", { "class": "node" }, svg);
+      el("circle", { cx: p.x, cy: p.y, r: 17 }, g);
+      var t = el("text", { x: p.x, y: p.y }, g);
+      t.textContent = built.names[p.pc];
+    });
+    var c1 = el("text", { x: cx, y: cy - 6, "class": "centre" }, svg);
+    c1.textContent = "fifths, cents";
+    var c2 = el("text", { x: cx, y: cy + 10, "class": "centre" }, svg);
+    c2.textContent = "from 3:2";
+  }
+
+  function drawReadout() {
+    var t = T[cur];
+    var box = document.getElementById("readout");
+    box.innerHTML = "";
+    var lab = document.createElement("p");
+    lab.className = "label";
+    lab.textContent = t.name;
+    box.appendChild(lab);
+    var p1 = document.createElement("p");
+    p1.textContent = t.text;
+    box.appendChild(p1);
+    var pure = 0;
+    for (var pc = 0; pc < 12; pc++) {
+      var d = up(built, pc, (pc + 4) % 12) - M3;
+      if (Math.abs(d) < 0.05) { pure++; }
+    }
+    var p2 = document.createElement("p");
+    p2.innerHTML = "Raised keys: <span class=\"mono\">" +
+      [1, 3, 6, 8, 10].map(function (k) { return built.names[k]; }).join(" ") +
+      "</span>. Pure major thirds on the keyboard, in any spelling: <span class=\"mono\">" + pure + "</span> of 12.";
+    box.appendChild(p2);
+    if (t.both) {
+      var p3 = document.createElement("p");
+      p3.textContent = "The circle closes, and each raised key serves both of its spellings. The names are the conventional ones.";
+      box.appendChild(p3);
+    }
+  }
+
+  /* keyboard */
+  var WHITE = [0, 2, 4, 5, 7, 9, 11, 12];
+  var BLACK = [[1, 0], [3, 1], [6, 3], [8, 4], [10, 5]];
+
+  function drawKeys() {
+    var box = document.getElementById("keys");
+    box.innerHTML = "";
+    var W = 40, H = 130, BW = 26, BH = 82;
+    var svg = el("svg", { viewBox: "0 0 " + (WHITE.length * W + 2) + " " + (H + 2), role: "group", "aria-label": "keyboard" }, box);
+    function key(step, x, w, h, cls) {
+      var g = el("g", { tabindex: "0", role: "button" }, svg);
+      var pc = step % 12;
+      var nm = built.names[pc] + (step === 12 ? " (octave)" : "");
+      g.setAttribute("aria-label", "play " + nm + ", " + fmt(built.cents[pc] + (step === 12 ? 1200 : 0), false) + " cents");
+      var rect = el("rect", { x: x, y: 1, width: w, height: h, "class": cls }, g);
+      var lb = el("text", { x: x + w / 2, y: h - 10, "class": "kl " + (cls === "w" ? "onw" : "onb") }, g);
+      lb.textContent = built.names[pc];
+      function go() {
+        playNotes([freq(step)], 1.6);
+        rect.classList.add("on");
+        setTimeout(function () { rect.classList.remove("on"); }, 400);
+      }
+      g.addEventListener("click", go);
+      g.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); }
+      });
+    }
+    WHITE.forEach(function (s, i) { key(s, 1 + i * W, W, H, "w"); });
+    BLACK.forEach(function (b) { key(b[0], 1 + (b[1] + 1) * W - BW / 2, BW, BH, "b"); });
+  }
+
+  /* table */
+  function makeCell(tr) {
+    return function (txt, cls) {
+      var td = document.createElement("td");
+      td.textContent = txt;
+      if (cls) { td.className = cls; }
+      tr.appendChild(td);
+      return td;
+    };
+  }
+
+  function drawTable() {
+    var body = document.getElementById("tbody");
+    body.innerHTML = "";
+    for (var pc = 0; pc < 12; pc++) {
+      var tr = document.createElement("tr");
+      var root = built.names[pc];
+      var th = document.createElement("th");
+      th.scope = "row";
+      th.textContent = root;
+      tr.appendChild(th);
+
+      var cell = makeCell(tr);
+      cell(fmt(built.cents[pc], false), "num");
+
+      var tp = (pc + 4) % 12, fp = (pc + 7) % 12;
+      var t3 = up(built, pc, tp), t5 = up(built, pc, fp);
+      var d3 = t3 - M3, d5 = t5 - P5;
+      var o3 = Math.abs(d3) >= OFF ? " off" : "", o5 = Math.abs(d5) >= OFF ? " off" : "";
+      var both = T[cur].both;
+      var n3 = root + "\u2013" + built.names[tp] + (both || spelled(root, built.names[tp], 2) ? "" : " (dim. 4th)");
+      var n5 = root + "\u2013" + built.names[fp] + (both || spelled(root, built.names[fp], 4) ? "" : " (dim. 6th)");
+      cell(n3, "mono" + o3);
+      cell(fmt(t3, false), "num" + o3);
+      cell(fmt(d3, true), "num" + o3);
+      cell(n5, "mono" + o5);
+      cell(fmt(t5, false), "num" + o5);
+      cell(fmt(d5, true), "num" + o5);
+
+      var play = cell("", "play");
+      [["3rd", [0, 4]], ["5th", [0, 7]], ["triad", [0, 4, 7]]].forEach(function (b) {
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "btn small";
+        btn.textContent = b[0];
+        btn.setAttribute("aria-label", "play " + b[0] + " on " + root);
+        btn.addEventListener("click", (function (p, steps) {
+          return function () { playChord(p, steps); };
+        }(pc, b[1])));
+        play.appendChild(btn);
+      });
+      body.appendChild(tr);
+    }
+  }
+
+  /* audio */
+  var BASE = 261.63;
+  var ctx = null, wave = null;
+
+  function audio() {
+    if (!ctx) {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) { return null; }
+      ctx = new AC();
+      var n = 9, real = new Float32Array(n), imag = new Float32Array(n);
+      for (var k = 1; k < n; k++) { imag[k] = 1 / k; }
+      wave = ctx.createPeriodicWave(real, imag);
+    }
+    if (ctx.state === "suspended") { ctx.resume(); }
+    return ctx;
+  }
+
+  function freq(step) {
+    return BASE * Math.pow(2, (built.cents[step % 12] + (step >= 12 ? 1200 : 0)) / 1200);
+  }
+
+  function playNotes(fs, dur) {
+    var a = audio();
+    if (!a) { return; }
+    var now = a.currentTime + 0.02;
+    var master = a.createGain();
+    master.gain.value = 0.22 / fs.length;
+    master.connect(a.destination);
+    fs.forEach(function (f) {
+      var o = a.createOscillator();
+      var g = a.createGain();
+      o.setPeriodicWave(wave);
+      o.frequency.value = f;
+      g.gain.setValueAtTime(0, now);
+      g.gain.linearRampToValueAtTime(1, now + 0.03);
+      g.gain.setValueAtTime(1, now + dur);
+      g.gain.linearRampToValueAtTime(0, now + dur + 0.3);
+      o.connect(g);
+      g.connect(master);
+      o.start(now);
+      o.stop(now + dur + 0.35);
+    });
+  }
+
+  function playChord(pc, steps) {
+    var pure = document.getElementById("pure").checked;
+    var root = BASE * Math.pow(2, built.cents[pc] / 1200);
+    var fs = steps.map(function (s) {
+      if (s === 0) { return root; }
+      if (pure) { return root * (s === 4 ? 5 / 4 : 3 / 2); }
+      var c = built.cents[(pc + s) % 12];
+      if (c < built.cents[pc]) { c += 1200; }
+      return BASE * Math.pow(2, c / 1200);
+    });
+    playNotes(fs, 3);
+  }
+
+  function draw() {
+    built = build(T[cur]);
+    drawRing();
+    drawReadout();
+    drawKeys();
+    drawTable();
+  }
+
+  document.querySelectorAll("[data-t]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      cur = b.getAttribute("data-t");
+      document.querySelectorAll("[data-t]").forEach(function (o) {
+        o.setAttribute("aria-pressed", o === b ? "true" : "false");
+      });
+      draw();
+    });
+  });
+
+  draw();
+}());
+</script>
+</body>
+</html>

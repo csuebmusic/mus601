@@ -43,6 +43,10 @@ The sixteenth-century gamut system after Burnett and Nitzberg. Pick a signature 
 https://csuebmusic.github.io/mus601/tools/twelve-modes.html
 The twelve modes with their finals and ambitus, switchable between Glarean's numbering as Zarlino took it up in 1558 and Zarlino's renumbering of 1571. The four new modes are marked, with the cofinal each comes from.
 
+**tuning and temperament, 1482 to 1691**
+https://csuebmusic.github.io/mus601/tools/tuning.html
+Seven keyboard tunings on one circle of fifths: Pythagorean after Burzio, Ramis, Zarlino's 2/7-comma, quarter-comma and 1/3-comma meantone, equal temperament, and Werckmeister III. For each, the size of every fifth and major third in cents, with any fifth, third, or major triad playable against its pure form. The syntonic and ditonic commas, the seven tunings with their sources, and the raised keys of the meantone keyboard set against the naturalis and mollis systems.
+
 ## repository
 
 ```
