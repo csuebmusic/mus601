@@ -64,7 +64,7 @@ How to search it: search the composer and the work, then broaden to the genre or
 
 ### alongside: WorldCat and IMSLP
 
-Neither is part of the sequence, apart from IMSLP for the editions on Paper 1. Both are there when a student needs to locate a book or settle a citation.
+Neither is part of the sequence. Both are there when a student needs to locate a book or settle a citation.
 
 WorldCat, open to anyone at https://search.worldcat.org, is the union catalog of library holdings. Use it to find which library holds a book, which is where a CSU+ or interlibrary loan request starts, and to confirm the details a citation needs and a bookseller listing omits: editor, series, volume, place, publisher, date.
 
@@ -76,7 +76,7 @@ Each tool is introduced in a seminar meeting during the unit whose paper first c
 
 ## the scores
 
-Analysis and musical examples come from the score packets provided in seminar. Separately, each student finds a sourced edition of every work the paper analyzes on Alexander Street, and cites that edition in the paper. On Paper 1 the editions may also come from IMSLP.
+Analysis and musical examples come from the score packets provided in seminar. Separately, each student finds a sourced edition of every work the paper analyzes on Alexander Street, and cites that edition in the paper.
 
 ## the sources, paper by paper
 
