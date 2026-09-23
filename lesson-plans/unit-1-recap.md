@@ -137,25 +137,35 @@ Schütz returned to Venice in 1628–29, when Monteverdi had been maestro di cap
 
 ### chart
 
-Cantus mollis; mollis; center G, dorian.
+Cantus mollis; mollis; center G, dorian. Three half notes to the measure.
 
 The modulations come from both the continuo and the solo bass. Text painting is more deliberate here than in the other works. The poem is short, and Schütz repeats its words in short melodic sequences, shifting the intervals. The instrumental sinfonias are highly canonic.
 
 | section | mm. | text event | texture event | system analysis |
 |---|---|---|---|---|
-| sinfonia | 1–21 | | canon: tbns 1 and 2 at the unison three notes apart (m. 1), tbn 4 an octave below (m. 4), tbn 3 at the fifth (m. 5), and so on | mollis |
+| A | 1–40 | | | |
+| | 1–21 | | canon: tbns 1 and 2 at the unison three notes apart (m. 1), tbn 4 an octave below (m. 4), tbn 3 at the fifth (m. 5), and so on | mollis |
+| | 4, quarter 4 (!) | | | cadence on G minor |
+| | 9, downbeat | | | cadence on D minor |
+| | 21, half note 3 | | fermata | cadence on B♭ |
 | | 22 | "fili mi" (my son): major, augmented, then minor triad | voice enters | mollis |
 | | 24, 27 | "Absalon" as a falling fifth, its usual contour | | mollis |
 | | 25–26 | "fili mi" sequence inverted | | mollis |
 | | 29 | | trombones take B♮ at once, stating the modulation more clearly though B♭ is allowable in naturalis | → naturalis: continuo G♯, A (ii) tonicized |
 | | 31–33 | "Absalon" falling fifth | | naturalis |
 | | 34 | | | → mollis: voice E♭ |
+| | 40, half note 2 | | fermata | cadence on G major; end of A |
+| B (sinfonia) | 41–54 | | | |
+| | 54, downbeat | | | cadence on D major |
+| A (return) | 55–78 | | | |
 | | 56–58 | "moriar" (let me die) repeated in a stepwise descending sequence | | |
 | | 57 | | | → naturalis: voice G♯, possibly produced by the sequence for the text rather than an intended modulation |
-| | 59 | | | → mollis: voice E♭ |
+| | 59, downbeat | | | → mollis: voice E♭; cadence on G minor |
+| | 66, downbeat | | | cadence on B♭ |
 | | 69 | | | → naturalis: tbn 3 G♯, A (V/V) tonicized; an intended modulation |
 | | 70–71 | "fili mi" sequence inverted | | naturalis |
-| | 75 | | | → mollis: tbn 2 E♭, mollis to the end |
+| | 75 | | | → mollis: tbn 2 E♭, mollis to the end; final cadence on G major |
+| | 75–78 | | | plagal extension |
 | | 76–77 | "Absalon" falling fifth | | mollis |
 
 ## comparison on system behavior
@@ -168,4 +178,4 @@ The modulations come from both the continuo and the solo bass. Text painting is 
 
 ## open
 
-Cadence points for Monteverdi beyond m. 83 and for Schütz, pending the scores.
+Cadence points for Monteverdi beyond m. 83, pending the score.
