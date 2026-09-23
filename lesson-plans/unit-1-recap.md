@@ -30,6 +30,8 @@ The *Lagrime* was printed in Munich in 1595 for seven voices, on stanzas by Luig
 
 The madrigals are grouped by mode: 1–4 in mode I, 5–8 in mode II, 9–12 in modes III and IV, 13–15 in mode V, 16–18 in mode VI, 19–20 in mode VII, and the closing motet outside the eight church modes. Powers's tonal plan of the cycle matches the modal grouping above. Nos. 1–4 are in the ♮ system with final D, representing mode 1, and nos. 5–8 are in the ♭ system with final G, representing mode 2. In each group the third madrigal closes a fifth above the principal final. Powers reads the modal ordering of pious cycles like this one as an expression of Counter-Reformation lay piety (Powers, 446–48). "Il magnanimo Pietro" opens the mode 1 group.
 
+The Counter-Reformation is the Catholic Church's response to the Protestant Reformation that followed Luther's Ninety-Five Theses of 1517. Its center is the Council of Trent (1545–1563), which restated Catholic doctrine against the Protestant positions and reformed clerical discipline and the liturgy. The Council took up sacred music in its 1562 sessions, with concern for the intelligibility of the text and the exclusion of secular material from the Mass. The lay piety Powers names is devotion practiced by laypeople outside the liturgy, which the Counter-Reformation church encouraged. The *Lagrime*, a sacred subject in Italian madrigal form rather than liturgical music, belongs to that devotional practice.
+
 The cycle is mostly in minor modes, dark and intense. It is a deeply felt religious work, but it isn't church music. The texts are Italian rather than Latin, and the imagery is secular despite the religious subject, giving a humanist perspective on a religious event.
 
 ### no. I, "Il magnanimo Pietro"
