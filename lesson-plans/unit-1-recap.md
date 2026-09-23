@@ -53,11 +53,9 @@ Luigi Tansillo, *Le lagrime di San Pietro*, first stanza.
 
 No. I, "Il magnanimo Pietro"; cantus durus; naturalis; center D.
 
-| | |
-|---|---|
-| system | naturalis throughout, no system change; missing pitch D♯/E♭ |
-| center | D, called I for organization only, with no tonal implication; "D Dorian" names the center pitch and nothing more once the modes are this chromatic |
-| texture | unchanging; all voices sing together most of the time |
+| section | mm. | text event | texture event | system analysis |
+|---|---|---|---|---|
+| | | | unchanging; all voices sing together most of the time | naturalis throughout, no system change; missing pitch D♯/E♭; center D, called I for organization only, with no tonal implication; "D Dorian" names the center pitch and nothing more once the modes are this chromatic |
 
 ## Monteverdi, "Perché te'n fuggi, o Fillide?"
 
@@ -94,9 +92,9 @@ Alto, tenor, bass, and continuo; cantus durus; center A.
 
 Monteverdi builds the form from the text, changing texture with each phrase and introducing a new technique to serve each phrase's meaning. The canonic devices follow the meaning of the text rather than its repetition. No B♭ or D♯ appears before m. 71, so the system can't be fixed as naturalis or durus until then.
 
-| section | mm. | text | texture and motive | system |
+| section | mm. | text event | texture event | system analysis |
 |---|---|---|---|---|
-| A | 1–20 | why do you run away, o Phyllis? | voices enter and leave in canon, repeating the phrase, as if chasing Phyllis and obsessing over her; stepwise ascending sequence from m. 15 for the urgency | naturalis or durus, undetermined |
+| A | 1–20 | why do you run away, o Phyllis?; stepwise ascending sequence from m. 15 for the urgency | voices enter and leave in canon, repeating the phrase, as if chasing Phyllis and obsessing over her | naturalis or durus, undetermined |
 | B | 21–33 | b1: alas, I pray thee, Phyllis, listen to me; b2: and turn your lovely eyes upon me | new texture | undetermined |
 | C | 33–42 | I am no wild beast, nor ugly snake | new texture | undetermined |
 | D | 43–51 | Aminta am I, even if thin and pale | new texture | undetermined |
@@ -133,22 +131,22 @@ Cantus mollis; mollis; center G, dorian.
 
 The modulations come from both the continuo and the solo bass. Text painting is more deliberate here than in the other works. The poem is short, and Schütz repeats its words in short melodic sequences, shifting the intervals. The instrumental sinfonias are highly canonic.
 
-| mm. | system | events |
-|---|---|---|
-| 1–21 | mollis | sinfonia in canon: tbns 1 and 2 at the unison three notes apart (m. 1), tbn 4 an octave below (m. 4), tbn 3 at the fifth (m. 5), and so on |
-| 22 | mollis | voice enters, "fili mi" (my son): major, augmented, then minor triad |
-| 24, 27 | mollis | "Absalon" as a falling fifth, its usual contour |
-| 25–26 | mollis | "fili mi" sequence inverted |
-| 29 | → naturalis | continuo G♯, A (ii) tonicized; the trombones take B♮ at once, stating the modulation more clearly though B♭ is allowable in naturalis |
-| 31–33 | naturalis | "Absalon" falling fifth |
-| 34 | → mollis | voice E♭ |
-| 56–58 | | "moriar" (let me die) repeated in a stepwise descending sequence |
-| 57 | → naturalis | voice G♯, possibly produced by the sequence for the text rather than an intended modulation |
-| 59 | → mollis | voice E♭ |
-| 69 | → naturalis | tbn 3 G♯, A (V/V) tonicized; an intended modulation |
-| 70–71 | naturalis | "fili mi" sequence inverted |
-| 75 | → mollis | tbn 2 E♭, mollis to the end |
-| 76–77 | mollis | "Absalon" falling fifth |
+| section | mm. | text event | texture event | system analysis |
+|---|---|---|---|---|
+| sinfonia | 1–21 | | canon: tbns 1 and 2 at the unison three notes apart (m. 1), tbn 4 an octave below (m. 4), tbn 3 at the fifth (m. 5), and so on | mollis |
+| | 22 | "fili mi" (my son): major, augmented, then minor triad | voice enters | mollis |
+| | 24, 27 | "Absalon" as a falling fifth, its usual contour | | mollis |
+| | 25–26 | "fili mi" sequence inverted | | mollis |
+| | 29 | | trombones take B♮ at once, stating the modulation more clearly though B♭ is allowable in naturalis | → naturalis: continuo G♯, A (ii) tonicized |
+| | 31–33 | "Absalon" falling fifth | | naturalis |
+| | 34 | | | → mollis: voice E♭ |
+| | 56–58 | "moriar" (let me die) repeated in a stepwise descending sequence | | |
+| | 57 | | | → naturalis: voice G♯, possibly produced by the sequence for the text rather than an intended modulation |
+| | 59 | | | → mollis: voice E♭ |
+| | 69 | | | → naturalis: tbn 3 G♯, A (V/V) tonicized; an intended modulation |
+| | 70–71 | "fili mi" sequence inverted | | naturalis |
+| | 75 | | | → mollis: tbn 2 E♭, mollis to the end |
+| | 76–77 | "Absalon" falling fifth | | mollis |
 
 ## comparison on system behavior
 
