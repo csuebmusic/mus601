@@ -34,9 +34,24 @@ The Counter-Reformation is the Catholic Church's response to the Protestant Refo
 
 The cycle is mostly in minor modes, dark and intense. It is a deeply felt religious work, but it isn't church music. The texts are Italian rather than Latin, and the imagery is secular despite the religious subject, giving a humanist perspective on a religious event.
 
-### no. I, "Il magnanimo Pietro"
+### text
 
-No. I; cantus durus; naturalis; center D.
+| original | translation |
+|---|---|
+| Il magnanimo Pietro, che giurato | Magnanimous Peter, who had sworn |
+| Havea tra mille lancie, e mille spade | among a thousand lances and a thousand swords |
+| Al suo caro Signor morir à lato, | to die at his dear Lord's side, |
+| Poi che s'accorse vinto da viltade | when he saw that, overcome by cowardice, |
+| Nel gran bisogno haver di fe mancato, | he had failed in faith in the hour of great need, |
+| Il dolor, la vergogna, e la pietade | the grief, the shame, and the pity |
+| Del proprio fallo, e de l'altrui martiro | for his own failing and for another's torment |
+| Di mille punte il petto gli feriro. | struck his breast with a thousand points. |
+
+Luigi Tansillo, *Le lagrime di San Pietro*, first stanza.
+
+### chart
+
+No. I, "Il magnanimo Pietro"; cantus durus; naturalis; center D.
 
 | | |
 |---|---|
@@ -44,21 +59,36 @@ No. I; cantus durus; naturalis; center D.
 | center | D, called I for organization only, with no tonal implication; "D Dorian" names the center pitch and nothing more once the modes are this chromatic |
 | texture | unchanging; all voices sing together most of the time |
 
-### no. V, "Giovane donna"
-
-No. V, not on this year's prompt; cantus mollis; mollis; center G, hypodorian.
-
-| | |
-|---|---|
-| system | mollis throughout, no system change; missing pitch G♯/A♭ |
-| texture | two groups, high and low, in question and answer, drawing closer until m. 26 ("a hundred years, and a hundred"), where all join for the final verses |
-| canon | mm. 27–30, "as he heard": the voices repeat a short motive one after another, an echo in his head |
-
 ## Monteverdi, "Perché te'n fuggi, o Fillide?"
 
 The madrigal holds a special place in the career of Claudio Monteverdi (1567–1643). His madrigals made the stylistic transition toward voices accompanied by instruments, introducing a concertato idiom alongside the older imitative polyphony. In his books of madrigals, including the eighth, which contains "Perché te'n fuggi, o Fillide?", the free use of chromaticism and dissonance shows Monteverdi and his contemporaries moving quickly and with assurance toward a new idiom.
 
 Monteverdi's eighth book is the *Madrigali guerrieri et amorosi* (Venice, 1638). Burnett's 1999 article on hexachord modulation claims that most of Monteverdi's madrigals unfold eleven pitch classes, that sectional divisions in the longer ones separate eleven-note gamuts, and that each gamut omits pc 3 (Burnett and Nitzberg, 19n13). "Perché te'n fuggi" tests that claim.
+
+### text
+
+| original | translation |
+|---|---|
+| Perché t'en fuggi, o Fillide, | Why do you flee, o Phyllis, |
+| Perché t'en fuggi? | why do you flee? |
+| Ohimè, deh Filli, ascoltami, | Alas, ah Phyllis, listen to me, |
+| E quei begli occhi voltami! | and turn those lovely eyes on me! |
+| Già belva non son io, né serpe squallido, | I am no wild beast, nor a squalid serpent; |
+| Aminta io son, se ben son magro e pallido. | I am Aminta, though I am thin and pale. |
+| Queste mie calde lacrime, | These hot tears of mine, |
+| Che da quest'occhi ogn'hor si veggon piovere, | which are seen raining from these eyes every hour, |
+| Han forza di commovere | have the power to move |
+| Ogni più duro cor spietato e rigido, | every hardest heart, pitiless and rigid, |
+| Ma 'l tuo non già, ch'è più d'un giaccio frigido. | but not yours, which is colder than ice. |
+| Mentre spargendo indarno a l'aura | While, scattering to the breeze in vain |
+| Pianti e lamenti, indarno il cor distruggesi, | tears and laments, the heart destroys itself in vain, |
+| Filli più ratta fuggesi, | Phyllis flees all the faster, |
+| Né i sospir che dal cor sì dolenti escono, | and neither the sighs that rise so sorrowfully from the heart, |
+| Non voci o prieghi, i piè fugaci arrestano. | nor voices nor prayers, halt her fleeing feet. |
+
+Three stanzas: lines 1–6 are the first verse (sections A–D), lines 7–11 the second (E–F), lines 12–16 the third (G).
+
+### chart
 
 Alto, tenor, bass, and continuo; cantus durus; center A.
 
@@ -87,6 +117,18 @@ Heinrich Schütz (1585–1672) went to Venice in 1609 to study with Giovanni Gab
 
 Schütz returned to Venice in 1628–29, when Monteverdi had been maestro di cappella at San Marco since 1613. *Symphoniae sacrae I* was printed there in 1629. Its preface acknowledges his debt to Gabrieli and reports that he found the manner of composition changed since his first stay, with the old modes partly set aside. "Fili mi, Absalon," SWV 269, for solo bass, four trombones, and continuo, sets David's lament for Absalom, the lament of the "Absalon, fili mi" from week 2.
 
+### text
+
+| original | translation |
+|---|---|
+| Fili mi, Absalon, fili mi Absalon. | My son, Absalom, my son Absalom. |
+| Quis mihi tribuat ut ego moriar pro te, | Who will grant me that I might die for you, |
+| Absalon fili mi, fili mi. | Absalom my son, my son. |
+
+2 Samuel 18:33.
+
+### chart
+
 Cantus mollis; mollis; center G, dorian.
 
 The modulations come from both the continuo and the solo bass. Text painting is more deliberate here than in the other works. The poem is short, and Schütz repeats its words in short melodic sequences, shifting the intervals. The instrumental sinfonias are highly canonic.
@@ -112,7 +154,7 @@ The modulations come from both the continuo and the solo bass. Text painting is 
 
 | work | systems | shifts | at mm. |
 |---|---|---|---|
-| Lasso, I and V | naturalis (I), mollis (V) | 0 | |
+| Lasso | naturalis | 0 | |
 | Monteverdi | undetermined, then durus, 2♯, durus, naturalis | 4 | 71, 79, 85, 135 |
 | Schütz | mollis ↔ naturalis | 6 | 29, 34, 57, 59, 69, 75 |
 
