@@ -602,7 +602,7 @@ Four compatible uses, one term. Worth putting on the board in Week 2.
 
 **Convergence at Paper 1**
 
-Powers's table of *Lagrime di San Pietro* gives madrigals 1 to 4 as ♮-c1-D representing mode 1, and 5 to 8 as ♭-c1-G representing mode 2. Paper 1 takes no. I, from the first block: naturalis in Burnett's terms, cantus durus in Powers's. Two frameworks, one observation, and different claims about what the observation means. The Monteverdi and the Schütz supply the mollis side of the comparison.
+Powers's table of *Lagrime di San Pietro* gives madrigals 1 to 4 as ♮-c1-D representing mode 1, and 5 to 8 as ♭-c1-G representing mode 2. Paper 1 takes no. I, from the first block: naturalis in Burnett's terms, cantus durus in Powers's. Two frameworks, one observation, and different claims about what the observation means. The Schütz supplies the mollis side of the comparison. The Monteverdi keeps the cantus durus signature and reaches the durus system.
 
 **Fuller, Schubert, and the analytical questions**
 
