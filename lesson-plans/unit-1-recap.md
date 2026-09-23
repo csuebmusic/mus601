@@ -175,7 +175,3 @@ The modulations come from both the continuo and the solo bass. Text painting is 
 | Lasso | naturalis | 0 | |
 | Monteverdi | undetermined, then durus, 2♯, durus, naturalis | 4 | 71, 79, 85, 135 |
 | Schütz | mollis ↔ naturalis | 6 | 29, 34, 57, 59, 69, 75 |
-
-## open
-
-Cadence points for Monteverdi sections A–F, pending the score.
