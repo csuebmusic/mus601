@@ -4,7 +4,9 @@ Instructor-facing. The lesson plan for the Paper 1 meeting, September 22, in the
 
 ## context
 
-During the first half of the sixteenth century the dominant Franco-Flemish style changed a great deal, in part through the rise of national styles across the continent. The change was most visible in Italy, through the careers of Adrian Willaert (1490–1562) and his circle in Venice (Grout and Palisca, 181–84). Burnett and Nitzberg date the composers' investigation of chromaticism for emotionally charged poetry to Willaert in Venice in the 1530s (41).
+During the first half of the sixteenth century the dominant Franco-Flemish style changed a great deal, in part through the rise of national styles across the continent. The change was most visible in Italy, through the careers of Adrian Willaert (1490–1562) and his circle in Venice (Grout and Palisca, 181–84).
+
+Burnett and Nitzberg date the composers' investigation of chromaticism for emotionally charged poetry to Willaert in Venice in the 1530s. By their account the choice of accidentals extended past B♭ and E♭ in the flat direction and past G♯ to D♯ in the sharp direction. Signatures, however, stayed in cantus durus, cantus mollis, or more rarely two flats, into the first half of the seventeenth century, and sharp signatures appear only in the 1640s (41). All three works tonight keep a durus or mollis signature whatever system the music reaches.
 
 The sixteenth-century madrigal, which Grout and Palisca treat as the leading genre of Italian secular music in the period, made Italy, and Venice in particular, a center of European music. It differs from the strophic song of the trecento, largely in response to a new poetry, more elevated and serious. Led by Cardinal Pietro Bembo, poets, readers, and musicians returned to Petrarch (1304–1374) and to the sentimental and erotic ideals of his verse (Grout and Palisca, 185). That poetry pushed composers to treat the verse more freely, with new homophonic and contrapuntal textures, and to match its seriousness, nobility, and artfulness. The more adventurous composers began to explore the chromatic scale, partly for new means of expressing the texts and partly to revive the Greek genera, which were held in high regard.
 
@@ -12,7 +14,7 @@ The modal system was moving toward something else. The three pieces tonight sit 
 
 ## the system
 
-All three pieces base their harmony on the chromatically extended modal system. A central hexachord reordered in fifths gives the triads, each taking a major or minor third, with ficta leading tones to each note of the hexachord. The dominant hexachord (up a fifth) and the subdominant hexachord (down a fifth) complete the triads. The total is eleven pitch classes, and the one missing pitch, when used, moves the system up or down a fifth. Durus and naturalis share the cantus durus signature and are told apart only by the pitches in use.
+The chromatically extended modal system, as the 2007 paper lays it out: a central hexachord reordered in fifths gives the triads, each taking a major or minor third, with ficta leading tones to each note of the hexachord. The dominant hexachord (up a fifth) and the subdominant hexachord (down a fifth) complete the triads. The total is eleven pitch classes, and the one missing pitch, when used, moves the system up or down a fifth. Durus and naturalis share the cantus durus signature and are told apart only by the pitches in use.
 
 | system | root | central hexachord in fifths | ficta | missing pitch |
 |---|---|---|---|---|
@@ -23,35 +25,41 @@ All three pieces base their harmony on the chromatically extended modal system. 
 
 The first three rows are the 2007 paper's diagrams. The 2♯ row follows Burnett and Nitzberg.
 
-By Burnett and Nitzberg's account the choice of accidentals extended past B♭ and E♭ in the flat direction and past G♯ to D♯ in the sharp direction, but signatures stayed in cantus durus, cantus mollis, or more rarely two flats, into the first half of the seventeenth century, and sharp signatures appear only in the 1640s (41). All three works tonight keep a durus or mollis signature whatever system the music reaches.
-
 ## Lasso, *Lagrime di San Pietro*
 
-Orlando di Lasso (1532–1594) finished the *Lagrime di San Pietro* at the end of his life, a decade before the controversy over Monteverdi's seconda pratica. It was printed in Munich in 1595 for seven voices, on stanzas by Luigi Tansillo. Its twenty-one religious madrigals are meant to be performed in succession, since the cycle has a theme and a progression. The first twelve deal with Peter's denial of Christ, seen through the eyes of the poet. Madrigals thirteen to twenty are seen mainly through Peter's eyes: realizing his error and distraught with grief, he flees Christ's presence and rages at his own existence. The last piece is a plaint of Christ on the cross. Unlike the first twenty, which are in Italian, its text is in Latin, and it may be by Lasso himself.
+Orlando di Lasso (1532–1594) finished the *Lagrime di San Pietro* at the end of his life, a decade before the controversy over Monteverdi's seconda pratica. Its twenty-one religious madrigals are meant to be performed in succession, since the cycle has a theme and a progression. The first twelve deal with Peter's denial of Christ, seen through the eyes of the poet. Madrigals thirteen to twenty are seen mainly through Peter's eyes: realizing his error and distraught with grief, he flees Christ's presence and rages at his own existence. The last piece is a plaint of Christ on the cross. Unlike the first twenty, which are in Italian, its text is in Latin, and it may be by Lasso himself.
 
-The madrigals are grouped by mode: 1–4 in mode I, 5–8 in mode II, 9–12 in modes III and IV, 13–15 in mode V, 16–18 in mode VI, 19–20 in mode VII, and the closing motet outside the eight church modes. Powers's tonal plan of the cycle matches the grouping. Nos. 1–4 are in the ♮ system with final D, representing mode 1, and nos. 5–8 are in the ♭ system with final G, representing mode 2. In each group the third madrigal closes a fifth above the principal final. Powers reads the modal ordering of pious cycles like this one as an expression of Counter-Reformation lay piety (Powers, 446–48). "Il magnanimo Pietro" opens the mode 1 group.
+The *Lagrime* was printed in Munich in 1595 for seven voices, on stanzas by Luigi Tansillo.
+
+The madrigals are grouped by mode: 1–4 in mode I, 5–8 in mode II, 9–12 in modes III and IV, 13–15 in mode V, 16–18 in mode VI, 19–20 in mode VII, and the closing motet outside the eight church modes. Powers's tonal plan of the cycle matches the modal grouping above. Nos. 1–4 are in the ♮ system with final D, representing mode 1, and nos. 5–8 are in the ♭ system with final G, representing mode 2. In each group the third madrigal closes a fifth above the principal final. Powers reads the modal ordering of pious cycles like this one as an expression of Counter-Reformation lay piety (Powers, 446–48). "Il magnanimo Pietro" opens the mode 1 group.
 
 The cycle is mostly in minor modes, dark and intense. It is a deeply felt religious work, but it isn't church music. The texts are Italian rather than Latin, and the imagery is secular despite the religious subject, giving a humanist perspective on a religious event.
 
 ### no. I, "Il magnanimo Pietro"
 
-Cantus durus; naturalis; center D.
+No. I; cantus durus; naturalis; center D.
 
+| | |
+|---|---|
 | system | naturalis throughout, no system change; missing pitch D♯/E♭ |
 | center | D, called I for organization only, with no tonal implication; "D Dorian" names the center pitch and nothing more once the modes are this chromatic |
 | texture | unchanging; all voices sing together most of the time |
 
 ### no. V, "Giovane donna"
 
-Not on this year's prompt. Cantus mollis; mollis; center G, hypodorian.
+No. V, not on this year's prompt; cantus mollis; mollis; center G, hypodorian.
 
+| | |
+|---|---|
 | system | mollis throughout, no system change; missing pitch G♯/A♭ |
 | texture | two groups, high and low, in question and answer, drawing closer until m. 26 ("a hundred years, and a hundred"), where all join for the final verses |
 | canon | mm. 27–30, "as he heard": the voices repeat a short motive one after another, an echo in his head |
 
 ## Monteverdi, "Perché te'n fuggi, o Fillide?"
 
-The madrigal holds a special place in the career of Claudio Monteverdi (1567–1643). His madrigals made the stylistic transition toward voices accompanied by instruments, introducing a concertato idiom alongside the older imitative polyphony. In his books of madrigals, including the eighth, the *Madrigali guerrieri et amorosi* (Venice, 1638), the free use of chromaticism and dissonance shows Monteverdi and his contemporaries moving quickly and with assurance toward a new idiom. Burnett's 1999 article on hexachord modulation claims that most of Monteverdi's madrigals unfold eleven pitch classes, that sectional divisions in the longer ones separate eleven-note gamuts, and that each gamut omits pc 3 (Burnett and Nitzberg, 19n13). "Perché te'n fuggi" tests that claim.
+The madrigal holds a special place in the career of Claudio Monteverdi (1567–1643). His madrigals made the stylistic transition toward voices accompanied by instruments, introducing a concertato idiom alongside the older imitative polyphony. In his books of madrigals, including the eighth, which contains "Perché te'n fuggi, o Fillide?", the free use of chromaticism and dissonance shows Monteverdi and his contemporaries moving quickly and with assurance toward a new idiom.
+
+Monteverdi's eighth book is the *Madrigali guerrieri et amorosi* (Venice, 1638). Burnett's 1999 article on hexachord modulation claims that most of Monteverdi's madrigals unfold eleven pitch classes, that sectional divisions in the longer ones separate eleven-note gamuts, and that each gamut omits pc 3 (Burnett and Nitzberg, 19n13). "Perché te'n fuggi" tests that claim.
 
 Alto, tenor, bass, and continuo; cantus durus; center A.
 
@@ -76,9 +84,11 @@ Section G:
 
 ## Schütz, "Fili mi, Absalon"
 
-Heinrich Schütz (1585–1672) went to Venice in 1609 to study with Giovanni Gabrieli, and returned in 1628–29, when Monteverdi had been maestro di cappella at San Marco since 1613. *Symphoniae sacrae I* was printed there in 1629. Its preface acknowledges his debt to Gabrieli and reports that he found the manner of composition changed since his first stay, with the old modes partly set aside. "Fili mi, Absalon," SWV 269, is a sacred concerto that fuses the older imitative polyphony with the newer concertato style. It sets David's lament for Absalom, the lament of the "Absalon, fili mi" from week 2.
+Heinrich Schütz (1585–1672) went to Venice in 1609 to study with Giovanni Gabrieli. "Fili mi, Absalon" is a sacred concerto that fuses the older imitative polyphony with the newer concertato style.
 
-Solo bass, four trombones, and continuo; cantus mollis; mollis; center G, dorian.
+Schütz returned to Venice in 1628–29, when Monteverdi had been maestro di cappella at San Marco since 1613. *Symphoniae sacrae I* was printed there in 1629. Its preface acknowledges his debt to Gabrieli and reports that he found the manner of composition changed since his first stay, with the old modes partly set aside. "Fili mi, Absalon," SWV 269, for solo bass, four trombones, and continuo, sets David's lament for Absalom, the lament of the "Absalon, fili mi" from week 2.
+
+Cantus mollis; mollis; center G, dorian.
 
 The modulations come from both the continuo and the solo bass. Text painting is more deliberate here than in the other works. The poem is short, and Schütz repeats its words in short melodic sequences, shifting the intervals. The instrumental sinfonias are highly canonic.
 
