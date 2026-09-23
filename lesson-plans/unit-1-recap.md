@@ -100,19 +100,19 @@ Three stanzas: lines 1–6 are the first verse (sections A–D), lines 7–11 th
 
 ### chart
 
-Alto, tenor, bass, and continuo; cantus durus; center A.
+Alto, tenor, bass, and continuo; cantus durus; center A. Three half notes to the measure.
 
 Monteverdi builds the form from the text, changing texture with each phrase and introducing a new technique to serve each phrase's meaning. The canonic devices follow the meaning of the text rather than its repetition. No B♭ or D♯ appears before m. 71, so the system can't be fixed as naturalis or durus until then.
 
 | section | mm. | text event | texture event | system analysis |
 |---|---|---|---|---|
-| A | 1–20 | why do you run away, o Phyllis?; stepwise ascending sequence from m. 15 for the urgency | voices enter and leave in canon, repeating the phrase, as if chasing Phyllis and obsessing over her | naturalis or durus, undetermined |
-| B | 21–33 | b1: alas, I pray thee, Phyllis, listen to me; b2: and turn your lovely eyes upon me | new texture | undetermined |
-| C | 33–42 | I am no wild beast, nor ugly snake | new texture | undetermined |
-| D | 43–51 | Aminta am I, even if thin and pale | new texture | undetermined |
-| E | 52–70 | second verse | textures change less rapidly; m. 52 tenor declamation, in the manner of later recitative | undetermined |
-| F | 70–82 | second verse | | m. 71 tenor D♯ → durus, E (V) strongly tonicized; m. 79 tenor A♯ → 2♯, B (V/V) tonicized, preparing the cadence on V |
-| G | 83–142 | third verse | two textures alternate to the end (below); a is a duet over a harmonically supporting bass; b returns A and rounds the form | m. 83 cadence on V (E), and no strong cadences after it; m. 85 bass leaps a fifth to F♮ → durus; m. 135 tenor B♭, the only B♭ in the piece → naturalis to the end |
+| A | 1–20 | why do you run away, o Phyllis?; stepwise ascending sequence from m. 15 for the urgency | voices enter and leave in canon, repeating the phrase, as if chasing Phyllis and obsessing over her | naturalis or durus, undetermined; m. 20 cadence on C |
+| B | 21–33 | b1: alas, I pray thee, Phyllis, listen to me; b2: and turn your lovely eyes upon me | new texture | undetermined; m. 27 downbeat cadence on A minor; m. 33 downbeat cadence on E |
+| C | 33–42 | I am no wild beast, nor ugly snake | new texture | undetermined; m. 42 downbeat cadence on C |
+| D | 43–51 | Aminta am I, even if thin and pale | new texture | undetermined; m. 51 downbeat cadence on A minor |
+| E | 52–70 | second verse | textures change less rapidly; m. 52 tenor declamation, in the manner of later recitative | undetermined; m. 69 downbeat Phrygian cadence on E |
+| F | 70–82 | second verse | | m. 71 tenor D♯ → durus, E (V) strongly tonicized; m. 79 tenor A♯ → 2♯, B (V/V) tonicized, preparing the cadence on V; m. 82 downbeat cadence on E major (V), which opens G |
+| G | 82–142 | third verse | two textures alternate to the end (below); a is a duet over a harmonically supporting bass; b returns A and rounds the form | no strong cadences before the final one; m. 85 bass leaps a fifth to F♮ → durus; m. 135 tenor B♭, the only B♭ in the piece → naturalis to the end; m. 142 half note 3 final cadence on A |
 
 Section G:
 
