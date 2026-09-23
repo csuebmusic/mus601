@@ -21,9 +21,6 @@ The chromatically extended modal system, as the 2007 paper lays it out: a centra
 | mollis (1♭) | F | B♭–F–C–g–d–a | E♮, B♮, F♯, C♯ | G♯/A♭ |
 | naturalis (0) | C | F–C–G–d–a–e | B♭, F♯, C♯, G♯ | D♯/E♭ |
 | durus (1♯) | G | C–G–D–a–e–b | F♯, C♯, G♯, D♯ | A♯/B♭ |
-| 2♯ | D | | | E♯/F |
-
-The first three rows are the 2007 paper's diagrams. The 2♯ row follows Burnett and Nitzberg.
 
 ## Lasso, *Lagrime di San Pietro*
 
