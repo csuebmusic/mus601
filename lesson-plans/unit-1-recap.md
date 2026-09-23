@@ -110,7 +110,7 @@ Monteverdi builds the form from the text, changing texture with each phrase and 
 | D | 43–51 | Aminta am I, even if thin and pale | new texture | undetermined |
 | E | 52–70 | second verse | textures change less rapidly; m. 52 tenor declamation, in the manner of later recitative | undetermined |
 | F | 70–82 | second verse | | m. 71 tenor D♯ → durus, E (V) strongly tonicized; m. 79 tenor A♯ → 2♯, B (V/V) tonicized, preparing the cadence on V |
-| G | 83–142 | third verse | two textures alternate to the end (below); a is a duet over a harmonically supporting bass; b returns A and rounds the form | m. 83 cadence on V (E); m. 85 bass leaps a fifth to F♮ → durus; m. 135 tenor B♭, the only B♭ in the piece → naturalis to the end |
+| G | 83–142 | third verse | two textures alternate to the end (below); a is a duet over a harmonically supporting bass; b returns A and rounds the form | m. 83 cadence on V (E), and no strong cadences after it; m. 85 bass leaps a fifth to F♮ → durus; m. 135 tenor B♭, the only B♭ in the piece → naturalis to the end |
 
 Section G:
 
@@ -178,4 +178,4 @@ The modulations come from both the continuo and the solo bass. Text painting is 
 
 ## open
 
-Cadence points for Monteverdi beyond m. 83, pending the score.
+Cadence points for Monteverdi sections A–F, pending the score.
