@@ -4,62 +4,20 @@ Course materials for MUS 601 at California State University, East Bay. A graduat
 
 Instructor: Inés Thiebaut, ines.thiebaut@csueastbay.edu. Office hours Wednesdays 1:00 to 3:00 pm in MB 2012.
 
-## student-facing pages
+## syllabus
 
-Live links, for Canvas.
+Live link, for Canvas.
 
-**syllabus**
 https://csuebmusic.github.io/mus601/syllabus.html
 Course information, important dates, the catalog description and learning outcomes, assessment and the grade scale, the analytical papers and their specifications, the AI policy, the week-by-week schedule with readings and directed questions, policies, and the campus statements.
 
-**unit pages**
-https://csuebmusic.github.io/mus601/units/unit-1.html
-https://csuebmusic.github.io/mus601/units/unit-2.html
-https://csuebmusic.github.io/mus601/units/unit-3.html
-https://csuebmusic.github.io/mus601/units/unit-4.html
-One page per unit, for the Canvas modules. The unit's selected bibliography, its weeks with the works studied in each, and its papers with their directed questions.
-
-**source work**
-https://csuebmusic.github.io/mus601/research/source-work.html
-The research tools and how to search each one, with the links that reach them. Which score to analyze from and which edition to cite. What each paper needs in sources and which tool it introduces. What a source has to do in an argument, and the Chicago notes-bibliography forms for scores, editions, articles, chapters, books, reference entries, and dissertations.
-
-**1. scalar and modal theory in the eleventh century**
-https://csuebmusic.github.io/mus601/tools/gamut-layers.html
-One pitch field (gamut) with three divisions laid over it: the seven hexachords in their three species, each on its own line with its syllables; the tetrachords of the South German school; and the eight modal octaves with their species of fifth and fourth. Select a mode to see which hexachords its octave crosses and where they overlap. Click a note to read its voces down the column.
-
-**2. the four categories of mode and the species of the fourth and fifth**
-https://csuebmusic.github.io/mus601/tools/modal-species.html
-Eleventh-century modal theory in the South German writers. The three species of fourth and the four species of fifth with their intervallic patterns, the four categories of mode with their finals, the authentic and plagal ambitus of each, the eight modal octaves as a diagram and in notation, the tetrardus exception, and the two divisions of the octave D to d. Prints to PDF from the page.
-
-**3. affinities, cofinals, and transposition**
-https://csuebmusic.github.io/mus601/tools/affinities.html
-What the modes were for, Guido's qualities and modi vocum, the affinities among A, D, and a and their two companion sets, the cofinals as alternative endings for chant, transposition at the upper fifth and transformation at the upper fourth, and which species survive each. Prints to PDF from the page.
-
-**4. the three-hexachord system**
-https://csuebmusic.github.io/mus601/tools/systems.html
-The sixteenth-century gamut system after Burnett and Nitzberg. Pick a signature from 4♭ to 2♯ and the board gives the system's subdominant, central, and dominant hexachords, the central hexachord reordered as fifths for the roots available to the piece, and the missing pitch class with the system modulation each spelling produces.
-
-**5. eight modes become twelve**
-https://csuebmusic.github.io/mus601/tools/twelve-modes.html
-The twelve modes with their finals and ambitus, switchable between Glarean's numbering as Zarlino took it up in 1558 and Zarlino's renumbering of 1571. The four new modes are marked, with the cofinal each comes from.
-
-**tuning and temperament, 1482 to 1691**
-https://csuebmusic.github.io/mus601/tools/tuning.html
-Seven keyboard tunings on one circle of fifths: Pythagorean after Burzio, Ramis, Zarlino's 2/7-comma, quarter-comma and 1/3-comma meantone, equal temperament, and Werckmeister III. For each, the size of every fifth and major third in cents, with any fifth, third, or major triad playable against its pure form. The syntonic and ditonic commas, the seven tunings with their sources, and the raised keys of the meantone keyboard set against the naturalis and mollis systems.
-
-## repository
-
-```
-assets/       stylesheet and self-hosted fonts
-research/     the source work and citation handout
-units/        one page per unit, for the Canvas modules, and the reading synthesis for each
-tools/        interactive analytical tools and handouts
-meta/         instructor notes and conventions
-outline.md    the schedule at a glance
-```
-
-Pages are hand-authored HTML on `assets/style.css`, self-contained and viewable in any browser with no build step. GitHub Pages serves them through the Actions workflow. Markdown is the instructor's.
-
 Two units, two contact hours a week, in-person, graded A to F. The syllabus gives the current term's dates, meeting time, and logistics.
 
-Text set in IBM Plex, under the SIL Open Font License.
+## in this repository
+
+- [units/](units/): one page per unit, for the Canvas modules
+- [tools/](tools/): interactive analytical tools and handouts
+- [research/](research/): the source work and citation handout
+- [lesson-plans/](lesson-plans/): lesson plans and reading syntheses, the instructor's
+- [meta/](meta/): instructor notes and conventions
+- [outline.md](outline.md): the schedule at a glance, the instructor's
