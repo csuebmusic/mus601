@@ -51,11 +51,21 @@ Luigi Tansillo, *Le lagrime di San Pietro*, first stanza.
 
 ### chart
 
-No. I, "Il magnanimo Pietro"; cantus durus; naturalis; center D.
+No. I, "Il magnanimo Pietro"; cantus durus; naturalis; center D. Four half notes to the measure (2 + 2).
 
 | section | mm. | text event | texture event | system analysis |
 |---|---|---|---|---|
-| | | | unchanging; all voices sing together most of the time | naturalis throughout, no system change; missing pitch D♯/E♭; center D, called I for organization only, with no tonal implication; "D Dorian" names the center pitch and nothing more once the modes are this chromatic |
+| | 1–33 | | unchanging; all voices sing together most of the time | naturalis throughout, no system change; missing pitch D♯/E♭; center D, called I for organization only, with no tonal implication; "D Dorian" names the center pitch and nothing more once the modes are this chromatic |
+| first half | 1–11 | | | strong cadences |
+| | 4, half note 3 | | | cadence on D |
+| | 6, half note 4 | | | cadence on A |
+| | 11, half note 3 | | | cadence on D |
+| second half | 12–33 | | | a series of elisions without clear cadences |
+| | 14, downbeat | | | arrival on A |
+| | 17, downbeat | | | arrival on D |
+| | 22, half note 3 | | | Phrygian half cadence on A |
+| | 27, downbeat | | | arrival on F |
+| | 33, downbeat | | | final cadence on D |
 
 ## Monteverdi, "Perché te'n fuggi, o Fillide?"
 
@@ -158,4 +168,4 @@ The modulations come from both the continuo and the solo bass. Text painting is 
 
 ## open
 
-Cadence points beyond Monteverdi m. 83, pending the three scores.
+Cadence points for Monteverdi beyond m. 83 and for Schütz, pending the scores.
