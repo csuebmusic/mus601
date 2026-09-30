@@ -70,12 +70,11 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Burnett reads the minor as unstable, a rotation on *la* that seeks its relative major (p. 129).
 - Hyer: one sonority under several Roman numerals is Weber's *Mehrdeutigkeit* (p. 735).
 
-## 5. the second half of the seventeenth century: sonata da chiesa
+## 5. the second half of the seventeenth century: the sonata
 
 **From the notes**
 
 - A trend toward clarity. "Sonata" means works for instruments.
-- Sonata da chiesa. Most common instrumentation two instruments and continuo, though flexible. Form: a series of short contrasting sections, in texture, harmony, rhythm, and tempo.
 - No text means a lack of form. No text also means no text painting, so no need for excessive chromaticism.
 - Tonality as the solution, in two ways: a large-scale harmonic plan, and local continuity through progressions.
 
@@ -84,7 +83,6 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Burnett: north Italian composers in Rome, Venice, and Bologna standardize an instrumental style in the 1670s and 1680s (p. 89).
 - Without a text, movements stayed short and harmonically limited (pp. 89–90). Sonata composers "had to create their own forms as they proceeded without the benefits of preconceived structures based on poetic schemes," and relied on imitation and Fortspinnung (pp. 107–8).
 - Burnett's source for the solution is the opera aria of the 1670s and 1680s, not the ensemble sonata: aria forms needed harmonic direction to articulate their divisions (p. 107). Composers who wrote both, Stradella and Legrenzi among them, could carry the aria's tonal direction into the sonata (p. 108).
-- Dance rhythms permeate church-sonata movements that aren't labeled as dances (p. 92, citing McCrickard on Stradella).
 - Hyer's two scales: local gravitational momentum in French Baroque practice as Rameau theorized it, against the large-scale progressions of Classical music (p. 740). The notes' plan and continuity are these two.
 - Hyer: almost all tonal music before Liszt was written without the concept of tonality (p. 746). "Tonality as the solution" is a retrospective frame.
 
@@ -131,16 +129,18 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Seconda parte: B♮ displaces B♭ at m. 53 and the mode becomes G mixolydian. Terza parte: localized fifths, D displacing G as tonic from m. 94. Burnett's Terza parte measure numbers follow the Hortus Musicus edition; check them against the Tufvesson copy (pp. 101–2).
 - Burnett uses "Fortspinnung" in two senses, the general technique here and Fischer's ritornello segment from Torelli on (p. 138). The notes use both, here and in section 9.
 
-## 8. Corelli, Op. 3 no. 2
+## 8. sonata da chiesa: Corelli, Op. 3 no. 2
 
 **From the notes**
 
+- Sonata da chiesa. Most common instrumentation two instruments and continuo, though flexible. Form: a series of short contrasting sections, in texture, harmony, rhythm, and tempo.
 - Arcangelo Corelli (1653–1713), sonata da chiesa, Op. 3 no. 2.
 - First movement: the music moves up and down the hexachord tonicizing hexachordal pitches, and the tonic is stable the whole time.
 - Third movement: modulates briefly to a new hexachord, from 2♯ (B minor) to 3♯ (F♯ minor).
 
-**From the readings (Burnett pp. 122–30)**
+**From the readings (Burnett pp. 92, 122–30)**
 
+- Dance rhythms permeate church-sonata movements that aren't labeled as dances (p. 92, citing McCrickard on Stradella).
 - The sonata's hexachord: G–D–A–e–b–[f♯], IV I V ii vi [iii]. Triad qualities are fixed, and thirds are raised only for applied dominants to V and vi (p. 123). Corelli never moves to IV as a first goal (p. 123).
 - Grave: a four-measure phrase from I to a half cadence on A over a walking bass, the violins in fourth-species suspensions; the same on V to a half cadence on E; then B minor at m. 12, the furthest point and the only minor auxiliary cadence. B minor becomes an upper neighbor to V in m. 13, which resolves to I in the same measure; coda. iii is avoided, since a cadence on F♯ minor needs E♯ and a 5♯ system (pp. 124–25).
 - This Grave is directed tonality, not stagnant: every cadence relates to the background tonic, in the order I, V, E, vi and back, "a game plan ... for large-scale tonal direction" (p. 125). Burnett keeps "stagnant tonality" for music before Corelli (pp. 92, 95). What Corelli doesn't yet do is stabilize the non-tonic areas with complete periods, which is Torelli's step (p. 133). The three stages: stagnant before Corelli, directed with Corelli, stabilized with Torelli.
