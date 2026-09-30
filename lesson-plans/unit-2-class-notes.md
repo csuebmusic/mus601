@@ -75,6 +75,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 **From the notes**
 
 - A trend toward clarity. "Sonata" means works for instruments.
+- Two kinds: the sonata da chiesa, and the sonata da camera, for secular occasions, the first movement of a set of dances.
 - No text means a lack of form. No text also means no text painting, so no need for excessive chromaticism.
 - Tonality as the solution, in two ways: a large-scale harmonic plan, and local continuity through progressions.
 
@@ -110,37 +111,36 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - The endless circle of fifths in practice: Frescobaldi's *Toccata ottava*, where the bass follows the naturalis fifths toward D minor and turns to F only in the last measure (pp. 90–91).
 - Between stagnant and directed tonality: Marini's "La Foscarina" (1617) juxtaposes areas by third, unprepared (pp. 95–97); Legrenzi's Op. 2 (1655), Burnett's "nascent tonality," still can't prolong a tonic across a movement (pp. 102–6).
 
-## 7. sonata da camera: Marini
+## 7. sonata da chiesa: Marini
 
 **From the notes**
 
-- Sonata da camera: secular occasions; the first movement of a set of dances.
+- Sonata da chiesa. Most common instrumentation two instruments and continuo, though flexible. Form: a series of short contrasting sections, in texture, harmony, rhythm, and tempo.
 - Biagio Marini (c. 1587–1663), "Sonata à basso è violino ò cornetto."
 - Baroque style: sequence ("Fortspinnung," spinning out), and irregular phrases.
 
 **From the readings (Burnett pp. 92, 98–102)**
 
+- Dance rhythms permeate church-sonata movements that aren't labeled as dances (p. 92, citing McCrickard on Stradella).
 - Op. 22 no. 1 holds both sides of the move to directed tonality. The Terza parte is the stagnant example: "no background tonic, modal or tonal, is established until the end of the movement; rather, the harmonic motion proceeds along the localized fifths of the naturalis hexachord" (p. 102), which matches the definition of stagnant tonality on p. 95. The Prima parte looks ahead: D to A (m. 12) to E (m. 17) and back through A to D, "a decidedly tonal harmonic plan" (p. 100). Burnett: the sonata "evidences modern tonal tendencies as well as more modal, conservative thinking" (p. 101). The label "stagnant" for the Terza parte is applied from his definition; he doesn't use the word for this sonata.
 - Cantus durus here is the no-flat signature, which Burnett equates with the naturalis system on C (ch. 3, p. 52; ch. 4, p. 98). The hexachord is the C hexachord, F–C–g–d–a–e in fifths (p. 100). The B♭s, consistent in the Seconda parte, are the naturalis system's allowable flat, from its subdominant (mollis) hexachord. Only E♭ would move the system to mollis, and none appears (pp. 100–101).
-- The lecture files Op. 22 no. 1 as a sonata da camera. The print is titled *diversi generi di sonate, da chiesa e da camera* (`meta/editions.md`). Burnett reads the sonata as having "the formal outlines of the sonate da chiesa of Corelli": a through-composed Prima parte, a fugal Seconda parte, and a Terza parte in triple dance meter (pp. 98, 102).
+- Op. 22 no. 1 is a sonata da chiesa, with "the formal outlines of the sonate da chiesa of Corelli": a through-composed, fantasia-like Prima parte, a fugal Seconda parte, and a Terza parte in triple dance meter (pp. 98, 102). The print, *diversi generi di sonate, da chiesa e da camera*, has both kinds (`meta/editions.md`). Burnett calls the sonata da camera, as a suite of dances, rare until Corelli's Op. 2 of 1685 (p. 92); no unit 2 score is a sonata da camera.
 - Fortspinnung has two purposes: to prolong key areas, often through sequences, with directed harmonic motion; and to make bridge material between areas. It's most effective against an established tonic (p. 98).
 - Irregular phrasing: Fortspinnungen can start anywhere, even inside the opening statement (p. 98). Marini's phrases are "short-winded and often seem to end before their time without defining the key" (p. 98). Legrenzi's are more evenly balanced (p. 106).
 - Prima parte: motives a (stable) and b (sequential), both stated unaccompanied in the bass; opening i–V6–i–VI–V to a phrygian half cadence; 5–7 sequences from b at mm. 17–19 and 24–28; background D–A (m. 12)–E (m. 17)–A–D; naturalis throughout, no E♭ or D♯. It ends on a "bifocal" D major triad that is also V of the Seconda parte in G hypodorian (pp. 99–101).
 - Seconda parte: B♮ displaces B♭ at m. 53 and the mode becomes G mixolydian. Terza parte: localized fifths, D displacing G as tonic from m. 94. Burnett's Terza parte measure numbers follow the Hortus Musicus edition; check them against the Tufvesson copy (pp. 101–2).
 - Burnett uses "Fortspinnung" in two senses, the general technique here and Fischer's ritornello segment from Torelli on (p. 138). The notes use both, here and in section 9.
 
-## 8. sonata da chiesa: Corelli, Op. 3 no. 2
+## 8. Corelli, Op. 3 no. 2
 
 **From the notes**
 
-- Sonata da chiesa. Most common instrumentation two instruments and continuo, though flexible. Form: a series of short contrasting sections, in texture, harmony, rhythm, and tempo.
 - Arcangelo Corelli (1653–1713), sonata da chiesa, Op. 3 no. 2.
 - First movement: the music moves up and down the hexachord tonicizing hexachordal pitches, and the tonic is stable the whole time.
 - Third movement: modulates briefly to a new hexachord, from 2♯ (B minor) to 3♯ (F♯ minor).
 
-**From the readings (Burnett pp. 92, 122–30)**
+**From the readings (Burnett pp. 122–30)**
 
-- Dance rhythms permeate church-sonata movements that aren't labeled as dances (p. 92, citing McCrickard on Stradella).
 - The sonata's hexachord: G–D–A–e–b–[f♯], IV I V ii vi [iii]. Triad qualities are fixed, and thirds are raised only for applied dominants to V and vi (p. 123). Corelli never moves to IV as a first goal (p. 123).
 - Grave: a four-measure phrase from I to a half cadence on A over a walking bass, the violins in fourth-species suspensions; the same on V to a half cadence on E; then B minor at m. 12, the furthest point and the only minor auxiliary cadence. B minor becomes an upper neighbor to V in m. 13, which resolves to I in the same measure; coda. iii is avoided, since a cadence on F♯ minor needs E♯ and a 5♯ system (pp. 124–25).
 - This Grave is directed tonality, not stagnant: every cadence relates to the background tonic, in the order I, V, E, vi and back, "a game plan ... for large-scale tonal direction" (p. 125). Burnett keeps "stagnant tonality" for music before Corelli (pp. 92, 95). What Corelli doesn't yet do is stabilize the non-tonic areas with complete periods, which is Torelli's step (p. 133). The three stages: stagnant before Corelli, directed with Corelli, stabilized with Torelli.
