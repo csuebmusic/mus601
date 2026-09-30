@@ -6,3 +6,4 @@ Instructor-facing, in Markdown.
 - [unit-1-readings.md](unit-1-readings.md): the unit 1 reading synthesis, by reading.
 - [unit-1-modal-theory-1000-1600.md](unit-1-modal-theory-1000-1600.md): modal theory from the eleventh-century gamut to 1600, by date.
 - [unit-2-readings.md](unit-2-readings.md): the unit 2 reading synthesis, by reading.
+- [unit-2-class-notes.md](unit-2-class-notes.md): the unit 2 lecture in the order of the class notes, expanded with the readings.
