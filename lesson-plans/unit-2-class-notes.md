@@ -2,23 +2,7 @@
 
 Instructor-facing. The unit 2 lecture from the two sets of handwritten class notes, merged, and expanded with the unit 2 readings. Summaries of the readings are in `unit-2-readings.md`; page numbers here are to the reading named in each entry. Where the lecture departs from a reading, the entry gives the reading's account.
 
-## 1. the sixteenth-century Italian madrigal
-
-**From the notes**
-
-- Secular. New poetry required new music: the Petrarchan sonnet, the Renaissance take on Petrarch (fourteenth century), with its octave rhymed ABBA ABBA.
-- New homophonic and contrapuntal textures, a hybrid.
-- A transition between a chromatically extended hexachordal system and a key-centered diatonic system.
-- Polyphony gives way to concertato style, "accompanied song" after the French chanson and the German Lied, over a basso continuo.
-
-**From the readings**
-
-- Burnett ch. 3 (unit 1): chromaticism as an expressive resource begins with Willaert in Venice in the 1530s (p. 40 n. 4), pursued to set the emotions of "the Petrarchan and Tasso-esque poetry of the period" (p. 43).
-- Burnett ch. 4 opens from the other side: without a text, instrumental composers had neither the license for an expressive chromatic language nor the frequent system shifts it brings (pp. 89–90).
-- Hyer: the major-minor ethos arrives with a simplified texture of harmonies over a basso continuo (pp. 738–39).
-- The notes' "transition" treats the two systems as successive. Burnett treats the eleven-pitch-class system as continuous across the boundary, with key-centered tonality arriving in the 1670s and 1680s (ch. 4, p. 89).
-
-## 2. the first half of the seventeenth century
+## 1. the first half of the seventeenth century
 
 **From the notes**
 
@@ -30,9 +14,9 @@ Instructor-facing. The unit 2 lecture from the two sets of handwritten class not
 
 - Hyer: Choron (1810) and then Fétis dated *tonalité moderne* to Monteverdi's unprepared dominant seventh, in *Stracciami pur il core* (1592) and *Cruda Amarilli* (1605, mm. 13–14). Fétis knew the polemic between Artusi and Giulio Cesare Monteverdi over *Cruda Amarilli*. Hyer calls the claim's validity arguable and the date "firm musicological lore" (pp. 729–30). Artusi's objection to the madrigal's cadences is in Burnett ch. 3 (pp. 41–42, unit 1).
 - Hyer on the triad: with the continuo texture, chords become discrete entities, and "from now on, Western music would be heard as successions of harmonies rather than collections of simultaneous intervals." The *trias harmonica* (final, third, fifth) sets the medial cadences, taking precedence over the placement of semitones in the modal octave (p. 739).
-- Burnett, "Laetatus sum" (Vespers, 1610): transposed hypodorian on G, made G minor by the written F♯s. The continuo bass governs the chant and the upper voices, a counterpoint "instrumentally conceived" that replaces voice-derived counterpoint by mid-century (p. 93 n. 5). The walking bass returns like a ritornello but is never transposed, and the movement is sectional, with no background prolongation (pp. 93–94). The seconda pratica composer still doesn't prolong a tonic across a movement; section 6 takes this up.
+- Burnett, "Laetatus sum" (Vespers, 1610): transposed hypodorian on G, made G minor by the written F♯s. The continuo bass governs the chant and the upper voices, a counterpoint "instrumentally conceived" that replaces voice-derived counterpoint by mid-century (p. 93 n. 5). The walking bass returns like a ritornello but is never transposed, and the movement is sectional, with no background prolongation (pp. 93–94). The seconda pratica composer still doesn't prolong a tonic across a movement; section 5 takes this up.
 
-## 3. the systems: mollis, naturalis, durus
+## 2. the systems: mollis, naturalis, durus
 
 **From the notes**
 
@@ -52,11 +36,11 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Burnett ch. 3 (p. 50): by the end of the seventeenth century key-centered tonality fixed the quality of each triad in a system, the subdominant hexachord's material settled as IV, "the C naturalis system became C major, the F mollis system became F major." Figure 3.1's last system draws this page.
 - Burnett ch. 4: system and key merge, and a signature governs two keys (pp. 117, 123). Triad qualities are fixed, and degree inflection survives only as raised thirds for applied dominants, Burnett's II♯ and III♯, the notes' ficta (pp. 123, 125).
 - Tonality needs "a major-quality dominant triad which contains the leading tone of the key," prepared as the penultimate goal (p. 97). This is the durus page's structural F♯.
-- The notes' ficta are the three cadential sharps among Burnett's eleven pitch classes. In durus the third is D♯ (V/vi, on b). The twelfth, the missing pitch, is section 15.
+- The notes' ficta are the three cadential sharps among Burnett's eleven pitch classes. In durus the third is D♯ (V/vi, on b). The twelfth, the missing pitch, is section 14.
 - Chapter 4 names systems by signature count (1♭, 0, 1♯) where chapter 3 used mollis, naturalis, durus. Burnett's durus is the G system.
 - The evolution arrow: Hyer's three objections to evolutionary narratives (pp. 745–46), and Burnett's own description of his book as "basically teleologic" (p. xix). Hyer marks the endpoint of the reduction to two modes in Mattheson's *Das neu-eröffnete Orchestre* (1713), which lists dur and moll on all twelve semitones (p. 738).
 
-## 4. relative major and relative minor
+## 3. relative major and relative minor
 
 **From the notes**
 
@@ -70,7 +54,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Burnett reads the minor as unstable, a rotation on *la* that seeks its relative major (p. 129).
 - Hyer: one sonority under several Roman numerals is Weber's *Mehrdeutigkeit* (p. 735).
 
-## 5. trends toward clarity, 1640–1690: opera, cantata, sacred music
+## 4. trends toward clarity, 1640–1690: opera, cantata, sacred music
 
 **From the notes**
 
@@ -82,12 +66,12 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 **From the readings**
 
 - Burnett: the new north Italian instrumental style takes shape "under the strong and vital influences of opera and cantata" (p. 89).
-- The aria forms of the 1670s and 1680s, not the ensemble sonata, are Burnett's source for tonal direction: brief arias in binary, strophic, ostinato, and da capo forms, which need harmonic coherence to articulate their divisions (p. 107). Section 9 takes this up.
+- The aria forms of the 1670s and 1680s, not the ensemble sonata, are Burnett's source for tonal direction: brief arias in binary, strophic, ostinato, and da capo forms, which need harmonic coherence to articulate their divisions (p. 107). Section 8 takes this up.
 - A text of a single affect precludes a contrasting middle section; toward the end of the century poets write two or four lines of differing affect, and the da capo B section becomes a separate section in mood, key, and orchestration (p. 112 n. 15).
 - Stradella's cantatas: five sacred, two of them with concerto grosso scoring; the rest secular (161) or moralizing (6) (pp. 113–14).
 - Hyer: Fétis heard the *ordre transitonique*, from Monteverdi on, as "intense and subjective," suited to "the dramatic requirements of opera" (p. 748).
 
-## 6. forms at this time, stagnant and nascent tonality
+## 5. forms at this time, stagnant and nascent tonality
 
 **From the notes**
 
@@ -102,7 +86,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 | fa | do | sol | re (fi) | la (di) | mi (si) |
 
 - However, these points of cadential articulation didn't spin out in their respective harmonic areas. They returned to the tonic. Result: stagnant tonality.
-- Second step: large-scale modulation (sections 9 and 11).
+- Second step: large-scale modulation (sections 8 and 10).
 - Stagnant tonality, a tonality that still adheres to modal progressions based on localized fifths within the prevailing three-hexachord system, gives way to nascent tonality, a tonality in which the hexachordal pitches are organized into harmonic progressions that support a background tonic.
 
 **From the readings**
@@ -117,11 +101,11 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - The endless circle of fifths in practice: Frescobaldi's *Toccata ottava*, where the bass follows the naturalis fifths toward D minor and turns to F only in the last measure (pp. 90–91).
 - Burnett's sequence: stagnant (Frescobaldi, Monteverdi's "Laetatus sum," Marini's "La Foscarina"); nascent (Legrenzi, Stradella; pp. 102, 123); directed (Corelli, p. 123); stabilized with complete periods in non-tonic areas (Torelli, p. 133).
 
-## 7. instrumental music: the sonata
+## 6. instrumental music: the sonata
 
 **From the notes**
 
-- "Sonata": works for instruments alone, to be played at appropriate moments in the church service. Very frequent after the 1650s. Cavalli's *Musiche sacre* (section 5) includes sonatas.
+- "Sonata": works for instruments alone, to be played at appropriate moments in the church service. Very frequent after the 1650s. Cavalli's *Musiche sacre* (section 4) includes sonatas.
 - Sonata da chiesa. Marginal pointer: Monteverdi, "Sonata."
 - Ensemble. Most often a3, two violins and continuo, a "skeleton" in which each part could be orchestrated; the continuo is flexible and can take multiple instruments. a2, one violin and continuo, is rare.
 - Form: a series of contrasting sections, in rhythm, texture, and harmony. No recitative, so not the same contrast as in music-drama or cantata.
@@ -140,7 +124,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Hyer's two scales: local gravitational momentum in French Baroque practice as Rameau theorized it, against the large-scale progressions of Classical music (p. 740). The notes' plan and continuity are these two.
 - Hyer: almost all tonal music before Liszt was written without the concept of tonality (p. 746). "Tonality as the solution" is a retrospective frame.
 
-## 8. Marini and Legrenzi
+## 7. Marini and Legrenzi
 
 **From the notes**
 
@@ -163,9 +147,9 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Seconda parte: B♮ displaces B♭ at m. 53 and the mode becomes G mixolydian. Terza parte: localized fifths, D displacing G as tonic from m. 94. Burnett's Terza parte measure numbers follow the Hortus Musicus edition; check them against the Tufvesson copy (pp. 101–2).
 - Marini, "La Foscarina" (1617), mm. 50–80: an unprepared third motion to A at m. 63 and C♮/C♯ cross relations; heard in the 1♭ system, the areas balance symmetrically around the final, B♭ F C g d a (pp. 95–97).
 - Legrenzi, Op. 2 (1655): sonatas in the eight church modes. "La Spilimberga" (G hypodorian): C minor passages take almost half the first movement; the bass C–C♯–D at mm. 26–27 becomes motivic; the closing G major triad sounds like V of C minor. Even in his late sonatas Legrenzi can't prolong the tonic across a whole movement (pp. 102–6).
-- Burnett uses "Fortspinnung" in two senses, the general technique here and Fischer's ritornello segment from Torelli on (p. 138). The notes use both, here and in section 11.
+- Burnett uses "Fortspinnung" in two senses, the general technique here and Fischer's ritornello segment from Torelli on (p. 138). The notes use both, here and in section 10.
 
-## 9. early ritornello design: the aria and Stradella
+## 8. early ritornello design: the aria and Stradella
 
 **From the notes**
 
@@ -181,7 +165,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Stradella's aria "T'intendo, si t'intendo" (*Moro per amore*, c. 1680) is an embryonic ritornello form. The F-major ritornello returns in D minor (mm. 15–19), twice in G minor (mm. 27–29, 30–34), and closes in F (mm. 45–49). The voice enters as a *devise*; motive a stays with the orchestra and b with the voice, a division "standard in concertos after 1700." The plan stays on the 1♭ hexachord with no system change (pp. 108–13).
 - Stradella's are the only concerto grosso scorings before Corelli (nine works, after Jander); the sinfonia to *Ah! Troppo è ver* sets a concertino against the concerto grosso di viole (pp. 113–19). The concertos of Stradella and Corelli have no solo episodes: the groups share material or alternate short phrases (p. 134 n. 23).
 
-## 10. international style and national tastes, 1680–1750: Corelli
+## 9. international style and national tastes, 1680–1750: Corelli
 
 **From the notes**
 
@@ -205,7 +189,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Final Allegro, binary: I to V via II♯ at the double bar, then vi; B minor, E minor (turned to II♯), A, D on downbeats; three-measure coda (p. 130).
 - The Corelli model (pp. 132–33): in major, I, V, vi, sometimes iii with a system shift, then back through IV or ii to I and a coda; in minor, i, III, iv or VI, V, i, coda.
 
-## 11. Torelli
+## 10. Torelli
 
 **From the notes**
 
@@ -228,7 +212,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - The Epilog's close. Burnett's Epilog affirms the tonic or the dominant area with an authentic cadence (p. 138 and n. 26). A half cadence closes other segments: Vivaldi's Vordersatz in Op. 9 no. 2 (p. 145), the cadential segment b of Stradella's sinfonia (p. 115). Dreyfus's Epilog is always the tonic cadence, and Bach's ritornellos are "nearly without exception, tonally closed" (pp. 329, 331).
 - The notes' tutti and solo labels: Dreyfus holds that the presence and absence of ritornello segments organize the movement, and that the tutti-solo contrast is part of the decoration (pp. 334, 339). Paper 2's third directed question tests this.
 
-## 12. analytical tip: R and r
+## 11. analytical tip: R and r
 
 **From the notes**
 
@@ -241,7 +225,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Partial ritornellos have consequences. The Echo's R3, [F* E], resolves the preceding material (Dreyfus p. 354). A Vordersatz alone, as a complete harmonic progression, makes a ritornello statement "structurally stable" (Burnett p. 140, on Torelli). Ritornellos 4 and 5 of Vivaldi's Op. 9 no. 2, in vi and I, are Vordersatz only (p. 149).
 - Burnett glosses a "marked" ritornello as one that stabilizes a harmonic area (p. 140). In Dreyfus "marked" means ritornello as opposed to solo episode (pp. 333–36). Use Dreyfus's sense.
 
-## 13. Vivaldi, Op. 3 no. 8 (RV 522)
+## 12. Vivaldi, Op. 3 no. 8 (RV 522)
 
 **From the notes**
 
@@ -263,8 +247,8 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 
 **From the readings**
 
-- Burnett: ripieno or tutti is the full orchestra against the soloists (p. 134). In Bach solo and ripieno intertwine (p. 152; section 14).
-- The *pianoidée* (Krüger's term) turns a major tonic to its parallel minor, at a lower dynamic with reduced scoring, bringing the missing pitch of the tonic system (p. 145). It needs a major tonic, so it belongs to the A-major concerto (RV 396, section 15), not to RV 522.
+- Burnett: ripieno or tutti is the full orchestra against the soloists (p. 134). In Bach solo and ripieno intertwine (p. 152; section 13).
+- The *pianoidée* (Krüger's term) turns a major tonic to its parallel minor, at a lower dynamic with reduced scoring, bringing the missing pitch of the tonic system (p. 145). It needs a major tonic, so it belongs to the A-major concerto (RV 396, section 14), not to RV 522.
 - The style note is Burnett's, with his limit: "so much of early eighteenth-century music relies upon variety of rhythmic pattern rather than on melodic profile, at least in the fast movements of concertos" (p. 145).
 - Dreyfus names Vivaldi's Op. 3 nos. 8 and 10 as the model on which Bach's ritornellos segment (p. 328 n. 6). His Op. 3 no. 10 analysis (Table IIIa, p. 346) has a two-part Epilog, [E1 E2], a ritornello split across solo material (R2, mm. 12–15 and 20–28), and an ideal ritornello the movement never states intact. Test RV 522 the same way: is R1 the full statement, or is the R5 complex, assembled across solo interruptions, the fuller one?
 - Burnett's rules for A minor: the 0 system on C, hexachord F C G d a e. F♯, C♯, and G♯ are in the system; B♭ is its allowable flat; D♯, the leading tone to E (as in V/V), shifts to 3♯; E♭ shifts to 3♭ (pp. 118, 127, 145). The system table for the unit 2 keys is in `unit-2-readings.md`.
@@ -272,7 +256,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Burnett's minor-mode plan, from Corelli, runs i, III, iv or VI, V, i (pp. 132–33). The notes' plan for RV 522 (i, i, iv, i, i) has no ritornello in III.
 - Bach transcribed Vivaldi's Op. 3 concertos for organ at Weimar (1708–17) for Prince Johann Ernst (Burnett p. 151).
 
-## 14. Bach at Köthen
+## 13. Bach at Köthen
 
 **From the notes**
 
@@ -287,7 +271,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Brandenburg 1, first movement (Burnett p. 150 n. 30): the opening ritornello is diatonic except for B♮. By the closing ritornello the movement is in a 4♭ system that only B♮ corrects, so the final ritornello restores 1♭ and B♮ resolves back to B♭.
 - Brandenburg 2, first movement, is the one movement both readings analyze; the comparison table is in `unit-2-readings.md`.
 
-## 15. Vivaldi and Bach in A major: the system
+## 14. Vivaldi and Bach in A major: the system
 
 **From the notes**
 
@@ -309,7 +293,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Burnett's A-major model, Vivaldi Op. 9 no. 2: C♮ in the *pianoidée*; D♯ at m. 7 against D♮ at m. 8, a dyad conflict carried through the movement; B♯ against A♮ around the iii ritornello, A♮ winning out at m. 60 (pp. 145–48). In RV 396 and BWV 1055, look for C♮ as parallel-minor inflection and for where D♯ and D♮ meet.
 - The notes' expansion past c♯: Corelli avoided it in a short movement (pp. 124–25); from 1700 composers tonicize the last hexachordal fifth as a climax (p. 131).
 
-## 16. "the universe": large-scale plan and small-scale continuity
+## 15. "the universe": large-scale plan and small-scale continuity
 
 **From the notes**
 
