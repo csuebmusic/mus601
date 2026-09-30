@@ -30,7 +30,7 @@ Instructor-facing. The unit 2 lecture in the order of the handwritten class note
 
 - Hyer: Choron (1810) and then Fétis dated *tonalité moderne* to Monteverdi's unprepared dominant seventh, in *Stracciami pur il core* (1592) and *Cruda Amarilli* (1605, mm. 13–14). Fétis knew the polemic between Artusi and Giulio Cesare Monteverdi over *Cruda Amarilli*. Hyer calls the claim's validity arguable and the date "firm musicological lore" (pp. 729–30). Artusi's objection to the madrigal's cadences is in Burnett ch. 3 (pp. 41–42, unit 1).
 - Hyer on the triad: with the continuo texture, chords become discrete entities, and "from now on, Western music would be heard as successions of harmonies rather than collections of simultaneous intervals." The *trias harmonica* (final, third, fifth) sets the medial cadences, taking precedence over the placement of semitones in the modal octave (p. 739).
-- Burnett, "Laetatus sum" (Vespers, 1610): transposed hypodorian on G, made G minor by the written F♯s. The continuo bass governs the chant and the upper voices, a counterpoint "instrumentally conceived" that replaces voice-derived counterpoint by mid-century (p. 93 n. 5). The walking bass returns like a ritornello but is never transposed, and the movement is sectional, with no background prolongation (pp. 93–94). The seconda pratica composer still doesn't prolong a tonic across a movement; section 6 takes this up.
+- Burnett, "Laetatus sum" (Vespers, 1610): transposed hypodorian on G, made G minor by the written F♯s. The continuo bass governs the chant and the upper voices, a counterpoint "instrumentally conceived" that replaces voice-derived counterpoint by mid-century (p. 93 n. 5). The walking bass returns like a ritornello but is never transposed, and the movement is sectional, with no background prolongation (pp. 93–94). The seconda pratica composer still doesn't prolong a tonic across a movement; section 5 takes this up.
 
 ## 3. the systems: mollis, naturalis, durus
 
@@ -70,24 +70,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Burnett reads the minor as unstable, a rotation on *la* that seeks its relative major (p. 129).
 - Hyer: one sonority under several Roman numerals is Weber's *Mehrdeutigkeit* (p. 735).
 
-## 5. the second half of the seventeenth century: the sonata
-
-**From the notes**
-
-- A trend toward clarity. "Sonata" means works for instruments.
-- Two kinds: the sonata da chiesa, and the sonata da camera, for secular occasions, the first movement of a set of dances.
-- No text means a lack of form. No text also means no text painting, so no need for excessive chromaticism.
-- Tonality as the solution, in two ways: a large-scale harmonic plan, and local continuity through progressions.
-
-**From the readings**
-
-- Burnett: north Italian composers in Rome, Venice, and Bologna standardize an instrumental style in the 1670s and 1680s (p. 89).
-- Without a text, movements stayed short and harmonically limited (pp. 89–90). Sonata composers "had to create their own forms as they proceeded without the benefits of preconceived structures based on poetic schemes," and relied on imitation and Fortspinnung (pp. 107–8).
-- Burnett's source for the solution is the opera aria of the 1670s and 1680s, not the ensemble sonata: aria forms needed harmonic direction to articulate their divisions (p. 107). Composers who wrote both, Stradella and Legrenzi among them, could carry the aria's tonal direction into the sonata (p. 108).
-- Hyer's two scales: local gravitational momentum in French Baroque practice as Rameau theorized it, against the large-scale progressions of Classical music (p. 740). The notes' plan and continuity are these two.
-- Hyer: almost all tonal music before Liszt was written without the concept of tonality (p. 746). "Tonality as the solution" is a retrospective frame.
-
-## 6. parenthesis: forms at this time, and stagnant tonality
+## 5. forms at this time, and stagnant tonality
 
 **From the notes**
 
@@ -110,6 +93,23 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - What was missing was "any consistent use of large-scale modulatory dominant progressions." Applied dominants exist from the start of the century but are "localized affairs" inside the tonic (pp. 92–93). Carissimi's final chorus in *Jephte* (c. 1640), II–V–I in G across the chorus, is an early exception (p. 93 n. 4).
 - The endless circle of fifths in practice: Frescobaldi's *Toccata ottava*, where the bass follows the naturalis fifths toward D minor and turns to F only in the last measure (pp. 90–91).
 - Between stagnant and directed tonality: Marini's "La Foscarina" (1617) juxtaposes areas by third, unprepared (pp. 95–97); Legrenzi's Op. 2 (1655), Burnett's "nascent tonality," still can't prolong a tonic across a movement (pp. 102–6).
+
+## 6. the second half of the seventeenth century: the sonata
+
+**From the notes**
+
+- A trend toward clarity. "Sonata" means works for instruments.
+- Two kinds: the sonata da chiesa, and the sonata da camera, for secular occasions, the first movement of a set of dances.
+- No text means a lack of form. No text also means no text painting, so no need for excessive chromaticism.
+- Tonality as the solution, in two ways: a large-scale harmonic plan, and local continuity through progressions.
+
+**From the readings**
+
+- Burnett: north Italian composers in Rome, Venice, and Bologna standardize an instrumental style in the 1670s and 1680s (p. 89).
+- Without a text, movements stayed short and harmonically limited (pp. 89–90). Sonata composers "had to create their own forms as they proceeded without the benefits of preconceived structures based on poetic schemes," and relied on imitation and Fortspinnung (pp. 107–8).
+- Burnett's source for the solution is the opera aria of the 1670s and 1680s, not the ensemble sonata: aria forms needed harmonic direction to articulate their divisions (p. 107). Composers who wrote both, Stradella and Legrenzi among them, could carry the aria's tonal direction into the sonata (p. 108).
+- Hyer's two scales: local gravitational momentum in French Baroque practice as Rameau theorized it, against the large-scale progressions of Classical music (p. 740). The notes' plan and continuity are these two.
+- Hyer: almost all tonal music before Liszt was written without the concept of tonality (p. 746). "Tonality as the solution" is a retrospective frame.
 
 ## 7. sonata da chiesa: Marini
 
