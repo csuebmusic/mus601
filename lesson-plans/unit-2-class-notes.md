@@ -192,12 +192,10 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 - Chamber sonatas: Op. 2 (1685), Op. 4 (1694), half of Op. 5 (1700). a3: two violins, and violone or continuo on harpsichord.
 - Tonal counterpoint.
 - Sonate da chiesa, Op. 3 no. 2 in D (1689). First movement: the music moves up and down the hexachord tonicizing hexachordal pitches, and the tonic is stable the whole time. Third movement: modulates briefly to a new hexachord, from 2♯ (B minor) to 3♯ (F♯ minor).
-- Op. 6, church concertos: ripieno against solos.
 
 **From the readings (Burnett pp. 122–33)**
 
 - Burnett: Corelli taught his violin technique to numerous pupils, many of whom became composers, and his works were studied as models "in terms of their harmonically conceived counterpoint, arresting thematic content, part-writing, overall form, and emotional expressiveness." He never wrote about his theory; the consistency of his six published opuses shows it (p. 122).
-- Corelli's Op. 6 is his concerti grossi (1714). Burnett's "church concertos" are Torelli's Op. 6 (1698) (p. 134).
 - The sonata's hexachord: G–D–A–e–b–[f♯], IV I V ii vi [iii]. Triad qualities are fixed, and thirds are raised only for applied dominants to V and vi (p. 123). Corelli never moves to IV as a first goal (p. 123).
 - Grave: a four-measure phrase from I to a half cadence on A over a walking bass, the violins in fourth-species suspensions; the same on V to a half cadence on E; then B minor at m. 12, the furthest point and the only minor auxiliary cadence. B minor becomes an upper neighbor to V in m. 13, which resolves to I in the same measure; coda. iii is avoided, since a cadence on F♯ minor needs E♯ and a 5♯ system (pp. 124–25).
 - This Grave is directed tonality: every cadence relates to the background tonic, in the order I, V, E, vi and back, "a game plan ... for large-scale tonal direction" (p. 125). What Corelli doesn't yet do is stabilize the non-tonic areas with complete periods, which is Torelli's step (p. 133).
@@ -213,20 +211,21 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 
 - Torelli in Bologna. First step: a method of tonal direction whereby the tonic was left in favor of auxiliary cadences in non-tonic areas. Second step: stabilize each of these non-tonic harmonic areas with full periods.
 - The concerto movement: one could rhythmically and thematically unify and lengthen the music simply by transposing its opening theme to various hexachordal degrees.
+- Op. 6, church concertos (1698): ripieno against solos.
 - Ritornello form, standardized in his Op. 8, church concertos (1709), published by his brother: six for two violins, six for solo violin. Op. 8 no. 6.
 - The design: R1, the theme (tutti) in I; Episode 1 (solo); R2, the theme (tutti) in V, for example; Episode 2 (solo); and so on.
 - Fischer's terminology (1915), the parts of the ritornello theme:
   1. Vordersatz (opening theme): stabilizes the tonic (I–V).
   2. Fortspinnung ("spinning out"): suspends the tonic through sequences, diatonic or harmonic (modulating).
-  3. Epilog: the cadential phrase, re-establishing the tonic, or a half cadence.
+  3. Epilog: the cadential phrase, an authentic cadence confirming the tonic or the dominant area.
 
 **From the readings**
 
-- The two steps and the transposition are Burnett's (p. 133). Elementary in Op. 6 (1698), standardized in Op. 8 (p. 134). His examples: Op. 8 no. 3, for two solo violins, and Op. 8 no. 8, for solo violin (pp. 134–38).
+- The two steps and the transposition are Burnett's (p. 133). Ritornello form is elementary in the Op. 6 church concertos (1698) and standardized in Op. 8 (p. 134). His examples: Op. 8 no. 3, for two solo violins, and Op. 8 no. 8, for solo violin (pp. 134–38).
 - Episodes have virtuosic figuration and move to the next area. The order of solo and ripieno isn't standardized: Op. 8 no. 2 opens with the soloists. Middle movements stay in canzona form (p. 134).
 - Two ritornello types: fugal, which can't be segmented and returns whole (Op. 8 no. 3), and segmented, the type Vivaldi and Bach use (pp. 134, 138). Check which type Op. 8 no. 6 has.
 - The three segments. Burnett (p. 138), on Torelli Op. 8 no. 8: Vordersatz mm. 1–10, fugal and closed with an authentic cadence; Fortspinnung mm. 11–14, a fifths cycle modulating to v; Epilog mm. 15–17, an authentic cadence in G minor. The notes' "diatonic or harmonic" is Burnett's "either a diatonic or a harmonic sequential pattern." Dreyfus (pp. 330–31) defines the segments by harmonic function: the Vordersatz defines the tonic by reference to its dominant; the Fortspinnung lacks a defined tonic and an authentic cadence and delays tonal articulation; the Epilog is the tonic cadence and begins where the Fortspinnung reaches "foreign territory."
-- The Epilog's close. Burnett's Epilog affirms the tonic or the dominant area, with an authentic cadence in that area (p. 138 and n. 26). His half cadences belong to other segments: Vivaldi's Vordersatz in Op. 9 no. 2 (p. 145) and the cadential segment b of Stradella's sinfonia (p. 115). Dreyfus's Epilog is always the tonic cadence, and Bach's ritornellos are "nearly without exception, tonally closed" (pp. 329, 331).
+- The Epilog's close. Burnett's Epilog affirms the tonic or the dominant area with an authentic cadence (p. 138 and n. 26). A half cadence closes other segments: Vivaldi's Vordersatz in Op. 9 no. 2 (p. 145), the cadential segment b of Stradella's sinfonia (p. 115). Dreyfus's Epilog is always the tonic cadence, and Bach's ritornellos are "nearly without exception, tonally closed" (pp. 329, 331).
 - The notes' tutti and solo labels: Dreyfus holds that the presence and absence of ritornello segments organize the movement, and that the tutti-solo contrast is part of the decoration (pp. 334, 339). Paper 2's third directed question tests this.
 
 ## 12. analytical tip: R and r
