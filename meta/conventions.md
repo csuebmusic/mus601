@@ -47,3 +47,11 @@ The section is headed "content." It replies to the paper's analysis, work by wor
 - The section responds to the paper's claims only. It poses no questions or prompts of its own.
 - Where the chart has nothing on a passage, or the difference is a bar, nothing is flagged.
 - Paper 1: the packet score of "Perché te'n fuggi" spelled several D♯s as E♭s. The section names this wherever a reading follows the misspelling, and credits a reading that caught it.
+
+### pass 3: comparison
+
+The section is headed "comparison." It replies to the paper's comparison of the three works.
+
+- Where the paper compares the works, the section states what the comparison does, by its own terms. Where a comparison claim rests on a reading corrected in the content section, one sentence gives the comparison with the corrected reading.
+- Where the paper has no comparison, the section names, from the paper's own analysis, the terms a comparison could use.
+- The doc ends with one line after the section: "Good job on this paper. These are three difficult scores."
