@@ -22,3 +22,17 @@ Each body of material has one canonical home. Edit it there; everything else poi
 ## format by audience
 
 The narrative and style rules for every document in this repo are the "how I want you to communicate" section of my Claude profile preferences, under Settings, Profile. They are not a file in this repo and are not duplicated here. Read them there and follow them.
+
+## paper feedback
+
+Each student's feedback on a paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title sit the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed. Nothing from student work goes into this repo.
+
+### pass 1: references
+
+The section is headed "references." It covers citation placement, note form, and the bibliography. It leaves out the specifications, what each secondary source is used for, and where an edition was found.
+
+- Overcitation first. A note that cites the score for a measure number the sentence already gives is cut: each edition takes one full note at its first mention, and measure numbers stay in the prose. A quoted text takes one translation note, at its first quotation. Give the count and one example from the paper.
+- Note form next, with note numbers: first notes set as bibliography entries, short forms, title styling, volume and issue, empty or stray notes.
+- One of the student's own sources as a model, in three forms: first note, short note, bibliography entry.
+- The bibliography, corrected in full and alphabetized. An item only the source can supply is left as a bracketed blank, named in one sentence above the list.
+- Anything unverified stays out of the doc and goes to me in chat.
