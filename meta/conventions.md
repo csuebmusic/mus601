@@ -32,8 +32,8 @@ Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedbac
 The section is headed "references." It covers citation placement, note form, and the bibliography. It leaves out the specifications, what each secondary source is used for, and where an edition was found.
 
 - The section opens with what the paper's citations already do, as a specific fact, and gives each correction as the next step.
-- Overcitation next. A note that cites the score for a measure number the sentence already gives is cut: each edition is cited once, in a full note at its first mention, and measure numbers stay in the prose. Each translation is credited once, in a note at its first quotation. Give the count and one example from the paper.
+- Overcitation next. A note that cites the score for a measure number the sentence already gives is cut: each edition is cited once, in a full note at its first mention, and measure numbers are written in the prose. Each translation is credited once, in a note at its first quotation. Give the count and one example from the paper.
 - Note form next, with note numbers: first notes set as bibliography entries, short forms, title styling, volume and issue, empty or stray notes.
 - One of the student's own sources as a model, in three forms: first note, short note, bibliography entry.
 - The bibliography, corrected in full and alphabetized. An item only the source can supply is left as a bracketed blank, named in one sentence above the list.
-- Anything unverified stays out of the doc and is reported to me in chat.
+- Anything unverified is left out of the doc and reported to me in chat.
