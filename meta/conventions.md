@@ -25,14 +25,14 @@ The narrative and style rules for every document in this repo are the "how I wan
 
 ## paper feedback
 
-Each student's feedback on a paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title sit the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed. Nothing from student work goes into this repo.
+Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title sit the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed. Nothing from student work goes into this repo.
 
 ### pass 1: references
 
 The section is headed "references." It covers citation placement, note form, and the bibliography. It leaves out the specifications, what each secondary source is used for, and where an edition was found.
 
-- Overcitation first. A note that cites the score for a measure number the sentence already gives is cut: each edition takes one full note at its first mention, and measure numbers stay in the prose. A quoted text takes one translation note, at its first quotation. Give the count and one example from the paper.
+- Overcitation first. A note that cites the score for a measure number the sentence already gives is cut: each edition is cited once, in a full note at its first mention, and measure numbers stay in the prose. Each translation is credited once, in a note at its first quotation. Give the count and one example from the paper.
 - Note form next, with note numbers: first notes set as bibliography entries, short forms, title styling, volume and issue, empty or stray notes.
 - One of the student's own sources as a model, in three forms: first note, short note, bibliography entry.
 - The bibliography, corrected in full and alphabetized. An item only the source can supply is left as a bracketed blank, named in one sentence above the list.
-- Anything unverified stays out of the doc and goes to me in chat.
+- Anything unverified stays out of the doc and is reported to me in chat.
