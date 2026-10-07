@@ -52,6 +52,7 @@ The section is headed "content." It replies to the paper's analysis, work by wor
 
 The section is headed "comparison." It replies to the paper's comparison of the three works.
 
-- Where the paper compares the works, the section states what the comparison does, by its own terms. Where a comparison claim rests on a reading corrected in the content section, one sentence gives the comparison with the corrected reading.
-- Where the paper has no comparison, the section names, from the paper's own analysis, the terms a comparison could use.
+- The section comments on the comparison's claims and gives next steps. It doesn't describe what the paper's comparison says.
+- Comments test each comparison claim against the scores and the paper's own analysis: a claim without evidence gets the passages that would supply it, by measure; a claim the corrected readings change gets the corrected comparison; a comparison that measures the works on different terms gets one shared measure from the paper's analysis.
+- Where the paper has no closing comparison, the section names, from the paper's own analysis, the terms one could use.
 - The doc ends with one line after the section: "Good job on this paper. These are three difficult scores."
