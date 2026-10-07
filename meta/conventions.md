@@ -37,3 +37,13 @@ The section is headed "references." It covers citation placement, note form, and
 - One of the student's own sources as a model, in three forms: first note, short note, bibliography entry.
 - The bibliography, corrected in full and alphabetized. An item only the source can supply is left as a bracketed blank, named in one sentence above the list.
 - Anything unverified is left out of the doc and reported to me in chat.
+
+### pass 2: content
+
+The section is headed "content." It replies to the paper's analysis, work by work, in the paper's order.
+
+- The section opens with what the analysis gets right, by measure.
+- Each paragraph takes the student's claim in the student's own terms, gives what the score has, and says what that does to the student's reading. Corrections follow the system and cadence charts in `lesson-plans/unit-1-recap.md`.
+- The section responds to the paper's claims only. It poses no questions or prompts of its own.
+- Where the chart has nothing on a passage, or the difference is a bar, nothing is flagged.
+- Paper 1: the packet score of "Perché te'n fuggi" spelled several D♯s as E♭s. The section names this wherever a reading follows the misspelling, and credits a reading that caught it.
