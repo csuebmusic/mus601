@@ -25,7 +25,7 @@ The narrative and style rules for every document in this repo are the "how I wan
 
 ## paper feedback
 
-Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title sit the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed. Nothing from student work goes into this repo.
+Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title are the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed. Nothing from student work is committed to this repo.
 
 ### pass 1: references
 
