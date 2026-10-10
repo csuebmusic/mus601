@@ -46,6 +46,11 @@
   --accent-edge: rgba(226, 86, 13, 0.38);
   --accent-2: #1f5fa8;
 
+  --seg-vordersatz: #0e7c86;
+  --seg-fortspinnung: #4f7f1c;
+  --seg-epilog: #b02e5c;
+  --seg-pianoidee: #7c4dab;
+
   --font-body: "Plex Sans", system-ui, sans-serif;
   --font-data: "Plex Mono", ui-monospace, monospace;
 

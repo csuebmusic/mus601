@@ -17,6 +17,17 @@ White ground, black line, one accent. The accent marks what is live: links, hove
 | `--accent-edge` | `rgba(226, 86, 13, 0.38)` | outlines on washed fills |
 | `--accent-2` | `#1f5fa8` | a second strand, where two things move at once and must be told apart |
 
+Domain families extend the palette for the tools that use them.
+
+| variable | value | use |
+|---|---|---|
+| `--seg-vordersatz` | `#0e7c86` | ritornello segment: Vordersatz |
+| `--seg-fortspinnung` | `#4f7f1c` | ritornello segment: Fortspinnung |
+| `--seg-epilog` | `#b02e5c` | ritornello segment: Epilog |
+| `--seg-pianoidee` | `#7c4dab` | ritornello segment: pianoidée |
+
+A segment color sets the segment's label and outline; a 14 to 22 percent `color-mix` of it into `--paper` fills its box.
+
 Colors are addressed through these variables. Component CSS and inline SVG use no hex values.
 
 ## type
