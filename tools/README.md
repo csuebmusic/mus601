@@ -25,3 +25,7 @@ The twelve modes with their finals and ambitus, switchable between Glarean's num
 **tuning and temperament, 1482 to 1691**
 https://csuebmusic.github.io/mus601/tools/tuning.html
 Seven keyboard tunings on one circle of fifths: Pythagorean after Burzio, Ramis, Zarlino's 2/7-comma, quarter-comma and 1/3-comma meantone, equal temperament, and Werckmeister III. For each, the size of every fifth and major third in cents, with any fifth, third, or major triad playable against its pure form. The syntonic and ditonic commas, the seven tunings with their sources, and the raised keys of the meantone keyboard set against the naturalis and mollis systems.
+
+**the concerto ritornello**
+https://csuebmusic.github.io/mus601/tools/ritornello.html
+Fischer's three segments as Dreyfus defines them by harmonic function, with Burnett's pianoidée, drawn over five opening ritornellos: Torelli Op. 8 no. 8, Vivaldi Op. 9 no. 2, BWV 35/1, and Brandenburg 1 and 2. Dreyfus's markedness matrix, the R notation, and his ritornello formations for BWV 35/1, Vivaldi Op. 3 no. 10, Brandenburg 2, and the Echo from BWV 831, each placed at its measures and on the hexachord of its key. His operations, the 3♯ system matrix stepped through Burnett's reading of Op. 9 no. 2, and the two readings of Brandenburg 2 side by side.

@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The concerto ritornello &middot; MUS 601</title>
+<link rel="stylesheet" href="../assets/style.css?v=18">
+<style>
+  .k-V { --k: var(--seg-vordersatz); }
+  .k-F { --k: var(--seg-fortspinnung); }
+  .k-E { --k: var(--seg-epilog); }
+  .k-P { --k: var(--seg-pianoidee); }
+
+  .howto { font-size: 0.92rem; color: var(--muted); max-width: none; }
+
+  .chip {
+    font-family: var(--font-data);
+    font-size: 0.8em;
+    color: var(--k);
+    background: color-mix(in srgb, var(--k) 14%, var(--paper));
+    border: var(--line) solid var(--k);
+    padding: 0 0.35em;
+    white-space: nowrap;
+  }
+
+  .ctl-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--step); margin-bottom: calc(var(--step) * 3); }
+  .ctl-row .label { margin: 0 calc(var(--step) * 1.5) 0 0; flex: none; }
+  .btn {
+    font-family: var(--font-data);
+    font-size: 0.78rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: var(--line) solid var(--rule);
+    padding: calc(var(--step) * 0.9) calc(var(--step) * 1.6);
+    cursor: pointer;
+  }
+  .btn:hover { border-color: var(--ink); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-wash); }
+
+  .scroll-wrap { overflow-x: auto; margin-bottom: calc(var(--step) * 2); }
+  .scroll-wrap svg { display: block; width: 100%; min-width: 760px; height: auto; }
+
+  svg .box { fill: color-mix(in srgb, var(--k) 16%, var(--paper)); stroke: var(--k); stroke-width: 1.5; }
+  svg .box.open { stroke-dasharray: 5 4; }
+  svg .abbr { font-family: var(--font-data); font-size: 19px; font-weight: 500; fill: var(--k); text-anchor: middle; }
+  svg .abbr tspan.sub { font-size: 12px; }
+  svg .segname { font-family: var(--font-body); font-size: 12px; fill: var(--muted); text-anchor: middle; }
+  svg .mnum { font-family: var(--font-data); font-size: 12px; fill: var(--muted); text-anchor: middle; }
+  svg .rowname { font-family: var(--font-data); font-size: 12px; fill: var(--muted); text-anchor: end; }
+  svg .markbox { fill: var(--paper); stroke: var(--ink); stroke-width: 1.2; }
+  svg .marktext { font-family: var(--font-data); font-size: 13px; fill: var(--ink); text-anchor: middle; }
+  svg .pitch { font-family: var(--font-data); font-size: 13px; fill: var(--accent-2); text-anchor: middle; }
+  svg .tick { stroke: var(--rule); stroke-width: 1; }
+  svg .axis { stroke: var(--ink); stroke-width: 1; }
+  svg .episode { stroke: var(--rule); stroke-width: 2; stroke-dasharray: 2 4; }
+  svg .stripe { stroke: none; }
+  svg .stripe.V { fill: color-mix(in srgb, var(--seg-vordersatz) 55%, var(--paper)); }
+  svg .stripe.F { fill: color-mix(in srgb, var(--seg-fortspinnung) 55%, var(--paper)); }
+  svg .stripe.E { fill: color-mix(in srgb, var(--seg-epilog) 55%, var(--paper)); }
+  svg .frame { fill: none; stroke: var(--ink); stroke-width: 1; }
+  svg .rlabel { font-family: var(--font-data); font-size: 12px; fill: var(--ink); text-anchor: middle; }
+  svg .keylabel { font-family: var(--font-data); font-size: 12px; fill: var(--muted); text-anchor: middle; }
+  svg .hit { fill: transparent; cursor: pointer; }
+  svg .hit:focus { outline: none; }
+  svg .hit:focus-visible { stroke: var(--accent); stroke-width: 2; stroke-dasharray: 4 3; }
+  svg .on .box { stroke: var(--accent); stroke-width: 3; }
+  svg .on .frame { stroke: var(--accent); stroke-width: 2.5; }
+  svg .on .rlabel, svg .on .keylabel { fill: var(--accent); }
+
+  .model { font-size: 0.85rem; color: var(--muted); max-width: none; }
+
+  .readout.def {
+    font-size: 0.95rem;
+    border-left: 3px solid var(--accent);
+    padding: calc(var(--step) * 1.2) calc(var(--step) * 2);
+    margin-bottom: calc(var(--step) * 3);
+  }
+  .readout.def p { margin: 0 0 var(--step); max-width: none; }
+  .readout.def p:last-child { margin-bottom: 0; }
+  .readout.def:empty { display: none; }
+
+  p[data-term], li[data-term] { padding: calc(var(--step) * 0.6) calc(var(--step) * 1.2); margin-left: calc(var(--step) * -1.2); }
+  p[data-term].on, li[data-term].on { background: var(--accent-wash); }
+  ol.defs { max-width: none; margin: calc(var(--step) * 2) 0 calc(var(--step) * 2); padding-left: calc(var(--step) * 3); }
+  ol.defs li { margin-bottom: calc(var(--step) * 1.5); }
+  .op { font-family: var(--font-data); font-size: 0.85em; letter-spacing: 0.04em; }
+
+  table.matrix { max-width: 40rem; }
+  table.matrix td, table.matrix th { text-align: center; }
+  table.matrix tbody th { text-align: left; width: 13rem; }
+  table.matrix .plus { font-family: var(--font-data); font-weight: 500; color: var(--ink); }
+  table.matrix .minus { font-family: var(--font-data); color: var(--ink); }
+  table.matrix .minus.idle { color: var(--muted); }
+  table.matrix thead button { font: inherit; letter-spacing: inherit; text-transform: none; }
+
+  table.formations { font-size: 0.85rem; }
+  table.formations td, table.formations th { padding: calc(var(--step) * 0.7) calc(var(--step) * 1); white-space: nowrap; }
+  table.formations tbody th { width: auto; }
+  table.formations td.seg { text-align: center; }
+  table.formations tr.on td, table.formations tr.on th { background: var(--accent-wash); }
+  table.formations tr.cont td, table.formations tr.cont th { border-top: none; }
+  .rbtn, .sbtn {
+    font-family: var(--font-data);
+    font-size: 0.8rem;
+    cursor: pointer;
+    background: var(--paper);
+    padding: 0 0.4em;
+  }
+  .rbtn { color: var(--ink); border: var(--line) solid var(--rule); }
+  .sbtn { color: var(--k); background: color-mix(in srgb, var(--k) 14%, var(--paper)); border: var(--line) solid var(--k); }
+  .rbtn:hover { border-color: var(--ink); }
+  .rbtn.on { color: var(--accent); border-color: var(--accent); background: var(--accent-wash); }
+  .rbtn:focus-visible, .sbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .arrow { font-family: var(--font-data); color: var(--muted); }
+
+  table.hex { table-layout: fixed; max-width: 48rem; }
+  table.hex td, table.hex th { text-align: center; }
+  table.hex tbody th { width: 7rem; text-align: left; }
+  table.hex .deg { font-family: var(--font-data); font-size: 1rem; color: var(--ink); }
+  table.hex .pc { font-family: var(--font-data); color: var(--muted); }
+  table.hex td.stmts .rbtn { margin: 2px; }
+  table.hex .rbtn.off { border-color: var(--accent-2); color: var(--accent-2); }
+
+  .sysboard { margin-bottom: calc(var(--step) * 2); }
+  .sysboard svg { display: block; width: 100%; max-width: 54rem; height: auto; }
+  .sysboard .node .nbox { fill: var(--paper); stroke: var(--ink); stroke-width: 1.2; }
+  .sysboard .node.cur .nbox { fill: var(--accent-wash); stroke: var(--accent); stroke-width: 2.5; }
+  .sysboard .node.off .nbox { stroke: var(--rule); stroke-dasharray: 4 3; }
+  .sysboard .nname { font-family: var(--font-data); font-size: 18px; font-weight: 500; fill: var(--ink); text-anchor: middle; }
+  .sysboard .nroot { font-family: var(--font-data); font-size: 12px; fill: var(--muted); text-anchor: middle; }
+  .sysboard .node.off .nname { fill: var(--muted); }
+  .sysboard .node.cur .nname { fill: var(--accent); }
+  .sysboard .edge { stroke: var(--ink); stroke-width: 1.2; fill: none; marker-end: url(#arrowhead); }
+  .sysboard .edge.off { stroke: var(--rule); }
+  .sysboard .elabel { font-family: var(--font-data); font-size: 13px; fill: var(--ink); text-anchor: middle; }
+  .sysboard .elabel.off { fill: var(--muted); }
+  .sysboard marker path { fill: var(--ink); }
+  .readout.box { border: var(--line) solid var(--ink); padding: calc(var(--step) * 3); margin: 0 0 calc(var(--step) * 4); }
+  .readout.box p { max-width: none; margin: 0 0 calc(var(--step) * 1.5); }
+  .readout.box > :last-child { margin-bottom: 0; }
+  .readout.box .label { margin: 0 0 var(--step); }
+
+  table.two td:first-child { color: var(--muted); width: 12rem; }
+
+  @media print {
+    .btn, .howto { display: none; }
+    .scroll-wrap { overflow: visible; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; tool</p>
+<h1 id="top">The concerto ritornello</h1>
+
+<p class="lede full">The fast movement of the late-Baroque concerto alternates statements of a ritornello with solo episodes. Fischer's three segments, as Dreyfus defines them by harmonic function, give the ritornello its grammar. Burnett and Nitzberg read the same movements as a plan along the reordered hexachord of the key, with system shifts at its furthest points. The diagrams draw the segmentations and ritornello formations the two readings publish.</p>
+
+<p class="howto">Press any segment, statement, or table cell for its definition. Colors name the segment.</p>
+
+<ul class="toc">
+  <li><a href="#segments">the three segments</a></li>
+  <li><a href="#markedness">marked and unmarked</a></li>
+  <li><a href="#statements">statements and their notation</a></li>
+  <li><a href="#formations">ritornello formations</a></li>
+  <li><a href="#array">the keys of the statements</a></li>
+  <li><a href="#operations">the operations</a></li>
+  <li><a href="#systems">the system in A major</a></li>
+  <li><a href="#readings">two readings of one movement</a></li>
+  <li><a href="#sources">sources</a></li>
+</ul>
+
+<h2 id="segments">the three segments</h2>
+
+<p class="full" data-term="ritornello">A ritornello is the tutti theme that opens a concerto movement and returns, whole or in part and in other keys, between the solo episodes. Torelli standardized the form in his Op. 8 (1709), transposing the opening theme to degrees of the hexachord so that each auxiliary cadence becomes a complete period (Burnett, pp. 133&ndash;34). Wilhelm Fischer named the ritornello's three segments in 1915. Dreyfus keeps the German terms and redefines them as harmonic functions &ldquo;clothed in thematic identities&rdquo; (p. 330).</p>
+
+<p class="full" data-term="V">The Vordersatz <span class="chip k-V">[V]</span> defines the tonic by reference to its dominant, with root-position triads moving from I to V. Whether it does so outranks how: broken arpeggios, scales, and a string of short motives all qualify (Dreyfus, p. 331). Burnett's Vordersatz can close with an authentic cadence, as Torelli's fugal one does, or stop on a half cadence, as Vivaldi's in Op. 9 no. 2 does (pp. 138, 145).</p>
+
+<p class="full" data-term="F">The Fortspinnung <span class="chip k-F">[F]</span> has no defined tonic and no authentic cadence. It moves by conventional voice-leading sequences (10-7-10-7, 5-6-5-6, 10-10-10) or by freer counterpoint, and it delays strong tonal articulation (Dreyfus, p. 331). Burnett's Fortspinnung follows &ldquo;either a diatonic or a harmonic sequential pattern&rdquo; and can modulate (p. 138). He also uses the word for the general spinning-out technique of the seventeenth century, already in Marini (p. 98).</p>
+
+<p class="full" data-term="E">The Epilog <span class="chip k-E">[E]</span> is the <em>clausula</em>, the formal cadence in the tonic closing on the first scale degree in the upper voice. Its end is fixed and its beginning isn't: it takes over where the Fortspinnung reaches foreign territory, for instance the dominant that sets up the tonic resolution (Dreyfus, p. 331). Dreyfus finds Bach's ritornellos &ldquo;nearly without exception, tonally closed&rdquo; (p. 329). Burnett allows an Epilog that confirms the dominant, as Torelli's does (p. 138 n. 26).</p>
+
+<p class="full" data-term="P">The pianoid&eacute;e <span class="chip k-P">[P]</span>, Kr&uuml;ger's term (1932), is a segment some Vivaldi ritornellos add after the Fortspinnung. It turns the major tonic to its parallel minor, usually at a lower dynamic with reduced scoring (Burnett, p. 145). Dreyfus's segmentation has three segments and no fourth.</p>
+
+<p class="full" data-term="parts">A segment can divide into parts, numbered <span class="chip k-V">[V1 V2]</span> or <span class="chip k-E">[E1 E2]</span>. Two parts are syntactically equivalent when they fill the same function differently (Dreyfus, p. 336 n. 12). Segments are identified by function rather than contour, so a boundary needs no melodic caesura, and adjoining segments often share notes and chords (p. 333).</p>
+
+<p class="full" data-term="types">Burnett distinguishes two ritornello types. The fugal type can't be segmented and returns whole, as in Torelli's Op. 8 no. 3. The segmented type is the one Vivaldi and Bach use (pp. 134, 138). Dreyfus leaves out fugal ritornellos and those with unison themes, such as BWV 1052's (p. 328 n. 6). Burnett segments the unison ritornello of Vivaldi's Op. 9 no. 2 (p. 145).</p>
+
+<div class="ctl-row" role="group" aria-label="opening ritornello" id="pick-open"></div>
+<div class="scroll-wrap"><svg id="fig-open" viewBox="0 0 1200 190" role="group" aria-label="The selected opening ritornello, drawn as segment boxes over its measures"></svg></div>
+<p class="model" id="model-open"></p>
+<div class="readout def" id="read-open" aria-live="polite"></div>
+
+<h2 id="markedness">marked and unmarked</h2>
+
+<p class="full">Dreyfus sets the three segments in a binary matrix borrowed from linguistics (Table I, p. 334). Tonic definition, I to V, is present in the Vordersatz and absent in the other two. Tonic resolution, V to I, is present in the Epilog and absent in the other two. Only some absences count. For tonic definition the marked and unmarked pair is [V] and [F], and for tonic resolution it's [E] and [F]. The absence of tonic definition in [E] and of tonic resolution in [V] isn't significant (pp. 333&ndash;34).</p>
+
+<table class="matrix">
+  <thead>
+    <tr><th scope="col"></th><th scope="col"><button type="button" class="sbtn k-V" data-def="V">Vordersatz</button></th><th scope="col"><button type="button" class="sbtn k-F" data-def="F">Fortspinnung</button></th><th scope="col"><button type="button" class="sbtn k-E" data-def="E">Epilog</button></th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">tonic definition (I&rarr;V)</th><td class="plus">+</td><td class="minus">&minus;</td><td class="minus idle">&minus;</td></tr>
+    <tr><th scope="row">tonic resolution (V&rarr;I)</th><td class="minus idle">&minus;</td><td class="minus">&minus;</td><td class="plus">+</td></tr>
+  </tbody>
+</table>
+<div class="readout def" id="read-matrix" aria-live="polite"></div>
+<p class="note">After Dreyfus, Table I. A gray minus marks an absence Dreyfus doesn't count as significant.</p>
+
+<p class="full" data-term="tutti">The ritornello as a whole is marked and the solo episode unmarked. Dreyfus defines an episode by the absence of complete segments rather than by a contrasting theme. In the first movement of the E-major violin concerto, BWV 1042, mm. 70&ndash;78, fragments of the Vordersatz appear twice without the move to the dominant, and the complete Vordersatz arrives in the subdominant under a change of register and dynamics (pp. 334&ndash;36). The tutti-solo contrast is, for Dreyfus, part of the decoration: &ldquo;Who is playing rarely matters&rdquo; (p. 339).</p>
+
+<p class="full">Dreyfus concludes that the ritornello holds &ldquo;the essential properties of the harmonic system in a tonal microcosm&rdquo; (pp. 333&ndash;34).</p>
+
+<h2 id="statements">statements and their notation</h2>
+
+<p class="full" data-term="statement">Dreyfus numbers every statement of ritornello material R<sub>1</sub>, R<sub>2</sub>, and so on, and lists the segments it contains in brackets: [V1 V2 F1 F2 E], [V1], [F* E] (pp. 338, 354). An asterisk marks a decorated segment. A statement can be split across solo material, with measures in two places, and two statements in different keys can be coupled into one.</p>
+
+<p class="full">This course writes the full statement R and a partial statement r, with the segments it contains. In the seminar's reading of Vivaldi's RV 522, R1 is [V F E1 E2], and r2 is the second Epilog alone.</p>
+
+<p class="full" data-term="partial">A partial statement has consequences. A Vordersatz alone is a complete harmonic progression, enough to stabilize a key (Burnett, p. 140). In the Echo from BWV 831, R<sub>3</sub> is [F* E] and resolves the material before it, which gives the preceding solo section pretensions to the status of a Vordersatz (Dreyfus, p. 354).</p>
+
+<p class="full">Burnett glosses Dreyfus's &ldquo;marked&rdquo; statement as one that holds enough of one or more segments to stabilize a harmonic area (p. 140). In Dreyfus, marked names the features of Table I and the ritornello as against the solo episode (pp. 333&ndash;36). Cite each sense from its own author.</p>
+
+<h2 id="formations">ritornello formations</h2>
+
+<p class="full">Dreyfus tabulates the ritornello formations of four movements (Tables II, IIIa, IVa, and V). Each row is a statement, and its segments line up in columns under the segments of the full ritornello, so the table reads down a column as well as across a row. The strip above the table puts each statement at its measures.</p>
+
+<div class="ctl-row" role="group" aria-label="movement" id="pick-form"></div>
+<div class="scroll-wrap"><svg id="fig-strip" viewBox="0 0 1200 150" role="group" aria-label="The statements of the selected movement placed at their measures"></svg></div>
+<p class="note">Each block spans the measures Dreyfus gives for the statement. Its colored bands name the segments present, in order and not to scale. The dotted line between blocks is solo material. Above each block, the key as a roman numeral, lowercase for minor.</p>
+<div class="scroll-wrap"><table class="formations" id="tab-form"></table></div>
+<p class="model" id="model-form"></p>
+<div class="readout def" id="read-form" aria-live="polite"></div>
+
+<h2 id="array">the keys of the statements</h2>
+
+<p class="full" data-term="hexachord">Burnett reads a movement's keys along the central hexachord of the key reordered in fifths. In major it reads IV I V ii vi iii. A minor key takes its relative major's hexachord, &ldquo;there being no such thing as an A minor hexachord,&rdquo; and reads VI III VII iv i v (pp. 117&ndash;18, 127). Triad qualities are fixed, and a third is raised only for an applied dominant (p. 123).</p>
+
+<p class="full">Burnett's model, from Corelli: in major, I, V, vi, sometimes iii with a system shift, then back through IV or ii to I; in minor, i, III, iv or VI, V, i (pp. 132&ndash;33). A penultimate ritornello in iii followed directly by the tonic, with no retransition, is common Baroque procedure (p. 153).</p>
+
+<div class="ctl-row" role="group" aria-label="movement" id="pick-hex"></div>
+<div class="scroll-wrap"><table class="hex" id="tab-hex"></table></div>
+<p class="model" id="model-hex"></p>
+<div class="readout def" id="read-hex" aria-live="polite"></div>
+
+<h2 id="operations">the operations</h2>
+
+<p class="full">Dreyfus names the operations that generate a movement from its ritornello, set in capitals (pp. 339&ndash;55). Bach's ritornello movements matter &ldquo;more ... as paradigms than as syntagms&rdquo; (p. 334).</p>
+
+<ol class="defs">
+  <li data-term="segment"><span class="op">SEGMENT</span>: the ritornello displays its functional subdivisions, and a partial statement has logical consequences. The Echo's R<sub>3</sub>, [F* E], resolves the preceding material (p. 354).</li>
+  <li data-term="decorate"><span class="op">DECORATE</span>: a change of surface that leaves the syntax intact, written with an asterisk, [V1*]. Inversion of the voices, diminution, and changes of meter and rhythm all qualify. The test is to substitute the corresponding segment of the full ritornello: a seamless substitution shows the syntactic identity (pp. 339, 354).</li>
+  <li data-term="orchestrate"><span class="op">ORCHESTRATE</span>: a kind of decoration in which piano and forte cover the polarity of ritornello and episode. In BWV 35/1, R<sub>8</sub>, [F1] at mm. 103&ndash;5 is marked piano with a bit of solo counterpoint, and the forte at m. 105 is &ldquo;a playful deception&rdquo;: the ritornello was present all along (p. 339).</li>
+  <li data-term="array"><span class="op">ARRAY</span>: segments transposed into significant keys. The order of keys reflects the usual hierarchy of scale steps, and Dreyfus stresses that no assigned harmonic plan prefigures it (p. 355).</li>
+  <li data-term="modeswitch"><span class="op">MODESWITCH</span>: translation of a segment into the opposite mode. It checks for voice-leading errors, rejects the segments it renders non-occurrent, and excludes or alters those whose meaning it changes (pp. 341&ndash;43, 355).</li>
+  <li data-term="research"><span class="op">RESEARCH</span>: discovery of links between segments already arrayed and modeswitched. In the Echo, R<sub>6</sub> and R<sub>7</sub> look like one modulating ritornello and are two segments in different keys, joined by a voice-leading coincidence at the end of [V1] in m. 48 (p. 355).</li>
+  <li data-term="ideal">The ideal ritornello is the full set of segments a movement presupposes. It need not be the opening gesture, and in some movements it occurs nowhere intact (p. 346).</li>
+</ol>
+
+<h2 id="systems">the system in <span class="caps">A</span> major</h2>
+
+<p class="full" data-term="system">In tonal music a signature governs two keys, a major tonic and its relative minor, on one system named by its major root (Burnett, pp. 117&ndash;18, 123). The system holds eleven pitch classes: the major scale, the allowable flat on the seventh degree, and the raised thirds of the applied dominants to V, ii, and vi. The twelfth is missing. Spelled as the minor third above the root, it brings the parallel minor and moves the system three signatures flatward. Spelled as the augmented second, it moves the system three signatures sharpward. &ldquo;Minor thirds are system roots; augmented seconds form tritones with system roots&rdquo; (p. 128).</p>
+
+<p class="full">In unit 1 the missing pitch moved a modal system by a fifth. In a tonal movement it moves the system by three signatures (pp. 118, 128).</p>
+
+<p class="full">Only one matrix exists at a time, and every harmonic event falls inside the tritone axes of the tonic system. In an A-major movement, C&#9839; minor belongs to the 6&#9839; system on F&#9839;, not to a separate 4&#9839; system (p. 147). The board is Burnett's Figure 4.1. Press a system for its pitch classes, or step through his reading of Vivaldi's Op. 9 no. 2, first movement (pp. 145&ndash;51).</p>
+
+<div class="sysboard"><svg id="fig-sys" viewBox="0 0 900 190" role="group" aria-label="The 3-sharp system matrix: the 0 system on C, the 3-sharp system on A, and the 6-sharp system on F-sharp, with the pitches that move between them"></svg></div>
+
+<div class="ctl-row" role="group" aria-label="Vivaldi, Op. 9 no. 2, first movement" id="pick-walk">
+  <span class="label">Op. 9 no. 2</span>
+</div>
+
+<div class="readout box" id="read-sys" aria-live="polite"></div>
+
+<p class="full" data-term="dyad">Burnett distinguishes two kinds of conflict. A dyad conflict sets a chromatic pitch against its diatonic form under one name, D&#9839; against D&#9838;. A system conflict sets the two pitches that move the system against each other, C&#9838; against D&#9839; (pp. 147&ndash;48). &ldquo;Resolution&rdquo; then has two senses: a sharp moving up or a flat moving down, and an inflected pitch returning to its diatonic form (p. 151).</p>
+
+<p class="full">Burnett pairs hexachordal opposites under one implied signature: E with c&#9839;, A with f&#9839;, D with b. A chromatic pitch can bind the two areas of a pair, as D&#9839; binds the dominant and the mediant in Op. 9 no. 2 (p. 148).</p>
+
+<h2 id="readings">two readings of one movement</h2>
+
+<p class="full">Burnett reads a concerto movement as a harmonic plan along the reordered hexachord. Ritornellos stabilize its degrees, and system shifts mark its furthest points (pp. 123, 133&ndash;34, 148&ndash;49). Dreyfus holds that the number of ritornellos, the order of keys, and the overall balance are &ldquo;anachronistically imposed by formal models derived from later eighteenth-century music.&rdquo; The sense of the movement proceeds from the relations among ritornellos and from their absence during the solo episodes (p. 334). The two agree that the order of keys follows the hierarchy of scale steps (Dreyfus, p. 355).</p>
+
+<p class="full">The first movement of Brandenburg Concerto no. 2, BWV 1047, in F, is the one movement both analyze. Burnett notes that Dreyfus reads it without system shifts (p. 152 n. 33). The measure numbers differ by one or two at three points, and the score settles where each statement begins.</p>
+
+<table class="two">
+  <thead><tr><th scope="col">event</th><th scope="col">Burnett, pp. 152&ndash;53</th><th scope="col">Dreyfus, Table IVa, p. 349</th></tr></thead>
+  <tbody>
+    <tr><td>the opening</td><td>mm. 1&ndash;24, one solo episode moving I to V, with fragmentary, non-structural ritornello segments in the ripieno</td><td>R<sub>1</sub>, mm. 1&ndash;8, [Va Vb E], with no Fortspinnung</td></tr>
+    <tr><td>V</td><td>the second ritornello, m. 25</td><td>R<sub>2</sub>, mm. 23&ndash;28</td></tr>
+    <tr><td>vi</td><td>m. 31</td><td>R<sub>3</sub>, mm. 31&ndash;39</td></tr>
+    <tr><td>I at mid-movement</td><td>m. 45, reinterpreted as V/IV</td><td>R<sub>4</sub>, mm. 46&ndash;49</td></tr>
+    <tr><td>IV</td><td>reached at m. 55</td><td>R<sub>5</sub>, mm. 56&ndash;59</td></tr>
+    <tr><td>the climb by fifths</td><td>B&#9837;&ndash;F&ndash;c&ndash;g&ndash;d&ndash;a, the dominant kept minor</td><td>R<sub>6</sub> v (68&ndash;71), R<sub>7</sub> ii (75&ndash;83), R<sub>8</sub> iii (94&ndash;102)</td></tr>
+    <tr><td>iii</td><td>ritornello 8 prolongs A minor through E major; G&#9839;, the missing pitch of 1&#9837;, moves the system to 2&#9839;</td><td>R<sub>8</sub>, mm. 94&ndash;102</td></tr>
+    <tr><td>the return</td><td>the last ritornello goes straight to F; F&#9838;, the missing pitch of 2&#9839;, restores 1&#9837;</td><td>R<sub>9</sub>, mm. 103&ndash;106 and 115&ndash;118</td></tr>
+  </tbody>
+</table>
+
+<p class="full">Burnett finds Bach following Vivaldi's harmonic plan and segmentation in a more polyphonic texture, where solo and ripieno intertwine so closely that &ldquo;it is often difficult to know where a ritornello ends and a solo episode begins&rdquo; (p. 152). Dreyfus reads the same surface as decoration over an intact syntax (p. 339).</p>
+
+<h2 id="sources">sources</h2>
+
+<ul class="readings">
+  <li>Burnett, Henry, and Roy Nitzberg. <em>Composition, Chromaticism and the Developmental Process: A New Theory of Tonality</em>. Ashgate, 2007. Chapter 4: the tonal system and its missing pitch, 117&ndash;19, 127&ndash;28; the Corelli model, 132&ndash;33; Torelli and the segmented ritornello, 133&ndash;41; Vivaldi, Op. 9 no. 2, with Figure 4.1, 141&ndash;51; Bach, 151&ndash;53.</li>
+  <li>Dreyfus, Laurence. &ldquo;J. S. Bach's Concerto Ritornellos and the Question of Invention.&rdquo; <em>Musical Quarterly</em> 71, no. 3 (1985): 327&ndash;58. The segments, 330&ndash;33; Table I and markedness, 333&ndash;36; BWV 35/1, 336&ndash;43; Vivaldi, Op. 3 no. 10, 343&ndash;46; Brandenburg 2, 346&ndash;51; the Echo, 351&ndash;56.</li>
+</ul>
+
+<footer>
+  <p>Text set in IBM Plex under the SIL Open Font License.</p>
+</footer>
+
+</div>
+<script>
+(function () {
+  "use strict";
+
+  var NS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs, text) {
+    var n = document.createElementNS(NS, tag);
+    for (var k in attrs) { n.setAttribute(k, attrs[k]); }
+    if (text !== undefined) { n.textContent = text; }
+    return n;
+  }
+  function clear(n) { while (n.firstChild) { n.removeChild(n.firstChild); } }
+  /* captions carry subscript digits; set them as sub elements */
+  function setCaption(node, text) {
+    node.textContent = "";
+    var re = /R([\u2080-\u2089]+)/g, last = 0, m;
+    while ((m = re.exec(text))) {
+      node.appendChild(document.createTextNode(text.slice(last, m.index) + "R"));
+      var sb = document.createElement("sub");
+      sb.textContent = m[1].split("").map(function (c) { return String(c.charCodeAt(0) - 0x2080); }).join("");
+      node.appendChild(sb);
+      last = m.index + m[0].length;
+    }
+    node.appendChild(document.createTextNode(text.slice(last)));
+  }
+
+  var SHARP = "♯", FLAT = "♭", NAT = "♮", DSHARP = "𝄪";
+
+  var NAMES = { V: "Vordersatz", F: "Fortspinnung", E: "Epilog", P: "pianoidée" };
+
+  /* the paragraph or list item that defines a term */
+  function def(term) {
+    return document.querySelector("p[data-term=\"" + term + "\"], li[data-term=\"" + term + "\"]");
+  }
+
+  function clearAll() {
+    document.querySelectorAll("svg g.on, p[data-term].on, li[data-term].on, tr.on, .rbtn.on").forEach(function (n) { n.classList.remove("on"); });
+    document.querySelectorAll(".readout.def").forEach(function (r) { r.innerHTML = ""; });
+  }
+
+  /* light a definition in place and copy it under the figure that asked for it */
+  function showDef(term, readout, extra) {
+    var src = def(term);
+    if (extra) {
+      extra.forEach(function (html) {
+        var q = document.createElement("p");
+        q.innerHTML = html;
+        readout.appendChild(q);
+      });
+    }
+    if (!src) { return; }
+    src.classList.add("on");
+    var p = document.createElement("p");
+    p.innerHTML = src.innerHTML;
+    readout.appendChild(p);
+  }
+
+  function activate(node, fn) {
+    node.addEventListener("click", fn);
+    node.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fn(); }
+    });
+  }
+
+  function hit(g, x, y, w, h, label) {
+    var r = el("rect", { x: x, y: y, width: w, height: h, "class": "hit", tabindex: "0", role: "button", "aria-label": label });
+    g.appendChild(r);
+    return r;
+  }
+
+  function picker(id, items, show) {
+    var row = document.getElementById(id), buttons = [];
+    items.forEach(function (it) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "btn";
+      b.dataset.key = it[0];
+      b.setAttribute("aria-pressed", "false");
+      b.textContent = it[1];
+      b.addEventListener("click", function () { show(it[0]); });
+      row.appendChild(b);
+      buttons.push(b);
+    });
+    return function (key) {
+      buttons.forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.key === key ? "true" : "false"); });
+    };
+  }
+
+  /* ---------- opening ritornellos ---------- */
+
+  /* segs: [kind, number, from, to, open]; marks: [measure, label]; pitches: [measure, label] */
+  var OPEN = {
+    torelli: {
+      label: "Torelli, Op. 8 no. 8",
+      n: 17,
+      segs: [["V", "", 1, 10], ["F", "", 11, 14], ["E", "", 15, 17]],
+      marks: [[10, "AC, i"], [17, "AC, v"]],
+      model: "Torelli, Concerto in C minor for solo violin and strings, Op. 8 no. 8, last movement, mm. 1–17. A fugal Vordersatz, subject in the tonic and answer in the dominant, closes with an authentic cadence. The Fortspinnung is a cycle of fifths that modulates to the dominant, and the Epilog cadences in G minor (Burnett, p. 138, Ex. 4.11)."
+    },
+    vivaldi: {
+      label: "Vivaldi, Op. 9 no. 2",
+      n: 12,
+      segs: [["V", "", 1, 6], ["F", "", 7, 9], ["P", "", 10, 12, true]],
+      marks: [[6, "HC"]],
+      pitches: [[7, "D" + SHARP], [8, "D" + NAT], [11, "B" + FLAT]],
+      model: "Vivaldi, Concerto in A for solo violin and strings, Op. 9 no. 2, first movement, mm. 1–12, in unison strings. The Vordersatz has three rhythmic patterns and stops on a half cadence. The Fortspinnung is a three-measure diatonic sequence on the neighbor figure, with D" + SHARP + " at m. 7 against D" + NAT + " at m. 8. The pianoidée turns to A minor with C" + NAT + ", and B" + FLAT + " follows at m. 11 (Burnett, pp. 145–47, Ex. 4.12, which stops at m. 12)."
+    },
+    bwv35: {
+      label: "Bach, BWV 35/1",
+      n: 9,
+      segs: [["V", "1", 1, 2], ["V", "2", 3, 4], ["F", "1", 5, 6], ["F", "2", 7, 8], ["E", "", 9, 9]],
+      marks: [[4, "V"], [6, "III"], [9, "I"]],
+      model: "Bach, BWV 35/1 (= BWV 1059/1), D minor, R₁, mm. 1–9. [V1] sets V against I in m. 2 and opens on the first scale degree; [V2] couldn't begin the piece and ends on V. [F1] is a 5-6-5-6 sequence that reaches III in m. 6, and [F2] rises in suspensions to the end of m. 8, where a diminished seventh stands in for V6/5. [E] closes in the tonic (Dreyfus, pp. 336–38, Ex. 3b)."
+    },
+    bwv1046: {
+      label: "Bach, BWV 1046/3",
+      n: 17,
+      segs: [["V", "", 1, 4], ["F", "", 5, 12], ["E", "1", 12, 15], ["E", "2", 15, 17]],
+      marks: [[4, "V"], [12, "V"], [15, "I"], [17, "I"]],
+      model: "Bach, Brandenburg Concerto no. 1 in F, BWV 1046, third movement, mm. 1–17. The Vordersatz ends with the arrival on the dominant at m. 4. The Fortspinnung moves by two sets of tenths and reaches the dominant at m. 12. The Epilog has two closed parts, mm. 12–15 and 15–17, harmonically equivalent (Dreyfus, p. 333 n. 10)."
+    },
+    bwv1047: {
+      label: "Bach, BWV 1047/1",
+      n: 8,
+      segs: [["V", "a", 1, 2], ["V", "b", 3, 4], ["E", "", 5, 8]],
+      marks: [[8, "I"]],
+      model: "Bach, Brandenburg Concerto no. 2 in F, BWV 1047, first movement, R₁, mm. 1–8. [Va] lacks a confirming dominant and needs [Vb] to complete the Vordersatz. At m. 5 the ritornello returns to the tonic and sets up the cadence in m. 8, with nothing resembling a Fortspinnung (Dreyfus, p. 346). Burnett hears mm. 1–24 as one solo episode with fragmentary ritornello in the ripieno (p. 152)."
+    }
+  };
+
+  var X0 = 150, SPAN = 1000, GAP = 14;
+
+  function drawOpen(key) {
+    var r = OPEN[key], svg = document.getElementById("fig-open"), MW = SPAN / r.n;
+    clear(svg);
+    svg.setAttribute("aria-label", r.label + ", opening ritornello, drawn as segment boxes over its measures");
+    var Y_M = 18, Y_P = 46, Y_MARK = 50, Y_BOX = 86, H = 78;
+
+    svg.appendChild(el("text", { x: X0 - 20, y: Y_M + 4, "class": "rowname" }, "m."));
+    svg.appendChild(el("text", { x: X0 - 20, y: Y_BOX + H / 2 + 4, "class": "rowname" }, "segments"));
+    for (var m = 1; m <= r.n; m++) {
+      svg.appendChild(el("text", { x: X0 + (m - 0.5) * MW, y: Y_M + 4, "class": "mnum" }, String(m)));
+    }
+
+    /* adjoining segments that share a measure divide it */
+    var spans = r.segs.map(function (s) { return [s[2] - 1, s[3]]; });
+    for (var i = 1; i < r.segs.length; i++) {
+      if (r.segs[i][2] === r.segs[i - 1][3]) { spans[i - 1][1] -= 0.5; spans[i][0] += 0.5; }
+    }
+
+    (r.pitches || []).forEach(function (p) {
+      svg.appendChild(el("text", { x: X0 + (p[0] - 0.5) * MW, y: Y_P, "class": "pitch" }, p[1]));
+    });
+
+    (r.marks || []).forEach(function (k) {
+      var cx = X0 + (k[0] - 0.5) * MW, w = 16 + k[1].length * 8;
+      var y = Y_MARK + ((r.pitches || []).some(function (p) { return p[0] === k[0]; }) ? 2 : 0);
+      svg.appendChild(el("rect", { x: cx - w / 2, y: y, width: w, height: 22, "class": "markbox" }));
+      svg.appendChild(el("text", { x: cx, y: y + 16, "class": "marktext" }, k[1]));
+    });
+
+    r.segs.forEach(function (s, i) {
+      var g = el("g", { "class": "k-" + s[0] });
+      var x = X0 + spans[i][0] * MW + GAP / 2, w = (spans[i][1] - spans[i][0]) * MW - GAP;
+      g.appendChild(el("rect", { x: x, y: Y_BOX, width: w, height: H, "class": "box" + (s[4] ? " open" : "") }));
+      var t = el("text", { x: x + w / 2, y: Y_BOX + 36, "class": "abbr" }, s[0]);
+      if (s[1]) { t.appendChild(el("tspan", { "class": "sub", dy: "4" }, s[1])); }
+      g.appendChild(t);
+      if (NAMES[s[0]].length * 6.6 < w - 10) {
+        g.appendChild(el("text", { x: x + w / 2, y: Y_BOX + 60, "class": "segname" }, NAMES[s[0]]));
+      }
+      var span = s[2] === s[3] ? "m. " + s[2] : "mm. " + s[2] + " to " + s[3];
+      var h = hit(g, x, Y_BOX, w, H, NAMES[s[0]] + (s[1] ? " " + s[1] : "") + ", " + span);
+      svg.appendChild(g);
+      activate(h, function () {
+        clearAll();
+        g.classList.add("on");
+        showDef(s[0], document.getElementById("read-open"));
+      });
+    });
+
+    setCaption(document.getElementById("model-open"), r.model);
+    document.getElementById("read-open").innerHTML = "";
+  }
+
+  var markOpen = picker("pick-open", Object.keys(OPEN).map(function (k) { return [k, OPEN[k].label]; }), function (k) {
+    clearAll(); markOpen(k); drawOpen(k);
+  });
+  markOpen("torelli"); drawOpen("torelli");
+
+  /* ---------- markedness matrix ---------- */
+
+  document.querySelectorAll("table.matrix [data-def]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      clearAll();
+      showDef(b.dataset.def, document.getElementById("read-matrix"));
+    });
+  });
+
+  /* ---------- ritornello formations ---------- */
+
+  /* rows: [R, key, mode, lines, flags]; a line: [measures, from, to, {col: 1 | "*"}, arrowIn, arrowOut].
+     A line with no measures shares the row's span. */
+  var FORM = {
+    bwv35: {
+      label: "Bach, BWV 35/1",
+      title: "Bach, BWV 35/1 (= BWV 1059/1), D minor",
+      table: "Dreyfus, Table II, p. 338",
+      mode: "minor", n: 131,
+      cols: ["V1", "V2", "F1", "F2", "E"],
+      pcs: ["B" + FLAT, "F", "C", "g", "d", "a"],
+      rows: [
+        ["R1", "I", "minor", [["1–9", 1, 9, { V1: 1, V2: 1, F1: 1, F2: 1, E: 1 }]]],
+        ["R2", "I", "minor", [["12–13", 12, 13, { V1: 1 }]]],
+        ["R3", "III", "major", [["22–23", 22, 23, { V1: 1 }], ["28–29", 28, 29, { V2: "*" }]]],
+        ["R4", "V", "minor", [["33–36", 33, 36, { V1: 1, V2: 1 }], ["41–47", 41, 47, { V2: 1, F1: 1, F2: 1, E: 1 }]]],
+        ["R5", "IV", "minor", [["60–66", 60, 66, { V1: "*", V2: 1, F1: 1 }]]],
+        ["R6", "VI", "major", [["80–81", 80, 81, { V1: 1 }]]],
+        ["R7", "I", "minor", [["88–92", 88, 92, { V2: "*", F1: 1 }]]],
+        ["R8", "I", "minor", [["98–105", 98, 105, { V1: "*", V2: 1, F1: 1 }]], "orchestrate"],
+        ["R9", "I", "minor", [["110–116", 110, 116, { V2: 1, F1: 1, F2: 1, E: "*" }]]],
+        ["R10", "I", "minor", [["122–131", 122, 131, { E: 1 }, false, true], ["", 0, 0, { V1: 1, V2: 1, F1: 1, F2: 1, E: 1 }, true]]]
+      ],
+      ideal: "[V1 V2 F1 F2 E], stated whole in R₁.",
+      model: "The two statements in major, R₃ and R₆, have no Fortspinnung. In major, [F1] can't resolve e to f and loses its direction to the relative major, so MODESWITCH renders it non-occurrent, and R₆ breaks off after [V1] (Dreyfus, pp. 341–43). R₅ [V1*] and R₈ [V1*] are the same decoration (p. 338)."
+    },
+    bwv1065: {
+      label: "Vivaldi, Op. 3 no. 10",
+      title: "BWV 1065/1 (= Vivaldi, Op. 3 no. 10)",
+      table: "Dreyfus, Table IIIa, p. 346",
+      mode: "minor", n: 103,
+      cols: ["V", "F", "E1", "E2"],
+      pcs: null,
+      rows: [
+        ["R1", "I", "minor", [["5–8", 5, 8, { V: 1 }]]],
+        ["R2", "I", "minor", [["12–15", 12, 15, { V: 1 }], ["20–28", 20, 28, { F: 1, E1: 1, E2: 1 }]]],
+        ["R3", "III", "major", [["37–40", 37, 40, { V: 1 }]]],
+        ["R4", "I", "minor", [["68–72", 68, 72, { F: 1 }]]],
+        ["R5", "I", "minor", [["97–103", 97, 103, { V: 1, E2: 1 }], ["", 0, 0, { E2: 1 }]]]
+      ],
+      ideal: "[V]–[F]–[E1–2] (Table IIIb), stated intact nowhere in the movement.",
+      model: "The ritornello Dreyfus quotes as Example 6 occurs nowhere intact in the movement. He posits an ideal ritornello that precedes the work without being its opening gesture (pp. 343–46). Measures follow Bach's transcription, BWV 1065."
+    },
+    bwv1047: {
+      label: "Bach, BWV 1047/1",
+      title: "Bach, Brandenburg Concerto no. 2, BWV 1047, first movement, F major",
+      table: "Dreyfus, Table IVa, p. 349",
+      mode: "major", n: 118,
+      cols: ["Va", "Vb", "F", "E"],
+      pcs: ["B" + FLAT, "F", "C", "g", "d", "a"],
+      rows: [
+        ["R1", "I", "major", [["1–8", 1, 8, { Va: 1, Vb: 1, E: 1 }]]],
+        ["R2", "V", "major", [["23–28", 23, 28, { Vb: 1, E: 1 }]]],
+        ["R3", "VI", "minor", [["31–39", 31, 39, { Va: 1, F: 1, E: 1 }]]],
+        ["R4", "I", "major", [["46–49", 46, 49, { Va: 1, Vb: 1 }]]],
+        ["R5", "IV", "major", [["56–59", 56, 59, { E: 1 }]]],
+        ["R6", "V", "minor", [["68–71", 68, 71, { Va: 1, Vb: 1 }]]],
+        ["R7", "II", "minor", [["75–83", 75, 83, { Va: 1, F: 1, E: 1 }]]],
+        ["R8", "III", "minor", [["94–102", 94, 102, { Va: 1, F: 1, E: 1 }]]],
+        ["R9", "I", "major", [["103–106", 103, 106, { Va: 1, Vb: 1 }], ["115–118", 115, 118, { E: 1 }]]]
+      ],
+      ideal: "[V F E], non-occurrent in either mode. R₁, [Va Vb E], has no Fortspinnung; R₇, [Va F E], lacks [Vb] and never confirms the tonic (pp. 349–51).",
+      model: "Every segment translates between the modes except [F], which is non-occurrent in major, so every statement with a Fortspinnung is in minor (Table IVb). In Dreyfus's words, Bach “thinks the musically unthinkable” (pp. 349–51)."
+    },
+    bwv831: {
+      label: "Bach, BWV 831, Echo",
+      title: "Bach, “Echo,” from the Overture in the French Style, BWV 831, B minor",
+      table: "Dreyfus, Table V, p. 354",
+      mode: "minor", n: 72,
+      cols: ["V1", "V2", "F", "E"],
+      pcs: ["G", "D", "A", "e", "b", "f" + SHARP],
+      rows: [
+        ["R1", "I", "minor", [["1–4", 1, 4, { V1: 1, V2: 1 }]]],
+        ["R2", "V", "minor", [["13–22", 13, 22, { V1: 1, V2: "*", F: 1, E: "*" }]]],
+        ["R3", "V", "minor", [["26–32", 26, 32, { F: "*", E: 1 }]]],
+        ["R4", "III", "major", [["33–34", 33, 34, { V1: 1 }, false, true]], "couple"],
+        ["R5", "IV", "minor", [["35–36", 35, 36, { V2: 1 }, true]], "couple"],
+        ["R6", "VI", "major", [["45–48", 45, 48, { V1: 1, V2: "*" }, false, true]], "couple"],
+        ["R7", "IV", "minor", [["49–54", 49, 54, { F: 1, E: "*" }, true]], "couple"],
+        ["R8", "I", "minor", [["62–72", 62, 72, { V1: "*", V2: 1, F: 1, E: 1 }]]]
+      ],
+      ideal: "[V1 V2 F E], which R₁ doesn't state in full (Ex. 9b).",
+      model: "The Fortspinnung is non-occurrent in major. R₄–R₅ and R₆–R₇ look like modulating ritornellos and are each two segments arrayed in different keys and coupled (p. 355). The solo episodes Dreyfus reduces in Example 9c, mm. 37–44 and 54–62, neither reproduce ritornello functions nor repeat themselves (p. 353)."
+    }
+  };
+
+  var FORM_KEYS = ["bwv35", "bwv1065", "bwv1047", "bwv831"];
+  var current = "bwv35";
+
+  var MAJ = { I: "I", II: "II", III: "III", IV: "IV", V: "V", VI: "VI", VII: "VII" };
+  function numeral(key, mode) { return mode === "minor" ? key.toLowerCase() : key; }
+  function sub(r) { return "R<sub>" + r.slice(1) + "</sub>"; }
+  function subText(r) {
+    var d = "₀₁₂₃₄₅₆₇₈₉";
+    return "R" + r.slice(1).split("").map(function (c) { return d[+c]; }).join("");
+  }
+  function kindOf(col) { return col.charAt(0); }
+
+  function rowSegs(row, cols) {
+    var out = [];
+    row[3].forEach(function (ln) {
+      cols.forEach(function (c) { if (ln[3][c]) { out.push(c + (ln[3][c] === "*" ? "*" : "")); } });
+    });
+    return out;
+  }
+
+  function describe(f, row) {
+    var segs = rowSegs(row, f.cols), parts = [];
+    var spans = row[3].filter(function (ln) { return ln[0]; }).map(function (ln) { return ln[0]; });
+    parts.push(sub(row[0]) + ", in " + numeral(row[1], row[2]) + ", " + (spans.length > 1 ? "mm. " + spans.join(" and ") : "mm. " + spans[0]) + ": [" + segs.join(" ") + "].");
+    var kinds = {};
+    segs.forEach(function (s) { kinds[kindOf(s)] = true; });
+    var missing = ["V", "F", "E"].filter(function (k) { return !kinds[k]; }).map(function (k) { return NAMES[k]; });
+    if (missing.length) { parts.push("Partial: " + missing.join(" and ") + " absent."); }
+    if (spans.length > 1) { parts.push("Split across solo material."); }
+    var dec = segs.filter(function (s) { return s.indexOf("*") > 0; });
+    if (dec.length) { parts.push("Decorated: [" + dec.join(" ") + "]."); }
+    if (row[2] !== f.rows[0][2]) { parts.push("MODESWITCH: in the " + row[2] + ", against the " + f.rows[0][2] + " of " + sub("R1") + "."); }
+    if (row[4] === "couple") { parts.push("Coupled with the neighboring statement in another key (RESEARCH)."); }
+    if (row[4] === "orchestrate") { parts.push("ORCHESTRATE: [F1] at mm. 103–5 is marked piano, and the forte at m. 105 comes after the ritornello has been present all along."); }
+    return parts.join(" ");
+  }
+
+  function termsFor(f, row) {
+    var segs = rowSegs(row, f.cols), t = [];
+    if (segs.some(function (s) { return s.indexOf("*") > 0; })) { t.push("decorate"); }
+    if (row[2] !== f.rows[0][2]) { t.push("modeswitch"); }
+    if (row[4] === "couple") { t.push("research"); }
+    if (row[4] === "orchestrate") { t.push("orchestrate"); }
+    return t;
+  }
+
+  function selectRow(idx, readId) {
+    var f = FORM[current], row = f.rows[idx];
+    clearAll();
+    document.querySelectorAll("[data-row=\"" + idx + "\"]").forEach(function (n) { n.classList.add("on"); });
+    var read = document.getElementById(readId);
+    var p = document.createElement("p");
+    p.innerHTML = describe(f, row);
+    read.appendChild(p);
+    termsFor(f, row).forEach(function (t) {
+      var src = def(t);
+      if (src) { src.classList.add("on"); }
+    });
+  }
+
+  function drawStrip(f) {
+    var svg = document.getElementById("fig-strip"), MW = SPAN / f.n;
+    clear(svg);
+    var Y_KEY = 34, Y_B = 46, H = 34, Y_R = 98, Y_AX = 118;
+    svg.appendChild(el("text", { x: X0 - 20, y: Y_KEY + 4, "class": "rowname" }, "key"));
+    svg.appendChild(el("text", { x: X0 - 20, y: Y_B + H / 2 + 4, "class": "rowname" }, "statements"));
+    svg.appendChild(el("text", { x: X0 - 20, y: Y_AX + 18, "class": "rowname" }, "m."));
+    svg.appendChild(el("line", { x1: X0, x2: X0 + SPAN, y1: Y_B + H / 2, y2: Y_B + H / 2, "class": "episode" }));
+    svg.appendChild(el("line", { x1: X0, x2: X0 + SPAN, y1: Y_AX, y2: Y_AX, "class": "axis" }));
+    for (var m = 1; m <= f.n; m++) {
+      if (m === 1 || m % 10 === 0) {
+        var x = X0 + (m - 1) * MW;
+        svg.appendChild(el("line", { x1: x, x2: x, y1: Y_AX, y2: Y_AX + 5, "class": "axis" }));
+        svg.appendChild(el("text", { x: x, y: Y_AX + 18, "class": "mnum" }, String(m)));
+      }
+    }
+    var lastX = X0 + f.n * MW;
+    svg.appendChild(el("line", { x1: lastX, x2: lastX, y1: Y_AX, y2: Y_AX + 5, "class": "axis" }));
+    if (f.n % 10 > 3) { svg.appendChild(el("text", { x: lastX, y: Y_AX + 18, "class": "mnum" }, String(f.n))); }
+
+    f.rows.forEach(function (row, idx) {
+      var g = el("g", { "data-row": String(idx) });
+      var lines = row[3], placed = [];
+      lines.forEach(function (ln, li) {
+        if (!ln[0]) { return; }
+        var segs = [];
+        /* a line without measures shares its row's span, so its segments join the line above */
+        var group = [ln];
+        for (var j = li + 1; j < lines.length && !lines[j][0]; j++) { group.push(lines[j]); }
+        group.forEach(function (gl) {
+          f.cols.forEach(function (c) { if (gl[3][c]) { segs.push(kindOf(c)); } });
+        });
+        var x = X0 + (ln[1] - 1) * MW + 1, w = Math.max((ln[2] - ln[1] + 1) * MW - 2, 4);
+        var sw = w / segs.length;
+        segs.forEach(function (k, si) {
+          g.appendChild(el("rect", { x: x + si * sw, y: Y_B, width: sw, height: H, "class": "stripe " + k }));
+        });
+        g.appendChild(el("rect", { x: x, y: Y_B, width: w, height: H, "class": "frame" }));
+        placed.push([x, w]);
+      });
+      var first = placed[0];
+      g.appendChild(el("text", { x: first[0] + first[1] / 2, y: Y_KEY, "class": "keylabel" }, numeral(row[1], row[2])));
+      placed.forEach(function (pl) {
+        var t = el("text", { x: pl[0] + pl[1] / 2, y: Y_R, "class": "rlabel" }, "R");
+        t.appendChild(el("tspan", { dy: "3", "font-size": "9" }, row[0].slice(1)));
+        g.appendChild(t);
+      });
+      var hx = placed[0][0], hw = placed[placed.length - 1][0] + placed[placed.length - 1][1] - hx;
+      var h = hit(g, hx, Y_KEY - 14, Math.max(hw, 14), Y_R - Y_KEY + 18, subText(row[0]) + ", " + numeral(row[1], row[2]));
+      svg.appendChild(g);
+      activate(h, function () { selectRow(idx, "read-form"); });
+    });
+  }
+
+  function drawTable(f) {
+    var tab = document.getElementById("tab-form");
+    tab.innerHTML = "";
+    var thead = document.createElement("thead"), tr = document.createElement("tr");
+    ["", "key", "mode", "mm."].forEach(function (h) {
+      var th = document.createElement("th"); th.scope = "col"; th.textContent = h; tr.appendChild(th);
+    });
+    f.cols.forEach(function (c) {
+      var th = document.createElement("th"); th.scope = "col"; th.className = "seg"; th.textContent = c; tr.appendChild(th);
+    });
+    thead.appendChild(tr); tab.appendChild(thead);
+    var tbody = document.createElement("tbody");
+    f.rows.forEach(function (row, idx) {
+      row[3].forEach(function (ln, li) {
+        var r = document.createElement("tr");
+        r.dataset.row = String(idx);
+        if (li > 0) { r.className = "cont"; }
+        if (li === 0) {
+          var th = document.createElement("th"); th.scope = "row"; th.rowSpan = row[3].length;
+          var b = document.createElement("button"); b.type = "button"; b.className = "rbtn";
+          b.innerHTML = sub(row[0]);
+          b.setAttribute("aria-label", subText(row[0]) + ", statement");
+          b.addEventListener("click", function () { selectRow(idx, "read-form"); });
+          th.appendChild(b); r.appendChild(th);
+          [row[1], row[2]].forEach(function (v) {
+            var td = document.createElement("td"); td.rowSpan = row[3].length; td.textContent = v; r.appendChild(td);
+          });
+        }
+        var mm = document.createElement("td"); mm.className = "num"; mm.textContent = ln[0]; r.appendChild(mm);
+        var present = f.cols.filter(function (c) { return ln[3][c]; });
+        f.cols.forEach(function (c) {
+          var td = document.createElement("td"); td.className = "seg";
+          if (ln[3][c]) {
+            if (ln[4] && c === present[0]) { td.appendChild(arrow()); }
+            var s = document.createElement("button"); s.type = "button";
+            s.className = "sbtn k-" + kindOf(c);
+            s.textContent = c + (ln[3][c] === "*" ? "*" : "");
+            s.setAttribute("aria-label", NAMES[kindOf(c)] + " " + c.slice(1) + (ln[3][c] === "*" ? ", decorated" : ""));
+            s.addEventListener("click", function () {
+              clearAll();
+              showDef(kindOf(c), document.getElementById("read-form"));
+              if (ln[3][c] === "*") { def("decorate").classList.add("on"); }
+            });
+            td.appendChild(s);
+            if (ln[5] && c === present[present.length - 1]) { td.appendChild(arrow()); }
+          }
+          r.appendChild(td);
+        });
+        tbody.appendChild(r);
+      });
+    });
+    tab.appendChild(tbody);
+    var cap = document.createElement("caption");
+    cap.className = "note";
+    cap.style.captionSide = "bottom";
+    cap.style.textAlign = "left";
+    cap.textContent = f.table + ". Key and mode as Dreyfus gives them. An arrow joins a statement to the segments that continue it.";
+    tab.appendChild(cap);
+  }
+
+  function arrow() {
+    var a = document.createElement("span"); a.className = "arrow"; a.textContent = " → "; return a;
+  }
+
+  /* ---------- the keys on the hexachord ---------- */
+
+  var HEX = {
+    major: { degs: ["IV", "I", "V", "ii", "vi", "iii"], quality: ["major", "major", "major", "minor", "minor", "minor"] },
+    minor: { degs: ["VI", "III", "VII", "iv", "i", "v"], quality: ["major", "major", "major", "minor", "minor", "minor"] }
+  };
+
+  function drawHex(f) {
+    var tab = document.getElementById("tab-hex"), h = HEX[f.mode];
+    tab.innerHTML = "";
+    var tbody = document.createElement("tbody");
+    function line(label, cells, cls) {
+      var tr = document.createElement("tr");
+      var th = document.createElement("th"); th.scope = "row"; th.textContent = label; tr.appendChild(th);
+      cells.forEach(function (c) {
+        var td = document.createElement("td"); if (cls) { td.className = cls; }
+        if (typeof c === "string") { td.textContent = c; } else { td.appendChild(c); }
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    }
+    line("degree", h.degs, "deg");
+    if (f.pcs) { line("root", f.pcs, "pc"); }
+    var cols = h.degs.map(function () { return document.createDocumentFragment(); });
+    var order = [];
+    f.rows.forEach(function (row, idx) {
+      var di = h.degs.map(function (d) { return d.toUpperCase(); }).indexOf(row[1]);
+      if (di < 0) { return; }
+      var off = row[2] !== h.quality[di];
+      var b = document.createElement("button"); b.type = "button";
+      b.className = "rbtn" + (off ? " off" : "");
+      b.dataset.row = String(idx);
+      b.innerHTML = sub(row[0]) + (off ? " (" + row[2] + ")" : "");
+      b.setAttribute("aria-label", subText(row[0]) + ", " + numeral(row[1], row[2]) + (off ? ", " + row[2] + " against the hexachord" : ""));
+      b.addEventListener("click", function () { selectRow(idx, "read-hex"); });
+      cols[di].appendChild(b);
+      order.push(numeral(row[1], row[2]));
+    });
+    line("statements", cols, "stmts");
+    tab.appendChild(tbody);
+    var flagged = f.rows.some(function (row) {
+      var di = h.degs.map(function (d) { return d.toUpperCase(); }).indexOf(row[1]);
+      return di >= 0 && row[2] !== h.quality[di];
+    });
+    document.getElementById("model-hex").textContent = f.title + ". Order of keys: " + order.join(", ") + "." +
+      (flagged ? " A blue statement takes the opposite quality to its hexachord degree. Burnett hears the minor dominant here as kept minor so as not to return to the tonic too early (p. 153)." : "");
+  }
+
+  function showForm(key) {
+    current = key;
+    var f = FORM[key];
+    clearAll();
+    markForm(key); markHex(key);
+    drawStrip(f); drawTable(f); drawHex(f);
+    setCaption(document.getElementById("model-form"), f.title + ". Ideal ritornello: " + f.ideal + " " + f.model);
+  }
+
+  var items = FORM_KEYS.map(function (k) { return [k, FORM[k].label]; });
+  var markForm = picker("pick-form", items, showForm);
+  var markHex = picker("pick-hex", items, showForm);
+  showForm("bwv35");
+
+  /* ---------- the system in A major ---------- */
+
+  var SYS = {
+    "3b": { name: "3" + FLAT, root: "E" + FLAT, off: true },
+    "0": {
+      name: "0", root: "C",
+      scale: "C D E F G A B", flat: "B" + FLAT, raised: "F" + SHARP + " C" + SHARP + " G" + SHARP,
+      hex: "F C G d a e", missing: ["E" + FLAT, "3" + FLAT + ", root E" + FLAT, "D" + SHARP, "3" + SHARP + ", root A"], divider: "F" + SHARP
+    },
+    "3s": {
+      name: "3" + SHARP, root: "A",
+      scale: "A B C" + SHARP + " D E F" + SHARP + " G" + SHARP, flat: "G" + NAT, raised: "D" + SHARP + " A" + SHARP + " E" + SHARP,
+      hex: "D A E b f" + SHARP + " c" + SHARP, missing: ["C" + NAT, "0, root C", "B" + SHARP, "6" + SHARP + ", root F" + SHARP], divider: "D" + SHARP
+    },
+    "6s": {
+      name: "6" + SHARP, root: "F" + SHARP,
+      scale: "F" + SHARP + " G" + SHARP + " A" + SHARP + " B C" + SHARP + " D" + SHARP + " E" + SHARP, flat: "E" + NAT, raised: "B" + SHARP + " F" + DSHARP + " C" + DSHARP,
+      hex: "B F" + SHARP + " C" + SHARP + " g" + SHARP + " d" + SHARP + " a" + SHARP, missing: ["A" + NAT, "3" + SHARP + ", root A", "G" + DSHARP, "9" + SHARP + ", root D" + SHARP], divider: "B" + SHARP
+    },
+    "9s": { name: "9" + SHARP, root: "D" + SHARP, off: true }
+  };
+  var NODES = [["3b", 70], ["0", 260], ["3s", 450], ["6s", 640], ["9s", 830]];
+  var EDGES = [
+    ["0", "3b", "E" + FLAT, true], ["3b", "0", "", true],
+    ["3s", "0", "C" + NAT], ["0", "3s", "D" + SHARP],
+    ["3s", "6s", "B" + SHARP], ["6s", "3s", "A" + NAT],
+    ["6s", "9s", "G" + DSHARP, true]
+  ];
+
+  var WALK = [
+    ["m. 1", "3s", "The opening ritornello, in unison strings, sets A major in the 3" + SHARP + " system (p. 145)."],
+    ["mm. 7–8", "3s", "D" + SHARP + " at the start of the Fortspinnung embellishes the dominant as its leading tone, and D" + NAT + " displaces it in the next measure: a dyad conflict between the raised and the diatonic fourth degree. D" + SHARP + " belongs to the 3" + SHARP + " system and moves nothing (p. 147)."],
+    ["pianoidée", "0", "The pianoidée turns to A minor. C" + NAT + ", the missing pitch of 3" + SHARP + ", moves the system to 0, root C, and B" + FLAT + " at m. 11 is that system's allowable flat. C" + NAT + " against D" + SHARP + " is the movement's system conflict (pp. 145–48)."],
+    ["m. 30", "3s", "The second ritornello reaches the dominant at m. 29, and D" + SHARP + " at m. 30 restores the 3" + SHARP + " system. D" + SHARP + " now displaces D" + NAT + " and governs both the dominant and the C" + SHARP + "-minor area that follows (pp. 147–48)."],
+    ["m. 43", "6s", "A diversion to C" + SHARP + " minor brings B" + SHARP + ", the missing pitch spelled as an augmented second, and the system moves to 6" + SHARP + ", root F" + SHARP + ". B" + SHARP + " against A" + NAT + " governs the second episode and the third ritornello, in iii (pp. 147–48, 150)."],
+    ["m. 60", "3s", "A" + NAT + " displaces B" + SHARP + " at m. 60 and returns the system to 3" + SHARP + ". The third ritornello, which began in C" + SHARP + " minor, ends in B minor, and its D" + SHARP + "s resolve to D" + NAT + " (pp. 148–49)."],
+    ["m. 76", "3s", "Ritornello 4, in F" + SHARP + " minor, and ritornello 5, in A, state the Vordersatz alone, joined by a 5–6 exchange. Placing iii before vi reverses the usual order, in which iii is the penultimate ritornello and the tonic's return corrects its system shift (pp. 148–49)."],
+    ["close", "0", "Ritornello 6 brings mm. 7–8 back as mm. 105–106, and D" + SHARP + " resolves to D" + NAT + ". The pianoidée returns with C" + NAT + ", and with no D" + SHARP + " to correct it the movement ends in the 0 system. The second movement restores 3" + SHARP + " with D" + SHARP + " at m. 8 (pp. 150–51)."]
+  ];
+
+  var sysCur = "3s", walkCur = null;
+  var sysSvg = document.getElementById("fig-sys");
+
+  function drawSys() {
+    clear(sysSvg);
+    var defs = el("defs", {});
+    var mk = el("marker", { id: "arrowhead", viewBox: "0 0 10 10", refX: "9", refY: "5", markerWidth: "7", markerHeight: "7", orient: "auto-start-reverse" });
+    mk.appendChild(el("path", { d: "M0 0 L10 5 L0 10 z" }));
+    defs.appendChild(mk);
+    sysSvg.appendChild(defs);
+    var pos = {}; NODES.forEach(function (n) { pos[n[0]] = n[1]; });
+    var Y = 95, W = 120, H = 64;
+
+    EDGES.forEach(function (e) {
+      var a = pos[e[0]], b = pos[e[1]];
+      if (!e[2]) { return; }
+      var dir = b > a ? 1 : -1;
+      var y = Y + (dir > 0 ? -14 : 14);
+      var x1 = a + dir * W / 2, x2 = b - dir * W / 2;
+      sysSvg.appendChild(el("path", { d: "M" + x1 + " " + y + " L" + x2 + " " + y, "class": "edge" + (e[3] ? " off" : "") }));
+      sysSvg.appendChild(el("text", { x: (x1 + x2) / 2, y: y + (dir > 0 ? -8 : 20), "class": "elabel" + (e[3] ? " off" : "") }, e[2]));
+    });
+
+    NODES.forEach(function (n) {
+      var s = SYS[n[0]];
+      var g = el("g", { "class": "node" + (s.off ? " off" : "") + (n[0] === sysCur ? " cur" : "") });
+      g.appendChild(el("rect", { x: n[1] - W / 2, y: Y - H / 2, width: W, height: H, rx: 2, "class": "nbox" }));
+      g.appendChild(el("text", { x: n[1], y: Y - 2, "class": "nname" }, s.name));
+      g.appendChild(el("text", { x: n[1], y: Y + 18, "class": "nroot" }, "root " + s.root));
+      sysSvg.appendChild(g);
+      if (!s.off) {
+        var h = hit(g, n[1] - W / 2, Y - H / 2, W, H, s.name + " system, root " + s.root);
+        activate(h, function () { walkCur = null; sysCur = n[0]; markWalk(null); drawSys(); readSys(); });
+      }
+    });
+    sysSvg.appendChild(el("text", { x: 450, y: 180, "class": "nroot" }, "the 3" + SHARP + " system matrix, after Burnett, Figure 4.1; the outer systems lie beyond it"));
+  }
+
+  function readSys() {
+    var s = SYS[sysCur], r = document.getElementById("read-sys");
+    r.innerHTML = "";
+    function para(html, cls) { var p = document.createElement("p"); if (cls) { p.className = cls; } p.innerHTML = html; r.appendChild(p); }
+    if (walkCur !== null) {
+      para("Op. 9 no. 2, first movement &middot; " + WALK[walkCur][0], "label");
+      para(WALK[walkCur][2]);
+    }
+    para(s.name + " system, root " + s.root, "label");
+    para("Eleven pitch classes: the scale <span class=\"mono\">" + s.scale + "</span>; the allowable flat <span class=\"mono\">" + s.flat +
+      "</span>; and the raised thirds of the applied dominants to V, ii, and vi, <span class=\"mono\">" + s.raised + "</span>. Central hexachord in fifths: <span class=\"mono\">" + s.hex +
+      "</span>. The tritone " + s.root + "–" + s.divider + " divides the chromatic octave.");
+    para("Missing pitch: <span class=\"mono\">" + s.missing[0] + "</span> as the minor third above " + s.root + " moves the system to " + s.missing[1] +
+      ". <span class=\"mono\">" + s.missing[2] + "</span> as the augmented second moves it to " + s.missing[3] + ".");
+  }
+
+  var markWalk = picker("pick-walk", WALK.map(function (w, i) { return [String(i), w[0]]; }), function (k) {
+    walkCur = +k; sysCur = WALK[walkCur][1]; markWalk(k); drawSys(); readSys();
+  });
+  drawSys(); readSys();
+})();
+</script>
+</body>
+</html>
