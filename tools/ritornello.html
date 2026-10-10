@@ -216,9 +216,9 @@
 
 <p class="full" data-term="statement">Dreyfus numbers every statement of ritornello material R<sub>1</sub>, R<sub>2</sub>, and so on, and lists the segments it contains in brackets: [V1 V2 F1 F2 E], [V1], [F* E] (pp. 338, 354). An asterisk marks a decorated segment. A statement can be split across solo material, with measures in two places, and two statements in different keys can be coupled into one.</p>
 
-<p class="full">This course writes the full statement R and a partial statement r, with the segments it contains. In the seminar's reading of Vivaldi's RV 522, R1 is [V F E1 E2], and r2 is the second Epilog alone.</p>
+<p class="full">This course writes R for a statement with every segment of the full ritornello and r for one that returns incomplete, numbering both in one series. In the seminar's reading of Vivaldi's RV 522, R1 is [V F E1 E2], and r2 is the second Epilog alone. The charts below follow this notation.</p>
 
-<p class="full" data-term="partial">A partial statement has consequences. A Vordersatz alone is a complete harmonic progression, enough to stabilize a key (Burnett, p. 140). In the Echo from BWV 831, R<sub>3</sub> is [F* E] and resolves the material before it, which gives the preceding solo section pretensions to the status of a Vordersatz (Dreyfus, p. 354).</p>
+<p class="full" data-term="partial">An incomplete statement has consequences. A Vordersatz alone is a complete harmonic progression, enough to stabilize a key (Burnett, p. 140). In the Echo from BWV 831, R<sub>3</sub> is [F* E] and resolves the material before it, which gives the preceding solo section pretensions to the status of a Vordersatz (Dreyfus, p. 354).</p>
 
 <p class="full">Burnett glosses Dreyfus's &ldquo;marked&rdquo; statement as one that holds enough of one or more segments to stabilize a harmonic area (p. 140). In Dreyfus, marked names the features of Table I and the ritornello as against the solo episode (pp. 333&ndash;36). Cite each sense from its own author.</p>
 
@@ -603,10 +603,15 @@
 
   var MAJ = { I: "I", II: "II", III: "III", IV: "IV", V: "V", VI: "VI", VII: "VII" };
   function numeral(key, mode) { return mode === "minor" ? key.toLowerCase() : key; }
-  function sub(r) { return "R<sub>" + r.slice(1) + "</sub>"; }
+  function sub(r) { return r.charAt(0) + "<sub>" + r.slice(1) + "</sub>"; }
+  /* R for a statement with every segment of the full ritornello, r for one with only some */
+  function missingCols(f, row) {
+    return f.cols.filter(function (c) { return !row[3].some(function (ln) { return ln[3][c]; }); });
+  }
+  function lab(f, row) { return (missingCols(f, row).length ? "r" : "R") + row[0].slice(1); }
   function subText(r) {
     var d = "₀₁₂₃₄₅₆₇₈₉";
-    return "R" + r.slice(1).split("").map(function (c) { return d[+c]; }).join("");
+    return r.charAt(0) + r.slice(1).split("").map(function (c) { return d[+c]; }).join("");
   }
   function kindOf(col) { return col.charAt(0); }
 
@@ -621,15 +626,13 @@
   function describe(f, row) {
     var segs = rowSegs(row, f.cols), parts = [];
     var spans = row[3].filter(function (ln) { return ln[0]; }).map(function (ln) { return ln[0]; });
-    parts.push(sub(row[0]) + ", in " + numeral(row[1], row[2]) + ", " + (spans.length > 1 ? "mm. " + spans.join(" and ") : "mm. " + spans[0]) + ": [" + segs.join(" ") + "].");
-    var kinds = {};
-    segs.forEach(function (s) { kinds[kindOf(s)] = true; });
-    var missing = ["V", "F", "E"].filter(function (k) { return !kinds[k]; }).map(function (k) { return NAMES[k]; });
-    if (missing.length) { parts.push("Partial: " + missing.join(" and ") + " absent."); }
+    parts.push(sub(lab(f, row)) + ", in " + numeral(row[1], row[2]) + ", " + (spans.length > 1 ? "mm. " + spans.join(" and ") : "mm. " + spans[0]) + ": [" + segs.join(" ") + "].");
+    var missing = missingCols(f, row);
+    if (missing.length) { parts.push("Incomplete: [" + missing.join(" ") + "] absent."); }
     if (spans.length > 1) { parts.push("Split across solo material."); }
     var dec = segs.filter(function (s) { return s.indexOf("*") > 0; });
     if (dec.length) { parts.push("Decorated: [" + dec.join(" ") + "]."); }
-    if (row[2] !== f.rows[0][2]) { parts.push("MODESWITCH: in the " + row[2] + ", against the " + f.rows[0][2] + " of " + sub("R1") + "."); }
+    if (row[2] !== f.rows[0][2]) { parts.push("MODESWITCH: in the " + row[2] + ", against the " + f.rows[0][2] + " of " + sub(lab(f, f.rows[0])) + "."); }
     if (row[4] === "couple") { parts.push("Coupled with the neighboring statement in another key (RESEARCH)."); }
     if (row[4] === "orchestrate") { parts.push("ORCHESTRATE: [F1] at mm. 103–5 is marked piano, and the forte at m. 105 comes after the ritornello has been present all along."); }
     return parts.join(" ");
@@ -701,12 +704,12 @@
       var first = placed[0];
       g.appendChild(el("text", { x: first[0] + first[1] / 2, y: Y_KEY, "class": "keylabel" }, numeral(row[1], row[2])));
       placed.forEach(function (pl) {
-        var t = el("text", { x: pl[0] + pl[1] / 2, y: Y_R, "class": "rlabel" }, "R");
+        var t = el("text", { x: pl[0] + pl[1] / 2, y: Y_R, "class": "rlabel" }, lab(f, row).charAt(0));
         t.appendChild(el("tspan", { dy: "3", "font-size": "9" }, row[0].slice(1)));
         g.appendChild(t);
       });
       var hx = placed[0][0], hw = placed[placed.length - 1][0] + placed[placed.length - 1][1] - hx;
-      var h = hit(g, hx, Y_KEY - 14, Math.max(hw, 14), Y_R - Y_KEY + 18, subText(row[0]) + ", " + numeral(row[1], row[2]));
+      var h = hit(g, hx, Y_KEY - 14, Math.max(hw, 14), Y_R - Y_KEY + 18, subText(lab(f, row)) + ", " + numeral(row[1], row[2]));
       svg.appendChild(g);
       activate(h, function () { selectRow(idx, "read-form"); });
     });
@@ -732,8 +735,8 @@
         if (li === 0) {
           var th = document.createElement("th"); th.scope = "row"; th.rowSpan = row[3].length;
           var b = document.createElement("button"); b.type = "button"; b.className = "rbtn";
-          b.innerHTML = sub(row[0]);
-          b.setAttribute("aria-label", subText(row[0]) + ", statement");
+          b.innerHTML = sub(lab(f, row));
+          b.setAttribute("aria-label", subText(lab(f, row)) + ", statement");
           b.addEventListener("click", function () { selectRow(idx, "read-form"); });
           th.appendChild(b); r.appendChild(th);
           [row[1], row[2]].forEach(function (v) {
@@ -768,7 +771,7 @@
     cap.className = "note";
     cap.style.captionSide = "bottom";
     cap.style.textAlign = "left";
-    cap.textContent = f.table + ". Key and mode as Dreyfus gives them. An arrow joins a statement to the segments that continue it.";
+    cap.textContent = f.table + ". Key and mode as Dreyfus gives them. Dreyfus numbers every statement R; the charts write R for a statement with every segment of the full ritornello and r for one with only some. An arrow joins a statement to the segments that continue it.";
     tab.appendChild(cap);
   }
 
@@ -808,8 +811,8 @@
       var b = document.createElement("button"); b.type = "button";
       b.className = "rbtn" + (off ? " off" : "");
       b.dataset.row = String(idx);
-      b.innerHTML = sub(row[0]) + (off ? " (" + row[2] + ")" : "");
-      b.setAttribute("aria-label", subText(row[0]) + ", " + numeral(row[1], row[2]) + (off ? ", " + row[2] + " against the hexachord" : ""));
+      b.innerHTML = sub(lab(f, row)) + (off ? " (" + row[2] + ")" : "");
+      b.setAttribute("aria-label", subText(lab(f, row)) + ", " + numeral(row[1], row[2]) + (off ? ", " + row[2] + " against the hexachord" : ""));
       b.addEventListener("click", function () { selectRow(idx, "read-hex"); });
       cols[di].appendChild(b);
       order.push(numeral(row[1], row[2]));
