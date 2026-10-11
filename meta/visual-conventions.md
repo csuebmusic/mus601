@@ -21,12 +21,12 @@ Domain families extend the palette for the tools that use them.
 
 | variable | value | use |
 |---|---|---|
-| `--seg-vordersatz` | `#0e7c86` | ritornello segment: Vordersatz |
-| `--seg-fortspinnung` | `#4f7f1c` | ritornello segment: Fortspinnung |
+| `--seg-vordersatz` | `#0b6e77` | ritornello segment: Vordersatz |
+| `--seg-fortspinnung` | `#427018` | ritornello segment: Fortspinnung |
 | `--seg-epilog` | `#b02e5c` | ritornello segment: Epilog |
 | `--seg-pianoidee` | `#7c4dab` | ritornello segment: pianoidée |
 
-A segment color sets the segment's label and outline; a 14 to 22 percent `color-mix` of it into `--paper` fills its box.
+A segment color sets the segment's label and outline; a 14 to 16 percent `color-mix` of it into `--paper` fills its box. Segment-colored text on a fill meets 4.5:1.
 
 Colors are addressed through these variables. Component CSS and inline SVG use no hex values.
 
