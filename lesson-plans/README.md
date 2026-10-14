@@ -8,3 +8,4 @@ Instructor-facing, in Markdown.
 - [unit-2-readings.md](unit-2-readings.md): the unit 2 reading synthesis, by reading.
 - [unit-2-class-notes.md](unit-2-class-notes.md): the unit 2 lecture in the order of the class notes, expanded with the readings.
 - [unit-3-readings.md](unit-3-readings.md): the unit 3 reading synthesis, by reading.
+- [renaissance-baroque-galant.md](renaissance-baroque-galant.md): the style comparison from c. 1550 to 1770, by strand, with the galant schemata and the label histories.
