@@ -1,6 +1,6 @@
 # unit 3: reading synthesis
 
-Instructor-facing. What each assigned reading argues, what in it is teachable, and where the readings meet the unit's repertoire. The readings are the five in the unit 3 bibliography in `syllabus.html`. Page numbers are the printed pages of each source.
+Instructor-facing. What each assigned reading argues, what in it is teachable, and where the readings meet the unit's repertoire. The readings are the five in the unit 3 bibliography in `syllabus.html`. Burnett and Nitzberg's analyses of the unit 3 works have their own section, for instructor use; they aren't assigned. Page numbers are the printed pages of each source.
 
 ## the unit 3 scores and the readings that analyze them
 
@@ -8,21 +8,21 @@ Dates as the syllabus gives them. In syllabus order.
 
 | week | work | date | reading that analyzes it |
 |---|---|---|---|
-| 10–11 | Vivaldi, Concerto ripieno in A, RV 158 | none given | none |
-| 10–11 | Wagenseil, Sinfonia in E | none given | none. Brown names Wagenseil among the composers of court celebratory operas (p. 162) and finds sarabande vestiges in a few of his symphonies (p. 172 n. 35) |
-| 10–11 | Haydn, Symphony no. 2 in C | ca. 1757–61 | none |
-| 10–11 | Stamitz, Sinfonia a 8 in E-flat, *La melodia germanica* no. 3 | none given | none. Hepokoski finds the Type 2 sonata more common in the Mannheim composers than in Haydn ("Beyond," p. 137) |
-| 10–11 | J. C. Bach, Symphony in G minor, Op. 6 no. 6 | none given | none. Rosen, quoted by Hepokoski, cites J. C. Bach's Op. 9 no. 2 ("Beyond," p. 131) |
-| 10–11 | Haydn, Symphony no. 84 in E-flat | 1786 | none. Schmid names three companions from the Paris set, rehearsed at the Kees house (p. 156) |
+| 10–11 | Vivaldi, Concerto ripieno in A, RV 158 | none given | none. Burnett (not assigned): opening ritornello, pianoidée, and Epilogs (pp. 156–57; Ex. 5.1) |
+| 10–11 | Wagenseil, Sinfonia in E | none given | none. Brown names Wagenseil among the composers of court celebratory operas (p. 162) and finds sarabande vestiges in a few of his symphonies (p. 172 n. 35). Burnett (not assigned): WV 393, complete exposition (pp. 167–71; Ex. 5.4) |
+| 10–11 | Haydn, Symphony no. 2 in C | ca. 1757–61 | none. Burnett (not assigned): one sentence, second area begins in the minor dominant (p. 176) |
+| 10–11 | Stamitz, Sinfonia a 8 in E-flat, *La melodia germanica* no. 3 | none given | none. Hepokoski finds the Type 2 sonata more common in the Mannheim composers than in Haydn ("Beyond," p. 137). Burnett names Stamitz only (p. 180) |
+| 10–11 | J. C. Bach, Symphony in G minor, Op. 6 no. 6 | none given | none. Rosen, quoted by Hepokoski, cites J. C. Bach's Op. 9 no. 2 ("Beyond," p. 131). Burnett (not assigned): J. C. Bach's exposition type, and Op. 9 no. 2 (pp. 211–16) |
+| 10–11 | Haydn, Symphony no. 84 in E-flat | 1786 | none. Schmid names three companions from the Paris set, rehearsed at the Kees house (p. 156). Burnett (not assigned): full first movement and the finale's resolutions (pp. 204–11; Fig. 5.1) |
 | 10–11 | Mozart, Symphony no. 36 in C, "Linz," K.425 | 1783 | Brown: first movement saturated with fanfare rhythms, in the Viennese C-major trumpet tradition (p. 163) |
-| 12 (Paper 3) | Mozart, Symphony no. 41 in C, "Jupiter," K.551 | 1788 | Brown, all four movements, Figure 1 for the first (pp. 163–70). Schmid on the finale's four-note motive (pp. 150–51) |
+| 12 (Paper 3) | Mozart, Symphony no. 41 in C, "Jupiter," K.551 | 1788 | Brown, all four movements, Figure 1 for the first (pp. 163–70). Schmid on the finale's four-note motive (pp. 150–51). Burnett (not assigned): one sentence on the opening statement (p. 187) |
 | 12 (Paper 3) | Haydn, Symphony no. 90 in C | 1788 | none |
-| 13 | Beethoven, String Quintet in C, Op. 29, first movement | 1801 | Hepokoski, "Egmont," n. 7: key scheme of exposition and recapitulation (p. 132) |
-| 13 | Beethoven, Piano Sonata in C, Op. 53, "Waldstein," first movement | 1803–4 | Hepokoski, "Egmont": the recapitulatory submediant and its correction (pp. 130–31 and n. 5; p. 153 n. 32) |
-| 13 | Beethoven, Piano Trio in B-flat, Op. 97, "Archduke," first movement | 1810–11 | Hepokoski, "Egmont," n. 7: submediant secondary theme recapitulated in the tonic (p. 132) |
+| 13 | Beethoven, String Quintet in C, Op. 29, first movement | 1801 | Hepokoski, "Egmont," n. 7: key scheme of exposition and recapitulation (p. 132). Burnett (not assigned): full movement by systems (pp. 251–57; Diagram 6.2, Exx. 6.4–6.5) |
+| 13 | Beethoven, Piano Sonata in C, Op. 53, "Waldstein," first movement | 1803–4 | Hepokoski, "Egmont": the recapitulatory submediant and its correction (pp. 130–31 and n. 5; p. 153 n. 32). Nitzberg (not assigned): opening statement and exposition systems (pp. 5–7, 31–32, 354) |
+| 13 | Beethoven, Piano Trio in B-flat, Op. 97, "Archduke," first movement | 1810–11 | Hepokoski, "Egmont," n. 7: submediant secondary theme recapitulated in the tonic (p. 132). Burnett (not assigned): exposition and recapitulation systems (p. 251) |
 | 14 (Paper 4) | Beethoven, Violin Sonata in A, "Kreutzer," Op. 47, first movement | 1802–3 | none. Hepokoski supplies the terms for its keys: minor v as second-level default ("Egmont," p. 144 n. 20) and Category One (pp. 151–52) |
 
-Haydn 90, the Paper 3 companion to the "Jupiter," and the Kreutzer, the Paper 4 work, have no analysis in the assigned reading.
+Haydn 90, the Paper 3 companion to the "Jupiter," and the Kreutzer, the Paper 4 work, have no analysis in the assigned reading or in Burnett and Nitzberg. The book doesn't discuss the "Linz," *La melodia germanica*, or J. C. Bach's Op. 6 no. 6.
 
 ## lester, "rameau and eighteenth-century harmonic theory" (pp. 753–77) · 1558 to 1817
 
@@ -369,6 +369,94 @@ Brown's figure has no medial caesura, EEC, or ESC. His labels are P, T, S, K, an
 - Sonata types for the Week 10–11 symphonies: binary (Type 2) layouts are common in the earlier works, and recapitulations that begin at S are Type 2, not reversed.
 - The false recapitulation as a disputed category, with Sisman's discussion of the "Jupiter" in n. 64.
 
+## burnett and nitzberg on the unit 3 works (not assigned) · 1720s to 1811
+
+Instructor use. Chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth Century: The Classical Ideal" (pp. 155–232), and chapter 6, "Nineteenth-Century Approaches to Eleven-Pitch-Class Systems Derived from the Viennese Classical Tradition" (from p. 233), with passages from chapters 1 and 2. Per the preface, Burnett wrote chapters 3–7 with Nitzberg's emendations, and Nitzberg wrote chapters 1, 2, and 8. The Waldstein passages below are Nitzberg's; the Haydn 84 exposition analysis draws on Nitzberg's dissertation (p. 207 n. 30). "Burnett" below stands for the book.
+
+**The frame (pp. 155–92)**
+
+- Burnett's approach to sonata form is harmonic: periods articulated by cadences, with thematic content that may or may not be structural (p. 181). He acknowledges Ratner and Hepokoski as related approaches (n. 20).
+- Terms, Diagram 5.3 (p. 183): first and second harmonic area, opening statement, counterstatement, bridge, closing period, codetta. A bridge connects the first harmonic area to the second; a transition links subdivisions within the second area (p. 156 n. 2).
+- Opening statements are of two kinds: periodic, from the style galant and the dance; or segmented, from the ritornello's Vordersatz, Fortspinnung, Epilog, with a fanfare-like first phrase (pp. 185–87).
+- Bridges either extend the tonic, ending on a back-relating dominant ("bifocal close," after Winter), or destabilize it and cadence on V or II♯ (p. 188).
+- Mozart and Beethoven usually give the second area three periods (opening, closing, codetta), each closing with a full cadence; Haydn often omits the closing period (pp. 190–91).
+- Monothematic types, Diagram 5.4 (p. 193): type A, a continuous bridge that doesn't cadence in the new key until the end; type B, a medial caesura with rest and the opening material transposed to the dominant (p. 192).
+- The recapitulation's main purpose is to resolve the movement's chromatic issues (dyad conflicts, trichords) into tonic harmony, which is why composers don't need to recapitulate everything (p. 191). Composers plan movements around chromatic issues stated at the outset that resolve when transposed into the tonic (p. 216).
+- A lineage for the missing pitch before the dominant arrival: Vivaldi's pianoidée in the parallel minor (RV 158), Sammartini's parallel-minor bridges, the minor dominant at the start of the second area (Monn, Scarlatti, early Haydn), Wagenseil's single augmented-sixth sonority on the missing pitch, Haydn's Paris-symphony augmented sixths (pp. 156–80, 207). However introduced, the missing pitch of the tonic system "is always a dramatic event" (p. 180).
+- A development that climaxes on iii, redressed at the recapitulation, descends from the Baroque penultimate ritornello in iii: Wagenseil's WV 361 and several first movements of Haydn's late symphonies, after Willner (pp. 175–76).
+
+**Vivaldi, RV 158, first movement (pp. 156–57; Ex. 5.1, mm. 1–10)**
+
+- Vivaldi's ripieno concertos, often used as opera overtures, as an influence on the early symphony (pp. 155–56).
+- The opening ritornello is multi-segmented. Its pianoidée in the parallel minor shifts the system to "0" and is placed directly before three modulatory Epilog segments, so it prepares a bridge.
+- Epilog 1, mm. 13–14: V–I in the tonic. Epilog 2, mm. 15–16: the bass A moves to B, held as a pedal under D♯, which restores 3♯ and acts as V/V. Epilog 3, mm. 17–18: the formal cadence in E. The second ritornello follows at once in V.
+- Burnett reads the passage from pianoidée to second ritornello as the model of the move to the dominant in later sonata forms (p. 156). The major tonic switching to its parallel minor was heard as dissonant, Riepel's "schwarze Gredel" (pp. 156–57).
+- Ex. 5.1 prints mm. 1–10 only; the Epilogs he describes aren't in the example.
+
+**Wagenseil, Sinfonia in E, WV 393 (1760), first movement (pp. 166–71; Ex. 5.4, complete exposition, pp. 168–69)**
+
+- Context: Viennese court composer from 1739, pupil of Fux; conservative in his ties to binary dance form, galant in his key-centered chromatic voice leading; an influence on Haydn and the young Mozart, and on Beethoven through his pupil Schenk (pp. 166–67).
+- His general procedure: the dominant is hinted at in the bridge and confirmed only at the codetta, with no extended dominant area. Burnett traces it to the binary dance's tonic prolonged to a half cadence at the double bar (p. 167).
+- WV 393: a 13-measure opening statement in three four-measure phrases; a 32-measure bridge from m. 13. The first half of the bridge introduces A♯; the second half reaches II♯ at m. 25. A B-major (V) chord at m. 31; in the next measure an augmented sixth on G♮, the missing pitch of the 4♯ system, resolving to II♯7 (V7/V) and V (pp. 167–70).
+- M. 35 is the first decisive gesture toward the new area, still in the bridge and without a formal cadence: "what Hepokoski calls an 'unachieved medial caesura'" (n. 11). It starts an auxiliary cadence completed at m. 45, the start of a five-measure codetta and the first anchoring of the second area. No formal division before the codetta; m. 35 divides "trying to leave the tonic" from "trying to arrive at the dominant." Four-measure hypermeasures throughout (p. 170).
+- The augmented sixth on ♭3 reduces a whole parallel-minor phrase to one sonority with a voice-leading function, anticipating Haydn's Paris symphonies (p. 170).
+- Koch's single-period exposition, which cadences on V without rules for where the second area falls, as the theoretical parallel (pp. 170–71).
+- Editions cited (p. 167 n. 9): Diletto musicale; DTÖ 31; Kucaba, *The Symphony 1720–1840*, ser. B, vol. 3. The seminar copy is Paumgartner's Diletto musicale 387. Whether that copy is WV 393 needs checking against it.
+
+**Haydn, Symphony no. 2, and Stamitz (pp. 176, 180)**
+
+- Haydn 2 appears in one sentence: the second harmonic area begins in the minor dominant in the first movements of Haydn's symphonies nos. 1, 2, and 4, a Viennese practice (Monn), with Beethoven's Op. 2 no. 3 as a later instance (p. 176).
+- The minor dominant is the pianoidée moved onto the dominant. It invites a system shift down three signatures and readily introduces the tonic system's missing ♭3; its release into the major dominant restores the tonic system (p. 179).
+- Stamitz appears only as a user of a bridge cadence and rest before the harmonic change, a convention he shares with J. C. Bach and Leopold and Wolfgang Mozart (p. 180).
+
+**J. C. Bach (pp. 181, 188, 211–16)**
+
+- J. C. Bach's expositions are quadripartite: a tonic period, a bridge, and a second area (V in major, the relative major in minor) in three periods, each set off by a downbeat cadence with rests and each in a contrasting topic. Expositions not repeated, as in overtures. Tonal motion centers on the cadence (pp. 211–12).
+- His bridges are non-modulatory and end on a back-relating dominant (pp. 188, 212). Reverse recapitulations are common in his music, after the Mannheim composers (p. 181 n. 21).
+- Op. 9 no. 2 (1773), first movement, Fig. 5.6 (p. 213): A♮/A♭ is the main dyad conflict; F♯, the missing pitch of the 3♭ system, enters at the development's climax (C minor, then A♭ swinging to G minor, m. 106); the recapitulation omits the "singing allegro" topic; the codetta's E♭–E♮–F returns as A♭–A♮–B♭ in the tonic (mm. 168–69) and resolves the conflict (pp. 212–16).
+- Op. 6 no. 6 isn't discussed. Op. 9 no. 2 is the nearest model.
+
+**Haydn, Symphony no. 84 in E-flat, first movement (pp. 204–11; Fig. 5.1, the 3♭ matrix, p. 206)**
+
+- The Paris symphonies, commissioned by the Comte d'Ogny for the Concert de la Loge Olympique (p. 204).
+- The introduction presents the movement's dyad conflicts in order: D♭/D♮ (mm. 3–4), B♭/B♮ (m. 8), A♭/A♮ (m. 9), G♭/G♮ (mm. 16–17). The order runs backward along the chromatic octave from pcs 10–11. A♭–A♮–B♭ becomes a trichord at m. 13 and a tetrachord at m. 14. E♮ is absent from the introduction, saved for the Allegro. G♭, the missing pitch of the 3♭ system, is saved for last (pp. 204–5).
+- Mm. 16–20: over a dominant pedal, a diminished harmony on A♮ sets G♭ against A♮, the missing pitch of the 6♭ system, so neither shifts the system. Burnett calls this a "system dyad conflict," deeper than a neighbor-note dyad conflict, and it governs the second half of the exposition (p. 206).
+- The Allegro, cut time, opens with a piano eight-measure statement; the PCA begins with pcs 0–2 in the viola at m. 25. A five-measure tutti; a counterstatement at m. 33 that becomes the bridge; a V/V pedal, mm. 53–57. At mm. 62ff., pc 3 is spelled F♯, the system complement of G♭/A♮, to avoid a shift. A PAC on B♭ at m. 73 with three beats of rest (pp. 206–7).
+- The central claim. The second area seems to begin at m. 74, but the voice exchange that normally opens it comes only at m. 88, with a G♭ augmented sixth spelled with F♭. The medial caesura attempted at m. 73 isn't achieved, since no complete progression in the dominant comes before the PAC at the codetta, m. 104. Mm. 74ff. are a "false second harmonic area," part of an extended bridge subsumed under the tonic (pp. 207–8).
+- Inside it: pcs 0–2 again, mm. 74–80; G♭ enters at m. 81 in the minor dominant and "wins out" at m. 85, shifting 3♭ to 6♭; C♭/C♮, mm. 86–87; F♭/F♮, mm. 88–95. The G♭7 spelling implies C♭, a feint Burnett hears copied at the development climax of Beethoven's Op. 1 no. 3. G♭ becomes G♮ at m. 93 and resolves to F at m. 94; an F pedal, mm. 94–100; F♯ at m. 101; the codetta PAC at m. 104 (pp. 208–9).
+- Development plan along the reordered hexachord (A♭ E♭ B♭ f/F c g): B♭ – c – [A♭ – D♭] – C – F – [c – D♭] – B♭ – E♭. The false recapitulation is on F major (II♮) at m. 148; only F major's A♮ can cancel the 6♭ system set off by the D♭ and G♭ from m. 128. F♯ at m. 152 shifts up to "0"; E♭ at m. 161 restores 3♭; D♭ as ♭VII at m. 181 is the climax and brings G♭ and 6♭ again; rapid shifts, mm. 182–92; A♮ wins at mm. 191–92; the retransition from m. 192; F♯ at m. 201, cancelled by the tonic recapitulation at m. 202 (pp. 209–10).
+- Recapitulation: D♭ as seventh of E♭7 at m. 214; A♭/A♮ at m. 216; pcs 3–7, mm. 225–31; second-area material in the tonic at m. 237; the tonic minor at m. 244, bringing G♭ and 6♭, with A♮ blocking the return; the codetta at m. 260 resolves D♭ to D♮. The movement ends in the uncorrected 6♭ system (pp. 210–11).
+- The finale resolves both: D♭ in a false recapitulation in A♭, resolved at the retransition, m. 189; G♭ to G♮ at m. 269, before the coda at m. 271; at the end, A♮ against G♭ keeps 3♭ (p. 211).
+
+**Mozart, "Jupiter," first movement (p. 187)**
+
+- One sentence: its opening statement is of the segmented, ritornello-derived type, with Mozart 39, Beethoven 5, and Haydn 87.
+
+**Beethoven, String Quintet in C, Op. 29, first movement (pp. 251–57; Diagram 6.2, p. 252; Ex. 6.4, mm. 1–41, pp. 253–54; Ex. 6.5, mm. 264–80, p. 256)**
+
+- "A work not generally discussed in the literature," and a "systems piece" (p. 251).
+- The exposition's harmonic areas stay within the C matrix, between the "0" and 3♯ systems, and turn on the major and minor of the submediant and on C♯/C♮ (p. 252).
+- The missing pitch of "0" first appears as E♭, a chord tone of F♯°7 in the opening tonic period (mm. 7, 15), as in the Waldstein. In the bridge it's spelled D♯ throughout. The A-minor passage in the bridge sets C♮ against D♯ until D♯ wins on the last eighth of m. 39, for the second area in A major. The rest of the exposition alternates A major and A minor until C♮ wins in A minor, capped by the codetta (p. 252).
+- Development: C major, V/IV by m. 103; F minor at m. 107 brings E♭ and 3♭ and becomes the "development key"; D♭ at m. 111 brings 6♭; D♭ supports the trichord C–C♯–D and becomes C♯ at m. 117, leading to a G6/4 with D in the bass at m. 119; A♮ shifts to 3♭ and F♯ at m. 120 to "0"; E♭ and F♯ conflict from m. 123, with the minor subdominant again at mm. 151ff. E♭ in the development balances D♯ in the exposition (p. 255).
+- Recapitulation: what was in the minor submediant returns in the tonic minor, raising E♭; the A-major sections return in C major with F♯ cancelling 3♭. The 3♭/"0" conflict balances the exposition's 3♯/"0" (p. 255).
+- The C♮/C♯ trichord resolves in the closing period's final PCA ascent, mm. 264ff., all twelve pitch classes in 17 measures. D♯ displaces E♭; the first violin's D♯ resolves to E at m. 276; pcs 5–9 at mm. 277–78; A♯–B–C at the start of the coda, m. 280; diatonic to the end (pp. 255–56).
+- A parallel in Cherubini's *Lodoïska* overture (1791): the same C♮–C♯–D trichord and A minor/A major juxtaposition (p. 257).
+- Elsewhere: when the second area is on the sharp side, the missing pitch is usually spelled as an augmented second, citing Op. 29 and the Waldstein (p. 306). The first movements of Op. 29, the Archduke, and the Ninth have second areas that don't arpeggiate the tonic triad (p. 328).
+
+**Beethoven, Waldstein, first movement (pp. 5–7, 31–32, 354; Nitzberg)**
+
+- Chapter 1 (pp. 5–6), in the same discussion as Haydn's Op. 64 no. 3. The opening statement holds the E♮/E♭ dyad conflict and ends on a cadential 6/4 with E♭. F♯ and B♭ grow from the diatonic F–B tritone; F♯ yields a C♯ appoggiatura; the bass descends C–B♭–A♭ to a mixed IV6; the half cadence is decorated ♭6/4–5/3 with E♭. The opening statement holds all twelve pitch classes and five chromatic pairs.
+- The counterstatement at m. 14; at m. 18, G♯ in a ♯4/2 begins sharpward respellings, G♯–D♯–A♯, the A♯ in an augmented sixth that tonicizes III as the second area. Across the sonata, ten enharmonic pairs and 22 spellings, each traced back to the opening E♭ (p. 6).
+- Nitzberg contrasts the reading with Piston-style chord labeling, Riemannian mode mixture, motivic analysis, and a Schenkerian E dividing C–G (pp. 6–7).
+- Chapter 2 (pp. 31–32): the exposition is subdivided by major thirds. E♭ sends the system to 3♭; F♯ in the counterstatement restores "0"; D♯ brings E major and the 3♯ system. The 3♯ system holds, uncontested, over most of the exposition without its missing pitch, C♮. E major is subsumed under the A–D♯ system. The recapitulation's transposition of the second area to VI (A major) within the tonic "0" system supports that reading. C♮ returns in the closing period at m. 70 (against D♯) and at m. 74 at the codetta, restoring "0" for the repeat.
+- System-consonant C–F♯ tritone against system-dissonant A–D♯ (p. 32). The C–A minor-third relation of system roots is the background of the foreground C–E major third (p. 354).
+
+**Beethoven, Archduke Trio, first movement (pp. 251, 328)**
+
+- First area B♭ (2♭ system), second area G major (1♯). The top line of the piano falls B♭ to G at mm. 4–5.
+- The opening statement, mm. 1–33, has exactly eleven pitch classes, without C♯/D♭. The bridge, mm. 33–51: C♯ first as neighbor to D against B♭ harmony, with no shift; at m. 35 a chromatic 5–6 swings B♭ to D major, and C♯ shifts the system to 1♯, uncontested until m. 81 in the closing area. Beethoven changes the signature to one sharp eight measures before the second area and back to two flats when B♭ returns at the end of the exposition.
+- Recapitulation: the second area in B♭; the closing area turns to the tonic minor, C♯ becomes D♭, and 2♭ falls to 5♭, held through codetta and coda, balancing the exposition's time in 1♯. E♮ at m. 281, seven measures from the end, restores 2♭; C♯ returns five measures from the end against B♭ harmony; the close is a "systems summary" (p. 251).
+
 ## where the readings collide
 
 **Four kinds of explanation**
@@ -427,10 +515,22 @@ Brown's figure has no medial caesura, EEC, or ESC. His labels are P, T, S, K, an
 
 - Hepokoski entertains hexatonic substitution (F minor and D-flat; B major and G; E minor and C major) three times and declines it for this repertoire ("Egmont," pp. 133, 138 n. 17; "Beyond," p. 147 n. 83). A forward link to 602.
 
+**Burnett against the assigned readings (instructor only)**
+
+- Op. 29. Hepokoski ("Egmont," p. 132 n. 7) and Burnett (pp. 251–55) agree on the keys: exposition to A major and A minor (VI, vi), recapitulation in C major and minor. Hepokoski finds no fifth-based balance in the recapitulation. Burnett finds a system balance: 3♭ against "0" in the recapitulation answers 3♯ against "0" in the exposition.
+- Waldstein. Hepokoski: the recapitulatory submediant is ephemeral and self-corrects to the tonic ("Egmont," p. 130). Nitzberg: the recapitulation's A major within the tonic "0" system supports hearing the exposition's E major under the 3♯ system (p. 31).
+- Archduke. Both: the G-major second area returns in the tonic. Burnett adds the closing area's turn to the tonic minor and the 5♭ system.
+- Haydn's Op. 64 no. 3. Nitzberg (chapter 1, p. 5 and n. 11) takes Hepokoski's terms and measures ("apparent" MC, D♭ at m. 40, arrival at m. 48) and makes D♭ the controlling pitch through the development, from B♭ minor at m. 87 to C♯ at m. 102. Hepokoski ("Beyond," pp. 120–28) reads the same measures as the decay and liquidation of S1. A pitch against a theme.
+- The medial caesura. Burnett uses Hepokoski's term with a harmonic test: a caesura is achieved when a complete progression in the new key follows (Haydn 84, pp. 206–7; Wagenseil WV 361, p. 172). Hepokoski defines the MC by the caesura and the S that follows, and the EEC by the first satisfactory PAC ("Egmont," p. 128).
+- Reverse recapitulation. Burnett uses the term for the Mannheim composers, J. C. Bach, and Mozart's K. 311 (p. 181 and n. 21). Hepokoski calls it a historically unjustified misreading of the Type 2 sonata and names K. 311 ("Beyond," p. 138 n. 71).
+- The "Jupiter" opening. Burnett: a segmented opening statement derived from the ritornello (p. 187). Brown: fanfare refrains descended from trumpet-sinfonia ritornellos (p. 163). Both reach the Baroque ritornello, one by phrase segmentation and one by refrain.
+- Form defined by harmony. Burnett's approach is "basically harmonic" and he holds that Classical composers followed no rule books (pp. 181, 192). Hepokoski calls the harmonic definition one of two disputable postulates ("Egmont," p. 134) and analyzes by generic norms.
+- What a recapitulation is for. Burnett: to resolve the chromatic issues into the tonic, which is why material can be omitted (p. 191). Hepokoski: to restore order to problems set in the exposition, with omissions as synecdoche or substitution ("Beyond," pp. 129–30, 147).
+
 **What the reading doesn't cover**
 
 - Haydn 2, 84, and 90; Stamitz; J. C. Bach's Op. 6 no. 6; RV 158; Wagenseil's Sinfonia in E; the Kreutzer.
-- No reading in the unit applies the hexachord systems to a Classical work.
+- No assigned reading applies the hexachord systems to a Classical work. Burnett and Nitzberg do, for instructor use (see their section above).
 
 ## the paper 3 directed questions
 
@@ -444,7 +544,7 @@ From `units/unit-3.html`. Mozart 41 and Haydn 90, first movements.
 Where the readings meet each question:
 
 - MC and EEC: definitions, "Egmont," p. 128 and Fig. 1a–b (p. 129). Complications: apparent double MC and TMB, "Beyond," pp. 123–24; decay of S into minor, "Beyond," pp. 122–23 and "Egmont," p. 137; continuous exposition without MC, "Egmont," p. 147. For the "Jupiter," Brown's Fig. 1 segmentation, translated (his K is C; he marks a GP after Sa).
-- Systems: no unit 3 reading. Burnett chapter 4's tonal rules, as recorded in the unit 2 synthesis; the table below.
+- Systems: no assigned reading. For instructor use, Burnett's Haydn 84 (pp. 204–11) is a Classical exposition read by systems, with the bridge, the minor dominant, and the augmented sixth as the system events; his Wagenseil (pp. 167–71) gives the augmented sixth on the missing pitch before V. Tonal rules from chapter 4 as recorded in the unit 2 synthesis; the table below.
 - Refrain: Brown, pp. 163, 166 and n. 27. Thematic economy: Hepokoski on P-based S themes in Haydn ("Beyond," pp. 139, 141); Ratner's monothematic expositions as an argument against bithematic definitions ("Beyond," p. 99).
 - The second key's arrival: Hepokoski's account of the S zone, "Beyond," pp. 134–36. For Haydn, his hypothesis that recapitulations readjust problematized expositions (p. 129).
 
@@ -475,7 +575,7 @@ From `units/unit-3.html`. Kreutzer, first movement.
 Where the readings meet each question:
 
 - Mode switch: Hepokoski's decays of major into minor as structural events ("Egmont," p. 137; "Beyond," pp. 122–23) and Category One (pp. 151–52), where Beethoven sometimes begins the recapitulatory S in major and extinguishes it into minor.
-- System battle: no unit 3 reading; the table below.
+- System battle: no assigned reading, and the book doesn't discuss the Kreutzer. The instructor models are Op. 29 ("0" against 3♯, then 3♭ against "0," pp. 251–56), the Waldstein ("0" to 3♯ uncontested, pp. 31–32), and the Archduke (2♭ to 1♯, then 5♭, p. 251). The table below.
 - Minor v: second-level default for minor-mode expositions ("Egmont," p. 144 n. 20; p. 151). Hepokoski calls an EEC in minor v in a major-mode exposition a strong reversal of expectations (p. 137); the Kreutzer's main body is in minor, where minor v is generic.
 - The coda: "Egmont," p. 134 on codas as parageneric zones; Category Two's closure deferred to the coda (pp. 152–53). Whether the Kreutzer's recapitulation resolves inside sonata space is the question that separates its coda from Egmont's.
 
@@ -509,3 +609,7 @@ Same rules. Keys named in the directed questions, plus the flat side.
 - Both Hepokoski essays cite *Elements of Sonata Theory* as forthcoming. Students cite the published book (Oxford University Press, 2006) for the terms.
 - Schmid has no notes. Every quotation in it (Beethoven's deathbed remark, Haydn's letters to Prague, Genzinger, and Puchberg, Leopold's letter of February 1785, Mozart on Koželuch, Carpani) needs tracing to an edition before a student cites it.
 - Schmid gives no Köchel or Hoboken numbers. His "first symphony" (London, 1765), "F-major Mass of 1774," "C-major Mass of 1776," "B-flat major Symphony of 1779," and "E-flat major Violin Sonata (1785)" need identifying before citation (p. 151).
+- Burnett on Op. 29 gives m. 179 as the recapitulation and as the start of the retransition, and m. 167 as the point where F♯ finally displaces E♭ before it (p. 255). Check against the score.
+- Burnett calls Haydn 84's exposition type A "with an articulated second harmonic area, complete with an achieved medial caesura" (p. 206), then says the caesura attempted at m. 73 "is not achieved" (p. 207). His description of an MC followed by the opening material in the dominant matches his type B (p. 192).
+- Burnett's Wagenseil WV 393 opening statement is "13-measure," "subdivided into three four-measure phrases," with the bridge from m. 13 (p. 167).
+- Burnett n. 11 spells Hepokoski "Hepokoksi" (p. 170).
