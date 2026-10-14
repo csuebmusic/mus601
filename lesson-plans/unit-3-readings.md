@@ -22,7 +22,7 @@ Dates as the syllabus gives them. In syllabus order.
 | 13 | Beethoven, Piano Trio in B-flat, Op. 97, "Archduke," first movement | 1810–11 | Hepokoski, "Egmont," n. 7: submediant secondary theme recapitulated in the tonic (p. 132). Burnett (not assigned): exposition and recapitulation systems (p. 251) |
 | 14 (Paper 4) | Beethoven, Violin Sonata in A, "Kreutzer," Op. 47, first movement | 1802–3 | none. Hepokoski supplies the terms for its keys: minor v as second-level default ("Egmont," p. 144 n. 20) and Category One (pp. 151–52) |
 
-Haydn 90, the Paper 3 companion to the "Jupiter," and the Kreutzer, the Paper 4 work, have no analysis in the assigned reading or in Burnett and Nitzberg. The book doesn't discuss the "Linz," *La melodia germanica*, or J. C. Bach's Op. 6 no. 6.
+Haydn 90, the Paper 3 companion to the "Jupiter," and the Kreutzer, the Paper 4 work, have no analysis in the assigned reading or in Burnett and Nitzberg. Burnett's two Sammartini first movements (Symphony in C and Symphony in D, pp. 158–66) aren't on the syllabus; they're in his section for instructor use. The book doesn't discuss the "Linz," *La melodia germanica*, or J. C. Bach's Op. 6 no. 6.
 
 ## lester, "rameau and eighteenth-century harmonic theory" (pp. 753–77) · 1558 to 1817
 
@@ -393,6 +393,30 @@ Instructor use. Chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth 
 - Burnett reads the passage from pianoidée to second ritornello as the model of the move to the dominant in later sonata forms (p. 156). The major tonic switching to its parallel minor was heard as dissonant, Riepel's "schwarze Gredel" (pp. 156–57).
 - Ex. 5.1 prints mm. 1–10 only; the Epilogs he describes aren't in the example.
 
+**Sammartini, Symphony in C and Symphony in D, first movements (pp. 158–66; Diagrams 5.1–5.2, pp. 161–62; Exx. 5.2a, 5.2b, 5.3, pp. 159, 163, 165)**
+
+- Not on the syllabus; instructor use. Burnett calls them Sammartini's "symphonies nos 1 in C (c. 1720s) and 3 in D (c. 1730s)," with Churgin's editions as sources (nn. 6–7), and gives no J-C numbers.
+- Context: Sammartini as maestro di cappella in Milan (Burney); Milan's orchestral culture before Mannheim, under Austrian rule of Lombardy, 1708–96 (p. 158). Both first movements switch to the parallel minor before the dominant arrives, in two different forms (p. 158).
+
+Symphony in C, Diagram 5.1, "Vivaldi-influenced, irregular ritornello form":
+
+- The form is a ripieno-concerto ritornello form, after Vivaldi or Albinoni; the "second harmonic area" is the ritornello transposed to V (p. 158).
+- The opening ritornello cadences on the tonic at m. 16 and is extended four measures, alternating minor tonic and major dominant over a viola dominant pedal (Ex. 5.2a, mm. 1–20). It leads straight into the second ritornello in V; the melodic F♯ serves as leading tone without V/V harmony (p. 158).
+- E♭, which would shift the system to 3♭, is corrected each time by F♯; the alternation ends at m. 19 on an uncontested F♯, so "0" holds (p. 160).
+- Why E♭ and not D♯: most composers spell the first move away from the tonic flat; D♯ would imply iii and undercut the later move to iii (p. 160).
+- After the second ritornello in V, now with an Epilog, the music swings to E minor with a lyrical idea in four-measure units. Galant 2 + 2 phrasing throughout, against Vivaldi's asymmetrical ritornellos (p. 160).
+- In E minor the E♭s become D♯s and the system rises to 3♯. Mm. 49–79: D♯ against C♮, the systems moving back and forth "not unlike that of a development section." C♮ is uncontested from m. 79 (p. 163).
+- The E-minor lyrical theme returns in the tonic minor at m. 98 (Ex. 5.2b, mm. 98–112): D♯s become E♭s, 3♭. E♭ resolves to D at the end of m. 101, returns, and resolves to E♮ in the next measure. F♯ on beat 2 of m. 103, in an Italian augmented sixth on A♭, restores "0." A four-measure ritornello in the tonic major ends the movement (p. 163).
+- Burnett: every dissonant gesture (the tonic minor, E♭ and D♯, the lyrical theme in a remote area) is restated and resolved in the tonic; Sammartini "anticipated Classical developmental techniques by four decades" (p. 163).
+
+Symphony in D, Diagram 5.2, "simple binary sonata form based on Italian keyboard models":
+
+- An eight-measure opening statement (4 + 4) to a tonic authentic cadence. The bridge at m. 9 introduces F♮ and drops the 2♯ system to 1♭, the parallel minor, over a dominant pedal on A. G♯ on the first beat of m. 17 restores 2♯, and the authentic cadence in V follows at m. 18: the system correction and the dominant arrival coincide. Ten measures anchor V; the first half repeats (p. 164; Ex. 5.3, mm. 1–28).
+- Against the C symphony: there the dominant was a middleground expression of the tonic, equal in weight to the E-minor section; here the binary keyboard form makes the dominant a hierarchical focal point second only to the tonic, and it must be prepared to bear that weight. In minor-mode sonatas the relative major takes this role (p. 164).
+- Proportions: 8 measures opening, 10 bridge, 10 dominant period (p. 164).
+- Second half: it opens with the opening material in V, which Burnett traces to the second ritornello and the Italian binary keyboard forms, and he calls the label "development" inappropriate. It repeats the first half's order: V turns to its parallel minor, the transposed bridge veers to vi (B minor) with the pedal now on B, and a fifths cycle b–e–A–D, the D hexachord in retrograde, returns to the tonic, unarticulated, at m. 63. Only the bridge material and the closing cadences are recapitulated in the tonic; the opening statement doesn't return, since it was stated in V (p. 166).
+- The second half holds every pitch class except F♮, the missing pitch of 2♯, so the system never shifts. Burnett ties the absence of real development to the symphony's status as an overture (p. 166).
+
 **Wagenseil, Sinfonia in E, WV 393 (1760), first movement (pp. 166–71; Ex. 5.4, complete exposition, pp. 168–69)**
 
 - Context: Viennese court composer from 1739, pupil of Fux; conservative in his ties to binary dance form, galant in his key-centered chromatic voice leading; an influence on Haydn and the young Mozart, and on Beethoven through his pupil Schenk (pp. 166–67).
@@ -523,6 +547,7 @@ Instructor use. Chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth 
 - Haydn's Op. 64 no. 3. Nitzberg (chapter 1, p. 5 and n. 11) takes Hepokoski's terms and measures ("apparent" MC, D♭ at m. 40, arrival at m. 48) and makes D♭ the controlling pitch through the development, from B♭ minor at m. 87 to C♯ at m. 102. Hepokoski ("Beyond," pp. 120–28) reads the same measures as the decay and liquidation of S1. A pitch against a theme.
 - The medial caesura. Burnett uses Hepokoski's term with a harmonic test: a caesura is achieved when a complete progression in the new key follows (Haydn 84, pp. 206–7; Wagenseil WV 361, p. 172). Hepokoski defines the MC by the caesura and the S that follows, and the EEC by the first satisfactory PAC ("Egmont," p. 128).
 - Reverse recapitulation. Burnett uses the term for the Mannheim composers, J. C. Bach, and Mozart's K. 311 (p. 181 and n. 21). Hepokoski calls it a historically unjustified misreading of the Type 2 sonata and names K. 311 ("Beyond," p. 138 n. 71).
+- Sammartini's D-major first movement. Burnett: a binary form after Italian keyboard models whose second half opens with the opening material in V and recapitulates from the bridge (p. 166). Hepokoski's Type 2 sonata names this layout, a tonal resolution beginning at or around S after a development, not a reversed or truncated recapitulation ("Beyond," pp. 137–38).
 - The "Jupiter" opening. Burnett: a segmented opening statement derived from the ritornello (p. 187). Brown: fanfare refrains descended from trumpet-sinfonia ritornellos (p. 163). Both reach the Baroque ritornello, one by phrase segmentation and one by refrain.
 - Form defined by harmony. Burnett's approach is "basically harmonic" and he holds that Classical composers followed no rule books (pp. 181, 192). Hepokoski calls the harmonic definition one of two disputable postulates ("Egmont," p. 134) and analyzes by generic norms.
 - What a recapitulation is for. Burnett: to resolve the chromatic issues into the tonic, which is why material can be omitted (p. 191). Hepokoski: to restore order to problems set in the exposition, with omissions as synecdoche or substitution ("Beyond," pp. 129–30, 147).
@@ -613,3 +638,6 @@ Same rules. Keys named in the directed questions, plus the flat side.
 - Burnett calls Haydn 84's exposition type A "with an articulated second harmonic area, complete with an achieved medial caesura" (p. 206), then says the caesura attempted at m. 73 "is not achieved" (p. 207). His description of an MC followed by the opening material in the dominant matches his type B (p. 192).
 - Burnett's Wagenseil WV 393 opening statement is "13-measure," "subdivided into three four-measure phrases," with the bridge from m. 13 (p. 167).
 - Burnett n. 11 spells Hepokoski "Hepokoksi" (p. 170).
+- Burnett identifies the Sammartini symphonies only as "nos 1 in C (c. 1720s) and 3 in D (c. 1730s)," from Churgin's editions (p. 158 and nn. 6–7), with no J-C numbers. Check the incipits of J-C 7 and J-C 14 against Exx. 5.2a and 5.3.
+- Burnett gives the Sammartini D-major proportions as 8, 10, and 10 measures and calls the relation of bridge and second key to the opening statement "1:3," "a proportion maintained in all sonata-form movements from Domenico Scarlatti to Beethoven" (p. 164). His own figures give 8:20.
+- Burnett's diagrams title both Sammartini works "Sinfonia"; his examples and text call them "Symphony" (pp. 159–65).
