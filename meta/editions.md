@@ -8,7 +8,7 @@ The edition behind each score distributed in the seminar meetings, taken from th
 - Lasso, Orlando di. *Lagrime di San Pietro*, no. I, "Il magnanimo Pietro." Modern typeset score à 7, unpaginated, with a blackletter monogram at the foot of the page; no publisher line, editor, or date anywhere in the file.
 - Lasso, Orlando di. *Prophetiae Sibyllarum*. Edited by Joachim Therstappen. Das Chorwerk 48. Möseler, 1937.
 - Monteverdi, Claudio. *Concerto: Settimo libro dei madrigali*. In *Tutte le opere di Claudio Monteverdi*. Vol. 7, edited by Gian Francesco Malipiero. G. F. Malipiero, 1928.
-- Monteverdi, Claudio. "Perché te'n fuggi, o Fillide?" Modern typeset score, numbered 19 and paginated from 252, so cut from a larger collection; no publisher line, editor, or date anywhere in the file.
+- Monteverdi, Claudio. "Perché te'n fuggi, o Fillide?" Modern typeset score, numbered 19 and paginated from 252, so cut from a larger collection; no publisher line, editor, or date anywhere in the file. The packet copy spells several D♯s as E♭s.
 - Rore, Cipriano de. "Da le belle contrade d'oriente." From *Il quinto libro di madrigali a cinque voci* (Venice, 1566). Edited by Allen Garvin. 2013.
 - Schütz, Heinrich. "Fili mi, Absalon," SWV 269. Modern typeset score for solo bass and four trombones, paginated from 1; no publisher line, editor, or date anywhere in the file.
 - Schütz, Heinrich. "O quam tu pulchra es," SWV 265. From *Symphoniae sacrae*, opus ecclesiasticum secundum (Venice: Bartolomeo Magni, 1629). Digital edition EN 213-09, 2015.
