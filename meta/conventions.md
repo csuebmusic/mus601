@@ -19,9 +19,9 @@ Each body of material has one canonical home. Edit it there; everything else poi
 - `tools/`: interactive analytical tools and handouts. `tools/modal-species.html` gives the four categories of mode with the species of fourth and fifth and the authentic and plagal ambitus. `tools/gamut-layers.html` lays the hexachordal, tetrachordal, and modal divisions over one pitch field (gamut) as eleventh-century scalar and modal theory. `tools/affinities.html` gives the affinities, the cofinals, and transposition. `tools/systems.html` gives the three-hexachord gamut system, `tools/twelve-modes.html` the twelve modes under both numberings. The five are numbered 1 to 5 in their titles and carry a rail listing all five. `tools/tuning.html` gives seven keyboard tunings from 1482 to 1691 on one circle of fifths, with interval and triad sizes and playback; it is unnumbered and carries no rail. `tools/ritornello.html` gives the concerto ritornello after Dreyfus and Burnett: the segments, the markedness matrix, Dreyfus's ritornello formations on a measure strip and on the hexachord, with R for a complete statement and r for an incomplete one, and the two readings of Brandenburg 2; it is unnumbered and carries no rail.
 - `meta/`: planning and conventions, mine and Claude only. Markdown anywhere in the repo, including in `lesson-plans/`, is mine and Claude's, except the READMEs. The repo is public, so all of it is readable at the repo and at the Pages URL.
 
-## format by audience
+## style
 
-The narrative and style rules for every document in this repo are the "how I want you to communicate" section of my Claude profile preferences, under Settings, Profile. They are not a file in this repo and are not duplicated here. Read them there and follow them.
+Style, register, and feedback for everything in this repo follow the "how I want you to communicate" section of my Claude profile preferences.
 
 ## paper feedback
 
