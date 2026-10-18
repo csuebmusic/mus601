@@ -1,7 +1,5 @@
 # MUS 601: conventions
 
-Read this before drafting anything at all in this repo, and defer to it.
-
 ## who owns what
 
 Each body of material has one canonical home. Edit it there; everything else points to it.
@@ -18,6 +16,28 @@ Each body of material has one canonical home. Edit it there; everything else poi
 - `lesson-plans/`: mine. `unit-N-readings.md` is the reading synthesis for that unit: what each assigned reading argues, where the readings meet the unit's repertoire, and the open items. `unit-1-modal-theory-1000-1600.md` is the dated through-line from the eleventh-century apparatus to 1600. `renaissance-baroque-galant.md` is the style comparison from c. 1550 to 1770, by strand. `unit-N-class-notes.md` is the lecture in the order of the handwritten class notes, expanded with the readings; where the class notes and a reading disagree, the reading stands. `unit-N-recap.md` is the lesson plan for that unit's paper meeting: the contextual intro and the system and form charts for the paper's works. Unit 1 files exist; the others are written as the units are built.
 - `tools/`: interactive analytical tools and handouts. `tools/modal-species.html` gives the four categories of mode with the species of fourth and fifth and the authentic and plagal ambitus. `tools/gamut-layers.html` lays the hexachordal, tetrachordal, and modal divisions over one pitch field (gamut) as eleventh-century scalar and modal theory. `tools/affinities.html` gives the affinities, the cofinals, and transposition. `tools/systems.html` gives the three-hexachord gamut system, `tools/twelve-modes.html` the twelve modes under both numberings. The five are numbered 1 to 5 in their titles and carry a rail listing all five. `tools/tuning.html` gives seven keyboard tunings from 1482 to 1691 on one circle of fifths, with interval and triad sizes and playback; it is unnumbered and carries no rail. `tools/ritornello.html` gives the concerto ritornello after Dreyfus and Burnett: the segments, the markedness matrix, Dreyfus's ritornello formations on a measure strip and on the hexachord, with R for a complete statement and r for an incomplete one, and the two readings of Brandenburg 2; it is unnumbered and carries no rail.
 - `meta/`: planning and conventions, mine and Claude only. Markdown anywhere in the repo, including in `lesson-plans/`, is mine and Claude's, except the READMEs. The repo is public, so all of it is readable at the repo and at the Pages URL.
+
+## source of truth
+
+This file and `meta/visual-conventions.md` govern mus601 and mus602, and mus602's `meta/conventions.md` adds what is specific to that repo. Read them before any work in either repo. They are authoritative over anything earlier in a conversation; where the two disagree, flag it. When a decision changes, update the file that holds it.
+
+## git workflow
+
+- Commit directly to `main`, authored as Ines Thiebaut, ines.thiebaut@csueastbay.edu.
+- One logical change per commit. The message names what changed and stops.
+- Push after each commit. Where the cloud workspace can't push, commit in the local clone, and I push.
+- Reorganizations, mass renames, and deletions are proposed in chat and wait for my confirmation.
+- Repo files aren't attached in chat. I pull locally.
+
+## deployment
+
+GitHub Pages builds through `.github/workflows/pages.yml`, with `.nojekyll` at the repo root. The legacy Jekyll builder fails silently and stays off.
+
+## sources
+
+- Texts uploaded to the Claude project are authoritative and are searched first for conceptual and pedagogical questions.
+- Where no uploaded source covers a topic, the gap is flagged, with an offer to draft a handout or find scholarship, in place of an answer from general knowledge.
+- Bibliographic details are checked against the source itself.
 
 ## style
 
