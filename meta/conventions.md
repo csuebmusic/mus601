@@ -25,34 +25,30 @@ Style, register, and feedback for everything in this repo follow the "how I want
 
 ## paper feedback
 
-Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title are the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed. Nothing from student work is committed to this repo.
+Feedback on student work follows the "how I want you to communicate" section of my Claude profile preferences. Whether a paper meets the specifications is my call, and the feedback doesn't judge it.
+
+Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title are the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed.
 
 ### pass 1: references
 
 The section is headed "references." It covers citation placement, note form, and the bibliography. It leaves out the specifications, what each secondary source is used for, and where an edition was found.
 
-- The section opens with what the paper's citations already do, as a specific fact, and gives each correction as the next step.
-- Overcitation next. A note that cites the score for a measure number the sentence already gives is cut: each edition is cited once, in a full note at its first mention, and measure numbers are written in the prose. Each translation is credited once, in a note at its first quotation. Give the count and one example from the paper.
-- Note form next, with note numbers: first notes set as bibliography entries, short forms, title styling, volume and issue, empty or stray notes.
+- Overcitation, measured against "the music itself" in `meta/research-and-bibliography.md`: the count and one example from the paper.
+- Note form, with note numbers: first notes set as bibliography entries, short forms, title styling, volume and issue, empty or stray notes.
 - One of the student's own sources as a model, in three forms: first note, short note, bibliography entry.
 - The bibliography, corrected in full and alphabetized. An item only the source can supply is left as a bracketed blank, named in one sentence above the list.
-- Anything unverified is left out of the doc and reported to me in chat.
 
 ### pass 2: content
 
 The section is headed "content." It replies to the paper's analysis, work by work, in the paper's order.
 
-- The section opens with what the analysis gets right, by measure.
-- Each paragraph takes the student's claim in the student's own terms, gives what the score has, and says what that does to the student's reading. Corrections follow the system and cadence charts in `lesson-plans/unit-1-recap.md`.
-- The section responds to the paper's claims only. It poses no questions or prompts of its own.
+- Each paragraph takes the student's claim in the student's own terms, gives what the score has, and says what that does to the student's reading.
+- Corrections follow the system and cadence charts in the unit's recap in `lesson-plans/`.
 - Where the chart has nothing on a passage, or the difference is a bar, nothing is flagged.
-- Paper 1: the packet score of "Perché te'n fuggi" spelled several D♯s as E♭s. The section names this wherever a reading follows the misspelling, and credits a reading that caught it.
 
 ### pass 3: comparison
 
-The section is headed "comparison." It replies to the paper's comparison of the three works.
+The section is headed "comparison." It replies to the paper's comparison of the works.
 
-- The section comments on the comparison's claims and gives next steps. It doesn't describe what the paper's comparison says.
-- Comments test each comparison claim against the scores and the paper's own analysis: a claim without evidence gets the passages that would supply it, by measure; a claim the corrected readings change gets the corrected comparison; a comparison that measures the works on different terms gets one shared measure from the paper's analysis.
+- Each comparison claim is tested against the scores and the paper's own analysis: a claim without evidence gets the passages that would supply it, by measure; a claim the corrected readings change gets the corrected comparison; a comparison that measures the works on different terms gets one shared measure from the paper's analysis.
 - Where the paper has no closing comparison, the section names, from the paper's own analysis, the terms one could use.
-- The doc ends with one line after the section: "Good job on this paper. These are three difficult scores."

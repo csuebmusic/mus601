@@ -220,7 +220,7 @@ Template, bibliography: Last, First. "Title of Dissertation." PhD diss., Univers
 
 ### the music itself
 
-Measure numbers go in the text rather than in a note: the cadence at m. 47, or mm. 112–19. One measure is m., more than one is mm. A note gives the edition, cited in full once early in the paper, and anything a reader needs in order to check the claim: a rehearsal figure, a differing reading in another edition, an editorial accidental.
+Measure numbers go in the text rather than in a note: the cadence at m. 47, or mm. 112–19. One measure is m., more than one is mm. A note gives the edition, cited in full once early in the paper, and anything a reader needs in order to check the claim: a rehearsal figure, a differing reading in another edition, an editorial accidental. A note that only repeats a measure number the sentence gives is cut. A translation is credited once, in a note at its first quotation.
 
 Musical examples are numbered figures with captions, and the caption credits the edition the example is drawn from.
 
