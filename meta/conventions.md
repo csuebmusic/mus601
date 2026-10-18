@@ -1,5 +1,16 @@
 # MUS 601: conventions
 
+## the two courses
+
+MUS 601, Birth and Death of Tonality, runs in the fall, and MUS 602, Post-Tonality and Beyond, in the spring. Both are graduate research-and-analysis seminars in the M.A. in Music. Students take 601 then 602, and the two run as one year-long sequence: 602 picks up chronologically where 601 ends. Each course's own facts are in its syllabus.
+
+Both seminars teach students to become scholars of a repertoire: formulating research questions, evaluating sources critically, using the bibliographic tools of the field, writing scholarly analysis with correct citation, and connecting analysis to historical and cultural context.
+
+- 601 covers the Renaissance to the Romantic: modal practice moving toward functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. The vocabulary is figured bass, Roman-numeral and functional analysis, counterpoint, form, modulation and chromatic harmony, and Schenkerian reduction where a passage calls for it. The method is comparative analysis across works and periods. Burnett and Nitzberg's hexachord-system framework is the seminar's analytical framework, with chapters 3 and 4 assigned.
+- 602 covers the turn of the century to World War II: Debussy, the Second Viennese School, Stravinsky, Bartók, and their contemporaries. The vocabulary is pitch-class set theory (set classes, interval vectors, Tn and TnI), symmetry and interval cycles, twelve-tone and serial technique, and atonal voice leading, in a theoretical framework that is still contested. My analytical lens (symmetry, interval cycles, form as process) is a through-line of the seminar.
+
+When a tool could serve either course, ask me which repo it's for.
+
 ## who owns what
 
 Each body of material has one canonical home. Edit it there; everything else points to it.
