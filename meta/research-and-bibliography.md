@@ -2,7 +2,7 @@
 
 The design behind the research and bibliography work in 601. The student-facing form is `research/source-work.html`; the paper requirements are in `syllabus.html`.
 
-Research and bibliography used to be its own course. It runs now as one module inside 601 and a second inside 602. Peter's Canvas modules were built against an earlier version of the exit list and need a pass against the one below.
+Research and bibliography runs as one module inside 601 and a second inside 602. Open: Peter's Canvas modules don't yet match the exit list below.
 
 ## where students start
 
@@ -100,11 +100,11 @@ Students search within Grove, read the entry, and work out from its bibliography
 
 ### paper 3: ProQuest
 
-Mozart and Haydn symphonies are heavily worked ground.
+Students search ProQuest Dissertations & Theses for scholarship on each symphony.
 
 ### papers 4 and 5: open
 
-No prescribed tool. The count rises to two secondary sources on a single work, which is the first time a student has to find two pieces of scholarship that speak to each other rather than one per piece.
+No prescribed tool. Both secondary sources are on the one work.
 
 ## using a source in the paper
 
@@ -122,7 +122,7 @@ Examples below use the seminar's own repertoire and readings. Edition data comes
 
 ### what the 18th edition changed
 
-Students who find an older guide online will produce citations that look right and are not. The changes that touch this course:
+The 18th-edition changes that apply to this course:
 
 - Place of publication is dropped from book and score citations (14.30). Ashgate, 2007, rather than Aldershot: Ashgate, 2007.
 - Month and season are dropped from journal article citations (13.26). 34, no. 3 (1981), rather than 34, no. 3 (Autumn 1981).
@@ -232,10 +232,10 @@ Generative AI tools misformat these patterns and invent sources outright. Every 
 
 ## into 602
 
-The papers drive the difference between the two modules. In 601 the papers are short and analytical, close readings that hold historical and interpretive context to a brief frame, so the bibliography is lean and in service of the analysis. In 602 the work culminates in a full research paper developed and revised across the term, where the scholarly context is the point and the bibliography is the backbone.
+In 601 the papers are short analytical close readings with a brief historical and interpretive frame, and the bibliography is lean. In 602 the work is a full research paper developed and revised across the term, and the bibliography is its scholarly context.
 
 The 602 module runs alongside that paper sequence: research question, then a graded annotated bibliography, then draft, revision, and final, plus the conference-style presentation. Students build and annotate a substantial set of scholarly sources, on the order of eight to twelve, and use it to place their own work in the scholarly conversation.
 
-Two things go deeper there. Critical evaluation, because post-tonal theory is itself evolving and contested, so students weigh competing analytical frameworks and take a position rather than collect sources that agree. And synthesis, because the paper enters an existing conversation, which means reading sources against each other rather than one at a time.
+In 602 students weigh competing analytical frameworks and take a position, and they read sources against each other to place the paper in an existing scholarly conversation.
 
-The 602 annotated bibliography is a scale jump rather than a skill jump. These 602 expectations move to the mus602 repo when that course is built.
+The 602 annotated bibliography uses the 601 skills at a larger scale. These 602 expectations move to the mus602 repo when that course is built.

@@ -6,7 +6,7 @@ A reusable grading scheme, applied consistently across syllabi. It covers what t
 
 Each graded assignment is scored 0 to 4, and that score is its grade-point value: 4 is an A, 3 a B, 2 a C, 1 a D, 0 an F. Scores need not be integers, and a course may award half points where its rubric calls for them. The course grade is the average of the assignment scores, weighted where the assignments differ in weight, which is the course GPA, converted to a letter.
 
-The 0 to 4 score is grade points rather than a percentage. Never divide the average by four and never express the scale as a percentage: a 3 is a B, and 75% of the available points is the same 3. The two conversions are incompatible, so only the grade-point one appears on a syllabus.
+The 0 to 4 score is grade points, never a percentage: a 3 is a B. The average is never divided by four, and the scale never appears on a syllabus as a percentage.
 
 ## grade scale (use as is)
 
@@ -26,15 +26,15 @@ The 0 to 4 score is grade points rather than a percentage. Never divide the aver
 
 The values are grade-point anchors rather than range endpoints, and they are the CSUEB standard. Source: the GPA computation policy, https://www.csueastbay.edu/aps/academic-services/academic-policies/gpa-computation.html
 
-List all eleven anchors on the syllabus. Collapsing them into five bands (A, B, C, D, F) hides which of B–, B, and B+ a given average yields, which is the question a student actually has.
+List all eleven anchors on the syllabus, never five bands.
 
 ## rounding
 
-An average between two anchors rounds to the nearest one, with an exact midpoint rounding up in the student's favor: 3.4 to 3.3, 3.6 to 3.7, 3.5 to 3.7. This sentence is student-facing and belongs on the syllabus, together with a worked example that makes the scale concrete.
+An average between two anchors rounds to the nearest one, with an exact midpoint rounding up in the student's favor: 3.4 to 3.3, 3.6 to 3.7, 3.5 to 3.7. The syllabus gives this rule with a worked example.
 
 ## Canvas
 
-Canvas computes a running percentage of points earned, which under this scheme is not the grade. Tell students so directly, in one sentence: Canvas shows a percentage of points, and the letter follows the grade-point scale. Set the Canvas grading scheme to match the anchors above, or leave it off, so the posted letter and the syllabus agree.
+Canvas shows a running percentage of points earned, which under this scheme is not the grade. The syllabus says so in one sentence: Canvas shows a percentage of points, and the letter follows the grade-point scale. Set the Canvas grading scheme to match the anchors above, or leave it off, so the posted letter and the syllabus agree.
 
 ## per-assignment rubric
 
@@ -60,7 +60,7 @@ Where a level averages to a grade with a consequence a student needs to see, wri
 
 - Graduate versus undergraduate standing. The MUS 601 syllabus uses the Graduate Student Handbook rules: only C or better counts toward the degree, a C– or below must be repeated, and a cumulative 3.0 GPA is required to stay in good standing, with anything below it triggering academic probation. Undergraduate courses use the undergraduate standing and minimum-grade rules instead, where a music major or minor needs a C– or better for the course to count toward the major or minor. Do not apply either set of rules to the other.
 - Weighting. In 601 the five papers weigh equally, so the course average is a straight mean. Where a course weights assignments differently, use the weighted average of the 0 to 4 scores. The scale does not change.
-- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points rather than as a percentage, so it uses the same scale as everything else. Canvas's automatic late policy is the exception, since it takes a percentage per day and an optional percentage floor and nothing else. Where it runs the deduction, state the percentage and its grade-point equivalent together: 601 takes 2% of the paper's value per day, which is 0.08 grade points. 601 sets no floor, so the Canvas floor field is left empty and the deduction runs to zero. State how long that takes from the levels the rubric actually awards: at 0.08 a day, a 3.5 reaches zero after 44 days and a 4 after 50.
+- Partial credit. If the course accepts late work at reduced credit, state the reduction in grade points. Canvas's automatic late policy is the exception: it takes a percentage per day and an optional percentage floor and nothing else. Where it runs the deduction, state the percentage and its grade-point equivalent together: 601 takes 2% of the paper's value per day, which is 0.08 grade points. 601 sets no floor, so the Canvas floor field is left empty and the deduction runs to zero. State how long that takes from the levels the rubric actually awards: at 0.08 a day, a 3.5 reaches zero after 44 days and a 4 after 50.
 
 ## style, to match across syllabi
 
