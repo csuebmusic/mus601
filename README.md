@@ -1,6 +1,6 @@
 # mus 601, analysis of musical styles
 
-Course materials for MUS 601 at California State University, East Bay. A graduate research-and-analysis seminar tracing tonality from the Renaissance to the Romantic: modal practice moving toward functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. Fall 2026, Tuesdays, 7:00 to 9:00 pm, Music Resource Center, MB 1560.
+These are the course materials for MUS 601 at California State University, East Bay, a graduate research-and-analysis seminar on tonality from the Renaissance to the Romantic: the change from modal practice to functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. Fall 2026, Tuesdays, 7:00 to 9:00 pm, Music Resource Center, MB 1560.
 
 Instructor: Inés Thiebaut, ines.thiebaut@csueastbay.edu. Office hours Wednesdays 1:00 to 3:00 pm in MB 2012.
 
@@ -9,9 +9,9 @@ Instructor: Inés Thiebaut, ines.thiebaut@csueastbay.edu. Office hours Wednesday
 Live link, for Canvas.
 
 https://csuebmusic.github.io/mus601/syllabus.html
-Course information, important dates, the catalog description and learning outcomes, assessment and the grade scale, the analytical papers and their specifications, the AI policy, the week-by-week schedule with readings and directed questions, policies, and the campus statements.
+The syllabus gives course information, dates, the catalog description and learning outcomes, assessment and the grade scale, the analytical papers and their specifications, the AI policy, the week-by-week schedule with readings and directed questions, policies, and the campus statements.
 
-Two units, two contact hours a week, in-person, graded A to F. The syllabus gives the current term's dates, meeting time, and logistics.
+The course is two units, two contact hours a week, in person, graded A to F. The syllabus gives the current term's dates, meeting time, and logistics.
 
 ## in this repository
 
