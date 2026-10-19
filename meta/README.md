@@ -1,6 +1,6 @@
 # meta
 
-Instructor notes and conventions. [conventions.md](conventions.md) gives the home of every body of material in the repository and the rules for editing it; [visual-conventions.md](visual-conventions.md) gives the house style.
+The instructor notes and conventions are in this folder. [conventions.md](conventions.md) gives the home of every body of material in the repository and the rules for editing it; [visual-conventions.md](visual-conventions.md) gives the house style.
 
 ```
 assets/         stylesheet and self-hosted fonts
@@ -13,6 +13,6 @@ outline.md      the schedule at a glance
 syllabus.html   the syllabus
 ```
 
-Pages are hand-authored HTML on `assets/style.css`, self-contained and viewable in any browser with no build step. GitHub Pages serves them through the Actions workflow. Markdown is the instructor's, except the READMEs.
+Pages are hand-authored HTML on `assets/style.css`.
 
 Text set in IBM Plex, under the SIL Open Font License.
