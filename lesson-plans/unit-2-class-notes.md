@@ -1,6 +1,6 @@
 # unit 2: class notes
 
-Instructor-facing. The unit 2 lecture from the two sets of handwritten class notes, merged, and expanded with the unit 2 readings. Summaries of the readings are in `unit-2-readings.md`; page numbers here are to the reading named in each entry. Where the lecture departs from a reading, the entry gives the reading's account.
+This is the unit 2 lecture from the two sets of handwritten class notes, merged and expanded with the unit 2 readings. Summaries of the readings are in `unit-2-readings.md`; page numbers here are to the reading named in each entry. Where the lecture departs from a reading, the entry gives the reading's account.
 
 ## 1. the first half of the seventeenth century
 
@@ -57,7 +57,7 @@ The three hexachords of the gamut, with their ficta. Each, reordered in fifths, 
 **From the readings**
 
 - Burnett: every system is major, and a minor key follows its relative major's hexachord, "there being no such thing as an A minor hexachord" (pp. 117–18). The 2♯ system reads IV I V ii vi iii in D and VI III VII iv i v in B minor (pp. 118, 127). Rameau's supplement to chapter 25 of the *Traité* (1722) begins all minor octaves on *la* (p. 117 n. 21).
-- D and b sit at opposite ends of the 2♯ hexachord with their qualities reversed. B minor is followed only by f♯, and the next fifth brings the missing pitch, so each tonicization of V in minor shifts the system (p. 127).
+- D and b are at opposite ends of the 2♯ hexachord with their qualities reversed. B minor is followed only by f♯, and the next fifth brings the missing pitch, so each tonicization of V in minor shifts the system (p. 127).
 - Burnett reads the minor as unstable, a rotation on *la* that seeks its relative major (p. 129).
 - Hyer: one sonority under several Roman numerals is Weber's *Mehrdeutigkeit* (p. 735).
 
@@ -138,7 +138,7 @@ In Corelli's Op. 2 (1685) and Op. 4 (1694) a sonata opens with a slow *preludio*
 - Form: a series of contrasting sections, in rhythm, texture, and harmony. No recitative, so not the same contrast as in music-drama or cantata.
 - The most common, simpler plan: slow introduction; fast imitative movement; less imitative movement; triple-time movement; fast movement. Movement headings name character, not tempo.
 - Biagio Marini (c. 1587–1663); Giovanni Legrenzi (1626–1690).
-- Modes are by definition purely linear constructs. Harmonized according to the gamut system that underlies them, they become unstable in a key-defining sense: each tone of their central hexachord may carry a major or a minor triad, which yields cross relations and modal progressions (progressions that emphasize minor triads and localized harmonic motions around hexachordal fifths) that prevent tonal voice leading.
+- Modes are by definition purely linear constructs. Harmonized according to the gamut system that underlies them, they become unstable in a key-defining sense: each tone of their central hexachord may be the root of a major or a minor triad, which yields cross relations and modal progressions (progressions that emphasize minor triads and localized harmonic motions around hexachordal fifths) that prevent tonal voice leading.
 - Tonality needs a major-quality dominant triad that contains the leading tone of the key, preceded by a chord progression.
 - Marini, Sonata Op. 22 no. 1 (1655), "Sonata à basso è violino ò cornetto."
 - Fortspinnung, an expansion technique with sequences, has two purposes: to prolong key areas while giving a sense of directed harmonic motion; to create bridge material, with tension and instability.
@@ -151,7 +151,7 @@ In Corelli's Op. 2 (1685) and Op. 4 (1694) a sonata opens with a slow *preludio*
 - Juxtaposing an unstable through-composed movement with a more stable fugue "becomes standard in the da chiesa sonatas of Corelli" (p. 98). Marini's Op. 22 no. 1 (fantasia-like, fugal, triple dance meter) and Corelli's Op. 3 no. 2 (Grave, fugal Allegro, Adagio in 3/2, binary Allegro) are the unit's two instances of the plan (pp. 98–102, 124–30).
 - The modes paragraph and the dominant requirement are Burnett's (p. 97). "Modality was never capable of sustaining or supporting a middleground" (p. 97).
 - The two purposes of Fortspinnung and the irregular phrasing are Burnett's (p. 98). Fortspinnung is most effective against an established tonic. Fortspinnungen can start anywhere, even inside the opening statement. Marini's phrases are "short-winded and often seem to end before their time without defining the key" (p. 98). Legrenzi's are more evenly balanced (p. 106).
-- Op. 22 no. 1 holds both sides of the move from stagnant to nascent tonality. The Terza parte is the stagnant example: "no background tonic, modal or tonal, is established until the end of the movement; rather, the harmonic motion proceeds along the localized fifths of the naturalis hexachord" (p. 102), which matches the definition on p. 95. The Prima parte looks ahead: the D–A–E plan is "a decidedly tonal harmonic plan" (p. 100). Burnett: the sonata "evidences modern tonal tendencies as well as more modal, conservative thinking" (p. 101). The label "stagnant" for the Terza parte is applied from his definition; he doesn't use the word for this sonata.
+- Op. 22 no. 1 has movements on both sides of the change from stagnant to nascent tonality. The Terza parte is the stagnant example: "no background tonic, modal or tonal, is established until the end of the movement; rather, the harmonic motion proceeds along the localized fifths of the naturalis hexachord" (p. 102), which matches the definition on p. 95. The Prima parte anticipates later practice: the D–A–E plan is "a decidedly tonal harmonic plan" (p. 100). Burnett: the sonata "evidences modern tonal tendencies as well as more modal, conservative thinking" (p. 101). The label "stagnant" for the Terza parte is applied from his definition; he doesn't use the word for this sonata.
 - Cantus durus here is the no-flat signature, which Burnett equates with the naturalis system on C (ch. 3, p. 52; ch. 4, p. 98). The hexachord is the C hexachord, F–C–g–d–a–e in fifths (p. 100). The B♭s, consistent in the Seconda parte, are the naturalis system's allowable flat, from its subdominant (mollis) hexachord. Only E♭ would move the system to mollis, and none appears (pp. 100–101).
 - Op. 22 no. 1 is a sonata da chiesa, with "the formal outlines of the sonate da chiesa of Corelli": a through-composed, fantasia-like Prima parte, a fugal Seconda parte, and a Terza parte in triple dance meter (pp. 98, 102). The print, *diversi generi di sonate, da chiesa e da camera*, has both kinds (`meta/editions.md`).
 - Prima parte: motives a (stable) and b (sequential), both stated unaccompanied in the bass; opening i–V6–i–VI–V to a phrygian half cadence, the local tonal motion; 5–7 sequences from b at mm. 17–19 and 24–28; naturalis throughout, no E♭ or D♯. It ends on a "bifocal" D major triad that is also V of the Seconda parte in G hypodorian (pp. 99–101).
@@ -293,7 +293,7 @@ In Corelli's Op. 2 (1685) and Op. 4 (1694) a sonata opens with a slow *preludio*
 - The notes' "ficta not found in this hexachord" is Burnett's missing pitch. The 3♯ system's eleven pitch classes are A B C♯ D E F♯ G♯, the allowable flat G♮, and D♯ A♯ E♯. The twelfth, spelled B♯ (augmented second above A), moves the system three signatures sharpward to 6♯, root F♯. Spelled C♮ (minor third, the parallel minor), it moves three flatward to the 0 system (pp. 118, 147). Figure 4.1 is this matrix.
 - C♯ minor in an A-major movement belongs to the 6♯ system, not to a separate 4♯ one (p. 147).
 - The return: A♮, the tonic, is the missing pitch of 6♯, so the tonic's return corrects the system. From the 0 system, D♯ corrects it (pp. 131, 147–48).
-- Burnett's A-major model, Vivaldi Op. 9 no. 2: C♮ in the *pianoidée*; D♯ at m. 7 against D♮ at m. 8, a dyad conflict carried through the movement; B♯ against A♮ around the iii ritornello, A♮ winning out at m. 60 (pp. 145–48). In RV 396 and BWV 1055, look for C♮ as parallel-minor inflection and for where D♯ and D♮ meet.
+- Burnett's A-major model, Vivaldi Op. 9 no. 2: C♮ in the *pianoidée*; D♯ at m. 7 against D♮ at m. 8, a dyad conflict that continues through the movement; B♯ against A♮ around the iii ritornello, A♮ winning out at m. 60 (pp. 145–48). In RV 396 and BWV 1055, look for C♮ as parallel-minor inflection and for where D♯ and D♮ meet.
 - The notes' expansion past c♯: Corelli avoided it in a short movement (pp. 124–25); from 1700 composers tonicize the last hexachordal fifth as a climax (p. 131).
 
 ## 13. "the universe": large-scale plan and small-scale continuity
