@@ -1,10 +1,10 @@
 # unit 3: reading synthesis
 
-Instructor-facing. The five readings in the unit 3 bibliography in `syllabus.html`, by reading, set against the unit's scores. Burnett and Nitzberg's analyses of the unit 3 works have their own section, for instructor use; they aren't assigned. Page numbers are the printed pages of each source.
+This instructor-facing file sets the five readings in the unit 3 bibliography in `syllabus.html` against the unit's scores, reading by reading. Burnett and Nitzberg's analyses of the unit 3 works have their own section, for instructor use; they aren't assigned. Page numbers are the printed pages of each source.
 
 ## the unit 3 scores and the readings that analyze them
 
-Dates as the syllabus gives them. In syllabus order.
+Rows are in syllabus order, with dates as the syllabus gives them.
 
 | week | work | date | reading that analyzes it |
 |---|---|---|---|
@@ -43,7 +43,7 @@ Chapter 24 of the Cambridge History, directly after Hyer's "Tonality" (unit 2). 
 - Thorough bass conceives chords from the bass, not a root, but keyboard practice made players aware that one right-hand chord fits several basses. Keller (1705) gives C–E–G over C, E6, G6/4, and also over A7, which isn't inversionally related (pp. 755–56).
 - Praetorius (1619): a 5/3 over a bass B contains a diminished fifth, so the figure over B is 6/3. Generalized, the figure over any bass solmized *mi* is 6/3, including the leading tone, the mediant of a major key, and secondary leading tones. Penna (1672) and Heinichen (1711, 1728) give rules for unfigured basses; Heinichen separates pattern rules from scale-step rules (p. 756).
 - Campion's Rule of the Octave (1716) is a normative harmonization of ascending and descending major and melodic-minor scales, Ex. 24.1 (pp. 756–57). The rules codify norms but aren't a theory of harmony (p. 757).
-- Vicentino (1555) and Zarlino (1558) recognize that some voice combinations create so strong an expectation of a cadential goal that its absence registers: "evading the cadence." In a 7–6 suspension before a cadential octave, the sixth drives toward the octave rather than resting as the resolution of the seventh (pp. 757–58).
+- Vicentino (1555) and Zarlino (1558) recognize that some voice combinations create so strong an expectation of a cadential goal that its absence registers: "evading the cadence." In a 7–6 suspension before a cadential octave, the sixth resolves the seventh but drives on toward the octave rather than ending the motion (pp. 757–58).
 - Keys come to be defined by the quality of the triad on the final, not only by final and octave species. Lippius first argues that the essential difference between modes is that triad. German traditions defend the modes well into the eighteenth century (p. 758).
 - Descartes (c. 1618) derives consonances from a generating string: the fifth is direct, the fourth its "shadow." The same reasoning makes the major third primary and can't generate a minor third as the lowest interval of a triad, a problem never resolved. Mersenne on unity generating diversity; Sauveur's overtone series in the early eighteenth century (pp. 758–59).
 
@@ -55,7 +55,7 @@ Chapter 24 of the Cambridge History, directly after Hyer's "Tonality" (unit 2). 
 - In Book II the fundamental bass isn't meant to be played. Dissonance, above all the seventh, is the motor of progression, on an Enlightenment model of material causation. The first notated example in the *Traité* is the *cadence parfaite*, written on separate staves per voice (p. 761; Plate 24.1, p. 762).
 - The *dominante-tonique* has two dissonances: the seventh ("minor dissonance," descends) and the leading tone ("major dissonance," ascends). The tonic has none. The dominant seventh defines the following chord as tonic, so a key is a focus that emerges from the progression, not a given pitch field (pp. 761–62).
 - The *cadence irrégulière* is IV with added sixth to I, a rising fifth in the fundamental bass, Plate 24.2 (pp. 762–63).
-- All music is a series of interconnected cadences, most evaded: one or both chords inverted, a seventh or added sixth on the arrival chord, or a minor third in the dominant seventh, which makes it a plain "dominant" rather than a *dominante-tonique* (p. 763).
+- All music is a series of interconnected cadences, most evaded: one or both chords inverted, a seventh or added sixth on the goal chord, or a minor third in the dominant seventh, which makes it a plain "dominant" rather than a *dominante-tonique* (p. 763).
 
 **supposition, irregular motion, double emploi (pp. 764–68)**
 
@@ -80,21 +80,21 @@ Chapter 24 of the Cambridge History, directly after Hyer's "Tonality" (unit 2). 
 **legacy (pp. 772–74)**
 
 - The fundamental bass spread without attribution: Heinichen (1728), Lampe (1737), C. P. E. Bach, who denounced Rameau but opened his 1762 thorough-bass manual with 5/3, 6/3, 6/4 (p. 772).
-- Kirnberger separates "essential" sevenths, unprepared, from "accidental" dissonances, prepared. Marpurg (1755) on harmonic versus passing and changing notes. General terms for nonharmonic tones arrive only in the nineteenth century (p. 773).
+- Kirnberger separates "essential" sevenths, unprepared, from "accidental" dissonances, prepared. Marpurg (1755) on harmonic versus passing and changing notes. General terms for nonharmonic tones appear only in the nineteenth century (p. 773).
 - Kirnberger and Nichelmann analyze Bach with the fundamental bass. Mozart taught harmony and composition with it to two pupils in the mid-1780s; there's no note, and the chapter bibliography lists the Ployer and Attwood study editions (pp. 773, 776). Koch's "species counterpoint" is a graded series of chord vocabularies. Albrechtsberger, Beethoven's teacher in the early 1790s, recasts Fux in 1790 so that the student first finds the harmonies under the cantus firmus (pp. 773–74).
 - Symbols: Trydell's "harmonical figures" (1766), Vogler's few Roman numerals soon after, Weber's (1817), hence *Stufentheorie*. Tonic-dominant-subdominant thinking in Schröter, Sorge, Daube; function theory only with Riemann. Austrian theorists keep the fundamental bass into the nineteenth century, and Lester traces *Stufentheorie*, the fundamental bass, and function theory all to Rameau (p. 774).
 
 **what unit 3 takes from it**
 
 - The vocabulary the Classical composers were taught: root progression, cadence as the model of all motion, the *dominante-tonique*, the subdominant as the dominant's mirror. Lester reports, without a note, that Mozart taught with it (p. 773).
-- Rameau's key as a focus that emerges from cadential progression. Set it against Rosen's polarized keys and Hepokoski's tonic projected outward ("Beyond," p. 118) when students describe the arrival of the second key.
+- Rameau's key as a focus that emerges from cadential progression. Set it against Rosen's polarized keys and Hepokoski's tonic projected outward ("Beyond," p. 118) when students describe how the second key is reached.
 - Lester's closing gap, no theory relating harmony to phrase and form, is what Hepokoski's Sonata Theory addresses: the EEC and ESC define formal events by cadence.
 - The triple proportion and the *Démonstration* fundamental basses (F, C, G; C, G, D) are adjacent fifths, the arrangement Burnett's hexachords use. The unit 2 synthesis records the same line-of-fifths layout in Hauptmann.
 - Sechter's 1820 analysis of the "Jupiter" finale (Brown n. 3) is a Rameau-lineage analysis of the Paper 3 work, from the Austrian fundamental-bass tradition Lester names (p. 774).
 
 ## schmid, "mozart and haydn," translated by ernest sanders (pp. 145–61) · 1732 to 1809
 
-*Musical Quarterly*, April 1956, the bicentenary year. No footnotes. Two plates between pp. 156 and 157: Barbara Krafft's 1819 Mozart portrait and a page of Leopold Mozart's letter of February 14, 1785.
+*Musical Quarterly*, April 1956, the bicentenary year. The essay has no footnotes, and two plates are between pp. 156 and 157: Barbara Krafft's 1819 Mozart portrait and a page of Leopold Mozart's letter of February 14, 1785.
 
 **what the essay claims**
 
@@ -170,7 +170,7 @@ Chapter 24 of the Cambridge History, directly after Hyer's "Tonality" (unit 2). 
 - K, mm. 101–10, quotes Mozart's insertion aria "Un bacio di mano," K.541, for Anfossi's *Le gelosie fortunate*: "You are a bit innocent, my dear Pompeo; go study the ways of the world" (Zaslaw's translation, n. 32). A private allusion; Brown speculates that Pompeo is Joseph II (p. 168).
 - The development combines Pᵏ with a descending chromatic bass, mm. 171–80, Ex. 4a, unique in eighteenth-century symphonies; its one Mozart analogue is the duel in the *Don Giovanni* Introduzione, Ex. 4b. Brown asks whether it alludes to battle music in the dynastic operas (p. 170).
 
-Brown's Figure 1 (pp. 164–65), in his labels. Brown's legend: P primary, T transitional, S secondary, K closing material; Pᵏ closing material to P; ext. extension.
+The table below is Brown's Figure 1 (pp. 164–65) in his labels. Brown's legend: P primary, T transitional, S secondary, K closing material; Pᵏ closing material to P; ext. extension.
 
 | section | event | m. |
 |---|---|---|
@@ -240,7 +240,7 @@ The table follows the recapitulation row's placements; the printed figure's expo
 
 ## hepokoski, "back and forth from egmont: beethoven, mozart, and the nonresolving recapitulation" (pp. 127–54) · 1773 to 1810, with later examples
 
-*19th-Century Music* 25, nos. 2–3. A companion to "Beyond the Sonata Principle" (p. 127 n. 1). Both preview Hepokoski and Darcy's *Elements of Sonata Theory*, cited as forthcoming.
+*19th-Century Music* 25, nos. 2–3. It's a companion to "Beyond the Sonata Principle" (p. 127 n. 1), and both preview Hepokoski and Darcy's *Elements of Sonata Theory*, cited as forthcoming.
 
 **what the essay argues**
 
@@ -273,7 +273,7 @@ The table follows the recapitulation row's placements; the printed figure's expo
 - On the neo-Riemannian alternative, F minor to D-flat is the L relation, hexatonically adjacent in Cohn's terms, and D-flat is prepared in mm. 15–17. Hepokoski calls the question relevant and keeps the period's diatonic tonic/nontonic binary as preferable (p. 133).
 - On the program, the recapitulation's failure enacts Egmont's failure to liberate the Netherlands; his execution (m. 278, after Calhoun) is the precondition for the coda's resolution. The link mm. 259–86 shows D-flat as an upper neighbor to V of F (fermata, mm. 285–86); the *Siegessymphonie*, mm. 287ff., resolves and overturns F minor (pp. 133–34).
 - A coda is a parageneric, optional zone. Hepokoski asks whether a closure-providing coda resolves the deferred argument or reflects on its absence, and whether an apotheosis-coda collapses the sonata into a "disposable delivery system" (p. 134).
-- Two disputable postulates lie behind the easy answer: the mid-twentieth-century harmonic definition of sonata form (Ratner) and the sonata principle (Cone). Neither distinguishes closure inside sonata space from closure outside it (pp. 134–35).
+- The easy answer assumes two disputable postulates: the mid-twentieth-century harmonic definition of sonata form (Ratner) and the sonata principle (Cone). Neither distinguishes closure inside sonata space from closure outside it (pp. 134–35).
 
 **beethoven, piano trio in g, op. 1 no. 2, largo con espressione (pp. 136–43)**
 
@@ -312,7 +312,7 @@ The table follows the recapitulation row's placements; the printed figure's expo
 
 ## hepokoski, "beyond the sonata principle" (pp. 91–154) · 1772 to 1810; the term from 1952
 
-*Journal of the American Musicological Society* 55, no. 1. The longer of the pair. Works cited, pp. 151–54.
+*Journal of the American Musicological Society* 55, no. 1. This essay is the longer of the pair; its works cited are on pp. 151–54.
 
 **what the essay argues**
 
@@ -327,7 +327,7 @@ The table follows the recapitulation row's placements; the printed figure's expo
 - Four late-century orthodoxies: Rosen's overviews, the motivic quest for unity (Schoenberg, Réti, Keller), Ratner's historical-rhetorical approach, Schenkerian analysis (p. 91); also LaRue, Newman, Tovey, and Caplin (n. 1).
 - Haimo's formulation (1995) and Webster's in the second *New Grove* are both hedged (pp. 92–93). Counterexamples come at once: K.338's first closing theme, mm. 64–74, never recurs; the B-minor theme at m. 23 of Op. 10 no. 3 never sounds in the tonic (it recurs at m. 204 on E minor); Egmont's S and C in D-flat (pp. 94–95).
 - Tovey's resistance to labels (1927, 1929, 1934) and Schenker's (1935) (pp. 97–99). Ratner (1949) moves the definition from themes to key relations, which lets thematic anomalies be dismissed as secondary (pp. 99–100).
-- The term "appears to have been coined" by Barford in 1952, with nothing tonal in it: a dialectic of rules and imagination culminating in Beethoven. Mellers (1957): there is no sonata form, only sonatas (pp. 100–101).
+- The term "appears to have been coined" by Barford in 1952, with nothing tonal in it: a dialectic of rules and imagination culminating in Beethoven. Mellers (1957) holds that there are sonatas but no sonata form (pp. 100–101).
 - Cone (Oberlin lectures, January 1967; published 1968): "important statements made in a key other than the tonic must either be re-stated in the tonic, or brought into a closer relation with the tonic, before the movement ends." Illustrations: the Eroica coda, the K.482 Andante, the *Pathétique* finale (pp. 101–2).
 
 **cone tested (pp. 102–18)**
@@ -374,14 +374,14 @@ The table follows the recapitulation row's placements; the printed figure's expo
 
 **what unit 3 takes from it**
 
-- The S zone as the sensitive part of the form: where the second key's arrival is secured, decayed, or replaced. Paper 3's "what does each composer do to the arrival of the second key" is this question.
+- The S zone as the sensitive part of the form: where the second key is secured, decayed, or replaced. Paper 3's "what does each composer do to the arrival of the second key" is this question.
 - Haydn's recapitulations as readjustments of problematized expositions, and his recasting of two-part and continuous layouts (Symphonies 6 and 75), as hypotheses to test on Haydn 90.
 - A tonal resolution beginning at or around S is a Type 2 layout, not a reversed recapitulation. Whether any Week 10–11 symphony has that layout is for the scores.
 - The false recapitulation as a disputed category, with Sisman's discussion of the "Jupiter" in n. 64.
 
 ## burnett and nitzberg on the unit 3 works (not assigned) · 1720s to 1811
 
-Instructor use. Chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth Century: The Classical Ideal" (pp. 155–232), and chapter 6, "Nineteenth-Century Approaches to Eleven-Pitch-Class Systems Derived from the Viennese Classical Tradition" (from p. 233), with passages from chapters 1, 2, and 8. Per the preface, Burnett wrote chapters 3–7 with Nitzberg's emendations, and Nitzberg wrote chapters 1, 2, and 8. The Waldstein passages are Nitzberg's. The sonata-form definitions of section III of chapter 5 (pp. 180–92) are adapted or quoted from Nitzberg's dissertation, ch. 3 (p. 180 n. 19), and the Haydn 84 exposition analysis appears in it (p. 207 n. 30). "Burnett" below stands for the book.
+These notes are for instructor use. They cover chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth Century: The Classical Ideal" (pp. 155–232), and chapter 6, "Nineteenth-Century Approaches to Eleven-Pitch-Class Systems Derived from the Viennese Classical Tradition" (from p. 233), with passages from chapters 1, 2, and 8. Per the preface, Burnett wrote chapters 3–7 with Nitzberg's emendations, and Nitzberg wrote chapters 1, 2, and 8. The Waldstein passages are Nitzberg's. The sonata-form definitions of section III of chapter 5 (pp. 180–92) are adapted or quoted from Nitzberg's dissertation, ch. 3 (p. 180 n. 19), and the Haydn 84 exposition analysis appears in it (p. 207 n. 30). "Burnett" below stands for the book.
 
 **the frame (pp. 155–216)**
 
@@ -392,7 +392,7 @@ Instructor use. Chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth 
 - Mozart and Beethoven usually give the second area three periods (opening, closing, codetta), each closing with a full cadence; Haydn sometimes omits the closing period (pp. 190–91).
 - Diagram 5.4 (p. 193) gives two monothematic types. Type A is a continuous bridge that doesn't cadence in the new key until the end; type B is a medial caesura with rest and the opening material transposed to the dominant (p. 192).
 - The recapitulation's main purpose is to resolve "the main issues (often chromatic issues)" of the movement into tonic harmony, "the primary reason, we believe," why composers don't need to recapitulate everything (p. 191). Composers "seemed to have deliberately planned" movements around chromatic issues stated at the outset that resolve when transposed into the tonic (p. 216).
-- Two outgrowths of the pianoidée before the dominant arrival: the minor dominant at the start of the second area (Monn, Scarlatti, early Haydn) and Wagenseil's single augmented-sixth sonority on the missing pitch, which Burnett calls "more practical." Behind both are Vivaldi's pianoidée in the parallel minor (RV 158) and Sammartini's parallel-minor bridges; ahead, Haydn's Paris-symphony augmented sixths (pp. 156–80, 207). However introduced, the missing pitch of the tonic system "is always a dramatic event" (p. 180).
+- Two outgrowths of the pianoidée before the dominant is reached: the minor dominant at the start of the second area (Monn, Scarlatti, early Haydn) and Wagenseil's single augmented-sixth sonority on the missing pitch, which Burnett calls "more practical." Behind both are Vivaldi's pianoidée in the parallel minor (RV 158) and Sammartini's parallel-minor bridges; ahead, Haydn's Paris-symphony augmented sixths (pp. 156–80, 207). However introduced, the missing pitch of the tonic system "is always a dramatic event" (p. 180).
 - Burnett traces a development that climaxes on III or iii, redressed at the recapitulation, to the Baroque penultimate ritornello in iii: Wagenseil's WV 361 and several first movements of Haydn's late symphonies. N. 15 cites Willner for the Haydn cases and faults him for omitting the concerto link (pp. 175–76).
 
 **vivaldi, rv 158, first movement (pp. 155–57; Ex. 5.1, mm. 1–10)**
@@ -526,7 +526,7 @@ Instructor use. Chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth 
 
 - Lester (p. 774) says eighteenth-century theory left no framework for relating harmony to phrase and form.
 - Ratner (1949), citing eighteenth-century theorists, defined Classical form by key relations ("Beyond," pp. 99–100). Hepokoski reintroduces thematic layout and cadence as generic markers.
-- Rameau's key emerges from cadential progression (Lester, p. 762); Rosen's keys are polarized; Hepokoski's tonic projects outward ("Beyond," p. 118). These are three models of what the arrival of a second key is.
+- Rameau's key emerges from cadential progression (Lester, p. 762); Rosen's keys are polarized; Hepokoski's tonic projects outward ("Beyond," p. 118). These are three models of what it means to reach a second key.
 
 **fifths, signatures, and the system method**
 
@@ -536,7 +536,7 @@ Instructor use. Chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth 
 
 **neo-riemannian proxies**
 
-- Hepokoski raises hexatonic substitution four times (F minor and D-flat; B major and G; E minor and C major; G minor and E-flat) and subordinates it to the period's diatonic sonata norms without dismissing it ("Egmont," pp. 133, 137–38 n. 17; "Beyond," p. 147 n. 83). A forward link to 602.
+- Hepokoski raises hexatonic substitution four times (F minor and D-flat; B major and G; E minor and C major; G minor and E-flat) and subordinates it to the period's diatonic sonata norms without dismissing it ("Egmont," pp. 133, 137–38 n. 17; "Beyond," p. 147 n. 83).
 
 **burnett against the assigned readings (instructor only)**
 
@@ -557,7 +557,7 @@ Instructor use. Chapter 5, "Tonality and Systems in the Mid- to Late-Eighteenth 
 
 ## the paper 3 directed questions
 
-From `units/unit-3.html`. Mozart 41 and Haydn 90, first movements.
+From `units/unit-3.html`, on the first movements of Mozart 41 and Haydn 90.
 
 - Locate the medial caesura and the EEC in each exposition. What does each composer do to the arrival of the second key?
 - Track the hexachord system across each exposition. Where do system changes fall against the formal seams?
@@ -567,13 +567,13 @@ From `units/unit-3.html`. Mozart 41 and Haydn 90, first movements.
 Where the readings meet each question:
 
 - For the MC and EEC, the definitions are in "Egmont," p. 128 and Fig. 1a–b (p. 129). Complications: apparent double MC and TMB, "Beyond," pp. 123–24; decay of S into minor, "Beyond," pp. 122–23 and "Egmont," p. 137; continuous exposition without MC, "Egmont," p. 147; two-part and continuous layouts recast in Haydn, "Beyond," p. 146 n. 82; thematized TR before the real MC, "Beyond," nn. 8, 78. For the "Jupiter," Brown's Fig. 1 segmentation, translated (his K is C; he marks a GP after Sa).
-- For systems there's no assigned reading. For instructor use, Burnett's Haydn 84 (pp. 204–11) is a Classical exposition read by systems, with the bridge, the minor dominant, and the augmented sixth as the system events; his Wagenseil (pp. 167–71) gives the augmented sixth on the missing pitch before V. Tonal rules from chapter 4 as recorded in the unit 2 synthesis; the table below.
+- For systems there's no assigned reading. For instructor use, Burnett's Haydn 84 (pp. 204–11) is a Classical exposition read by systems, with the bridge, the minor dominant, and the augmented sixth as the system events; his Wagenseil (pp. 167–71) gives the augmented sixth on the missing pitch before V. Burnett's tonal rules from chapter 4 are recorded in the unit 2 synthesis and applied in the table below.
 - For the refrain, Brown, pp. 163, 166 and n. 27. For thematic economy, Hepokoski on P-based S themes in Haydn ("Beyond," pp. 139, 141) and Ratner's monothematic expositions as an argument against bithematic definitions ("Beyond," p. 99).
-- For the second key's arrival, Hepokoski's account of the S zone, "Beyond," pp. 134–36. For Haydn, his hypothesis that recapitulations readjust problematized expositions (p. 129).
+- For how the second key is reached, Hepokoski's account of the S zone, "Beyond," pp. 134–36. For Haydn, his hypothesis that recapitulations readjust problematized expositions (p. 129).
 
 **system arithmetic for the paper 3 keys**
 
-Derived from Burnett's tonal rules as recorded in the unit 2 synthesis. A system is named by its major root; a minor key uses its relative major's system. Keys from Brown's Figure 1.
+The table derives from Burnett's tonal rules as recorded in the unit 2 synthesis, with keys from Brown's Figure 1. A system is named by its major root; a minor key uses its relative major's system.
 
 | key | function in the "Jupiter" (Brown) | system (root) | hexachord in fifths | missing pitch as minor third | as augmented second |
 |---|---|---|---|---|---|
@@ -589,7 +589,7 @@ Derived from Burnett's tonal rules as recorded in the unit 2 synthesis. A system
 
 ## the paper 4 directed questions
 
-From `units/unit-3.html`. Kreutzer, first movement.
+From `units/unit-3.html`, on the first movement of the Kreutzer.
 
 - Take the major/minor mode switch as the organizing gesture. Which dyad conflicts realize it, and where is each first heard?
 - Follow the system battle (3♯ against 0, and the flat side). Where do the dyad conflicts also act as system modulations?
@@ -599,13 +599,13 @@ From `units/unit-3.html`. Kreutzer, first movement.
 Where the readings meet each question:
 
 - For the mode switch, Hepokoski's decays of major into minor as structural events ("Egmont," p. 137; "Beyond," pp. 122–23) and Category One ("Egmont," pp. 151–52), where Beethoven sometimes begins the recapitulatory S in major and extinguishes it into minor.
-- For the system battle, the instructor models are Burnett's Op. 29 ("0" against 3♯, then 3♭ against "0," pp. 251–56), Nitzberg's Waldstein ("0" to 3♯ uncontested, pp. 31–32), and Burnett's Archduke (2♭ to 1♯, then 5♭, p. 251). The table below.
+- For the system battle, the instructor models are Burnett's Op. 29 ("0" against 3♯, then 3♭ against "0," pp. 251–56), Nitzberg's Waldstein ("0" to 3♯ uncontested, pp. 31–32), and Burnett's Archduke (2♭ to 1♯, then 5♭, p. 251), with the system arithmetic in the table below.
 - For minor v, the second-level default for minor-mode expositions ("Egmont," p. 144 n. 20; p. 151). Hepokoski calls an EEC in minor v in a major-mode exposition a strong reversal of expectations ("Egmont," p. 137); the Kreutzer's main body is in minor, where minor v is a second-level default.
 - For the coda, "Egmont," p. 134 on codas as parageneric zones, and Category Two's closure deferred to the coda (pp. 152–53). Whether the Kreutzer's recapitulation resolves inside sonata space is the question that separates its coda from Egmont's.
 
 **system arithmetic for the paper 4 keys**
 
-Same rules. Keys named in the directed questions, plus the flat side.
+The rules are the same as for Paper 3, and the keys are those named in the directed questions, plus the flat side.
 
 | key | system (root) | hexachord in fifths | missing pitch as minor third | as augmented second |
 |---|---|---|---|---|
@@ -622,7 +622,7 @@ Same rules. Keys named in the directed questions, plus the flat side.
 
 ## citation discrepancies in the readings
 
-- Brown's JSTOR cover gives the title as "Eighteenth-Century Traditional and Mozart's 'Jupiter' Symphony K.551" and the author as "A. Peter Brown Brown." The title page reads "Traditions." A JSTOR export carries the cover title.
+- Brown's JSTOR cover gives the title as "Eighteenth-Century Traditional and Mozart's 'Jupiter' Symphony K.551" and the author as "A. Peter Brown Brown." The title page reads "Traditions." A JSTOR export uses the cover title.
 - Brown's text dates Koch's statement on *Charakter* "as late as 1812" (p. 194); n. 70 cites the *Musikalisches Lexikon* (Frankfurt am Main, 1802/1817), cols. 313–14.
 - Brown n. 62 refers to "Ex. 20" for the closest Alleluia similarities (p. 186). The article's examples end at Ex. 15.
 - Brown's Figure 1 sets some measure numbers one label to the left of their events: in the exposition row "m. 9" under the second b and "m. 24" under Pᵏ; in the development row "m. 161" under b rather than Pa (pp. 164–65). The recapitulation row aligns.
