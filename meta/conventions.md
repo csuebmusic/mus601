@@ -15,18 +15,18 @@ When a tool could serve either course, ask me which repo it's for.
 
 Each body of material has one canonical home. Edit it there; everything else points to it.
 
-- `README.md`: the face of the course, public-facing. Course description, meeting time and place, instructor and office hours, the syllabus link, and a pointer to each folder. Each folder's `README.md` holds that folder's live links and what each page gives, and is public-facing.
-- `syllabus.html`: the full course record and the source of truth for every course fact. Schedule, per-unit bibliographies, directed questions, outcomes, the analytical papers (what they are, the method, the standard, sources, the specifications, how they are assessed), assessment and the rubric, policies, term dates, meeting time, modality.
-- `outline.md`: a one-page glance, mine. Dates, unit titles, paper due dates. Derived from the syllabus; keep it in step.
+- `README.md`: the course overview, public-facing. Course description, meeting time and place, instructor and office hours, the syllabus link, and a pointer to each folder. Each folder's `README.md` holds that folder's live links and what each page gives, and is public-facing.
+- `syllabus.html`: the full course record and the source of truth for every course fact. Schedule, per-unit bibliographies, directed questions, outcomes, the analytical papers (what they are, the method, the standard, sources, the specifications, how they're assessed), assessment and the rubric, policies, term dates, meeting time, modality.
+- `outline.md`: a one-page glance, mine. Dates, unit titles, paper due dates. Derived from the syllabus; update it whenever the syllabus changes.
 - `research/source-work.html`: the source and citation handout. The research tools and how to search them, what each paper asks for in sources, and the Chicago notes-bibliography forms. Shared with 602: author here, copy there, keep identical.
-- `meta/research-and-bibliography.md`: the design behind the research work, mine. The tools with their access routes, the per-paper source plan, and the citation forms the handout draws on.
+- `meta/research-and-bibliography.md`: the design behind the research work, mine. The tools with their access routes, the per-paper source plan, and the citation forms the handout uses.
 - `meta/editions.md`: the edition behind each seminar score, mine.
 - `meta/visual-conventions.md`: the house style. Shared with 602.
 - `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the grading mechanics, reusable across courses.
-- `units/unit-1.html` to `units/unit-4.html`: the per-unit pages linked from the Canvas modules. Each gives its unit's selected bibliography, weeks, works, and paper prompt with directed questions. Derived from `syllabus.html`; keep in step, and edit the syllabus first.
-- `lesson-plans/`: mine. `unit-N-readings.md` is the reading synthesis for that unit: what each assigned reading argues, where the readings meet the unit's repertoire, and the open items. `unit-1-modal-theory-1000-1600.md` is the dated through-line from the eleventh-century apparatus to 1600. `renaissance-baroque-galant.md` is the style comparison from c. 1550 to 1770, by strand. `unit-N-class-notes.md` is the lecture in the order of the handwritten class notes, expanded with the readings; where the class notes and a reading disagree, the reading stands. `unit-N-recap.md` is the lesson plan for that unit's paper meeting: the contextual intro and the system and form charts for the paper's works. Each is written as its unit is built.
-- `tools/`: interactive analytical tools and handouts. `tools/README.md` names each tool, what it gives, and which are numbered and carry the rail.
-- `meta/`: planning and conventions, mine and Claude only. Markdown anywhere in the repo, including in `lesson-plans/`, is mine and Claude's, except the READMEs. The repo is public, so all of it is readable at the repo and at the Pages URL.
+- `units/unit-1.html` to `units/unit-4.html`: the per-unit pages linked from the Canvas modules. Each gives its unit's selected bibliography, weeks, works, and paper prompt with directed questions. Derived from `syllabus.html`; edit the syllabus first, then update the unit page to match.
+- `lesson-plans/`: mine. `unit-N-readings.md` is the reading synthesis for that unit: what each assigned reading argues, where the readings meet the unit's repertoire, and the open items. `unit-1-modal-theory-1000-1600.md` is the dated through-line from the eleventh-century apparatus to 1600. `renaissance-baroque-galant.md` is the style comparison from c. 1550 to 1770, by strand. `unit-N-class-notes.md` is the lecture in the order of the handwritten class notes, expanded with the readings; where the class notes and a reading disagree, the reading governs. `unit-N-recap.md` is the lesson plan for that unit's paper meeting: the contextual intro and the system and form charts for the paper's works. Each is written as its unit is built.
+- `tools/`: interactive analytical tools and handouts. `tools/README.md` names each tool and what it gives.
+- `meta/`: planning and conventions, mine and Claude's only. Markdown anywhere in the repo, including in `lesson-plans/`, is mine and Claude's, except the READMEs. The repo is public, so all of it is readable at the repo and at the Pages URL.
 
 ## source of truth
 
@@ -56,7 +56,7 @@ Style, register, and feedback for everything in this repo follow the "how I want
 
 ## paper feedback
 
-Feedback on student work follows the "how I want you to communicate" section of my Claude profile preferences. Whether a paper meets the specifications is my call, and the feedback doesn't judge it.
+Whether a paper meets the specifications is my call, and the feedback doesn't judge it.
 
 Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title are the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed.
 
@@ -73,7 +73,7 @@ The section is headed "references." It covers citation placement, note form, and
 
 The section is headed "content." It replies to the paper's analysis, work by work, in the paper's order.
 
-- Each paragraph takes the student's claim in the student's own terms, gives what the score has, and says what that does to the student's reading.
+- Each paragraph states the student's claim in the student's own terms, gives what the score has, and says how that changes the student's reading.
 - Corrections follow the system and cadence charts in the unit's recap in `lesson-plans/`.
 - Where the chart has nothing on a passage, or the difference is a bar, nothing is flagged.
 
