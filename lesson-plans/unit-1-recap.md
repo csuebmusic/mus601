@@ -1,6 +1,6 @@
 # unit 1: paper 1 recap
 
-Instructor-facing. The lesson plan for the Paper 1 meeting, September 22, in the order of the meeting: the context and the system, then each work with its chart, then the comparison.
+This is the lesson plan for the Paper 1 meeting on September 22, in the order of the meeting: the context and the system, then each work with its chart, then the comparison.
 
 ## context
 
@@ -10,11 +10,11 @@ Burnett and Nitzberg date the composers' investigation of chromaticism for emoti
 
 The sixteenth-century madrigal, which Grout and Palisca treat as the leading genre of Italian secular music in the period, made Italy, and Venice in particular, a center of European music. It differs from the strophic song of the trecento, largely in response to a new poetry, more elevated and serious. Led by Cardinal Pietro Bembo, poets, readers, and musicians returned to Petrarch (1304–1374) and to the sentimental and erotic ideals of his verse (Grout and Palisca, 185). That poetry pushed composers to treat the verse more freely, with new homophonic and contrapuntal textures, and to match its seriousness, nobility, and artfulness. The more adventurous composers began to explore the chromatic scale, partly for new means of expressing the texts and partly to revive the Greek genera, which were held in high regard.
 
-The modal system was moving toward something else. The three pieces tonight sit between two worlds, fluctuating between a "chromatically extended modal system" and a "key-centered diatonic" one (Burnett and Nitzberg, ch. 3). Lasso, Monteverdi, and Schütz each worked in a period of harmonic and melodic ambiguity in a language they themselves helped transform. The three works run from 1595 to 1638, on either side of the date nineteenth-century historiography fixed for the birth of tonality. Choron coined *tonalité* in 1810 and credited Monteverdi with the dominant seventh around 1590. Fétis placed the onset of *tonalité moderne* around 1600 in Monteverdi's madrigals, first in "Stracciami pur il core" and then in "Cruda Amarilli." Hyer calls the claim's historical validity arguable and the date musicological lore, and treats tonality as a historiographical construct as much as a theoretical one (Hyer, "Tonality," in Christensen, 728–29, 746). Tonight's question is what the transition looks like measured in systems rather than in chord types.
+The modal system was moving toward something else. The three pieces tonight fluctuate between a "chromatically extended modal system" and a "key-centered diatonic" one (Burnett and Nitzberg, ch. 3). Lasso, Monteverdi, and Schütz each worked in a period of harmonic and melodic ambiguity in a language they themselves helped transform. The three works run from 1595 to 1638, on either side of the date nineteenth-century historiography fixed for the birth of tonality. Choron coined *tonalité* in 1810 and credited Monteverdi with the dominant seventh around 1590. Fétis placed the onset of *tonalité moderne* around 1600 in Monteverdi's madrigals, first in "Stracciami pur il core" and then in "Cruda Amarilli." Hyer calls the claim's historical validity arguable and the date musicological lore, and treats tonality as a historiographical construct as much as a theoretical one (Hyer, "Tonality," in Christensen, 728–29, 746). Tonight's question is what the transition looks like measured in systems rather than in chord types.
 
 ## the system
 
-The chromatically extended modal system, as the 2007 paper lays it out: a central hexachord reordered in fifths gives the triads, each taking a major or minor third, with ficta leading tones to each note of the hexachord. The dominant hexachord (up a fifth) and the subdominant hexachord (down a fifth) complete the triads. The total is eleven pitch classes, and the one missing pitch, when used, moves the system up or down a fifth. Durus and naturalis share the cantus durus signature and are told apart only by the pitches in use. In the directed questions, durus names the system on G, not the signature.
+The chromatically extended modal system, as the 2007 book lays it out: a central hexachord reordered in fifths gives the triads, each taking a major or minor third, with ficta leading tones to each note of the hexachord. The dominant hexachord (up a fifth) and the subdominant hexachord (down a fifth) complete the triads. The total is eleven pitch classes, and the one missing pitch, when used, moves the system up or down a fifth. Durus and naturalis share the cantus durus signature and are told apart only by the pitches in use. In the directed questions, durus names the system on G, not the signature.
 
 | system | root | central hexachord in fifths | ficta | missing pitch |
 |---|---|---|---|---|
@@ -34,7 +34,7 @@ No. I is where Powers and Burnett and Nitzberg meet on one observation: ♮-c1-D
 
 The Counter-Reformation is the Catholic Church's response to the Protestant Reformation that followed Luther's Ninety-Five Theses of 1517. Its center is the Council of Trent (1545–1563), which restated Catholic doctrine against the Protestant positions and reformed clerical discipline and the liturgy. The Council took up sacred music in its 1562 sessions, with concern for the intelligibility of the text and the exclusion of secular material from the Mass. The lay piety Powers names is devotion practiced by laypeople outside the liturgy, which the Counter-Reformation church encouraged. The *Lagrime*, a sacred subject in Italian madrigal form rather than liturgical music, belongs to that devotional practice.
 
-The cycle is mostly in minor modes, dark and intense. It is a deeply felt religious work, but it isn't church music. The texts are Italian rather than Latin, and the imagery is secular despite the religious subject, giving a humanist perspective on a religious event.
+The cycle is mostly in minor modes, dark and intense. It's a deeply felt religious work, but it isn't church music. The texts are Italian rather than Latin, and the imagery is secular despite the religious subject, giving a humanist perspective on a religious event.
 
 ### text
 
@@ -71,7 +71,7 @@ No. I, "Il magnanimo Pietro"; cantus durus; naturalis; center D. Four half notes
 
 ## Monteverdi, "Perché te'n fuggi, o Fillide?"
 
-The madrigal holds a special place in the career of Claudio Monteverdi (1567–1643). His madrigals made the stylistic transition toward voices accompanied by instruments, introducing a concertato idiom alongside the older imitative polyphony. In his books of madrigals, including the eighth, which contains "Perché te'n fuggi, o Fillide?", the free use of chromaticism and dissonance shows Monteverdi and his contemporaries moving quickly and with assurance toward a new idiom.
+The madrigal is central to the career of Claudio Monteverdi (1567–1643). His madrigals made the stylistic transition toward voices accompanied by instruments, introducing a concertato idiom alongside the older imitative polyphony. In his books of madrigals, including the eighth, which contains "Perché te'n fuggi, o Fillide?", the free use of chromaticism and dissonance shows Monteverdi and his contemporaries moving quickly and with assurance toward a new idiom.
 
 Monteverdi's eighth book is the *Madrigali guerrieri et amorosi* (Venice, 1638). Burnett's 1999 article on hexachord modulation claims that most of Monteverdi's madrigals unfold eleven pitch classes, that sectional divisions in the longer ones separate eleven-note gamuts, and that each gamut omits pc 3 (Burnett and Nitzberg, 19n13). "Perché te'n fuggi" tests that claim.
 
