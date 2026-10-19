@@ -52,7 +52,7 @@ Students open it at `https://login.proxylib.csueastbay.edu/login?url=http://www.
 
 Oxford Music Online is the platform holding three distinct reference works. *Grove Music Online* is a scholarly reference work: signed articles, each with a work-list and a bibliography, written by specialists and citable in their own right. *The Oxford Dictionary of Music* and *The Oxford Companion to Music* are written for a general readership; they're useful for orientation and aren't scholarly sources for a paper.
 
-Search within Grove specifically rather than across the platform, so the general-readership entries don't crowd the results. Read the article, then work from its bibliography, which is a reading list assembled by a specialist. Use the work-list to confirm catalog numbers and dates. Citation of a Grove entry is under entry in Grove Music Online, below.
+Search within Grove specifically rather than across the platform. Read the article, then work from its bibliography, which is a reading list assembled by a specialist. Use the work-list to confirm catalog numbers and dates. Citation of a Grove entry is under entry in Grove Music Online, below.
 
 ### ProQuest Dissertations & Theses
 
@@ -166,7 +166,7 @@ Where the edition belongs to a monument series or a numbered scholarly series, t
 
 ### digitized score from a database
 
-The proxy URL for a score read on Alexander Street is long and works only for signed-in CSUEB users, so name the database instead of pasting the link. Give the page number printed in the score rather than the page number of the PDF.
+For a score read on Alexander Street, name the database instead of pasting the proxy link. Give the page number printed in the score rather than the page number of the PDF.
 
 Template, note: Composer First Last, *Work Title*, ed. Editor First Last (Publisher, Year), accessed date, Database Name, page, m. measure.
 
@@ -176,7 +176,7 @@ Template, bibliography: Composer Last, First. *Work Title*. Edited by Editor Fir
 
 ### digitized score from IMSLP
 
-IMSLP is open, so the citation includes the URL. Identify the edition first: a file with no publication information anywhere can't be cited as an edition. Where a scan gives no date, n.d. is used in its place.
+The citation includes the IMSLP URL. Identify the edition first: a file with no publication information anywhere can't be cited as an edition. Where a scan gives no date, n.d. is used in its place.
 
 > Vivaldi, Antonio. Concerto, Op. 3 no. 8. In *Johann Sebastian Bach's Werke* 38. Bach-Gesellschaft, n.d. Accessed September 8, 2026. [URL].
 
@@ -204,7 +204,7 @@ The note abbreviates edited by to ed.; the bibliography spells it out.
 
 ### entry in Grove Music Online
 
-Grove entries are signed and dated. Name the author, use the revision date where there is one, and copy the permalink the entry supplies rather than the browser URL, which encodes the session.
+Grove entries are signed and dated. Name the author, use the revision date where there is one, and copy the permalink the entry supplies rather than the browser URL.
 
 Template, note: Author First Last, "Entry Title," *Grove Music Online*, year, permalink.
 
