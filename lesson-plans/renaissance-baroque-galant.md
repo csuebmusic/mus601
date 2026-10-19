@@ -1,10 +1,10 @@
 # renaissance, baroque, galant: a style comparison, c. 1550–1770
 
-Instructor-facing. An introductory comparison of the three style labels and the ground between them, by strand. `unit-1-modal-theory-1000-1600.md` covers modal theory to 1600; the `unit-N-readings.md` files cover each assigned reading.
+This instructor-facing file is an introductory comparison of the three style labels and the ground between them, by strand. `unit-1-modal-theory-1000-1600.md` covers modal theory to 1600; the `unit-N-readings.md` files cover each assigned reading.
 
 Project sources are cited by author and page. The Christensen chapters (*The Cambridge History of Western Music Theory*, 2002) are cited by chapter author: Wason (ch. 2), Barnett (13), Schubert (16), A. Cohen (17), Bent (18), Caplin (21), Hyer (23), Lester (24), McCreless (27), Burnham (28). Burnett and Nitzberg (2007) are cited by chapter author, Burnett for chapters 3–5 and Nitzberg for chapter 2. Powers is "Tonal Types and Modal Categories in Renaissance Polyphony" (1981); Dreyfus is "J. S. Bach's Concerto Ritornellos and the Question of Invention" (1985).
 
-Outside scholarship is cited by author and page with a tag for how it was read. [read] is the source itself. [via review] is a review, abstract, catalog record, or another scholar's citation of the source. [lead] is a reference-work claim not yet checked against its source. Full citations for outside sources are at the end. Quotations from outside sources were read through a summarizing fetch tool; check them against the source before they go into student-facing material.
+Outside scholarship is cited by author and page with a tag for how it was read. [read] is the source itself. [via review] is a review, abstract, catalog record, or another scholar's citation of the source. [lead] is a reference-work claim not yet checked against its source. Full citations for outside sources are at the end. Quotations from outside sources were read through a summarizing fetch tool; check them against the source before they're used in student-facing material.
 
 ## the labels
 
@@ -16,9 +16,9 @@ The period term is borrowed from art history. Burckhardt's *Der Cicerone* (1855)
 
 Bukofzer (1947) divided the era into early (1580–1630), middle (1630–80), and late (1680–1730) phases. One review gives these as phases for Italy (Feraru [via review]); Wikipedia gives the same dates, citing Palisca's Grove article [lead]. Martín Sáez argues that Bukofzer popularized the label by adopting Wölfflin's comparative method, and that the book asserts its opposition to the Renaissance and its doctrine of affections without explaining them (30–34 [read]).
 
-Palisca defended "Baroque" for c. 1540–1730 while conceding it names no single idiom (Martín Sáez 35 [via review]). Wikipedia gives the same article's span as 1600–1750 [lead]. The Grove article wasn't read. Start dates on offer across these sources are 1520, c. 1540, 1576, 1580, and 1594/1600.
+Palisca defended "Baroque" for c. 1540–1730 while conceding it names no single idiom (Martín Sáez 35 [via review]). Wikipedia gives the same article's span as 1600–1750 [lead]. The Grove article wasn't read. The start dates proposed across these sources are 1520, c. 1540, 1576, 1580, and 1594/1600.
 
-The Christensen authors use the word at a distance. Wason calls it the name the period has "invidiously" come to have (53); A. Cohen calls the music "typically, if problematically" labeled Baroque (538). Caplin, Hyer, Bent, Lester, McCreless, and Burnett use it without comment, and Burnett has Monteverdi leading into the early Baroque (80) and Legrenzi at the start of the late Baroque (106).
+The Christensen authors use the word with reservations. Wason calls it the name the period has "invidiously" come to have (53); A. Cohen calls the music "typically, if problematically" labeled Baroque (538). Caplin, Hyer, Bent, Lester, McCreless, and Burnett use it without comment, and Burnett has Monteverdi leading into the early Baroque (80) and Legrenzi at the start of the late Baroque (106).
 
 ### "galant"
 
@@ -177,7 +177,7 @@ The first figured-bass books are practical in the least imaginative sense (Wason
 
 Wason gives three eighteenth-century models: Rameau's fundamental bass, Fux's species, and a less systematic German model of chorale harmonization and figured-bass diminution (56). C. P. E. Bach reports that his father's pupils skipped the species and began with four-part thorough bass and chorales (Wason 56). Heinichen's *General-Bass in der Composition* (1728) is a complete composition text of 960 pages (Wason 57). Christensen calls Rameau's "L'Art de la basse fondamentale" (c. 1738–45) arguably the first harmony textbook in the modern sense (quoted in Wason 55 and n. 30). The fundamental bass spread without attribution, in Heinichen (1728) and Lampe (1737); C. P. E. Bach decried Rameau but opened his 1762 manual with 5/3, 6/3, and 6/4, an order absent from pre-Rameau manuals (Lester 772–73). Mattheson claims to be the first theorist to give melody its due (McCreless 869). Kirnberger's *Kunst des reinen Satzes* (1771–79) synthesizes the traditions, and Koch (1782–93) gives the most systematic method of melody (Wason 57). By the century's end the three national traditions had begun to blend (Wason 59).
 
-The project sources give partimento one paragraph. It lies between thorough bass and preluding, a series of unfigured basses leading to the improvisation of whole pieces, fugal ones included, cultivated well into the nineteenth century, particularly in Italy (A. Cohen 548).
+The project sources give partimento one paragraph. It's intermediate between thorough bass and preluding, a series of unfigured basses leading to the improvisation of whole pieces, fugal ones included, cultivated well into the nineteenth century, particularly in Italy (A. Cohen 548).
 
 Grey areas:
 
@@ -200,7 +200,7 @@ From chapter 2, "The Romanesca" (25–43) [read]:
 
 Fonte, Monte, and Ponte are Riepel's names; Indugio, Quiescenza, and Passo Indietro are Gjerdingen's; Meyer, Cudworth, and Fenaroli are named after people (Neuwirth 402–3 [via review]).
 
-Schema prototypes, as scale degrees, from Gotham's *Open Music Theory* digest [via review]. Check against Gjerdingen's "Schema Prototypes" appendix (453–64) before teaching.
+The schema prototypes below are in scale degrees, from Gotham's *Open Music Theory* digest [via review]. Check them against Gjerdingen's "Schema Prototypes" appendix (453–64) before teaching.
 
 | schema | position | melody | bass |
 |---|---|---|---|
@@ -219,7 +219,7 @@ The digest also lists the Sol-Fa-Mi, Aprile, Jupiter, and Pastorella openings, t
 
 Neuwirth's criticisms: the terminology is heterogeneous and many names are arbitrary (403); schema identification has no explicit criteria, and a Prinner is sometimes labeled on a bare 6–5–4–3 soprano (406); Prinner and stepwise Romanesca can be told apart only by formal function (406); the method neglects a schema's role in the movement, such as the Fonte in sonata form, and he proposes Ulrich Kaiser's "Modell" as a complement (407–8) [via review]. Neuwirth also notes that the analyses of Beethoven and Chopin show schemata outliving the century (408). Adams finds the relation between galant surface and contrapuntal training an unanswered question (104 [via review]). Holtmeier's review in *Eighteenth-Century Music* (2011) wasn't read.
 
-Partimento, from Byros's review of Sanguinetti (2012) [via review]. It is an instructional bass, figured or unfigured, tied to the four Neapolitan conservatories: Santa Maria di Loreto, the Pietà dei Turchini, Sant'Onofrio, and the Poveri di Gesù Cristo (para. 3). Its teachers run from Pasquini and Alessandro Scarlatti to Tritto and Valente, with Fenaroli's *Regole* (1775) and the pupils of Durante and of Leo (paras. 7, 13). Partimenti absorbed outside styles, and the practice reached the rest of Europe, as in Choron's 1809 collection, with Haydn and Beethoven among its subscribers (para. 15).
+From Byros's review of Sanguinetti (2012) [via review]: partimento is an instructional bass, figured or unfigured, tied to the four Neapolitan conservatories: Santa Maria di Loreto, the Pietà dei Turchini, Sant'Onofrio, and the Poveri di Gesù Cristo (para. 3). Its teachers run from Pasquini and Alessandro Scarlatti to Tritto and Valente, with Fenaroli's *Regole* (1775) and the pupils of Durante and of Leo (paras. 7, 13). Partimenti absorbed outside styles, and the practice reached the rest of Europe, as in Choron's 1809 collection, with Haydn and Beethoven among its subscribers (para. 15).
 
 Grey areas:
 
@@ -259,7 +259,7 @@ The stylistic content of the 1610 mass (stile antico, on Gombert's *In illo temp
 ## disagreements
 
 1. Did modes evolve into keys? No: Barnett (408, 427, 435, 450), Powers (467). A reduction from eight modes to two, completed 1713: Hyer (738). Teleologically yes: Burnett (xix, 94).
-2. When does key-centered tonality arrive? Josquin (Dahlhaus, via Hyer 734); fauxbourdon (Besseler, via Hyer 747); Monteverdi c. 1600 (Fétis, via Hyer 729); England by mid-century and France in the 1660s (Barnett 430, 435, 441); north Italian instrumental music of the 1670s–80s, with Corelli (Burnett 47, 89, 132); Mattheson 1713 (Hyer 738); Rameau as the first theorist of the interacting components (Lester 753).
+2. When does key-centered tonality begin? Josquin (Dahlhaus, via Hyer 734); fauxbourdon (Besseler, via Hyer 747); Monteverdi c. 1600 (Fétis, via Hyer 729); England by mid-century and France in the 1660s (Barnett 430, 435, 441); north Italian instrumental music of the 1670s–80s, with Corelli (Burnett 47, 89, 132); Mattheson 1713 (Hyer 738); Rameau as the first theorist of the interacting components (Lester 753).
 3. Bononcini (1673): twelve modes against eight (Barnett 414 n. 23, 415); the twelve reducible to four, two major and two minor (Burnett 115 n. 19, after Stein). Check *Musico prattico* before teaching either.
 4. Fux and inversion: Fux explains the inversional relation of 5/3 and 6/3 (Lester 755); Fux doesn't fully acknowledge inversion, and a 6/3 is a triad abandoned (Bent 570).
 5. Continuity or rupture in seventeenth-century practice: the same framework for nearly two hundred years (Schubert 504); a radical reorientation of pedagogy (Wason 53); continuo-derived counterpoint by mid-century (Burnett 93 n. 5).
@@ -270,7 +270,7 @@ The stylistic content of the 1610 mass (stile antico, on Gombert's *In illo temp
 10. Ritornello and later form: the early symphony read out of the ritornello concerto (Burnett 153, 158, 175–76); ritornello "facts" imposed from later models (Dreyfus 334).
 11. Divisions of eighteenth-century theory: three national traditions blending by the century's end (Wason 59); two lines, Catholic Italian and Protestant Berlin (Bent 581).
 12. Listenius and musica poetica: *Rudimenta musicae*, 1533 (Wason 52–53; A. Cohen 535); *Musica*, 1537 (McCreless 853).
-13. Thomas Campion's date: c. 1618 and c. 1610 (Schubert 505, 527); c. 1613 and c. 1618 (Barnett 436, 438). Internal inconsistencies.
+13. Thomas Campion's date: c. 1618 and c. 1610 (Schubert 505, 527); c. 1613 and c. 1618 (Barnett 436, 438). Each source is internally inconsistent.
 14. Who brought "Baroque" into musicology: Sachs 1919 (the usual credit, and Palisca's); Wellesz 1909/10 (Wilfing-Albrecht; Martín Sáez 30 n. 45, whose earlier author the fetch tool rendered as "Dent").
 15. Palisca's span for "Baroque": c. 1540–1730 (Martín Sáez 35) against 1600–1750 (Wikipedia). Resolve in the Grove article.
 16. Bukofzer's phases: 1580–1630, 1630–80, 1680–1730 (Feraru; Wikipedia's prose). Wikipedia's phase table gives 1580–1650, 1630–1700, 1680–1750 without citation.
