@@ -1,6 +1,6 @@
 # unit 2: reading synthesis
 
-Instructor-facing. What each assigned reading argues, what in it is teachable, and where the readings meet the unit's repertoire. Ordered by the period each reading covers, not by the bibliography.
+This instructor-facing file sets out what each assigned reading argues, what in it is teachable, and where the readings meet the unit's repertoire. The readings are ordered by the period each covers, not by the bibliography.
 
 ## the unit 2 scores, chronologically
 
@@ -20,7 +20,7 @@ Torelli Op. 8 no. 6, RV 522, and both Paper 2 concertos have no analytical model
 
 ## hyer, "tonality" (pp. 726–52) · c. 1600 to 1910, the term from 1810
 
-A revised version of Hyer's article for the second edition of *New Grove* (p. 726). Five sections: Usage, Rhetoric, Theory, Practice, Historiography.
+It's a revised version of Hyer's article for the second edition of *New Grove* (p. 726), in five sections: Usage, Rhetoric, Theory, Practice, Historiography.
 
 **What the chapter claims**
 
@@ -63,11 +63,11 @@ A revised version of Hyer's article for the second edition of *New Grove* (p. 72
 
 - Historians don't agree on how and when modal polyphony became Baroque tonality. Powers ("Is Mode Real?") argues the two coexist on separate epistemological planes, so no transition need be imagined. Hyer still registers a reduction from eight or more modes to two, a paired cantus durus and cantus mollis, completed in Mattheson's *Das neu-eröffnete Orchestre* (1713), which lists dur and moll on all twelve semitones (p. 738).
 - Hybrids persist in Mattheson's contemporaries: Bach chorales give modal melodies dur or moll harmonizations (p. 738).
-- The consensus: the major-minor ethos arrives with a simplified texture of harmonies over a basso continuo. Chords become discrete entities, and the *trias harmonica* determines medial cadences, taking precedence over the placement of semitones in the modal octave (pp. 738–39).
+- The consensus: the major-minor ethos appears with a simplified texture of harmonies over a basso continuo. Chords become discrete entities, and the *trias harmonica* determines medial cadences, taking precedence over the placement of semitones in the modal octave (pp. 738–39).
 - The *clausula formalis* is reinterpreted as V–I: the bass G is the one note consonant with both D and the *subsemitonium* B. In German Baroque music this cadence becomes "a conventional gesture used to punctuate mosaic-like successions of phrases and ritornelli" (pp. 739–40).
 - Rameau's theory mirrors French Baroque practice. Gravitational momentum is local, any triad without a dissonance is heard as a tonic, and modulations are additive chains of dominants (p. 740).
 - Classical harmony: large-scale progressions toward "a distant but forehearable harmonic goal"; the dominant as dialectical opposite of the tonic (after Fichte and Hegel), with the reprise as synthesis; Subotnik's "musical equivalent of reason"; Schoenberg's monotonality; Schenker's tonicization, with his graph of Haydn's Hob. XVI:44 reading III at m. 13 as I in B♭ from m. 13 to m. 20 (pp. 740–41).
-- Romantic and late Romantic: *Ganymed*, D. 544 (A♭ through C♭ to F); *Tristan* Act 3 (F minor to B major); *Götterdämmerung* (Bailey's associative tonality); Kurth's alteration style and "repression of the tonic"; Schoenberg's "floating tonality"; *Parsifal* Act 2, mm. 993–1001, with Adorno (pp. 741–44). These belong to unit 4 and to MUS 602.
+- Romantic and late Romantic: *Ganymed*, D. 544 (A♭ through C♭ to F); *Tristan* Act 3 (F minor to B major); *Götterdämmerung* (Bailey's associative tonality); Kurth's alteration style and "repression of the tonic"; Schoenberg's "floating tonality"; *Parsifal* Act 2, mm. 993–1001, with Adorno (pp. 741–44). These belong to unit 4.
 
 **Historiography (pp. 745–50)**
 
@@ -87,13 +87,13 @@ A revised version of Hyer's article for the second edition of *New Grove* (p. 72
 
 ## burnett and nitzberg, chapter 4, "tonality and systems in the seventeenth and early eighteenth centuries" (pp. 89–153) · 1610 to the 1720s
 
-The analytical spine of the unit. Seven sections: the introduction (Frescobaldi, Monteverdi), Marini, Legrenzi, Stradella's arias, Stradella's concerti grossi, Corelli, and the concerto from Torelli through Vivaldi to Bach.
+The chapter is the analytical spine of the unit, in seven sections: the introduction (Frescobaldi, Monteverdi), Marini, Legrenzi, Stradella's arias, Stradella's concerti grossi, Corelli, and the concerto from Torelli through Vivaldi to Bach.
 
 **What the chapter claims**
 
 - Key-centered tonality emerges in north Italian instrumental music (Rome, Venice, Bologna) in the 1670s and 1680s, under the influence of opera and cantata: a tonic triad prolonged over a whole movement by functionally significant auxiliary cadences (p. 89).
 - Before that, instrumental composers reached areas outside the tonic only by shifting eleven-pitch-class systems. Cadences stayed on hexachordal pitches and returned straight to the tonic. Large-scale modulation needs a complete progression to stabilize the new key, which isn't fully established until ritornello form in the late 1680s (pp. 89–90).
-- Modes are linear constructs. Harmonized, they let any central-hexachord degree carry a major or a minor triad, which yields cross relations and localized fifths motion and blocks tonal voice leading. Tonality needs a major dominant with the leading tone, itself prepared as the penultimate goal (p. 97).
+- Modes are linear constructs. Harmonized, they let any central-hexachord degree be the root of a major or a minor triad, which yields cross relations and localized fifths motion and blocks tonal voice leading. Tonality needs a major dominant with the leading tone, itself prepared as the penultimate goal (p. 97).
 - "Modality was never capable of sustaining or supporting a middleground" (p. 97). If modality can't rationalize the horizontal and the vertical, Schenkerian analysis of pre-tonal music "may exemplify musical-theoretical sophistry" (p. 98 n. 9).
 - Corelli is "the first major composer to create a hierarchy of function between the fifths of the central hexachord of a key and the background tonic" (p. 132). His plan remains in effect, the chapter claims, until the late nineteenth century (p. 133).
 
@@ -116,8 +116,8 @@ The analytical spine of the unit. Seven sections: the introduction (Frescobaldi,
 - Legrenzi, Op. 2 (1655): sonatas in the eight church modes, an ordering Burnett calls unique. The phrygian and plagal settings lack a dominant. "La Spilimberga" (no. 2, G hypodorian): C minor passages at mm. 10–21 and 28–35 take almost half the movement; the bass C–C♯–D at mm. 26–27 becomes motivic; the closing G major triad sounds like V of C minor (pp. 102–6).
 - Stradella, "T'intendo, si t'intendo" (*Moro per amore*, c. 1680): embryonic ritornello form. The F-major ritornello returns in D minor (mm. 15–19), twice in G minor (mm. 27–29, 30–34), and closes in F (mm. 45–49). The voice enters as a *devise*; motive a stays with the orchestra and b with the voice, a division "standard in concertos after 1700." The plan F–C–d–g–C–F stays on the 1♭ hexachord, eleven pitch classes, A♭/G♯ missing (pp. 108–13).
 - Stradella's are the only concerto grosso scorings before Corelli (nine works, after Jander); the *Sinfonia in re maggiore* is the earliest known instrumental concerto grosso (p. 113).
-- Stradella, sinfonia to *Ah! Troppo è ver* (Rome, c. 1670s), first movement in D, 2♯: principal ritornello a (mm. 1–5, to V) and b (cadential, to a half cadence), stated in D, G, and D; a chromatic secondary ritornello in E minor and A minor, read as Lucifer. F♮ in the A-minor statement (mm. 37–38) shifts to 1♭; G♯ is delayed to mm. 59–63 and restores 2♯. G major is heard as IV, displaced by V at m. 45 before the tonic at m. 46 (pp. 114–19). Stradella's concept of key likely rests on Bononcini (1673), who reduces the twelve modes to four (p. 115 n. 19).
-- Lucifer's aria "Ah! Troppo è ver," E minor: ritornello a (concerto grosso, cadential) and b (concertino, scalar); G major occupies the middle of the aria; a secondary segment c sits inside the III area; the closing ritornello reverses the segment order (pp. 120–22).
+- Stradella, sinfonia to *Ah! Troppo è ver* (Rome, c. 1670s), first movement in D, 2♯: principal ritornello a (mm. 1–5, to V) and b (cadential, to a half cadence), stated in D, G, and D; a chromatic secondary ritornello in E minor and A minor, read as Lucifer. F♮ in the A-minor statement (mm. 37–38) shifts to 1♭; G♯ is delayed to mm. 59–63 and restores 2♯. G major is heard as IV, displaced by V at m. 45 before the tonic at m. 46 (pp. 114–19). Stradella's concept of key likely derives from Bononcini (1673), who reduces the twelve modes to four (p. 115 n. 19).
+- Lucifer's aria "Ah! Troppo è ver," E minor: ritornello a (concerto grosso, cadential) and b (concertino, scalar); G major occupies the middle of the aria; a secondary segment c is inside the III area; the closing ritornello reverses the segment order (pp. 120–22).
 
 **Marini, Op. 22 no. 1 (pp. 98–102)**
 
@@ -199,7 +199,7 @@ The analytical spine of the unit. Seven sections: the introduction (Frescobaldi,
 - Wilhelm Fischer's Vordersatz, Fortspinnung, Epilog (1915), kept in German because English equivalents suggest sonata-form terms. Fischer stressed surface melodic process, to link it to Haydn and Mozart; Dreyfus turns the terms into harmonic functions "clothed in thematic identities" (p. 330).
 - [V] defines the tonic by reference to its dominant, with evident root-position triads moving I to V. *Whether* it does so outranks *how*.
 - [F] is premised on the absence of a defined tonic or of an authentic cadence resolving it. Conventional sequences (10-7-10-7, 5-6-5-6, 10-10-10) or freer counterpoint delay strong tonal articulation.
-- [E] is the *clausula*: the formal tonic cadence closing on 1̂ in the upper voice. It begins where the Fortspinnung "transgresses, as it were, on foreign territory," for instance on arriving at the dominant.
+- [E] is the *clausula*: the formal tonic cadence closing on 1̂ in the upper voice. It begins where the Fortspinnung "transgresses, as it were, on foreign territory," for instance on reaching the dominant.
 - Segments are identified by function, not contour, and adjoining segments share notes and chords. BWV 1042, first movement: the Vordersatz reaches the dominant only at the end of its second phrase and is indivisible; the Fortspinnung is a 10-7-10-7 progression and then falling sixth chords; the Epilog has two subsections, deceptive then authentic (pp. 331–33).
 - Brandenburg 1, third movement: Vordersatz mm. 1–4 to the dominant; Fortspinnung by two sets of tenths to the dominant at m. 12; Epilog in two harmonically equivalent closed segments, mm. 12–15 and 15–17 (p. 333 n. 10).
 
@@ -207,7 +207,7 @@ The analytical spine of the unit. Seven sections: the introduction (Frescobaldi,
 
 - Table I: Tonic Definition (I→V) is present in [V], absent in [F] and [E]. Tonic Resolution (V→I) is present in [E], absent in [V] and [F]. For TD, [V] and [F] are the marked and unmarked pair; for TR, [E] and [F]. The absence of TD in [E] and of TR in [V] isn't significant. The terms come from linguistics, via Holenstein on Jakobson.
 - "The notion of 'invention' in the ritornello therefore directly presupposes the logic of tonality": the ritornello contains "the essential properties of the harmonic system in a tonal microcosm" (pp. 333–34).
-- Ritornellos are marked, solo episodes unmarked. Episodes are defined by the absence of complete segments, not by contrasting themes. BWV 1042, mm. 70–78: Vordersatz fragments appear twice without the move to the dominant; the complete Vordersatz arrives in the subdominant, where Bach "covers his tracks" with a change of register and dynamics midway (pp. 334–36).
+- Ritornellos are marked, solo episodes unmarked. Episodes are defined by the absence of complete segments, not by contrasting themes. BWV 1042, mm. 70–78: Vordersatz fragments appear twice without the move to the dominant; the complete Vordersatz is stated in the subdominant, where Bach "covers his tracks" with a change of register and dynamics midway (pp. 334–36).
 
 **The operations**
 
@@ -290,7 +290,7 @@ The measure numbers differ by one or two at three points; the score settles wher
 - Unit 1, chapter 3: the missing pitch spelled as a flat moves the system down a fifth, spelled as a sharp up a fifth.
 - Unit 2, chapter 4 (pp. 118, 128): in tonal music the minor-third spelling moves it three signatures flatward, the augmented-second spelling three sharpward.
 - Chapter 4 replaces the names naturalis, mollis, and durus with signature counts (2♯ system, 1♭ system, "0" system), while still equating cantus durus with naturalis for Frescobaldi and Marini (pp. 91, 98).
-- Students who carry the unit 1 rule into Paper 2 will misplace every shift. Put both rules on the board in Week 7.
+- Students who apply the unit 1 rule in Paper 2 will misplace every shift. Put both rules on the board in Week 7.
 
 ## the paper 2 directed questions
 
@@ -310,7 +310,7 @@ Where the readings meet each question:
 
 **System arithmetic for the unit 2 keys**
 
-Derived from Burnett's tonal rules (pp. 117–18, 127–28, 146–47). A system is named by its major root; a minor key uses its relative major's system.
+The table derives from Burnett's tonal rules (pp. 117–18, 127–28, 146–47). A system is named by its major root; a minor key uses its relative major's system.
 
 | work | key | system (root) | hexachord in fifths | missing pitch as minor third | as augmented second |
 |---|---|---|---|---|---|
