@@ -1,10 +1,10 @@
 # visual conventions
 
-The house style for student-facing pages and interactive analytical tools in mus601. mus312 isn't kept in step with it. mus602 takes a copy of `assets/style.css` and the fonts when that course is built, and the two are kept in step from then on. Each repo stands alone.
+The house style for student-facing pages and interactive analytical tools in mus601. mus312 isn't updated to match it. mus602 takes a copy of `assets/style.css` and the fonts when that course is built, and the two are kept in step from then on. Each repo stands alone.
 
 ## palette
 
-White ground, black line, one accent. The accent marks what is live: links, hover state, active controls, and the element under discussion. Fixed reference marks stay in ink.
+The palette is a white ground, black line, and one accent, and the accent marks what's live: links, hover state, active controls, and the element under discussion. Fixed reference marks stay in ink.
 
 | variable | value | use |
 |---|---|---|
@@ -39,7 +39,7 @@ Colors are addressed through these variables. Component CSS and inline SVG use n
 
 Both are self-hosted woff2 in `assets/fonts/`, under the SIL Open Font License. Sans Italic sets titles of works and journals. Mono marks data; prose never sets in it.
 
-Music glyphs set in Bravura, a SMuFL font subset to the glyphs in use and self-hosted as `assets/fonts/Bravura-subset.woff2`, under the SIL Open Font License. Its `@font-face` is declared in the page that uses it rather than in the stylesheet. One staff space is a quarter of the em: set `font-size` to four times the staff space in pixels. Clef glyphs sit on the baseline at their reference line, noteheads at their vertical center. A page using it credits both families in the footer.
+Music glyphs set in Bravura, a SMuFL font subset to the glyphs in use and self-hosted as `assets/fonts/Bravura-subset.woff2`, under the SIL Open Font License. Its `@font-face` is declared in the page that uses it rather than in the stylesheet. One staff space is a quarter of the em: set `font-size` to four times the staff space in pixels. A clef glyph's reference line is on the baseline, and so is a notehead's vertical center. A page using it credits both families in the footer.
 
 Body sets at 1rem on a 1.55 line height. Prose runs to a 34rem measure and takes `.full` to run the width of the column. Tables, panels, and figures are full width.
 
@@ -47,32 +47,30 @@ Headings are lowercase and set in the body face at 600. An `h2` opens its sectio
 
 ## layout
 
-One centered column, `.wrap` at 78rem, inside `body` padding. A page opens with a mono eyebrow, an `h1` with `id="top"`, and a `.lede full` paragraph, and closes with a `<footer>` giving the font credit. `.lede` is a semantic hook and takes no rule; `.full` widens the measure.
+The layout is one centered column, `.wrap` at 78rem, inside `body` padding. A page opens with a mono eyebrow, an `h1` with `id="top"`, and a `.lede full` paragraph, and closes with a `<footer>` giving the font credit. `.lede` is a semantic hook and takes no rule.
 
 Spacing is `--step`, 0.5rem. Two units between paragraphs, three from a heading to its content, four between blocks, six between sections.
 
 Table row labels are `th` in `tbody`. Numeric cells take `.num`. Table variants: `.papers`, `.rubric`, `.grades`.
 
-The schedule sets units as `.unit` (mono label, then an `h3`) and weeks as `.week` (a `.marker` line in Mono Medium at full ink, then an `h4`). A week with a paper due takes `.week.due`, which marks it in the accent. A break between weeks takes `.recess`. Readings sit in `ul.readings`. Citation specimens sit in `.cite`, a boxed list of hanging-indent entries under mono labels. Quoted specimens sit in `blockquote`, washed in the accent. Small print takes `.note`.
+The schedule sets units as `.unit` (mono label, then an `h3`) and weeks as `.week` (a `.marker` line in Mono Medium at full ink, then an `h4`). A week with a paper due takes `.week.due`, which marks it in the accent. A break between weeks takes `.recess`. Readings are in `ul.readings`. Citation specimens are in `.cite`, a boxed list of hanging-indent entries under mono labels. Quoted specimens are in `blockquote`, washed in the accent. Small print takes `.note`.
 
 The contents list at the head of a long page is `ul.toc`, two columns above 62rem and one below. Every `h2` takes an id and appears in it.
 
 ## pages
 
-Student-facing material is HTML on the shared stylesheet. Markdown in this repo is for the instructor.
+Student-facing material is HTML on the shared stylesheet.
 
 Every link that leaves the page opens in a new tab, with `target="_blank"` and `rel="noopener"`. In-page anchors and `mailto:` links take neither.
 
 Each page is self-contained and browser-only: no build step, no framework, no external runtime dependency, no CDN. SVG is written inline so the variables resolve. Scripts, where a tool needs them, are inline in the page.
 
-Pages are linked individually from Canvas. There is no landing page and no inter-page navigation beyond the links inside the prose.
-
-Interactive tools live in `tools/`.
+Pages are linked individually from Canvas. There's no landing page and no inter-page navigation beyond the links inside the prose.
 
 ## cache
 
 Pages link the stylesheet as `assets/style.css?v=N`. Bump N in every page whenever `style.css` changes.
 
-## the quality floor
+## minimum requirements
 
-Responsive to mobile, visible keyboard focus on every interactive element, `prefers-reduced-motion` respected, and a print stylesheet that clears the body padding and sets links in ink. Ink and muted text meet WCAG AA on the paper ground. The accent reaches 3.8:1, which meets AA for large text and for non-text marks; links take an underline so color is never the only cue.
+Every page is responsive to mobile, shows visible keyboard focus on every interactive element, respects `prefers-reduced-motion`, and has a print stylesheet that clears the body padding and sets links in ink. Ink and muted text meet WCAG AA on the paper ground. The accent reaches 3.8:1, which meets AA for large text and for non-text marks; links take an underline, and color is never the only cue.
