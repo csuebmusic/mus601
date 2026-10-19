@@ -39,7 +39,7 @@ This file and `meta/visual-conventions.md` govern this repo. Read them before an
 
 ## deployment
 
-GitHub Pages builds through `.github/workflows/pages.yml`, with `.nojekyll` at the repo root. The legacy Jekyll builder fails silently and stays off.
+GitHub Pages deploys from the `main` branch, root folder.
 
 ## sources
 
