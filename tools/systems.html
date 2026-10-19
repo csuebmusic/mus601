@@ -36,7 +36,7 @@
 <p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; tool</p>
 <h1 id="top">4. The three-hexachord system</h1>
 
-<p class="lede full">The sixteenth-century gamut system as Burnett and Nitzberg set it out: a signature names a system, the system carries three hexachords a fifth apart, and the central hexachord reordered as fifths gives the roots the music can use. One pitch class is missing, and its spelling decides which way the system moves.</p>
+<p class="lede full">In the sixteenth-century gamut system as Burnett and Nitzberg set it out, a signature names a system, the system has three hexachords a fifth apart, and the central hexachord reordered as fifths gives the roots the music can use. One pitch class is missing, and its spelling decides whether the system transposes up or down a fifth.</p>
 
 <div class="ctl-row" role="group" aria-label="system">
   <span class="label">system</span>
@@ -62,13 +62,13 @@
 
 <p class="full">The signature identifies the system: a natural signature a naturalis system, a one-flat signature a mollis system, a two-flat signature a 2&#9837; system, and so on. The central hexachord governs the system, the hexachord a fifth above it is the dominant hexachord and the one a fifth below the subdominant hexachord. The number of flats a piece may add is contingent on the number in the subdominant hexachord.</p>
 
-<p class="full">Reordering the central hexachord as fifths gives the pitch classes that can carry triads and the cadential points available within a single composition, each able to support a major or a minor third. In modality those fifths relate to each other rather than to a background final.</p>
+<p class="full">Reordering the central hexachord as fifths gives the pitch classes that can be roots of triads and the cadential points available within a single composition. Each of those roots can have a major or a minor third above it. In modality those fifths relate to each other rather than to a background final.</p>
 
-<p class="full">The system is an eleven-pitch-class field: the chromatic aggregate minus one pitch, a minor third or augmented second above the root of the central hexachord. Once a piece is under way, that missing pitch is what moves the system. Spelled as the minor third above the root it transposes the system down a fifth; spelled as the augmented second it transposes the system up a fifth. A piece may stay in one system throughout, unfold fewer than eleven pitch classes, or modulate once or more.</p>
+<p class="full">The system is an eleven-pitch-class field: the chromatic aggregate minus one pitch, a minor third or augmented second above the root of the central hexachord. Once a piece is under way, that missing pitch is what transposes the system. Spelled as the minor third above the root it transposes the system down a fifth; spelled as the augmented second it transposes the system up a fifth. A piece may stay in one system throughout, unfold fewer than eleven pitch classes, or modulate once or more.</p>
 
 <h2 id="repertoire">on the unit's repertoire</h2>
 
-<p class="full">Rore's &ldquo;Da le belle contrade d'oriente&rdquo; (1566) is set in an F mode in cantus mollis, a 1&#9837; system. Its outer sections are diatonic and stay in that system, unfolding eleven pitch classes that omit G&#9839; and A&#9837;; the chromatic middle section shifts systems repeatedly. <em>Absalon, fili mi</em> runs 2&#9837; to 3&#9837; to 4&#9837;. The <em>Prophetiae Sibyllarum</em> prologue shifts durus to mollis.</p>
+<p class="full">Rore's &ldquo;Da le belle contrade d'oriente&rdquo; (1566) is set in an F mode in cantus mollis, a 1&#9837; system. Its outer sections are diatonic and stay in that system, unfolding eleven pitch classes that omit G&#9839; and A&#9837;; the chromatic middle section shifts systems repeatedly. <em>Absalon, fili mi</em> runs 2&#9837; to 3&#9837; to 4&#9837;, and the <em>Prophetiae Sibyllarum</em> prologue shifts from durus to mollis.</p>
 
 <h2 id="sources">sources</h2>
 
@@ -149,12 +149,12 @@
     lab.textContent = s.name + " system";
     readout.appendChild(lab);
 
-    para("Central hexachord on <span class=\"mono\">" + HEX[s.cen][0] +
-      "</span>, reordered as fifths: <span class=\"mono\">" + fifths(s.cen).join(" ") +
-      "</span>. Those six pitch classes are the roots available to the piece, each able to carry a major or a minor third.");
-    para("Missing pitch class: <span class=\"miss mono\">" + s.m3 + "</span> or <span class=\"miss mono\">" +
+    para("The central hexachord on <span class=\"mono\">" + HEX[s.cen][0] +
+      "</span>, reordered as fifths, is <span class=\"mono\">" + fifths(s.cen).join(" ") +
+      "</span>. Those six pitch classes are the roots available to the piece, and each can have a major or a minor third above it.");
+    para("The missing pitch class is <span class=\"miss mono\">" + s.m3 + "</span> or <span class=\"miss mono\">" +
       s.a2 + "</span>. Spelled as the minor third above <span class=\"mono\">" + HEX[s.cen][0] +
-      "</span> it moves the system down a fifth, to " + s.down + ". Spelled as the augmented second it moves the system up a fifth, to " + s.up + ".");
+      "</span> it transposes the system down a fifth, to " + s.down + ". Spelled as the augmented second it transposes the system up a fifth, to " + s.up + ".");
   }
 
   document.querySelectorAll("[data-sys]").forEach(function (b) {
