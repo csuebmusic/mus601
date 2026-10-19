@@ -2,7 +2,7 @@
 
 This file records the design of the research and bibliography work in 601. The student-facing form is `research/source-work.html`; the paper requirements are in `syllabus.html`.
 
-Research and bibliography runs as one module inside 601 and a second inside 602. Open: Peter's Canvas modules don't yet match the exit list below.
+Research and bibliography runs as one module inside 601. Open: Peter's Canvas modules don't yet match the exit list below.
 
 ## where students start
 
@@ -229,13 +229,3 @@ Musical examples are numbered figures with captions, and the caption credits the
 Page ranges abbreviate in Chicago's number style: 428–70, not 428–470, though a range crossing a hundred keeps both digits, as in 364–406. Ranges use an en dash rather than a hyphen. Journal and book titles are italicized; article and chapter titles are in quotation marks. The bibliography is alphabetized by author surname and isn't numbered. Every source cited in a note appears in the bibliography, and nothing appears there that the paper doesn't use.
 
 Generative AI tools misformat these patterns and invent sources outright. Every citation is checked against the source in hand.
-
-## into 602
-
-In 601 the papers are short analytical close readings with a brief historical and interpretive frame, and the bibliography is lean. In 602 the work is a full research paper developed and revised across the term, and the bibliography is its scholarly context.
-
-The 602 module runs alongside that paper sequence: research question, then a graded annotated bibliography, then draft, revision, and final, plus the conference-style presentation. Students build and annotate a substantial set of scholarly sources, on the order of eight to twelve, and use it to place their own work in the scholarly conversation.
-
-In 602 students weigh competing analytical frameworks and take a position, and they read sources against each other to place the paper in an existing scholarly conversation.
-
-The 602 annotated bibliography uses the 601 skills at a larger scale. These 602 expectations move to the mus602 repo when that course is built.
