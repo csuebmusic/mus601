@@ -10,27 +10,26 @@ It covers the Renaissance to the Romantic: the change from modal practice to fun
 
 ## who owns what
 
-Each body of material has one canonical home. Edit it there; everything else points to it.
+Each body of material has one canonical home, and everything else points to it.
 
 - `README.md`: the course overview, public-facing. Course description, meeting time and place, instructor and office hours, the syllabus link, and a pointer to each folder. Each folder's `README.md` holds that folder's live links and what each page gives, and is public-facing.
 - `syllabus.html`: the full course record and the source of truth for every course fact. Schedule, per-unit bibliographies, directed questions, outcomes, the analytical papers (what they are, the method, the standard, sources, the specifications, how they're assessed), assessment and the rubric, policies, term dates, meeting time, modality.
-- `outline.md`: a one-page glance, mine. Dates, unit titles, paper due dates. Derived from the syllabus; update it whenever the syllabus changes.
+- `outline.md`: a one-page glance, mine. Dates, unit titles, paper due dates. Derived from the syllabus.
 - `research/source-work.html`: the source and citation handout. The research tools and how to search them, what each paper asks for in sources, and the Chicago notes-bibliography forms.
 - `meta/research-and-bibliography.md`: the design behind the research work, mine. The tools with their access routes, the per-paper source plan, and the citation forms the handout uses.
 - `meta/editions.md`: the edition behind each seminar score, mine.
 - `meta/visual-conventions.md`: the house style.
 - `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the grading mechanics, reusable across courses.
-- `units/unit-1.html` to `units/unit-4.html`: the per-unit pages linked from the Canvas modules. Each gives its unit's selected bibliography, weeks, works, and paper prompt with directed questions. Derived from `syllabus.html`; edit the syllabus first, then update the unit page to match.
+- `units/unit-1.html` to `units/unit-4.html`: the per-unit pages linked from the Canvas modules. Each gives its unit's selected bibliography, weeks, works, and paper prompt with directed questions. Derived from `syllabus.html`.
 - `lesson-plans/`: mine. `unit-N-readings.md` is the reading synthesis for that unit: what each assigned reading argues, where the readings meet the unit's repertoire, and the open items. `unit-1-modal-theory-1000-1600.md` is the dated through-line from the eleventh-century apparatus to 1600. `renaissance-baroque-galant.md` is the style comparison from c. 1550 to 1770, by strand. `unit-N-class-notes.md` is the lecture in the order of the handwritten class notes, expanded with the readings; where the class notes and a reading disagree, the reading governs. `unit-N-recap.md` is the lesson plan for that unit's paper meeting: the contextual intro and the system and form charts for the paper's works. Each is written as its unit is built.
 - `tools/`: interactive analytical tools and handouts. `tools/README.md` names each tool and what it gives.
-- `meta/`: planning and conventions, mine and Claude's. Markdown anywhere in the repo, including in `lesson-plans/`, is mine and Claude's, except the READMEs. The repo is public, so all of it is readable at the repo and at the Pages URL.
+- `meta/`: planning and conventions, mine. Markdown anywhere in the repo, including in `lesson-plans/`, is mine, except the READMEs. The repo is public, so all of it is readable at the repo and at the Pages URL.
 
 ## git workflow
 
 - Commit directly to `main`, authored as Ines Thiebaut, ines.thiebaut@csueastbay.edu.
 - One logical change per commit. The message names what changed and stops.
 - Push after each commit. Where the cloud workspace can't push, commit in the local clone, and I push.
-- Reorganizations, mass renames, and deletions are proposed in chat and wait for my confirmation.
 - Repo files aren't attached in chat. I pull locally.
 
 ## deployment
