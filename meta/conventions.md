@@ -6,7 +6,7 @@ MUS 601, Birth and Death of Tonality, is a graduate research-and-analysis semina
 
 The seminar teaches students to become scholars of a repertoire: formulating research questions, evaluating sources critically, using the bibliographic tools of the field, writing scholarly analysis with correct citation, and connecting analysis to historical and cultural context.
 
-It covers the Renaissance to the Romantic: the change from modal practice to functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. The vocabulary is figured bass, Roman-numeral and functional analysis, counterpoint, form, modulation and chromatic harmony, and Schenkerian reduction where a passage calls for it. The method is comparative analysis across works and periods. The seminar's analytical framework is Burnett and Nitzberg's hexachord-system theory, with chapters 3 and 4 assigned.
+It covers the Renaissance to the Romantic: the change from modal practice to functional harmony, the consolidation of common-practice tonality, and its chromatic saturation and dissolution across the nineteenth century. The vocabulary is figured bass, Roman-numeral and functional analysis, counterpoint, form, modulation and chromatic harmony, and Schenkerian reduction where a passage calls for it. The method is comparative analysis across works and periods. The seminar's analytical framework is Burnett and Nitzberg's hexachord-system theory.
 
 ## who owns what
 
@@ -39,9 +39,3 @@ GitHub Pages deploys from the `main` branch, root folder.
 ## sources
 
 - Texts uploaded to the Claude project are authoritative and are searched first for conceptual and pedagogical questions.
-- Where no uploaded source covers a topic, the gap is flagged, with an offer to draft a handout or find scholarship, in place of an answer from general knowledge.
-- Bibliographic details are checked against the source itself.
-
-## style
-
-Style, register, and feedback for everything in this repo follow the "how I want you to communicate" section of my Claude profile preferences.
