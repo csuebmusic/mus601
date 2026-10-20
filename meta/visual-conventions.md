@@ -1,6 +1,6 @@
 # visual conventions
 
-The house style for student-facing pages and interactive analytical tools in mus601. mus312 isn't updated to match it.
+The house style for student-facing pages and interactive analytical tools in mus601.
 
 ## palette
 

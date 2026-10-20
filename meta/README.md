@@ -1,6 +1,6 @@
 # meta
 
-The instructor notes and conventions are in this folder. [conventions.md](conventions.md) gives the home of every body of material in the repository and the rules for editing it; [visual-conventions.md](visual-conventions.md) gives the house style.
+The instructor notes and conventions are in this folder. [conventions.md](conventions.md) gives the home of every body of material in the repository; [visual-conventions.md](visual-conventions.md) gives the house style.
 
 ```
 assets/         stylesheet and self-hosted fonts
