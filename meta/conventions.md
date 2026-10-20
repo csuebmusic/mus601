@@ -53,24 +53,8 @@ Style, register, and feedback for everything in this repo follow the "how I want
 
 ## paper feedback
 
-Whether a paper meets the specifications is my call, and the feedback doesn't judge it.
+Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title are the date, my name, and one line naming the paper and its works. The doc has three sections, "sources," "content," and "format," and is printed.
 
-Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title are the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed.
-
-### pass 1: sources
-
-The section is headed "sources." It covers the paper's source work as practice in finding and citing sources: the sources against the paper's plan in `meta/research-and-bibliography.md`, the authoritative edition, citation placement, note form, and the bibliography.
-
-- The sources against the plan: the tool, the kind of source, how many and on what, and the edition of each work.
-- Overcitation, measured against "the music itself" in `meta/research-and-bibliography.md`: the count and one example from the paper.
-- Note form, with note numbers: first notes set as bibliography entries, short forms, title styling, volume and issue, empty or stray notes.
-- One of the student's own sources as a model, in three forms: first note, short note, bibliography entry.
-- The bibliography, corrected in full and alphabetized. An item only the source can supply is left as a bracketed blank, named in one sentence above the list.
-
-### pass 2: content
-
-The section is headed "content." It replies to the paper's analysis and comparison, in the paper's order. Its style is in the "feedback on student work" section of my profile preferences. Corrections are checked against the charts in the unit's recap in `lesson-plans/`; where the chart has nothing on a passage, or the difference is a bar, nothing is flagged.
-
-### pass 3: format
-
-The section is headed "format." It covers the paper's presentation: musical examples and analytical graphs as numbered figures with captions crediting the edition, referred to in the text by number and measure, and placed on the page with the passage that discusses them; tables; headings and page layout. It leaves out page count.
+- "sources" covers the paper's source work against its plan in `meta/research-and-bibliography.md`: the sources, the editions, the notes, and the bibliography.
+- "content" covers the analysis and the comparison. Corrections are checked against the charts in the unit's recap in `lesson-plans/`.
+- "format" covers musical examples, analytical graphs, tables, headings, and page layout.
