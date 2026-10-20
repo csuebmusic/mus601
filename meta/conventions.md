@@ -25,10 +25,6 @@ Each body of material has one canonical home. Edit it there; everything else poi
 - `tools/`: interactive analytical tools and handouts. `tools/README.md` names each tool and what it gives.
 - `meta/`: planning and conventions, mine and Claude's. Markdown anywhere in the repo, including in `lesson-plans/`, is mine and Claude's, except the READMEs. The repo is public, so all of it is readable at the repo and at the Pages URL.
 
-## source of truth
-
-This file and `meta/visual-conventions.md` govern this repo. Read them before any work in it. They're authoritative over anything earlier in a conversation; where the two disagree, flag it. When a decision changes, update the file that holds it.
-
 ## git workflow
 
 - Commit directly to `main`, authored as Ines Thiebaut, ines.thiebaut@csueastbay.edu.
