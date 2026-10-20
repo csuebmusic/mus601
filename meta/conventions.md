@@ -53,8 +53,30 @@ Style, register, and feedback for everything in this repo follow the "how I want
 
 ## paper feedback
 
-Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title are the date, my name, and one line naming the paper and its works. The doc has three sections, "sources," "content," and "format," and is printed.
+Whether a paper meets the specifications is my call, and the feedback doesn't judge it.
 
-- "sources" covers the paper's source work against its plan in `meta/research-and-bibliography.md`: the sources, the editions, the notes, and the bibliography.
-- "content" covers the analysis and the comparison. Corrections are checked against the charts in the unit's recap in `lesson-plans/`.
-- "format" covers musical examples, analytical graphs, tables, headings, and page layout.
+Feedback on each student's paper is one Claude Docs doc, titled "Paper N feedback, First Last." Under the title are the date, my name, and one line naming the paper and its works. The feedback is written in three passes, each its own lowercase section, and printed.
+
+### pass 1: references
+
+The section is headed "references." It covers citation placement, note form, and the bibliography. It leaves out the specifications, what each secondary source is used for, and where an edition was found.
+
+- Overcitation, measured against "the music itself" in `meta/research-and-bibliography.md`: the count and one example from the paper.
+- Note form, with note numbers: first notes set as bibliography entries, short forms, title styling, volume and issue, empty or stray notes.
+- One of the student's own sources as a model, in three forms: first note, short note, bibliography entry.
+- The bibliography, corrected in full and alphabetized. An item only the source can supply is left as a bracketed blank, named in one sentence above the list.
+
+### pass 2: content
+
+The section is headed "content." It replies to the paper's analysis, work by work, in the paper's order.
+
+- Each paragraph states the student's claim in the student's own terms, gives what the score has, and says how that changes the student's reading.
+- Corrections follow the system and cadence charts in the unit's recap in `lesson-plans/`.
+- Where the chart has nothing on a passage, or the difference is a bar, nothing is flagged.
+
+### pass 3: comparison
+
+The section is headed "comparison." It replies to the paper's comparison of the works.
+
+- Each comparison claim is tested against the scores and the paper's own analysis: a claim without evidence gets the passages that would supply it, by measure; a claim the corrected readings change gets the corrected comparison; a comparison that measures the works on different terms gets one shared measure from the paper's analysis.
+- Where the paper has no closing comparison, the section names, from the paper's own analysis, the terms one could use.
