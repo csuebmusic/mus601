@@ -560,7 +560,7 @@ These notes are for instructor use. They cover chapter 5, "Tonality and Systems 
 From `units/unit-3.html`, on the first movements of Mozart 41 and Haydn 90.
 
 - Locate the medial caesura and the EEC in each exposition. What does each composer do to the arrival of the second key?
-- Track the hexachord system across each exposition. Where do system changes fall against the formal seams?
+- Map each exposition onto the reordered fifths of the C-major hexachord (F C G d a e, IV I V ii vi iii). Which of its harmonies does each composer tonicize, and where do those arrivals fall against the formal seams?
 - How does each handle recurring closing material as a refrain, and thematic economy (monothematic or dualistic)?
 - Both are in C major. Where in each exposition is the second key's arrival most in question, and how do the two solutions differ?
 
@@ -592,7 +592,7 @@ The table derives from Burnett's tonal rules as recorded in the unit 2 synthesis
 From `units/unit-3.html`, on the first movement of the Kreutzer.
 
 - Take the major/minor mode switch as the organizing gesture. Which dyad conflicts realize it, and where is each first heard?
-- Follow the system battle (3♯ against 0, and the flat side). Where do the dyad conflicts also act as system modulations?
+- Follow the dyad conflicts through the movement. Where does each one fall against the formal seams, and which hexachord harmonies does it bring in?
 - Why a minor v in the second harmonic area? What would a stable major V or ♭III cost the movement?
 - Name the single idea the movement serves, and show how the coda settles the conflicts it opened.
 
