@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beethoven's harmonic field &middot; MUS 601</title>
+<link rel="stylesheet" href="../assets/style.css?v=20">
+<style>
+@font-face {
+  font-family: "Bravura";
+  src: url("../assets/fonts/Bravura-subset.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+  figure.field { margin: 0 0 calc(var(--step) * 4); }
+  figure.field svg { width: 100%; height: auto; display: block; }
+  .field .stf { stroke: var(--rule); stroke-width: 1; }
+  .field .clef, .field .note, .field .paren, .field .acc { font-family: "Bravura"; font-size: 40px; fill: var(--ink); }
+  .field .note { text-anchor: middle; }
+  .field .rn { font-family: var(--font-data); font-size: 14px; text-anchor: middle; fill: var(--ink); }
+  .field .fig { font-family: var(--font-data); font-size: 11px; fill: var(--ink); }
+  .field .sysline { stroke: var(--ink); stroke-width: 1; }
+  .field .brkt { stroke: var(--ink); stroke-width: 4; }
+  .field .brkt-hook { fill: none; stroke: var(--ink); stroke-width: 2; }
+  .field .pairbrk { fill: none; stroke: var(--ink); stroke-width: 1; }
+  .field .xbox { fill: none; stroke: var(--accent); stroke-width: 1.5; }
+  .field .xlabel { font-family: var(--font-data); font-size: 11px; text-anchor: middle; fill: var(--accent); }
+  .field .plabel { font-family: var(--font-data); font-size: 12px; text-anchor: middle; fill: var(--muted); }
+  .field .arrow { fill: none; stroke: var(--ink); stroke-width: 1.2; marker-end: url(#arrowhead); }
+  .field .arrowhead { fill: var(--ink); }
+  .field .rowlabel { font-family: var(--font-data); font-size: 11px; fill: var(--muted); }
+  .field .chord { cursor: default; }
+  .field .chord .hit { fill: transparent; }
+  .field .chord:hover text, .field .chord:focus text { fill: var(--accent); }
+  .field .chord:focus { outline: none; }
+  .field .chord:focus-visible .hit { stroke: var(--accent); stroke-width: 1.5; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="eyebrow">MUS 601 &middot; Fall 2026 &middot; tool</p>
+<h1 id="top"><span class="caps">Beethoven</span>'s harmonic field</h1>
+
+<figure class="field">
+<svg id="field" viewBox="0 0 1390 1000" role="img" aria-labelledby="fieldtitle fielddesc">
+  <title id="fieldtitle">The diatonic triads and applied sevenths of C major and G major</title>
+  <defs>
+    <marker id="arrowhead" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="arrowhead" d="M 0 0 L 8 4 L 0 8 z"></path>
+    </marker>
+  </defs>
+  <desc id="fielddesc">Six treble staves. The upper two give G major, with a one-sharp signature; the next three give C major. A bracket joins the staves of each key. C major has a third staff, under its triads, with triads on the same roots in root position with the third changed: iv on F with A-flat, i on C with E-flat, v on G with B-flat, VI on A with C-sharp, and III on E with G-sharp, with i boxed and labeled OG pianoid&eacute;e, v boxed and labeled classicism pianoid&eacute;e expansion, and VI and III boxed together and labeled beethoven expansion. The columns under ii6 and vii&deg;6 are empty. The G major staves are shifted one column to the right, so that each G major chord stands over the C major chord a fifth below it. In each key the lower staff gives the diatonic triads in the order IV, I, V, ii6, vi, iii, vii&deg;6, with ii6 and vii&deg;6 in first inversion and their sevenths as optional notes in parentheses; vii&deg;6 is boxed and labeled classicism expansion. The upper staff gives, over each triad from I to vii&deg;, a root-position dominant seventh on the same root and, to its right, the leading-tone seventh with the same goal. In C major: V7/IV on C and vii&oslash;7/IV on E, V7 on G and vii&oslash;7 on B, V7/V on D and vii&oslash;7/V on F-sharp, V7/ii on A and vii&deg;7/ii on C-sharp, V7/vi on E and vii&deg;7/vi on G-sharp, V7/iii on B and vii&deg;7/iii on D-sharp. In G major: V7/IV on G and vii&oslash;7/IV on B, V7 on D and vii&oslash;7 on F-sharp, V7/V on A and vii&oslash;7/V on C-sharp, V7/ii on E and vii&deg;7/ii on G-sharp, V7/vi on B and vii&deg;7/vi on D-sharp, V7/iii on F-sharp and vii&deg;7/iii on A-sharp. The bottom staff, labeled 3rd relationships, gives F, A, C, E, G as whole notes rising in thirds, with their letter names above, and arrows out of C rising to E and G above it and, as a mirror image, falling to A and F below it. Under each note are two Roman numerals: the diatonic triad on it, IV, vi, I, iii, V, and the triad with its third changed, iv, VI, i, III, v.</desc>
+</svg>
+</figure>
+
+<footer>
+  <p>Text set in IBM Plex, music glyphs in Bravura, both under the SIL Open Font License.</p>
+</footer>
+</div>
+<script>
+(function () {
+  "use strict";
+  var NS = "http://www.w3.org/2000/svg";
+  var SVG = document.getElementById("field");
+  var SP = 10;                        /* staff space in px; glyphs set at 4 * SP */
+  var X0 = 100, X1 = 1380;            /* staff extent */
+  var CLEF_X = 120;
+  var SIG_X = 152;
+  var CHORD_X0 = 210, CHORD_DX = 150;
+  var PAIR_DX = 78;                   /* a leading-tone seventh sits this far right of its V7 */
+  var SHIFT = 22;                     /* an optional seventh clears the left parenthesis from the column */
+  var HEAD = 8.44;                    /* half the width of a whole notehead */
+  var LETTERS = ["C", "D", "E", "F", "G", "A", "B"];
+  var GLYPH = { clef: "", whole: "", black: "", parenL: "", parenR: "",
+    flat: "", natural: "", sharp: "" };
+  var ACC_W = { flat: 9, natural: 7, sharp: 10 };   /* glyph widths in px at 4 * SP */
+  var ACC_SIGN = { flat: "♭", natural: "♮", sharp: "♯" };
+
+  /* diatonic step: C4 = 0, D4 = 1, ... C5 = 7 */
+  function y(top, step) { return top + 4 * SP - (step - 2) * SP / 2; }
+
+  /* A key is two staves: the diatonic triads and, above them, the applied sevenths.
+     A note is a diatonic step, or an object: { s, acc } for a written accidental;
+     { s, head: "black", paren: true, shift: 1 } for an optional seventh a step below a
+     chord tone, set to the right of the chord's column. Names in "sounding" give the
+     pitch spelled out, for screen readers, where the signature supplies the accidental. */
+  var KEYS = [
+    {
+      name: "C major", sig: [], col: 0, triadTop: 540, appliedTop: 390, flipTop: 690,
+      flipBoxes: [
+        { from: 1, to: 1, label: "OG pianoid\u00e9e", below: true },
+        { from: 2, to: 2, label: "classicism pianoid\u00e9e expansion" },
+        { from: 4, to: 5, label: "beethoven expansion" }
+      ],
+      triads: [
+        { rn: "IV",  q: "F major", notes: [3, 5, 7] },
+        { rn: "I",   q: "C major", notes: [7, 9, 11] },
+        { rn: "V",   q: "G major", notes: [4, 6, 8] },
+        { rn: "ii",  q: "D minor, first inversion", fig: ["6", "(5)"],
+          notes: [3, 5, { s: 7, head: "black", paren: true, shift: 1 }, 8],
+          opt: "with the optional seventh C, ii6/5" },
+        { rn: "vi",  q: "A minor", notes: [5, 7, 9] },
+        { rn: "iii", q: "E minor", notes: [2, 4, 6] },
+        { rn: "vii°", q: "B diminished, first inversion", fig: ["6"],
+          lines: [{ rn: "vii°", fig: ["6"] }, { rn: "viiø", fig: ["6", "5"] }],
+          box: "classicism expansion",
+          notes: [1, 3, { s: 5, head: "black", paren: true, shift: 1 }, 6],
+          opt: "with the optional seventh A, the half-diminished viiø 6/5" }
+      ],
+      /* the same roots with the third changed: minor for the major triads, major for the minor */
+      flips: [
+        { rn: "iv",  q: "F minor", notes: [3, { s: 5, acc: "flat" }, 7] },
+        { rn: "i",   q: "C minor", notes: [7, { s: 9, acc: "flat" }, 11] },
+        { rn: "v",   q: "G minor", notes: [4, { s: 6, acc: "flat" }, 8] },
+        null,
+        { rn: "VI",  q: "A major", notes: [5, { s: 7, acc: "sharp" }, 9] },
+        { rn: "III", q: "E major", notes: [2, { s: 4, acc: "sharp" }, 6] }
+      ],
+      dominants: [
+        null,
+        { rn: "V", fig: "7", of: "IV",  q: "C dominant seventh", notes: [7, 9, 11, { s: 13, acc: "flat" }] },
+        { rn: "V", fig: "7",            q: "G dominant seventh", notes: [4, 6, 8, 10] },
+        { rn: "V", fig: "7", of: "V",   q: "D dominant seventh", notes: [1, { s: 3, acc: "sharp" }, 5, 7] },
+        { rn: "V", fig: "7", of: "ii",  q: "A dominant seventh", notes: [5, { s: 7, acc: "sharp" }, 9, 11] },
+        { rn: "V", fig: "7", of: "vi",  q: "E dominant seventh", notes: [2, { s: 4, acc: "sharp" }, 6, 8] },
+        { rn: "V", fig: "7", of: "iii", q: "B dominant seventh", notes: [6, { s: 8, acc: "sharp" }, { s: 10, acc: "sharp" }, 12] }
+      ],
+      /* half-diminished before a major chord, fully diminished before a minor one */
+      leading: [
+        null,
+        { rn: "viiø", fig: "7", of: "IV",  q: "E half-diminished seventh", notes: [9, 11, { s: 13, acc: "flat" }, 15] },
+        { rn: "viiø", fig: "7",            q: "B half-diminished seventh", notes: [6, 8, 10, 12] },
+        { rn: "viiø", fig: "7", of: "V",   q: "F-sharp half-diminished seventh", notes: [{ s: 3, acc: "sharp" }, 5, 7, 9] },
+        { rn: "vii°", fig: "7", of: "ii",  q: "C-sharp diminished seventh", notes: [{ s: 7, acc: "sharp" }, 9, 11, { s: 13, acc: "flat" }] },
+        { rn: "vii°", fig: "7", of: "vi",  q: "G-sharp diminished seventh", notes: [{ s: 4, acc: "sharp" }, 6, 8, 10] },
+        { rn: "vii°", fig: "7", of: "iii", q: "D-sharp diminished seventh", notes: [{ s: 8, acc: "sharp" }, { s: 10, acc: "sharp" }, 12, 14] }
+      ]
+    },
+    {
+      name: "G major", sig: [{ s: 10, acc: "sharp" }], sounding: { 3: "♯" }, col: 1,
+      triadTop: 200, appliedTop: 50,
+      triads: [
+        { rn: "IV",  q: "C major", notes: [7, 9, 11] },
+        { rn: "I",   q: "G major", notes: [4, 6, 8] },
+        { rn: "V",   q: "D major", notes: [1, 3, 5] },
+        { rn: "ii",  q: "A minor, first inversion", fig: ["6", "(5)"],
+          notes: [7, 9, { s: 11, head: "black", paren: true, shift: 1 }, 12],
+          opt: "with the optional seventh G, ii6/5" },
+        { rn: "vi",  q: "E minor", notes: [2, 4, 6] },
+        { rn: "iii", q: "B minor", notes: [6, 8, 10] },
+        { rn: "vii°", q: "F-sharp diminished, first inversion", fig: ["6"],
+          lines: [{ rn: "vii°", fig: ["6"] }, { rn: "viiø", fig: ["6", "5"] }],
+          box: "classicism expansion",
+          notes: [5, 7, { s: 9, head: "black", paren: true, shift: 1 }, 10],
+          opt: "with the optional seventh E, the half-diminished viiø 6/5" }
+      ],
+      dominants: [
+        null,
+        { rn: "V", fig: "7", of: "IV",  q: "G dominant seventh", notes: [4, 6, 8, { s: 10, acc: "natural" }] },
+        { rn: "V", fig: "7",            q: "D dominant seventh", notes: [1, 3, 5, 7] },
+        { rn: "V", fig: "7", of: "V",   q: "A dominant seventh", notes: [5, { s: 7, acc: "sharp" }, 9, 11] },
+        { rn: "V", fig: "7", of: "ii",  q: "E dominant seventh", notes: [2, { s: 4, acc: "sharp" }, 6, 8] },
+        { rn: "V", fig: "7", of: "vi",  q: "B dominant seventh", notes: [6, { s: 8, acc: "sharp" }, 10, 12] },
+        { rn: "V", fig: "7", of: "iii", q: "F-sharp dominant seventh", notes: [3, { s: 5, acc: "sharp" }, { s: 7, acc: "sharp" }, 9] }
+      ],
+      leading: [
+        null,
+        { rn: "viiø", fig: "7", of: "IV",  q: "B half-diminished seventh", notes: [6, 8, { s: 10, acc: "natural" }, 12] },
+        { rn: "viiø", fig: "7",            q: "F-sharp half-diminished seventh", notes: [3, 5, 7, 9] },
+        { rn: "viiø", fig: "7", of: "V",   q: "C-sharp half-diminished seventh", notes: [{ s: 7, acc: "sharp" }, 9, 11, 13] },
+        { rn: "vii°", fig: "7", of: "ii",  q: "G-sharp diminished seventh", notes: [{ s: 4, acc: "sharp" }, 6, 8, { s: 10, acc: "natural" }] },
+        { rn: "vii°", fig: "7", of: "vi",  q: "D-sharp diminished seventh", notes: [{ s: 8, acc: "sharp" }, 10, 12, 14] },
+        { rn: "vii°", fig: "7", of: "iii", q: "A-sharp diminished seventh", notes: [{ s: 5, acc: "sharp" }, { s: 7, acc: "sharp" }, 9, 11] }
+      ]
+    }
+  ];
+
+  function el(name, attrs, text) {
+    var e = document.createElementNS(NS, name);
+    Object.keys(attrs).forEach(function (k) { e.setAttribute(k, attrs[k]); });
+    if (text) { e.textContent = text; }
+    return e;
+  }
+
+  function staff(top, sig) {
+    for (var i = 0; i < 5; i++) {
+      SVG.appendChild(el("line", { "class": "stf", x1: X0, x2: X1, y1: top + i * SP, y2: top + i * SP }));
+    }
+    SVG.appendChild(el("text", { "class": "clef", x: CLEF_X, y: y(top, 4) }, GLYPH.clef));
+    (sig || []).forEach(function (a, k) {
+      SVG.appendChild(el("text", { "class": "acc", x: SIG_X + k * 12, y: y(top, a.s) }, GLYPH[a.acc]));
+    });
+  }
+
+  /* accidentals stack leftward from the highest; two share a column only a seventh or more apart */
+  function accidentals(g, x, top, notes) {
+    var cols = [];
+    notes.filter(function (n) { return n.acc; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .forEach(function (n) {
+        var k = 0;
+        while (cols[k] && cols[k].some(function (s) { return Math.abs(s - n.s) < 6; })) { k++; }
+        (cols[k] = cols[k] || []).push(n.s);
+        var ax = x - HEAD - 3 - ACC_W[n.acc] - k * (ACC_W.sharp + 2);
+        g.appendChild(el("text", { "class": "acc", x: ax, y: y(top, n.s) }, GLYPH[n.acc]));
+      });
+  }
+
+  function ledgers(g, x, top, notes) {
+    var hi = Math.max.apply(null, notes.map(function (n) { return n.s; }));
+    var lo = Math.min.apply(null, notes.map(function (n) { return n.s; }));
+    for (var s = 12; s <= hi; s += 2) {
+      g.appendChild(el("line", { "class": "stf", x1: x - 13, x2: x + 13, y1: y(top, s), y2: y(top, s) }));
+    }
+    for (s = 0; s >= lo; s -= 2) {
+      g.appendChild(el("line", { "class": "stf", x1: x - 13, x2: x + 13, y1: y(top, s), y2: y(top, s) }));
+    }
+  }
+
+  function noteName(n, key) {
+    var sign = n.acc ? ACC_SIGN[n.acc] : (key.sounding && key.sounding[n.s % 7]) || "";
+    return LETTERS[n.s % 7] + (sign === "♮" ? "" : sign);
+  }
+
+  function chords(top, list, key, dx) {
+    list.forEach(function (c, i) {
+      if (!c) { return; }
+      var x = CHORD_X0 + (key.col + i) * CHORD_DX + dx;
+      var notes = c.notes.map(function (n) { return typeof n === "number" ? { s: n } : n; });
+      var names = notes.filter(function (n) { return !n.paren; })
+        .map(function (n) { return noteName(n, key); });
+      var label = key.name + ", " + c.rn + (c.fig ? (typeof c.fig === "string" ? c.fig : c.fig[0]) : "") +
+        (c.of ? " of " + c.of : "") + ", " + c.q + ": " + names.join(" ") +
+        (c.opt ? "; " + c.opt : "");
+      var g = el("g", { "class": "chord", tabindex: "0", role: "img", "aria-label": label });
+      var wide = notes.some(function (n) { return n.shift; });
+      g.appendChild(el("rect", { "class": "hit", x: x - 28, y: top - 24,
+        width: wide ? 66 : 56, height: 4 * SP + (c.lines ? 102 : 78), rx: 3 }));
+      ledgers(g, x, top, notes);
+      accidentals(g, x, top, notes);
+      notes.forEach(function (n) {
+        var nx = x + (n.shift || 0) * SHIFT;
+        var ny = y(top, n.s);
+        g.appendChild(el("text", { "class": "note", x: nx, y: ny }, n.head === "black" ? GLYPH.black : GLYPH.whole));
+        if (n.paren) {
+          g.appendChild(el("text", { "class": "paren", x: nx - 11.8, y: ny }, GLYPH.parenL));
+          g.appendChild(el("text", { "class": "paren", x: nx + 8.8, y: ny }, GLYPH.parenR));
+        }
+      });
+      var lines = c.lines || [{ rn: c.rn, fig: c.fig, of: c.of }];
+      lines.forEach(function (ln, k) {
+        var ry = top + 4 * SP + 38 + k * 24;
+        if (typeof ln.fig === "string") {   /* one figure, set inline: V7/IV */
+          var t = el("text", { "class": "rn", x: x, y: ry }, ln.rn);
+          t.appendChild(el("tspan", { "class": "fig", dy: -6 }, ln.fig));
+          if (ln.of) { t.appendChild(el("tspan", { dy: 6 }, "/" + ln.of)); }
+          g.appendChild(t);
+          return;
+        }
+        if (!ln.fig) {
+          g.appendChild(el("text", { "class": "rn", x: x, y: ry }, ln.rn));
+          return;
+        }
+        var w = ln.rn.length * 8.4;       /* Plex Mono at 14px sets about 8.4px per character */
+        var rx = x - 5;
+        g.appendChild(el("text", { "class": "rn", x: rx, y: ry }, ln.rn));
+        g.appendChild(el("text", { "class": "fig", x: rx + w / 2 + 1, y: ry - 6 }, ln.fig[0]));
+        if (ln.fig[1]) {
+          g.appendChild(el("text", { "class": "fig", x: rx + w / 2 + 1, y: ry + 5 }, ln.fig[1]));
+        }
+      });
+      SVG.appendChild(g);
+      if (c.box) {
+        var bh = 4 * SP + 38 + (c.lines ? c.lines.length - 1 : 0) * 24 + 30;
+        SVG.appendChild(el("rect", { "class": "xbox", x: x - 30, y: top - 22, width: 82, height: bh }));
+        SVG.appendChild(el("text", { "class": "xlabel", x: x + 11, y: top - 28 }, c.box));
+      }
+    });
+  }
+
+  /* a bracket under the numerals of each V7 and the leading-tone seventh beside it */
+  function labelWidth(c) {               /* Plex Mono at 14px: 8.4px a character; the figure at 11px */
+    return (c.rn.length + (c.of ? c.of.length + 1 : 0)) * 8.4 + (c.fig ? 7 : 0);
+  }
+  function pairBrackets(key) {
+    var yb = key.appliedTop + 4 * SP + 38 + 9;
+    key.leading.forEach(function (r, i) {
+      var l = key.dominants[i];
+      if (!r || !l) { return; }
+      var xl = CHORD_X0 + (key.col + i) * CHORD_DX;
+      var x1 = xl - labelWidth(l) / 2 - 3;
+      var x2 = xl + PAIR_DX + labelWidth(r) / 2 + 3;
+      SVG.appendChild(el("path", { "class": "pairbrk",
+        d: "M " + x1 + " " + (yb - 5) + " L " + x1 + " " + yb + " L " + x2 + " " + yb + " L " + x2 + " " + (yb - 5) }));
+    });
+  }
+
+  /* each key's pair of staves is joined by a system line and a bracket */
+  function bracket(top, bottom) {
+    var bx = X0 - 9;
+    SVG.appendChild(el("line", { "class": "sysline", x1: X0, x2: X0, y1: top, y2: bottom }));
+    SVG.appendChild(el("line", { "class": "brkt", x1: bx, x2: bx, y1: top - 4, y2: bottom + 4 }));
+    SVG.appendChild(el("path", { "class": "brkt-hook", d: "M " + (bx - 2) + " " + (top - 4) + " Q " + (bx + 6) + " " + (top - 4) + " " + (bx + 12) + " " + (top - 11) }));
+    SVG.appendChild(el("path", { "class": "brkt-hook", d: "M " + (bx - 2) + " " + (bottom + 4) + " Q " + (bx + 6) + " " + (bottom + 4) + " " + (bx + 12) + " " + (bottom + 11) }));
+  }
+
+  /* the chain of thirds F A C E G, with arrows out of C, up to E and G and down to A and F */
+  var THIRDS = { top: 870, steps: [3, 5, 7, 9, 11], dx: 120,
+    rn: [["IV", "vi", "I", "iii", "V"], ["iv", "VI", "i", "III", "v"]] };
+  function thirds() {
+    var t = THIRDS, top = t.top;
+    var mid = (X0 + X1) / 2;
+    var xs = t.steps.map(function (s, i) { return mid + (i - 2) * t.dx; });
+    staff(top);
+    var lab = el("text", { "class": "rowlabel", x: 0, y: top + 2 * SP - 3 }, "3rd");
+    lab.appendChild(el("tspan", { x: 0, dy: 14 }, "relationships"));
+    SVG.appendChild(lab);
+    t.steps.forEach(function (s, i) {
+      SVG.appendChild(el("text", { "class": "note", x: xs[i], y: y(top, s) }, GLYPH.whole));
+      SVG.appendChild(el("text", { "class": "plabel", x: xs[i], y: top - 46 }, LETTERS[s % 7]));
+      t.rn.forEach(function (row, k) {
+        SVG.appendChild(el("text", { "class": "rn", x: xs[i], y: top + 4 * SP + 52 + k * 22 }, row[i]));
+      });
+    });
+    var cx = xs[2], cy = y(top, t.steps[2]);
+    /* rise: above the staff to E and G; fall: the mirror image, below, to A and F */
+    [[3, 46], [4, 84]].forEach(function (a) {
+      var tx = xs[a[0]], ty = y(top, t.steps[a[0]]);
+      var dxe = tx - cx;
+      SVG.appendChild(el("path", { "class": "arrow",
+        d: "M " + (cx + 7) + " " + (cy - 8) + " Q " + (cx + dxe / 2) + " " + (cy - a[1]) + " " + (tx - 7) + " " + (ty - 9) }));
+      SVG.appendChild(el("path", { "class": "arrow",
+        d: "M " + (cx - 7) + " " + (cy + 8) + " Q " + (cx - dxe / 2) + " " + (cy + a[1]) + " " + (2 * cx - tx + 7) + " " + (2 * cy - ty + 9) }));
+    });
+  }
+  KEYS.forEach(function (key) {
+    bracket(key.appliedTop, (key.flipTop || key.triadTop) + 4 * SP);
+    staff(key.appliedTop, key.sig);
+    staff(key.triadTop, key.sig);
+    SVG.appendChild(el("text", { "class": "rowlabel", x: 0, y: key.triadTop + 2 * SP + 4 }, key.name));
+    chords(key.triadTop, key.triads, key, 0);
+    if (key.flips) {
+      staff(key.flipTop, key.sig);
+      chords(key.flipTop, key.flips, key, 0);
+      (key.flipBoxes || []).forEach(function (b) {
+        var bx1 = CHORD_X0 + (key.col + b.from) * CHORD_DX - 44;
+        var bx2 = CHORD_X0 + (key.col + b.to) * CHORD_DX + 34;
+        var bh = 22 + 4 * SP + 48;
+        SVG.appendChild(el("rect", { "class": "xbox", x: bx1, y: key.flipTop - 22,
+          width: bx2 - bx1, height: bh }));
+        SVG.appendChild(el("text", { "class": "xlabel", x: (bx1 + bx2) / 2,
+          y: b.below ? key.flipTop - 22 + bh + 15 : key.flipTop - 28 }, b.label));
+      });
+    }
+    chords(key.appliedTop, key.dominants, key, 0);
+    chords(key.appliedTop, key.leading, key, PAIR_DX);
+    pairBrackets(key);
+  });
+  thirds();
+}());
+</script>
+</body>
+</html>
