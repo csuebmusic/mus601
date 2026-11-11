@@ -20,7 +20,7 @@ Tuesdays, 7:00–9:00 pm, Fall 2026 (Aug 18 to Dec 1). Fifteen meetings across s
 - weeks 10 & 11. Oct 20, Oct 27. the emergence of the symphony (Vivaldi, Wagenseil, Haydn 2 and 84, Stamitz, J. C. Bach, Mozart 36 "Linz").
 - **week 12. Nov 3. paper 3 due.** Comparison: Mozart 41 "Jupiter," Haydn 90, first movements.
 - week 13. Nov 10. Beethoven and the extension of Classical procedure.
-- **week 14. Nov 17. paper 4 due.** Beethoven, "Kreutzer" Sonata Op. 47, first movement.
+- **week 14. Nov 17. paper 4 due Sunday, Nov 22, on Canvas.** Beethoven, "Kreutzer" Sonata Op. 47, first movement.
 
 *Nov 24: fall recess, no class.*
 
