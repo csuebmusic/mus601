@@ -112,11 +112,11 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 | | P2: *p* and P's closing module | 29–36 | |
 | TR | from P's closing module | 37–50 | I to V/V; MC m. 50 |
 | S, in G | S1 | 51–65 | I to V |
-| | S2, 4 + 4 | 66–73 | D♯ at mm. 67–68; mm. 68–69, F♯7–B7–E7–A7–D7–G; ascending chromatic bass, mm. 70–73 |
-| C | C1 | 74–80 | "weak" EEC m. 74; V4/2–I6, mm. 79–80 |
-| | C2 | 81–86 | IV, chromatically to ♯iv°7, then I6/4; *p* transposed |
+| | S2, 4 + 4 | 66–73 | D♯ at mm. 67–68; mm. 68–69, F♯7–B7–E7–A7–D7–G; ascending chromatic bass, mm. 70–73, to the EEC |
+| C | C1 | 74–80 | EEC m. 74; I and V alternate on the downbeats, mm. 74–77; V4/2–I6, mm. 79–80 |
+| | C2 | 81–86 | IV (C major) m. 81; ♯iv°7 (C♯–E–G–B♭, vii°7/V) m. 82; cadential 6/4 m. 83; *p* transposed |
 | | C3: P's closing module | 87–91 | |
-| | "failed codetta," on *p*'s repeated note | 91–97 | ends V over I |
+| | "failed codetta," on *p*'s repeated note | 91–97 | the tutti stops on a G chord at m. 94 without a cadence; the first violins finish alone on a repeated G, mm. 94–97 |
 | development | the tonic minor, piano | 98– | Ep1 m. 98, Ep2 m. 106, Ep3 m. 111 |
 | | retransition | 125–152 | F♯ from m. 125; repeated-note idea rising chromatically to F♯ |
 | recapitulation | P1, with cadential extension and ascending bass | 153–169 | E♭ m. 165, F♯ m. 168 |
@@ -128,18 +128,21 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 | coda | opens with *p* | 218–227 | |
 
 - At mm. 68–69, the descending fifths B7–E7–A7–D7–G are the applied dominants of iii, vi, ii, and V, the hexachord's fifths e–a–d–G in descending order, immediately before the EEC.
+- The EEC at m. 74 is weaker than Mozart's at m. 89. C1 alternates I and V on its downbeats (mm. 74–77) and moves V4/2–I6 (mm. 79–80), and C2 begins a new cadential progression in G at m. 81.
 
 ## comparison
 
-- Mozart's second key is in question inside the S zone, at m. 81, and secured by a strong PAC at m. 89. Haydn's question is the EEC itself: a weak PAC at m. 74, a closing zone that seeks a stronger one, and a codetta that ends V over I.
+- Both composers use S2 to disrupt the approach to the EEC. Mozart's S2 opens on C minor at m. 81, the pianoidée moved inside V and heard as iv of G. Haydn's S2 brings D♯ at m. 67 in a chain of dominant sevenths and an ascending chromatic bass to m. 74.
+- Mozart's EEC at m. 89 is a strong PAC. Haydn's at m. 74 is weaker, and C1 and C2 continue to cadence in G.
+- Both bring C major into the second key's space as IV of G: Mozart at m. 83, after the C minor of m. 81, and Haydn at the start of C2, m. 81.
 - Mozart's refrain is the fanfare of P2, placed at the ends of P, TR, and the exposition. Haydn's recurring element is the progression *p* from the introduction, placed at the head of P1, P2, C2, the codetta, and the coda.
 - Mozart is dualistic and Haydn monothematic.
 - E♭ is the first chromatic pitch in each: in Mozart at m. 32 in vii°7/V; in Haydn in the introduction's vii°7/V before m. 17. Mozart's development opens on ♭III and Haydn's on the tonic minor.
 
-| work | MC | EEC | ESC | second-key crisis | refrain | economy |
+| work | MC | EEC | ESC | S2's disruption before the EEC | refrain | economy |
 |---|---|---|---|---|---|---|
-| Mozart | 55 | 89 | 277 | m. 81, C minor (iv of G) | P2's fanfare (m. 9) at 49, 117, 171 | dualistic |
-| Haydn | 50 | 74, weak | 196 | the EEC | *p* (m. 5) | monothematic |
+| Mozart | 55 | 89 | 277 | C minor at m. 81, the pianoidée inside V, heard as iv of G | P2's fanfare (m. 9) at 49, 117, 171 | dualistic |
+| Haydn | 50 | 74 | 196 | D♯ at m. 67 in a chain of dominant sevenths; ascending chromatic bass, mm. 70–73 | *p* (m. 5) | monothematic |
 
 ## open items
 
