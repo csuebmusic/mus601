@@ -21,7 +21,7 @@ Each body of material has one canonical home, and everything else points to it.
 - `meta/visual-conventions.md`: the house style.
 - `meta/assessment-scheme.md`: the 0-4 grade-point scheme and the grading mechanics, reusable across courses.
 - `units/unit-1.html` to `units/unit-4.html`: the per-unit pages linked from the Canvas modules. Each gives its unit's selected bibliography, weeks, works, and paper prompt with directed questions. Derived from `syllabus.html`.
-- `lesson-plans/`: mine. `unit-N-readings.md` is the reading synthesis for that unit: what each assigned reading argues, where the readings meet the unit's repertoire, and the open items. `unit-1-modal-theory-1000-1600.md` is the dated through-line from the eleventh-century apparatus to 1600. `renaissance-baroque-galant.md` is the style comparison from c. 1550 to 1770, by strand. `unit-N-class-notes.md` is the lecture in the order of the handwritten class notes, expanded with the readings; where the class notes and a reading disagree, the reading governs. `unit-N-recap.md` is the lesson plan for that unit's paper meeting: the contextual intro and the system and form charts for the paper's works. Each is written as its unit is built.
+- `lesson-plans/`: mine. `unit-N-readings.md` is the reading synthesis for that unit: what each assigned reading argues, where the readings meet the unit's repertoire, and the open items. `unit-1-modal-theory-1000-1600.md` is the dated through-line from the eleventh-century apparatus to 1600. `renaissance-baroque-galant.md` is the style comparison from c. 1550 to 1770, by strand. `unit-N-class-notes.md` is the lecture in the order of the handwritten class notes, expanded with the readings; where the class notes and a reading disagree, the reading governs. `unit-N-recap.md` is the lesson plan for that unit's paper meeting: the contextual intro and the analytical charts for the paper's works. Each is written as its unit is built.
 - `tools/`: interactive analytical tools and handouts. `tools/README.md` names each tool and what it gives.
 - `meta/`: planning and conventions, mine. Markdown anywhere in the repo, including in `lesson-plans/`, is mine, except the READMEs. The repo is public, so all of it is readable at the repo and at the Pages URL.
 
@@ -58,3 +58,10 @@ Corrections are checked against the paper's key, which is the unit's recap in `l
 ### format
 
 A few points against the specifications in `syllabus.html`, only where they matter to reading the paper.
+
+## unit conventions
+
+### units 3 and 4
+
+- Sonata-form labels in keys and course materials are Hepokoski's. Brown's labels (Pᵏ, Tᵏ, Kᵏ) aren't used.
+- Keys follow the method in `syllabus.html` from Paper 3 on, with the harmonic plan on the tonic hexachord and the dyad conflicts, and don't track system changes.
