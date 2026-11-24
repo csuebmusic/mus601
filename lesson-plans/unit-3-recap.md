@@ -139,10 +139,10 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 - Mozart is dualistic and Haydn monothematic.
 - E♭ is the first chromatic pitch in each: in Mozart at m. 32 in vii°7/V; in Haydn in the introduction's vii°7/V before m. 17. Mozart's development opens on ♭III and Haydn's on the tonic minor.
 
-| work | MC | EEC | ESC | S2's disruption before the EEC | refrain | economy |
-|---|---|---|---|---|---|---|
-| Mozart | 55 | 89 | 277 | C minor at m. 81, the pianoidée inside V, heard as iv of G | P2's fanfare (m. 9) at 49, 117, 171 | dualistic |
-| Haydn | 50 | 74 | 196 | D♯ at m. 67 in a chain of dominant sevenths; ascending chromatic bass, mm. 70–73 | *p* (m. 5) | monothematic |
+| work | MC | EEC | ESC | S2's disruption before the EEC | dyad conflicts | refrain | economy |
+|---|---|---|---|---|---|---|---|
+| Mozart | 55 | 89 | 277 | C minor at m. 81, the pianoidée inside V, heard as iv of G | E♭/E♮: E♭ at m. 32, in the diminished seventh on F♯, and at m. 81, the third of C minor. A♭/A♮: A♭ at m. 33, A♮ at m. 34 | P2's fanfare (m. 9) at 49, 117, 171 | dualistic |
+| Haydn | 50 | 74 | 196 | D♯ at m. 67 in a chain of dominant sevenths; ascending chromatic bass, mm. 70–73 | E♭/E♮: E♭ in ♯iv°7 at the end of the introduction; the same pitch class spelled D♯ at mm. 67–68, in the S2 chain | *p* (m. 5) | monothematic |
 
 ## open items
 
