@@ -111,7 +111,7 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 | | P2: *p* and P's closing module | 29–36 | |
 | TR | from P's closing module | 37–50 | I to V/V; MC m. 50 |
 | S, in G | S1 | 51–65 | I to V |
-| | S2, 4 + 4 | 66–73 | D♯ at mm. 67–68; mm. 68–69, F♯7–B7–E7–A7–D7–G; ascending chromatic bass, mm. 70–73, to the EEC |
+| | S2, 4 + 4 | 66–73 | m. 67, V–v–IV (F♯ to F♮, then C major); D♯ at m. 68; mm. 68–69, F♯7–B7–E7–A7–D7–G; ascending chromatic bass, mm. 70–73, to the EEC |
 | C | C1 | 74–80 | EEC m. 74; I and V alternate on the downbeats, mm. 74–77; V4/2–I6, mm. 79–80 |
 | | C2 | 81–86 | IV (C major) m. 81; ♯iv°7 (C♯–E–G–B♭, vii°7/V) m. 82; cadential 6/4 m. 83; *p* transposed |
 | | C3: P's closing module | 87–91 | |
@@ -131,7 +131,7 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 
 ## comparison
 
-- Both composers use S2 to disrupt the approach to the EEC. Mozart's S2 opens on C minor at m. 81, the pianoidée moved inside V and heard as iv of G. Haydn's S2 brings D♯ at m. 67 in a chain of dominant sevenths and an ascending chromatic bass to m. 74. Mozart's EEC at m. 89 is a strong PAC; Haydn's at m. 74 is weaker.
+- Both composers use S2 to disrupt the approach to the EEC. Mozart's S2 opens on C minor at m. 81, the pianoidée moved inside V and heard as iv of G. Haydn's S2 brings D♯ at m. 68 in a chain of dominant sevenths and an ascending chromatic bass to m. 74. Mozart's EEC at m. 89 is a strong PAC; Haydn's at m. 74 is weaker.
 - Both bring C major into the second key's space as IV of G: Mozart at m. 83, after the C minor of m. 81, and Haydn at the start of C2, m. 81.
 - Mozart's refrain is the fanfare of P2 (m. 9), returning at the end of TR (m. 49) and at the end of the exposition (m. 117). Haydn's recurring element is the progression *p* from the introduction, placed at the head of P1, P2, C2, the codetta, and the coda.
 - Mozart is dualistic and Haydn monothematic.
@@ -140,4 +140,4 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 | work | MC | EEC | ESC | S2's disruption before the EEC | dyad conflicts | refrain | economy |
 |---|---|---|---|---|---|---|---|
 | Mozart | 55 | 89 | 277 | C minor at m. 81, the pianoidée inside V, heard as iv of G | E♭/E♮: E♭ at m. 32, in the diminished seventh on F♯, and at m. 81, the third of C minor. A♭/A♮: A♭ at m. 33, A♮ at m. 34 | P2's fanfare (m. 9) at 49, 117, 171 | dualistic |
-| Haydn | 50 | 74 | 196 | D♯ at m. 67 in a chain of dominant sevenths; ascending chromatic bass, mm. 70–73 | E♭/E♮: E♭ in ♯iv°7 at the end of the introduction; the same pitch class spelled D♯ at mm. 67–68, in the S2 chain | *p* (m. 5) | monothematic |
+| Haydn | 50 | 74 | 196 | D♯ at m. 68 in a chain of dominant sevenths; ascending chromatic bass, mm. 70–73 | E♭/E♮: E♭ in ♯iv°7 at the end of the introduction; the same pitch class spelled D♯ at m. 68, in the S2 chain | *p* (m. 5) | monothematic |
