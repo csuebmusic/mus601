@@ -125,7 +125,7 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 | | S, in the tonic | 177– | S1 shortened; S2 from its second half |
 | | C1 | 196– | ESC m. 196 |
 | | C3 | 209– | ascending bass at m. 215 to I–ii–V–I |
-| coda | opens with *p* | | |
+| coda | opens with *p* | 218–227 | |
 
 - At mm. 68–69, the descending fifths B7–E7–A7–D7–G are the applied dominants of iii, vi, ii, and V, the hexachord's fifths e–a–d–G in descending order, immediately before the EEC.
 
@@ -143,5 +143,4 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 
 ## open items
 
-- Haydn 90: the measure where the coda begins (the 2007 text gives m. 118).
 - Mozart mm. 30–36: the chords and the A♭ at m. 33 are read from a photographed score.
