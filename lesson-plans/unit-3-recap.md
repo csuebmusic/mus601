@@ -6,14 +6,13 @@ This is the key for Paper 3, due November 3, in the order of the meeting: the co
 
 - Brown is the one assigned reading that analyzes either movement. He reads the fanfare that closes P, TR, and C as a refrain, which he knows in no other example (p. 163 and n. 27); the C-minor episode at m. 81 as parenthetical, removable without structural loss (p. 166); C2 at m. 101 as a quotation of the insertion aria "Un bacio di mano," K.541 (p. 168); and the descending chromatic bass of mm. 171–80 as unique in eighteenth-century symphonies (p. 170).
 - No assigned reading analyzes Haydn 90 (`unit-3-readings.md`, the unit 3 scores table). Schmid places Haydn in 1788 between the Paris symphonies and the "Oxford" (p. 159).
-- The charts use Hepokoski's terms. The Mozart measure numbers and segmentation are from the annotated seminar copy (2016), and the Haydn ones from the 2007 analysis.
+- The Mozart measure numbers and segmentation are from the annotated seminar copy (2016), and the Haydn ones from the 2007 analysis.
 
 ## the hexachord
 
 - C major's hexachord in fifths is F–C–G–d–a–e, IV I V ii vi iii.
-- Applied dominants raise a pitch of the hexachord: F♯ (V/V, D major), C♯ (V/ii), G♯ (V/vi, E major), and B♭ lowers one (V7/IV).
+- Applied dominants raise a pitch of the hexachord: F♯ (V/V, D major), C♯ (V/ii), and G♯ (V/vi, E major). V7/IV lowers one, to B♭.
 - From the parallel minor come E♭ and A♭, the thirds of C minor and F minor, ♭III (E♭ major), and D♭, the root of the Neapolitan.
-- The "Jupiter" movement's dyad conflicts are E♭/E♮ and A♭/A♮.
 
 ## Mozart, "Jupiter," K.551, first movement
 
@@ -93,9 +92,9 @@ Measure numbers are from the seminar copy in `meta/editions.md` (paginated from 
 
 ### the directed questions
 
-- The MC is at m. 55, a half cadence in G after the refrain on D, mm. 49–55. S1 begins at m. 56 on I6 in G, and the tonic chords through m. 80 are first inversions or cadential 6/4s. The EEC is at m. 89, 33 measures after S begins.
-- The second key's arrival is most in question at m. 81, where a forte tutti C minor, with E♭, interrupts the S zone after the GP of m. 80. It's iv of G, resolved to IV at m. 83, and the cadence to the EEC follows (6/4 at m. 87, PAC at m. 89).
-- The refrain is P2's fanfare (m. 9), returning at the end of TR (m. 49), at the end of the exposition (m. 117), in the development (m. 171), and at the same three points in the recapitulation.
+- The MC is at m. 55, a half cadence in G after the refrain on D, mm. 49–55. S1 begins at m. 56 on I6 in G. The EEC is at m. 89, 33 measures after S begins.
+- The second key's arrival is most in question at m. 81, where a forte tutti C minor, with E♭, interrupts the S zone after the GP of m. 80, the pianoidée moved inside V. The cadence to the EEC follows (6/4 at m. 87, PAC at m. 89).
+- The recurring closing material is the refrain, P2's fanfare (m. 9); its returns are listed under the form chart.
 - C1 closes on a half cadence at m. 99, with a GP at m. 100, before C2 begins: Mozart delays the end of the exposition as he delayed the EEC.
 - Mozart's thematic economy is dualistic. P1 pairs a fanfare with a lyrical answer in its first four measures; S1 is a new lyrical theme in the strings; C2 is a new buffa theme, the K.541 quotation. The refrain is the recurring element across sections.
 
@@ -127,17 +126,16 @@ Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Pre
 | | C3 | 209– | ascending bass at m. 215 to I–ii–V–I |
 | coda | opens with *p* | 218–227 | |
 
-- At mm. 68–69, the descending fifths B7–E7–A7–D7–G are the applied dominants of iii, vi, ii, and V, the hexachord's fifths e–a–d–G in descending order, immediately before the EEC.
+- At mm. 68–69, the chain F♯7–B7–E7–A7–D7–G passes through the applied dominants of iii, vi, ii, and V, the hexachord's fifths e–a–d–G in descending order, immediately before the EEC.
 - The EEC at m. 74 is weaker than Mozart's at m. 89. C1 alternates I and V on its downbeats (mm. 74–77) and moves V4/2–I6 (mm. 79–80), and C2 begins a new cadential progression in G at m. 81.
 
 ## comparison
 
-- Both composers use S2 to disrupt the approach to the EEC. Mozart's S2 opens on C minor at m. 81, the pianoidée moved inside V and heard as iv of G. Haydn's S2 brings D♯ at m. 67 in a chain of dominant sevenths and an ascending chromatic bass to m. 74.
-- Mozart's EEC at m. 89 is a strong PAC. Haydn's at m. 74 is weaker, and C1 and C2 continue to cadence in G.
+- Both composers use S2 to disrupt the approach to the EEC. Mozart's S2 opens on C minor at m. 81, the pianoidée moved inside V and heard as iv of G. Haydn's S2 brings D♯ at m. 67 in a chain of dominant sevenths and an ascending chromatic bass to m. 74. Mozart's EEC at m. 89 is a strong PAC; Haydn's at m. 74 is weaker.
 - Both bring C major into the second key's space as IV of G: Mozart at m. 83, after the C minor of m. 81, and Haydn at the start of C2, m. 81.
-- Mozart's refrain is the fanfare of P2, placed at the ends of P, TR, and the exposition. Haydn's recurring element is the progression *p* from the introduction, placed at the head of P1, P2, C2, the codetta, and the coda.
+- Mozart's refrain is the fanfare of P2 (m. 9), returning at the end of TR (m. 49) and at the end of the exposition (m. 117). Haydn's recurring element is the progression *p* from the introduction, placed at the head of P1, P2, C2, the codetta, and the coda.
 - Mozart is dualistic and Haydn monothematic.
-- E♭ is the first chromatic pitch in each: in Mozart at m. 32 in vii°7/V; in Haydn in the introduction's vii°7/V before m. 17. Mozart's development opens on ♭III and Haydn's on the tonic minor.
+- E♭ enters each exposition's harmony in the diminished seventh on F♯ (vii°7/V): in Mozart at m. 32, in Haydn at the end of the introduction. Mozart's development opens on ♭III and Haydn's on the tonic minor.
 
 | work | MC | EEC | ESC | S2's disruption before the EEC | dyad conflicts | refrain | economy |
 |---|---|---|---|---|---|---|---|
