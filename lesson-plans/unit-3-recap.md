@@ -4,9 +4,9 @@ This is the key for Paper 3, due November 3, in the order of the meeting: the co
 
 ## context
 
-- Brown is the one assigned reading that analyzes either movement. His Figure 1 (pp. 164–65) segments the "Jupiter" first movement; the chart below gives his labels beside the score's (his K is C, and he marks no MC, EEC, or ESC). He reads the fanfare that closes P, T, and K as a refrain, which he knows in no other example (p. 163 and n. 27); the C-minor episode at m. 81 as a parenthetical Sturm und Drang switch (p. 166); C2 at m. 101 as a quotation of the insertion aria "Un bacio di mano," K.541 (p. 168); and the descending chromatic bass of mm. 171–80 as unique in eighteenth-century symphonies (p. 170).
+- Brown is the one assigned reading that analyzes either movement. He reads the fanfare that closes P, TR, and C as a refrain, which he knows in no other example (p. 163 and n. 27); the C-minor episode at m. 81 as parenthetical, removable without structural loss (p. 166); C2 at m. 101 as a quotation of the insertion aria "Un bacio di mano," K.541 (p. 168); and the descending chromatic bass of mm. 171–80 as unique in eighteenth-century symphonies (p. 170).
 - No assigned reading analyzes Haydn 90 (`unit-3-readings.md`, the unit 3 scores table). Schmid places Haydn in 1788 between the Paris symphonies and the "Oxford" (p. 159).
-- The Mozart measure numbers and segmentation are from the annotated seminar copy (2016). The Haydn section is from the 2007 analysis and hasn't been checked against a score.
+- The charts use Hepokoski's terms. The Mozart measure numbers and segmentation are from the annotated seminar copy (2016), and the Haydn ones from the 2007 analysis.
 
 ## the hexachord
 
@@ -21,39 +21,39 @@ Measure numbers are from the seminar copy in `meta/editions.md` (paginated from 
 
 ### form chart
 
-| section | module | mm. | harmony and cadence | Brown |
-|---|---|---|---|---|
-| exposition, P | P1: forte tutti fanfare answered by a piano lyrical idea in the strings, 4 + 4 | 1–8 | HC m. 4; IAC m. 8 | Pa |
-| | P2: the refrain, 4 + 4 | 9–17 | PAC into m. 17 | Pᵏ |
-| | P3, 4 + 3 | 17–23 | HC m. 23, fermata | |
-| TR | TR1: counterstatement of P1, piano | 24–36 | V at m. 28; applied diminished sevenths, mm. 30–36 | T |
-| | TR2 | 37–48 | G pedal, mm. 39–46; vi and V/vi, mm. 47–48 | ext. within T |
-| | TR3: the refrain on D | 49–55 | V/V; MC m. 55, HC in G | Tᵏ (= Pᵏ) |
-| S, in G | S1: strings, piano | 56–71 | I6 at mm. 56 and 62, HC m. 61; extension from m. 64 | Sa |
-| | transition from S1 to S2 | 72–80 | V at m. 72; V–ii, mm. 77–79, then the G 6/4 turned toward C; GP m. 80 | |
-| | S2: forte tutti | 81–88 | iv (C minor) m. 81; IV m. 83; cadential 6/4, mm. 87–88 | "Pb, ext." |
-| C | C1 | 89–100 | EEC m. 89, PAC in G; HC m. 99; GP m. 100 | |
-| | C2: the K.541 quotation | 101–110 | PAC into m. 111 | K |
-| | codetta 1 | 111–116 | | |
-| | codetta 2: the refrain on G | 117–120 | | Kᵏ (= Pᵏ) |
-| development | | 121–122 | V, then V7/♭III with A♭ | |
-| | ♭III | 123–156 | E♭ major; V–♭III, mm. 124–35; iv6 (ii6 of ♭III) and v (vi of ♭III), mm. 136–41; V–♭III from m. 142 | K, dev., in ♭III |
-| | false retransition | 157–160 | III (E major, V/vi) m. 157; iii° as ii° of IV, m. 159 | false retransition |
-| | false recapitulation: P1 in IV | 161–170 | IV; V/IV, mm. 165–67; V/vi m. 169 | Pa in IV |
-| | P2's refrain over the descending chromatic bass | 171–180 | vi m. 171; the bass descends to E♭, the fifth of A♭; augmented sixth on A♭, m. 178; V | Pᵏ, Sturm und Drang, *Don Giovanni* duel |
-| | retransition | 181–188 | V, active dominant | retransition |
-| recapitulation, P | P1, P2, P3 | 189–211 | as in the exposition | Pa 189, Pᵏ 197 |
-| TR | TR1 | 212–224 | i (C minor) m. 212; V/♭III m. 216; augmented sixth on A♭, m. 224 | T |
-| | TR2 | 225–236 | V; V pedal from m. 227; V/V m. 235 | |
-| | TR3: the refrain on G | 237–243 | V pedal; MC m. 243, HC | Tᵏ |
-| S | S1 | 244–259 | I6 m. 244 | Sa |
-| | transition from S1 to S2 | 260–268 | | |
-| | S2 | 269–276 | iv (F minor) m. 269; N6 (D♭ major) m. 271; V | Sturm und Drang, iv |
-| C | C1 | 277–288 | ESC m. 277, PAC in C | |
-| | C2: the K.541 quotation | 289–298 | | K |
-| | codetta 1 | 299–304 | | |
-| | codetta 2: the refrain on C | 305–308 | | Kᵏ |
-| coda | | 309–313 | | coda |
+| section | module | mm. | harmony and cadence |
+|---|---|---|---|
+| exposition, P | P1: forte tutti fanfare answered by a piano lyrical idea in the strings, 4 + 4 | 1–8 | HC m. 4; IAC m. 8 |
+| | P2: the refrain, 4 + 4 | 9–17 | PAC into m. 17 |
+| | P3, 4 + 3 | 17–23 | HC m. 23, fermata |
+| TR | TR1: counterstatement of P1, piano | 24–36 | V at m. 28; applied diminished sevenths, mm. 30–36 |
+| | TR2 | 37–48 | G pedal, mm. 39–46; vi and V/vi, mm. 47–48 |
+| | TR3: the refrain on D | 49–55 | V/V; MC m. 55, HC in G |
+| S, in G | S1: strings, piano | 56–71 | I6 at mm. 56 and 62, HC m. 61; extension from m. 64 |
+| | transition from S1 to S2 | 72–80 | V at m. 72; V–ii, mm. 77–79, then the G 6/4 turned toward C; GP m. 80 |
+| | S2: forte tutti | 81–88 | iv (C minor) m. 81; IV m. 83; cadential 6/4, mm. 87–88 |
+| C | C1 | 89–100 | EEC m. 89, PAC in G; HC m. 99; GP m. 100 |
+| | C2: the K.541 quotation | 101–110 | PAC into m. 111 |
+| | codetta 1 | 111–116 | |
+| | codetta 2: the refrain on G | 117–120 | |
+| development | | 121–122 | V, then V7/♭III with A♭ |
+| | ♭III | 123–156 | E♭ major; V–♭III, mm. 124–35; iv6 (ii6 of ♭III) and v (vi of ♭III), mm. 136–41; V–♭III from m. 142 |
+| | false retransition | 157–160 | III (E major, V/vi) m. 157; iii° as ii° of IV, m. 159 |
+| | false recapitulation: P1 in IV | 161–170 | IV; V/IV, mm. 165–67; V/vi m. 169 |
+| | P2's refrain over the descending chromatic bass | 171–180 | vi m. 171; the bass descends to E♭, the fifth of A♭; augmented sixth on A♭, m. 178; V |
+| | retransition | 181–188 | V, active dominant |
+| recapitulation, P | P1, P2, P3 | 189–211 | as in the exposition |
+| TR | TR1 | 212–224 | i (C minor) m. 212; V/♭III m. 216; augmented sixth on A♭, m. 224 |
+| | TR2 | 225–236 | V; V pedal from m. 227; V/V m. 235 |
+| | TR3: the refrain on G | 237–243 | V pedal; MC m. 243, HC |
+| S | S1 | 244–259 | I6 m. 244 |
+| | transition from S1 to S2 | 260–268 | |
+| | S2 | 269–276 | iv (F minor) m. 269; N6 (D♭ major) m. 271; V |
+| C | C1 | 277–288 | ESC m. 277, PAC in C |
+| | C2: the K.541 quotation | 289–298 | |
+| | codetta 1 | 299–304 | |
+| | codetta 2: the refrain on C | 305–308 | |
+| coda | | 309–313 | |
 
 - From the MC to the end of the exposition, the recapitulation is the exposition transposed into C at a distance of 188 measures: MC 55 and 243, S2 81 and 269, EEC 89 and ESC 277, codetta 2 117 and 305. The coda, mm. 309–13, is added.
 - The recapitulatory TR, mm. 212–43, has the exposition's length, 32 measures, with TR1 recomposed in C minor and toward ♭III.
@@ -95,27 +95,27 @@ Measure numbers are from the seminar copy in `meta/editions.md` (paginated from 
 
 - The MC is at m. 55, a half cadence in G after the refrain on D, mm. 49–55. S1 begins at m. 56 on I6 in G, and the tonic chords through m. 80 are first inversions or cadential 6/4s. The EEC is at m. 89, 33 measures after S begins.
 - The second key's arrival is most in question at m. 81, where a forte tutti C minor, with E♭, interrupts the S zone after the GP of m. 80. It's iv of G, resolved to IV at m. 83, and the cadence to the EEC follows (6/4 at m. 87, PAC at m. 89).
-- The refrain is P2's fanfare (m. 9), returning at the end of TR (m. 49), at the end of the exposition (m. 117), in the development (m. 171), and at the same three points in the recapitulation. Brown's Pᵏ, Tᵏ, Kᵏ.
+- The refrain is P2's fanfare (m. 9), returning at the end of TR (m. 49), at the end of the exposition (m. 117), in the development (m. 171), and at the same three points in the recapitulation.
 - C1 closes on a half cadence at m. 99, with a GP at m. 100, before C2 begins: Mozart delays the end of the exposition as he delayed the EEC.
 - Mozart's thematic economy is dualistic. P1 pairs a fanfare with a lyrical answer in its first four measures; S1 is a new lyrical theme in the strings; C2 is a new buffa theme, the K.541 quotation. The refrain is the recurring element across sections.
 
 ## Haydn, Symphony no. 90 in C, first movement
 
-From the 2007 analysis. Every measure number and label here needs checking against the seminar copy, Haydn-Mozart Presse 174 (`meta/editions.md`).
+Measure numbers are from the 2007 analysis; the seminar copy is Haydn-Mozart Presse 174 (`meta/editions.md`).
 
-### form chart (2007)
+### form chart
 
 | section | module | mm. | harmony |
 |---|---|---|---|
 | introduction | slow introduction | 1–16 | the three-measure progression *p* from m. 5: V6–I, V7–vi, ii6–V–I; ends V7 pedal, vi, ♯iv°7 (vii°7/V) with E♭ |
 | exposition, P | P1, opening with *p* | 17–28 | |
-| | P2 (*p* + Pᵏ) | 29–36 | |
-| TR | bridge, from Pᵏ | 37–50 | I to V/V; MC m. 50 |
+| | P2: *p* and P's closing module | 29–36 | |
+| TR | from P's closing module | 37–50 | I to V/V; MC m. 50 |
 | S, in G | S1 | 51–65 | I to V |
 | | S2, 4 + 4 | 66–73 | D♯ at mm. 67–68; mm. 68–69, F♯7–B7–E7–A7–D7–G; ascending chromatic bass, mm. 70–73 |
 | C | C1 | 74–80 | "weak" EEC m. 74; V4/2–I6, mm. 79–80 |
 | | C2 | 81–86 | IV, chromatically to ♯iv°7, then I6/4; *p* transposed |
-| | C3 (= Pᵏ) | 87–91 | |
+| | C3: P's closing module | 87–91 | |
 | | "failed codetta," on *p*'s repeated note | 91–97 | ends V over I |
 | development | the tonic minor, piano | 98– | Ep1 m. 98, Ep2 m. 106, Ep3 m. 111 |
 | | retransition | 125–152 | F♯ from m. 125; repeated-note idea rising chromatically to F♯ |
@@ -125,25 +125,23 @@ From the 2007 analysis. Every measure number and label here needs checking again
 | | S, in the tonic | 177– | S1 shortened; S2 from its second half |
 | | C1 | 196– | ESC m. 196 |
 | | C3 | 209– | ascending bass at m. 215 to I–ii–V–I |
-| coda | opens with *p* | | the 2007 text gives m. 118, a misprint |
+| coda | opens with *p* | | |
 
-- If the score confirms mm. 68–69, the descending fifths B7–E7–A7–D7–G are the applied dominants of iii, vi, ii, and V, the hexachord's fifths e–a–d–G in descending order, immediately before the EEC.
+- At mm. 68–69, the descending fifths B7–E7–A7–D7–G are the applied dominants of iii, vi, ii, and V, the hexachord's fifths e–a–d–G in descending order, immediately before the EEC.
 
 ## comparison
 
-Provisional until the Haydn chart is checked.
-
-- Mozart's second key is in question inside the S zone, at m. 81, and secured by a strong PAC at m. 89. In the 2007 reading, Haydn's question is the EEC itself: a weak PAC at m. 74, a closing zone that seeks a stronger one, and a codetta that ends V over I.
+- Mozart's second key is in question inside the S zone, at m. 81, and secured by a strong PAC at m. 89. Haydn's question is the EEC itself: a weak PAC at m. 74, a closing zone that seeks a stronger one, and a codetta that ends V over I.
 - Mozart's refrain is the fanfare of P2, placed at the ends of P, TR, and the exposition. Haydn's recurring element is the progression *p* from the introduction, placed at the head of P1, P2, C2, the codetta, and the coda.
-- Mozart is dualistic and Haydn, in the 2007 reading, monothematic.
+- Mozart is dualistic and Haydn monothematic.
 - E♭ is the first chromatic pitch in each: in Mozart at m. 32 in vii°7/V; in Haydn in the introduction's vii°7/V before m. 17. Mozart's development opens on ♭III and Haydn's on the tonic minor.
 
 | work | MC | EEC | ESC | second-key crisis | refrain | economy |
 |---|---|---|---|---|---|---|
 | Mozart | 55 | 89 | 277 | m. 81, C minor (iv of G) | P2's fanfare (m. 9) at 49, 117, 171 | dualistic |
-| Haydn (2007) | 50 | 74, weak | 196 | the EEC | *p* (m. 5) | monothematic |
+| Haydn | 50 | 74, weak | 196 | the EEC | *p* (m. 5) | monothematic |
 
 ## open items
 
-- Haydn 90: the whole section, against the seminar copy.
+- Haydn 90: the measure where the coda begins (the 2007 text gives m. 118).
 - Mozart mm. 30–36: the chords and the A♭ at m. 33 are read from a photographed score.
