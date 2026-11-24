@@ -39,3 +39,22 @@ GitHub Pages deploys from the `main` branch, root folder.
 ## sources
 
 - Texts uploaded to the Claude project are authoritative and are searched first for conceptual and pedagogical questions.
+
+## paper feedback
+
+- Feedback follows "feedback on student work" in the "how I want you to communicate" section of my profile preferences. Nothing here restates it.
+- Whether a paper meets the specifications is my call, and the feedback doesn't judge it.
+- Each student's feedback is one Claude Docs doc, named "Paper N feedback, First Last," with no title, date, or byline in the body. It opens with one line naming the paper and its works, then three sections in order: sources, content, format. The key's charts for the paper follow under "charts." The finished doc is exported as a grayscale, letter-size PDF for printing.
+- Anything the feedback leaves out goes to me in chat: facts not checked, lateness, AI use, and anything else I need to decide.
+
+### sources
+
+The source work is practice. The section checks three things: each source exists; each is cited in Chicago notes-bibliography in the forms in `meta/research-and-bibliography.md`; and each is cited in at least one note and listed in the bibliography. It leaves out where the notes are placed, how they're sequenced, and what each source is used for.
+
+### content
+
+Corrections are checked against the paper's key, which is the unit's recap in `lesson-plans/`, and against the seminar's sources: the unit's readings and the texts uploaded to the Claude project. The section follows the profile section named above.
+
+### format
+
+A few points against the specifications in `syllabus.html`, only where they matter to reading the paper.
